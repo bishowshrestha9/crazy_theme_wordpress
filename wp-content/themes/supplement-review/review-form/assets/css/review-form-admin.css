@@ -1,0 +1,35 @@
+/**
+ * Admin Screen Styles for Review Form Moderation
+ */
+.rf-admin-wrap table th {
+	font-weight: 600;
+}
+
+.rf-admin-wrap .button-primary {
+	background-color: #6fa68f !important;
+	border-color: #5d9380 !important;
+	color: #ffffff !important;
+	text-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.rf-admin-wrap .button-primary:hover,
+.rf-admin-wrap .button-primary:focus {
+	background-color: #5d9380 !important;
+	border-color: #4d7d6b !important;
+}
+
+.rf-badge-approved {
+	background: #e6f4ea;
+	color: #137333;
+}
+
+.rf-badge-rejected {
+	background: #fce8e6;
+	color: #c5221f;
+}
+
+.rf-badge-pending {
+	background: #fef7e0;
+	color: #b06000;
+}

@@ -1,0 +1,531 @@
+/**
+ * Product Summary Sidebar Card Component Styles
+ *
+ * Scoped stylesheet with all classes prefixed `ps-`.
+ * Colors defined as CSS variables on `.ps-card`.
+ * Exact dimensions: 360px wide, 687px tall on desktop.
+ * Responsive below 400px viewport.
+ */
+
+.ps-card {
+	/* Component Design Tokens / Variables */
+	--ps-primary: #6EA68F;
+	--ps-primary-hover: #5D937E;
+	--ps-bar-track: #DFEBE5;
+	--ps-star: #FFC83D;
+	--ps-discount: #E02020;
+	--ps-text-muted: #6B6B6B;
+	--ps-text-dark: #111111;
+	--ps-border: #E5E5E5;
+	--ps-bg-card: #FFFFFF;
+	--ps-bg-image: #F4F4F4;
+	--ps-verdict-bg: #F7FBF9;
+	--ps-shadow: 4px 4px 14px 0 rgba(218, 221, 232, 0.40);
+	--ps-font-title: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+	--ps-font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+
+	/* Dimensions & Box Model */
+	width: 360px;
+	height: auto;
+	box-sizing: border-box;
+	background-color: var(--ps-bg-card);
+	border: 1px solid var(--ps-border);
+	border-radius: 12px;
+	padding: 16px;
+	box-shadow: var(--ps-shadow);
+
+	/* Typography & Layout */
+	font-family: var(--ps-font-body);
+	color: var(--ps-text-dark);
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	position: relative;
+	overflow: visible;
+}
+
+/* Sticky Modifier */
+.ps-card.ps-card--sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: calc(var(--header-h, 82px) + 12px);
+	z-index: 10;
+}
+
+body.admin-bar .ps-card.ps-card--sticky {
+	top: calc(var(--header-h, 82px) + 12px + 32px);
+}
+
+@media (max-width: 782px) {
+	body.admin-bar .ps-card.ps-card--sticky {
+		top: calc(var(--header-h, 82px) + 12px + 46px);
+	}
+}
+
+/* 1. Header Row */
+.ps-header-row {
+	min-height: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.ps-header-pill {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	height: 24px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	border: 1px solid var(--ps-primary);
+	border-radius: 9999px;
+	background-color: transparent;
+	color: var(--ps-primary);
+	font-family: var(--ps-font-body);
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1;
+	letter-spacing: 0.01em;
+}
+
+.ps-share-btn {
+	width: 24px;
+	height: 24px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+	color: var(--ps-text-muted);
+	border-radius: 4px;
+	transition: color 0.15s ease, transform 0.15s ease;
+	position: relative;
+}
+
+.ps-share-btn:hover {
+	color: var(--ps-text-dark);
+	transform: scale(1.08);
+}
+
+.ps-share-btn:focus-visible {
+	outline: 2px solid var(--ps-primary);
+	outline-offset: 2px;
+}
+
+.ps-share-icon {
+	width: 18px;
+	height: 18px;
+	display: block;
+}
+
+/* Share Toast Tooltip */
+.ps-share-toast {
+	position: absolute;
+	top: 32px;
+	right: 0;
+	background-color: #111111;
+	color: #ffffff;
+	font-size: 11px;
+	font-weight: 500;
+	padding: 4px 8px;
+	border-radius: 4px;
+	white-space: nowrap;
+	pointer-events: none;
+	opacity: 0;
+	transform: translateY(-4px);
+	transition: opacity 0.2s ease, transform 0.2s ease;
+	z-index: 20;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.ps-share-toast.ps-toast--show {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+/* 2. Image Box (180px tall) */
+.ps-image-box {
+	width: 100%;
+	height: 180px;
+	border-radius: 12px;
+	background-color: var(--ps-bg-image);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	box-sizing: border-box;
+	padding: 12px;
+}
+
+.ps-product-img {
+	width: 100%;
+	height: 100%;
+	max-height: 156px;
+	object-fit: contain;
+	display: block;
+}
+
+/* 3. Title Row */
+.ps-title-row {
+	min-height: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 8px;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.ps-title {
+	font-family: var(--ps-font-title);
+	font-size: 24px;
+	font-weight: 600;
+	color: var(--ps-text-dark);
+	margin: 0;
+	line-height: 1;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	letter-spacing: -0.02em;
+}
+
+.ps-rating-wrap {
+	display: inline-flex;
+	align-items: center;
+	flex-shrink: 0;
+}
+
+.ps-stars {
+	display: inline-flex;
+	align-items: center;
+	gap: 2px;
+}
+
+.ps-star-icon {
+	width: 18px;
+	height: 18px;
+	display: block;
+	flex-shrink: 0;
+}
+
+.ps-rating-val {
+	font-family: var(--ps-font-body);
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--ps-text-dark);
+	margin-left: 6px;
+	line-height: 1;
+}
+
+/* 4. Meta Line */
+.ps-meta {
+	font-family: var(--ps-font-body);
+	font-size: 12px;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 0.6);
+	line-height: 1.3;
+	margin: -2px 0 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+[data-theme="dark"] .ps-meta {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+/* 5 & 8. Divider */
+.ps-divider {
+	height: 1px;
+	width: 100%;
+	background-color: var(--ps-border);
+	border: none;
+	margin: 0;
+	padding: 0;
+	flex-shrink: 0;
+}
+
+/* 6. Editorial Score Heading */
+.ps-editorial-title {
+	font-family: var(--ps-font-body);
+	font-size: 16px;
+	font-weight: 500;
+	color: var(--ps-text-dark);
+	line-height: 1.2;
+	margin: 0;
+}
+
+/* 7. Score Rows */
+.ps-score-rows {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	width: 100%;
+}
+
+.ps-score-row {
+	min-height: 29px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.ps-score-label {
+	width: 132px;
+	flex-shrink: 0;
+	font-family: var(--ps-font-body);
+	font-size: 14px;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 0.72);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+[data-theme="dark"] .ps-score-label {
+	color: rgba(255, 255, 255, 0.72);
+}
+
+.ps-score-track {
+	flex: 1;
+	height: 7px;
+	border-radius: 9999px;
+	background-color: var(--ps-bar-track);
+	overflow: hidden;
+	margin: 0 10px;
+	position: relative;
+}
+
+.ps-score-fill {
+	height: 100%;
+	border-radius: 9999px;
+	background-color: var(--ps-primary);
+	transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ps-score-val {
+	width: 38px;
+	flex-shrink: 0;
+	font-family: var(--ps-font-body);
+	font-size: 14px;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 0.72);
+	text-align: right;
+	line-height: 1;
+}
+
+[data-theme="dark"] .ps-score-val {
+	color: rgba(255, 255, 255, 0.72);
+}
+
+/* 9. Price Row */
+.ps-price-row {
+	display: flex;
+	align-items: baseline;
+	gap: 8px;
+	width: 100%;
+	line-height: 1;
+}
+
+.ps-price-current {
+	font-family: var(--ps-font-body);
+	font-size: 24px;
+	font-weight: 500;
+	color: var(--ps-text-dark);
+	line-height: 1;
+	letter-spacing: -0.02em;
+}
+
+.ps-price-old {
+	font-family: var(--ps-font-body);
+	font-size: 14px;
+	font-weight: 300;
+	color: rgba(0, 0, 0, 0.8);
+	text-decoration: line-through;
+	line-height: 1;
+}
+
+[data-theme="dark"] .ps-price-old {
+	color: rgba(255, 255, 255, 0.7);
+}
+
+.ps-discount {
+	font-family: var(--ps-font-body);
+	font-size: 14px;
+	font-weight: 500;
+	color: #ff1b1b;
+	line-height: 1;
+}
+
+/* 10. Buy Now Button (55px tall) */
+.ps-buy-btn {
+	width: 100%;
+	height: 55px;
+	border-radius: 8px;
+	background-color: var(--ps-primary);
+	color: #FFFFFF !important;
+	text-decoration: none !important;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	cursor: pointer;
+	transition: background-color 0.15s ease, transform 0.1s ease;
+	border: none;
+	padding: 0 16px;
+}
+
+.ps-buy-btn:hover {
+	background-color: var(--ps-primary-hover);
+}
+
+.ps-buy-btn:active {
+	transform: scale(0.99);
+}
+
+.ps-buy-btn:focus-visible {
+	outline: 2px solid var(--ps-primary);
+	outline-offset: 2px;
+}
+
+.ps-buy-line1 {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	font-family: var(--ps-font-body);
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.2;
+	color: #FFFFFF;
+}
+
+.ps-buy-cart-icon {
+	width: 18px;
+	height: 18px;
+	display: block;
+	flex-shrink: 0;
+}
+
+.ps-buy-line2 {
+	font-family: var(--ps-font-body);
+	font-size: 11px;
+	font-weight: 400;
+	opacity: 0.95;
+	line-height: 1.1;
+	margin-top: 2px;
+	color: #FFFFFF;
+}
+
+/* 11. Verdict Box */
+.ps-verdict-box {
+	width: 100%;
+	min-height: 60px;
+	height: auto;
+	border: 1px solid var(--ps-primary);
+	border-radius: 8px;
+	background-color: var(--ps-verdict-bg);
+	padding: 10px 14px;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.ps-verdict-icon {
+	width: 22px;
+	height: 22px;
+	flex-shrink: 0;
+	display: block;
+}
+
+.ps-verdict-text {
+	font-family: var(--ps-font-body);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: var(--ps-text-dark);
+	margin: 0;
+	padding: 0;
+}
+
+.ps-verdict-label {
+	font-family: var(--ps-font-body);
+	font-size: 14px;
+	font-weight: 600;
+	color: #6ea590;
+	margin-right: 4px;
+}
+
+/* 12. Footer Note */
+.ps-footer-note {
+	font-family: var(--ps-font-body);
+	font-size: 10px;
+	font-weight: 500;
+	color: var(--ps-text-muted);
+	text-align: center;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+}
+
+/* ==========================================================================
+   Responsive — Sidebar stacks below main content on tablet/mobile
+   ========================================================================== */
+@media (max-width: 1024px) {
+	.ps-card {
+		width: 100%;
+	}
+}
+
+@media (max-width: 400px) {
+	.ps-card {
+		width: 100%;
+		height: auto;
+		min-height: auto;
+		gap: 14px;
+		padding: 14px;
+		border-radius: 10px;
+	}
+
+	.ps-image-box {
+		height: auto;
+		aspect-ratio: 16 / 9;
+		max-height: 200px;
+	}
+
+	.ps-title {
+		font-size: 22px;
+	}
+
+	.ps-score-label {
+		width: 110px;
+		font-size: 13px;
+	}
+
+	.ps-verdict-box {
+		height: auto;
+		min-height: 66px;
+	}
+}
+
+/* Dark Mode Theme Support (Respects theme tokens without leaking) */
+[data-theme="dark"] .ps-card {
+	--ps-bg-card: #141c19;
+	--ps-bg-image: #1b2622;
+	--ps-border: #26332e;
+	--ps-text-dark: #f0f5f3;
+	--ps-text-muted: #94a3b8;
+	--ps-bar-track: #263831;
+	--ps-verdict-bg: #182420;
+	--ps-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="dark"] .ps-footer-note {
+	color: #94a3b8;
+}

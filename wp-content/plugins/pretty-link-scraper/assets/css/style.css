@@ -1,0 +1,131 @@
+.plsc-admin-wrap {
+    margin-top: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.plsc-header {
+    background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.plsc-header h1 {
+    color: white;
+    font-size: 28px;
+    margin: 0;
+}
+
+.plsc-header p {
+    font-size: 16px;
+    opacity: 0.9;
+    margin-top: 10px;
+}
+
+.plsc-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.plsc-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border: 1px solid #e5e7eb;
+}
+
+.plsc-card h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #1f2937;
+    border-bottom: 2px solid #f3f4f6;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+.plsc-input-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.plsc-input-group input {
+    flex: 1;
+    padding: 10px 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+}
+
+.plsc-progress-bar {
+    width: 100%;
+    height: 12px;
+    background: #f3f4f6;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+#plsc-progress-fill {
+    width: 0%;
+    height: 100%;
+    background: #6366f1;
+    transition: width 0.3s ease;
+}
+
+#plsc-status-text {
+    font-size: 14px;
+    color: #6b7280;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.plsc-results-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.plsc-table-container {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.plsc-status-tag {
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.plsc-status-tag.pending {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.plsc-status-tag.success {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.plsc-status-tag.error {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.button-primary {
+    background: #6366f1 !important;
+    border-color: #4f46e5 !important;
+    padding: 6px 20px !important;
+    height: auto !important;
+    border-radius: 8px !important;
+}
+
+.button-secondary {
+    border-radius: 8px !important;
+    padding: 6px 20px !important;
+    height: auto !important;
+}

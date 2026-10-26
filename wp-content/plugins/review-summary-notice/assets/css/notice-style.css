@@ -1,0 +1,162 @@
+/**
+ * Review Summary Notice - Stylesheet
+ * Custom CSS class names prefixed with rsn-
+ */
+
+.rsn-notice-wrapper {
+	margin: 24px 0;
+	border: 1px solid #e1ebf5;
+	border-radius: 6px;
+	overflow: hidden;
+	background-color: #ffffff;
+	box-shadow: 0 3px 12px rgba(0, 0, 0, 0.04);
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.rsn-notice-wrapper:hover {
+	box-shadow: 0 5px 16px rgba(0, 0, 0, 0.07);
+}
+
+.rsn-notice-header {
+	background-color: #5ea3e1;
+	color: #ffffff;
+	padding: 12px 18px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.rsn-header-icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	width: 22px;
+	height: 22px;
+	color: #ffffff;
+}
+
+.rsn-header-icon svg {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.rsn-header-title {
+	margin: 0 !important;
+	padding: 0 !important;
+	font-size: 17px !important;
+	font-weight: 600 !important;
+	line-height: 1.3 !important;
+	color: #ffffff !important;
+	letter-spacing: -0.01em;
+	border: none !important;
+	background: transparent !important;
+	flex: 1;
+}
+
+.rsn-notice-body {
+	padding: 18px 20px;
+	background-color: #ffffff;
+}
+
+.rsn-notice-list {
+	list-style: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.rsn-notice-item {
+	display: flex;
+	align-items: flex-start;
+	gap: 10px;
+	margin: 0 !important;
+	padding: 0 !important;
+	font-size: 15px;
+	line-height: 1.55;
+	color: #333333;
+	list-style-type: none !important;
+}
+
+.rsn-item-icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	width: 18px;
+	height: 18px;
+	color: #5ea3e1;
+	margin-top: 3px;
+}
+
+.rsn-item-icon svg {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.rsn-item-text {
+	flex: 1;
+}
+
+.rsn-item-text a {
+	color: #2563eb;
+	text-decoration: underline;
+	font-weight: 500;
+	transition: color 0.15s ease;
+}
+
+.rsn-item-text a:hover {
+	color: #1d4ed8;
+}
+
+.rsn-item-text strong {
+	font-weight: 600;
+	color: #1e293b;
+}
+
+/* Editor Canvas Specific Overrides */
+.editor-styles-wrapper .rsn-notice-wrapper,
+.block-editor-block-list__block .rsn-notice-wrapper {
+	max-width: 100%;
+}
+
+.rsn-header-title[contenteditable="true"]:focus {
+	outline: 1px dashed rgba(255, 255, 255, 0.7) !important;
+	outline-offset: 2px;
+}
+
+.rsn-item-text[contenteditable="true"]:focus {
+	outline: none;
+}
+
+.rsn-item-actions {
+	opacity: 0.4;
+	transition: opacity 0.15s ease;
+}
+
+.rsn-notice-item:hover .rsn-item-actions {
+	opacity: 1;
+}
+
+/* Table of Contents Plugin Exclusion Rules */
+.rsn-notice-wrapper .ez-toc-container,
+.rsn-notice-wrapper .ez-toc-title-container,
+.rsn-notice-wrapper .ez-toc-section,
+.rsn-notice-wrapper .ez-toc-widget-container,
+.rsn-notice-wrapper .lwptoc,
+.rsn-notice-wrapper .lwptoc-widget,
+.rsn-notice-wrapper .toc-container,
+.rsn-notice-wrapper .cm-toc-container {
+	display: none !important;
+	visibility: hidden !important;
+	height: 0 !important;
+	width: 0 !important;
+	opacity: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}

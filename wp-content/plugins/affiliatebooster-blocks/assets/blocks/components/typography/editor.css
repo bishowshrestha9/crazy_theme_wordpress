@@ -1,0 +1,561 @@
+.affiliate-flex {
+  display: flex; }
+
+.affiliate-field-border-type {
+  width: 16px; }
+  .affiliate-field-border-type.affiliate-field-border-type-solid {
+    border-top: 3px solid #8D96A0; }
+  .affiliate-field-border-type.affiliate-field-border-type-dotted {
+    border-top: 3px dotted #8D96A0; }
+  .affiliate-field-border-type.affiliate-field-border-type-dashed {
+    border-top: 3px dashed #8D96A0; }
+  .affiliate-field-border-type.affiliate-field-border-type-double {
+    border-top: 6px double #8D96A0; }
+
+.affiliate-mb-20 {
+  margin-bottom: 20px; }
+
+.affiliate-field-boxshadow .components-toggle-control, .affiliate-field-boxshadow .components-base-control__field {
+  margin-bottom: 0px; }
+
+.affiliate-field-dimension .affiliate-dimension-input-group > span {
+  float: left;
+  width: 20%;
+  text-align: center; }
+
+.affiliate-field-dimension .affiliate-dimension-input-group input {
+  width: 100%;
+  padding: 0 2px 0 0 !important;
+  height: 26px;
+  border: 1px solid #8d96a0;
+  margin: 0;
+  text-indent: 6px; }
+
+.affiliate-field-dimension .affiliate-dimension-input-group > button {
+  height: 28px;
+  border: 1px solid #8d96a0;
+  width: 20%;
+  padding: 2px 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 20%; }
+  .affiliate-field-dimension .affiliate-dimension-input-group > button.active {
+    background: #a4afb7;
+    color: #fff; }
+
+.affiliate-mb-10 {
+  margin-bottom: 10px; }
+
+.affiliate-unit-btn-group {
+  margin-top: 8px; }
+
+.affiliate-unit-btn-group button {
+  line-height: 1;
+  display: inline-block;
+  border: none;
+  font-size: 10px;
+  padding-left: 8px;
+  border-radius: 2px !important;
+  color: #8D96A0;
+  text-transform: uppercase;
+  background: transparent;
+  cursor: pointer; }
+  .affiliate-unit-btn-group button.active {
+    color: #000;
+    text-decoration: underline;
+    background: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    outline: none; }
+  .affiliate-unit-btn-group button:focus {
+    outline: none; }
+
+.affiliate-field-gradient-preview .affiliate-color-picker-container {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3); }
+
+.affiliate-field-gradient-preview .affiliate-color-picker-container.affiliate-position-left {
+  left: 0; }
+
+.affiliate-field-gradient-preview .affiliate-color-picker-container.affiliate-position-right {
+  right: 0; }
+
+.affiliate-field-button-list {
+  margin-left: 50px; }
+  .affiliate-field-button-list .affiliate-button {
+    background: #FFF;
+    border: 1px solid #E5E7EA;
+    min-height: 26px;
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 8px;
+    text-align: center;
+    color: #8D96A0;
+    transition: all 400ms;
+    border-radius: 3px;
+    cursor: pointer; }
+    .affiliate-field-button-list .affiliate-button.active {
+      background: #E5E7EA;
+      color: #2184F9; }
+  .affiliate-field-button-list .active .affiliate-field-border-type.affiliate-field-border-type-solid {
+    border-top-color: #2184F9; }
+  .affiliate-field-button-list .active .affiliate-field-border-type.affiliate-field-border-type-dotted {
+    border-top-color: #2184F9; }
+  .affiliate-field-button-list .active .affiliate-field-border-type.affiliate-field-border-type-dashed {
+    border-top-color: #2184F9; }
+  .affiliate-field-button-list .active .affiliate-field-border-type.affiliate-field-border-type-double {
+    border-top-color: #2184F9; }
+  .affiliate-field-button-list .affiliate-svg-fill {
+    fill: #8D96A0; }
+  .affiliate-field-button-list .affiliate-svg-stroke {
+    stroke: #8D96A0; }
+  .affiliate-field-button-list .active .affiliate-svg-fill {
+    fill: #2184F9; }
+  .affiliate-field-button-list .active .affiliate-svg-stroke {
+    stroke: #2184F9; }
+  .affiliate-field-button-list .affiliate-border-clear {
+    font-size: 12px;
+    color: #8D96A0; }
+    .affiliate-field-button-list .affiliate-border-clear:hover {
+      color: #2184F9; }
+
+.affiliate-ml-auto {
+  margin-left: auto; }
+
+.affiliate-ml-10 {
+  margin-left: 10px; }
+
+.affiliate-border-clear {
+  font-size: 12px;
+  color: #8D96A0; }
+
+.affiliate-field-button-list.affiliate-field-button-list-fluid {
+  display: flex;
+  justify-content: space-between; }
+
+.affiliate-field-button-list {
+  display: inline-flex;
+  vertical-align: middle; }
+
+.affiliate-field:last-child {
+  margin-bottom: 0; }
+
+.affiliate-field {
+  position: relative;
+  margin-bottom: 20px; }
+
+.affiliate-button.active {
+  background: #E5E7EA;
+  color: #2184F9; }
+
+.affiliate-field-button-list .affiliate-button:not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; }
+
+.affiliate-media .affiliate-placeholder-image, .editor-bg-image-control .affiliate-placeholder-image {
+  border: 1px dashed #dddd;
+  padding: 20px 20px 25px;
+  text-align: center;
+  background: #ffffff;
+  cursor: copy;
+  border-radius: 5px; }
+
+.affiliate-media .affiliate-placeholder-image span, .editor-bg-image-control .affiliate-placeholder-image span {
+  display: block;
+  margin-top: 8px;
+  text-align: center; }
+
+.affiliate-field-gradient-preview {
+  height: 10px;
+  border-radius: 6px;
+  position: relative; }
+
+.components-button-group.affiliate-spacing-options {
+  margin: 0;
+  text-align: right;
+  display: block;
+  margin-bottom: -18px;
+  margin-right: 80px; }
+
+.components-button-group.spacing-type-options.affiliate-size-btn svg {
+  fill: #777;
+  width: 15px;
+  height: 15px; }
+
+.components-button-group.affiliate-spacing-options .affiliate-size-btn .is-primary svg {
+  fill: #222; }
+
+.components-button-group.affiliate-spacing-options .affiliate-size-btn .is-primary::hover {
+  color: none;
+  background: none; }
+
+.affiliate-spacing-options .affiliate-size-btn svg {
+  height: 15px;
+  width: 15px; }
+
+.affiliate-spacing-options .affiliate-size-btn {
+  padding-right: 0px; }
+
+.affiliate-field-button-list.affiliate-field-button-list-fluid .affiliate-button {
+  width: 100%;
+  justify-content: center; }
+
+.affiliate-field-button-list .affiliate-button {
+  position: relative;
+  flex: 1 1 auto; }
+
+.affiliate-button {
+  background: #FFF;
+  border: 1px solid #E5E7EA;
+  min-height: 26px;
+  display: inline-flex;
+  align-items: center;
+  padding: 9px 20px;
+  text-align: center;
+  color: #8D96A0;
+  transition: all 400ms;
+  border-radius: 3px;
+  cursor: pointer; }
+
+.affiliate-size-type-field-tabs .components-tab-panel__tab-content .affiliate-alignment-tools {
+  margin-top: 10px; }
+  .affiliate-size-type-field-tabs .components-tab-panel__tab-content .affiliate-alignment-tools .affiliate-svg-fill {
+    fill: #8D96A0; }
+
+.affiliate-field-color.affiliate-field {
+  display: flex; }
+  .affiliate-field-color.affiliate-field.qubley-half {
+    display: inline-flex;
+    width: 50%;
+    align-items: center; }
+    .affiliate-field-color.affiliate-field.qubley-half.qubley-half-first {
+      padding-right: 7.5px; }
+    .affiliate-field-color.affiliate-field.qubley-half.qubley-half-last {
+      padding-left: 7.5px; }
+  .affiliate-field-color.affiliate-field .affiliate-field-child .affiliate-panel {
+    height: 32px;
+    width: 32px;
+    border-radius: 0 3px 3px 0;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: 300ms;
+    cursor: pointer; }
+    .affiliate-field-color.affiliate-field .affiliate-field-child .affiliate-panel.affiliate-color-preview {
+      width: 100%;
+      height: 60px;
+      border-radius: 3px; }
+      .affiliate-field-color.affiliate-field .affiliate-field-child .affiliate-panel.affiliate-color-preview:hover {
+        transform: none; }
+    .affiliate-field-color.affiliate-field .affiliate-field-child .affiliate-panel:hover {
+      transform: scale(1.1); }
+    .affiliate-field-color.affiliate-field .affiliate-field-child .affiliate-panel .affiliate-gradient {
+      padding: 15px; }
+  .affiliate-field-color.affiliate-field.affiliate-has-preview {
+    display: block; }
+    .affiliate-field-color.affiliate-field.affiliate-has-preview > label {
+      width: 100%; }
+    .affiliate-field-color.affiliate-field.affiliate-has-preview .affiliate-field-child {
+      width: 100%; }
+  .affiliate-field-color.affiliate-field.affiliate-no-preview .affiliate-field-child {
+    flex-grow: 1;
+    width: 32px; }
+  .affiliate-field-color.affiliate-field.affiliate-no-preview > label {
+    flex-grow: 1;
+    width: calc(100% - 32px);
+    margin: 0;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+    border: 1px solid #e4e4e4;
+    border-radius: 3px 0 0 3px; }
+
+.affiliate-rgba-palette::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.affiliate-rgba-palette button {
+  position: relative;
+  font-size: 0;
+  height: 28px;
+  width: 28px;
+  padding: 0;
+  margin-right: 10px;
+  border: none;
+  border-radius: 50%;
+  float: left;
+  cursor: pointer;
+  transition: 300ms;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), inset 0 0 0 17px;
+  background: transparent; }
+  .affiliate-rgba-palette button.active {
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), inset 0 0 0 4px; }
+  .affiliate-rgba-palette button:hover, .affiliate-rgba-palette button:focus {
+    transform: scale(1.1); }
+  .affiliate-rgba-palette button.clear {
+    box-shadow: none; }
+    .affiliate-rgba-palette button.clear::before {
+      content: '\f05e';
+      -webkit-font-smoothing: antialiased;
+      display: inline-block;
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      line-height: 1;
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      font-size: 28px;
+      color: red;
+      left: 0;
+      top: 0;
+      position: absolute; }
+
+.affiliate-rgba-palette > div {
+  display: inline-block; }
+  .affiliate-rgba-palette > div button {
+    overflow: hidden;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2); }
+    .affiliate-rgba-palette > div button::before {
+      content: "";
+      filter: blur(6px) saturate(0.7) brightness(1.1);
+      display: block;
+      width: 200%;
+      height: 200%;
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      padding-top: 100%;
+      transform: scale(1);
+      background-image: linear-gradient(330deg, transparent 50%, #ff8100 0), linear-gradient(300deg, transparent 50%, #ff5800 0), linear-gradient(270deg, transparent 50%, #c92323 0), linear-gradient(240deg, transparent 50%, #cc42a2 0), linear-gradient(210deg, transparent 50%, #9f49ac 0), linear-gradient(180deg, transparent 50%, #306cd3 0), linear-gradient(150deg, transparent 50%, #179067 0), linear-gradient(120deg, transparent 50%, #0eb5d6 0), linear-gradient(90deg, transparent 50%, #50b517 0), linear-gradient(60deg, transparent 50%, #ede604 0), linear-gradient(30deg, transparent 50%, #fc0 0), linear-gradient(0deg, transparent 50%, #feac00 0);
+      background-clip: content-box,content-box,content-box,content-box,content-box,content-box,padding-box,padding-box,padding-box,padding-box,padding-box,padding-box; }
+
+.affiliate-color-picker-container,
+.affiliate-color-picker {
+  width: 30px;
+  height: 30px;
+  display: block;
+  border-radius: 50px;
+  cursor: pointer; }
+
+.affiliate-color-picker-container {
+  width: 32px;
+  height: 32px;
+  background-image: linear-gradient(45deg, #ddd 25%, transparent 0), linear-gradient(-45deg, #ddd 25%, transparent 0), linear-gradient(45deg, transparent 75%, #ddd 0), linear-gradient(-45deg, transparent 75%, #ddd 0);
+  background-size: 10px 10px;
+  background-position: 0 0,0 5px,5px -5px,-5px 0;
+  border: 1px solid #E9E9E9; }
+
+.affiliate-background-inner .affiliate-media .affiliate-single-img, .affiliate-featured-fallback .affiliate-media .affiliate-single-img {
+  margin-top: 10px;
+  position: relative; }
+  .affiliate-background-inner .affiliate-media .affiliate-single-img .affiliate-media-actions, .affiliate-featured-fallback .affiliate-media .affiliate-single-img .affiliate-media-actions {
+    display: none; }
+  .affiliate-background-inner .affiliate-media .affiliate-single-img:hover .affiliate-media-actions, .affiliate-featured-fallback .affiliate-media .affiliate-single-img:hover .affiliate-media-actions {
+    display: block; }
+    .affiliate-background-inner .affiliate-media .affiliate-single-img:hover .affiliate-media-actions .affiliate-media-remove, .affiliate-featured-fallback .affiliate-media .affiliate-single-img:hover .affiliate-media-actions .affiliate-media-remove {
+      position: absolute;
+      top: 10px;
+      right: 20px; }
+    .affiliate-background-inner .affiliate-media .affiliate-single-img:hover .affiliate-media-actions .affiliate-media-edit, .affiliate-featured-fallback .affiliate-media .affiliate-single-img:hover .affiliate-media-actions .affiliate-media-edit {
+      position: absolute;
+      left: 0;
+      right: 0;
+      color: #fff;
+      background-color: rgba(109, 120, 130, 0.85);
+      width: 100%;
+      justify-content: center;
+      bottom: 0px;
+      border: none; }
+
+.editor-bg-image-control {
+  position: relative; }
+  .editor-bg-image-control .affiliate-media-actions {
+    display: none; }
+  .editor-bg-image-control:hover .affiliate-media-actions {
+    display: block; }
+    .editor-bg-image-control:hover .affiliate-media-actions .affiliate-media-remove {
+      position: absolute;
+      top: 30px;
+      right: 20px; }
+    .editor-bg-image-control:hover .affiliate-media-actions .affiliate-media-edit {
+      position: absolute;
+      left: 0;
+      right: 0;
+      color: #fff;
+      background-color: rgba(109, 120, 130, 0.85);
+      width: 100%;
+      justify-content: center;
+      bottom: 0px;
+      border: none; }
+
+.affiliate-field-background .affiliate-button {
+  padding: 1px 8px;
+  margin-left: 4px; }
+
+.affiliate-opacity .affiliate-opacity-value label {
+  width: auto; }
+
+.affiliate-popover-color .components-popover__content {
+  overflow-x: hidden !important;
+  padding: 15px; }
+
+.affiliate-advanced-color-settings-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center; }
+  .affiliate-advanced-color-settings-container .affiliate-beside-color-label {
+    flex-grow: 2; }
+  .affiliate-advanced-color-settings-container .affiliate-advanced-color-indicate {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin: 0; }
+  .affiliate-advanced-color-settings-container .components-color-palette__clear {
+    background: transparent;
+    padding: 4px;
+    height: auto;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid transparent; }
+    .affiliate-advanced-color-settings-container .components-color-palette__clear svg {
+      width: 16px; }
+
+.affiliate-field-icon-list .affiliate-icon-list-icons .affiliate-icon-parent {
+  margin: 3px; }
+  .affiliate-field-icon-list .affiliate-icon-list-icons .affiliate-icon-parent span {
+    display: block;
+    height: 37px;
+    line-height: 37px;
+    border: 1px solid #E5E7EA;
+    margin-left: -1px;
+    margin-bottom: -1px;
+    background: #fff;
+    color: #565D66;
+    transition: 300ms; }
+
+.affiliate-field-icon-list .affiliate-icon-list-icons > span {
+  text-align: center;
+  font-size: 15px;
+  float: left;
+  width: 16.666666666666667%;
+  margin: 0; }
+
+.affiliate-field-icon-list .affiliate-icon-list-icons > span:hover {
+  cursor: pointer; }
+
+.affiliate-field-icon-list .affiliate-icon-list-icons > span.affiliate-active span {
+  color: #fff;
+  background: #2184F9;
+  border-color: #2184F9; }
+
+.affiliate-iconlist-popwrapper {
+  text-align: center;
+  padding: 10px; }
+
+.affiliate-icon-popover {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative; }
+  .affiliate-icon-popover .components-button {
+    position: absolute;
+    right: 0;
+    top: 9px; }
+
+.affiliate-icon-popover .affiliate-size-btn {
+  background: none;
+  outline: none; }
+  .affiliate-icon-popover .affiliate-size-btn svg {
+    fill: #007cba;
+    height: 15px;
+    width: 15px; }
+  .affiliate-icon-popover .affiliate-size-btn:hover, .affiliate-icon-popover .affiliate-size-btn::focus {
+    background: none;
+    outline: none; }
+  .affiliate-icon-popover .affiliate-size-btn:active {
+    background: none;
+    outline: none;
+    box-shadow: none;
+    border: 2px solid #007cba; }
+  .affiliate-icon-popover .affiliate-size-btn.is-primary {
+    background: none;
+    outline: none; }
+    .affiliate-icon-popover .affiliate-size-btn.is-primary:hover, .affiliate-icon-popover .affiliate-size-btn.is-primary:focus {
+      background: none;
+      outline: none;
+      box-shadow: none; }
+    .affiliate-icon-popover .affiliate-size-btn.is-primary:active {
+      background: none;
+      outline: none;
+      box-shadow: none;
+      border: 2px solid #007cba; }
+
+.affiliate-field-styles .affiliate-field-style-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.affiliate-field-styles .affiliate-field-style-list.affiliate-field-style-columns-2 > div {
+  width: calc(50% - 4px); }
+
+.affiliate-field-styles .affiliate-field-style-list > div {
+  text-align: center;
+  margin: 4px 0;
+  flex-shrink: 0;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 0;
+  margin-bottom: 10px; }
+
+.affiliate-field-styles .affiliate-field-style-list > div.affiliate-active {
+  border: 1px solid  #2184F9; }
+
+.affiliate-input-range {
+  display: flex; }
+
+.affiliate-input-range input[type=range] {
+  -webkit-appearance: none;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  background: #ececec; }
+
+.affiliate-input-range > *:not(:last-child) {
+  margin-right: 8px; }
+
+.affiliate-field-radio-advanced {
+  align-items: center; }
+
+.affiliate-field input[type="text"], .affiliate-field input[type="number"]:not(.components-range-control__number) {
+  width: 100%;
+  padding: 0 2px 0 0 !important;
+  height: 26px;
+  border: 1px solid #8d96a0;
+  margin: 0;
+  text-indent: 6px; }
+
+.affiliate-input-range input[type="number"] {
+  width: 55px !important; }
+
+.affiliate-featuredbg-controls {
+  padding: 10px;
+  box-shadow: 0px 0px 1px 1px #ccc; }
+
+.affiliate-alignment-tools {
+  justify-content: space-between;
+  display: flex; }
+  .affiliate-alignment-tools .affiliate-button {
+    width: 100%;
+    justify-content: center; }

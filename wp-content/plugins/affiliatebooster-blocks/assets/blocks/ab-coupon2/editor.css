@@ -1,0 +1,1405 @@
+.affiliate-coupon-inner.block1.style2 li {
+  flex: 0 0 100%;
+  margin-bottom: 25px; }
+
+.affiliate-coupon-inner.block2.style2 li {
+  flex: 0 0 31%;
+  margin: 0 1% 25px; }
+
+.affiliate-coupon-inner.block3.style2 li {
+  flex: 0 0 31%;
+  margin: 0 1% 25px; }
+
+.affiliate-coupon-inner.colblock1.style2 {
+  display: flex;
+  flex-wrap: wrap; }
+  .affiliate-coupon-inner.colblock1.style2 li.affiliate-block-col {
+    flex: 0 0 100%;
+    margin: 0 0% 25px; }
+
+.affiliate-coupon-inner.colblock2.style2 {
+  display: flex;
+  flex-wrap: wrap; }
+  .affiliate-coupon-inner.colblock2.style2 li.affiliate-block-col {
+    flex: 0 0 48%;
+    margin: 0 1% 25px; }
+
+.affiliate-coupon-inner.block1.style2,
+.affiliate-coupon-inner.block2.style2,
+.affiliate-coupon-inner.block3.style2 {
+  padding: 0 !important;
+  margin: 0;
+  display: flex !important;
+  flex-wrap: wrap; }
+  .affiliate-coupon-inner.block1.style2 li,
+  .affiliate-coupon-inner.block2.style2 li,
+  .affiliate-coupon-inner.block3.style2 li {
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 12px;
+    text-align: center;
+    position: relative;
+    vertical-align: top; }
+    .affiliate-coupon-inner.block1.style2 li:last-child,
+    .affiliate-coupon-inner.block2.style2 li:last-child,
+    .affiliate-coupon-inner.block3.style2 li:last-child {
+      margin-right: 0; }
+    .affiliate-coupon-inner.block1.style2 li .triangle1.flag1,
+    .affiliate-coupon-inner.block1.style2 li .triangle1.flag2,
+    .affiliate-coupon-inner.block1.style2 li .triangle1.flag3,
+    .affiliate-coupon-inner.block1.style2 li .triangle2.flag1,
+    .affiliate-coupon-inner.block1.style2 li .triangle2.flag2,
+    .affiliate-coupon-inner.block1.style2 li .triangle2.flag3,
+    .affiliate-coupon-inner.block1.style2 li .triangle3.flag1,
+    .affiliate-coupon-inner.block1.style2 li .triangle3.flag2,
+    .affiliate-coupon-inner.block1.style2 li .triangle3.flag3,
+    .affiliate-coupon-inner.block1.style2 li .triangle4.flag1,
+    .affiliate-coupon-inner.block1.style2 li .triangle4.flag2,
+    .affiliate-coupon-inner.block1.style2 li .triangle4.flag3,
+    .affiliate-coupon-inner.block1.style2 li .triangle5.flag1,
+    .affiliate-coupon-inner.block1.style2 li .triangle5.flag2,
+    .affiliate-coupon-inner.block1.style2 li .triangle5.flag3,
+    .affiliate-coupon-inner.block1.style2 li .triangle6.flag1,
+    .affiliate-coupon-inner.block1.style2 li .triangle6.flag2,
+    .affiliate-coupon-inner.block1.style2 li .triangle6.flag3,
+    .affiliate-coupon-inner.block1.style2 li .triangle7.flag1,
+    .affiliate-coupon-inner.block1.style2 li .triangle7.flag2,
+    .affiliate-coupon-inner.block1.style2 li .triangle7.flag3,
+    .affiliate-coupon-inner.block2.style2 li .triangle1.flag1,
+    .affiliate-coupon-inner.block2.style2 li .triangle1.flag2,
+    .affiliate-coupon-inner.block2.style2 li .triangle1.flag3,
+    .affiliate-coupon-inner.block2.style2 li .triangle2.flag1,
+    .affiliate-coupon-inner.block2.style2 li .triangle2.flag2,
+    .affiliate-coupon-inner.block2.style2 li .triangle2.flag3,
+    .affiliate-coupon-inner.block2.style2 li .triangle3.flag1,
+    .affiliate-coupon-inner.block2.style2 li .triangle3.flag2,
+    .affiliate-coupon-inner.block2.style2 li .triangle3.flag3,
+    .affiliate-coupon-inner.block2.style2 li .triangle4.flag1,
+    .affiliate-coupon-inner.block2.style2 li .triangle4.flag2,
+    .affiliate-coupon-inner.block2.style2 li .triangle4.flag3,
+    .affiliate-coupon-inner.block2.style2 li .triangle5.flag1,
+    .affiliate-coupon-inner.block2.style2 li .triangle5.flag2,
+    .affiliate-coupon-inner.block2.style2 li .triangle5.flag3,
+    .affiliate-coupon-inner.block2.style2 li .triangle6.flag1,
+    .affiliate-coupon-inner.block2.style2 li .triangle6.flag2,
+    .affiliate-coupon-inner.block2.style2 li .triangle6.flag3,
+    .affiliate-coupon-inner.block2.style2 li .triangle7.flag1,
+    .affiliate-coupon-inner.block2.style2 li .triangle7.flag2,
+    .affiliate-coupon-inner.block2.style2 li .triangle7.flag3,
+    .affiliate-coupon-inner.block3.style2 li .triangle1.flag1,
+    .affiliate-coupon-inner.block3.style2 li .triangle1.flag2,
+    .affiliate-coupon-inner.block3.style2 li .triangle1.flag3,
+    .affiliate-coupon-inner.block3.style2 li .triangle2.flag1,
+    .affiliate-coupon-inner.block3.style2 li .triangle2.flag2,
+    .affiliate-coupon-inner.block3.style2 li .triangle2.flag3,
+    .affiliate-coupon-inner.block3.style2 li .triangle3.flag1,
+    .affiliate-coupon-inner.block3.style2 li .triangle3.flag2,
+    .affiliate-coupon-inner.block3.style2 li .triangle3.flag3,
+    .affiliate-coupon-inner.block3.style2 li .triangle4.flag1,
+    .affiliate-coupon-inner.block3.style2 li .triangle4.flag2,
+    .affiliate-coupon-inner.block3.style2 li .triangle4.flag3,
+    .affiliate-coupon-inner.block3.style2 li .triangle5.flag1,
+    .affiliate-coupon-inner.block3.style2 li .triangle5.flag2,
+    .affiliate-coupon-inner.block3.style2 li .triangle5.flag3,
+    .affiliate-coupon-inner.block3.style2 li .triangle6.flag1,
+    .affiliate-coupon-inner.block3.style2 li .triangle6.flag2,
+    .affiliate-coupon-inner.block3.style2 li .triangle6.flag3,
+    .affiliate-coupon-inner.block3.style2 li .triangle7.flag1,
+    .affiliate-coupon-inner.block3.style2 li .triangle7.flag2,
+    .affiliate-coupon-inner.block3.style2 li .triangle7.flag3 {
+      position: absolute;
+      top: -50px;
+      left: -55px;
+      width: 0;
+      height: 0;
+      border-top: 50px solid transparent;
+      border-bottom: 50px solid transparent;
+      transform: rotate(42deg); }
+      .affiliate-coupon-inner.block1.style2 li .triangle1.flag1 > span,
+      .affiliate-coupon-inner.block1.style2 li .triangle1.flag2 > span,
+      .affiliate-coupon-inner.block1.style2 li .triangle1.flag3 > span,
+      .affiliate-coupon-inner.block1.style2 li .triangle2.flag1 > span,
+      .affiliate-coupon-inner.block1.style2 li .triangle2.flag2 > span,
+      .affiliate-coupon-inner.block1.style2 li .triangle2.flag3 > span,
+      .affiliate-coupon-inner.block1.style2 li .triangle3.flag1 > span,
+      .affiliate-coupon-inner.block1.style2 li .triangle3.flag2 > span,
+      .affiliate-coupon-inner.block1.style2 li .triangle3.flag3 > span,
+      .affiliate-coupon-inner.block1.style2 li .triangle4.flag1 > span,
+      .affiliate-coupon-inner.block1.style2 li .triangle4.flag2 > span,
+      .affiliate-coupon-inner.block1.style2 li .triangle4.flag3 > span,
+      .affiliate-coupon-inner.block1.style2 li .triangle5.flag1 > span,
+      .affiliate-coupon-inner.block1.style2 li .triangle5.flag2 > span,
+      .affiliate-coupon-inner.block1.style2 li .triangle5.flag3 > span,
+      .affiliate-coupon-inner.block1.style2 li .triangle6.flag1 > span,
+      .affiliate-coupon-inner.block1.style2 li .triangle6.flag2 > span,
+      .affiliate-coupon-inner.block1.style2 li .triangle6.flag3 > span,
+      .affiliate-coupon-inner.block1.style2 li .triangle7.flag1 > span,
+      .affiliate-coupon-inner.block1.style2 li .triangle7.flag2 > span,
+      .affiliate-coupon-inner.block1.style2 li .triangle7.flag3 > span,
+      .affiliate-coupon-inner.block2.style2 li .triangle1.flag1 > span,
+      .affiliate-coupon-inner.block2.style2 li .triangle1.flag2 > span,
+      .affiliate-coupon-inner.block2.style2 li .triangle1.flag3 > span,
+      .affiliate-coupon-inner.block2.style2 li .triangle2.flag1 > span,
+      .affiliate-coupon-inner.block2.style2 li .triangle2.flag2 > span,
+      .affiliate-coupon-inner.block2.style2 li .triangle2.flag3 > span,
+      .affiliate-coupon-inner.block2.style2 li .triangle3.flag1 > span,
+      .affiliate-coupon-inner.block2.style2 li .triangle3.flag2 > span,
+      .affiliate-coupon-inner.block2.style2 li .triangle3.flag3 > span,
+      .affiliate-coupon-inner.block2.style2 li .triangle4.flag1 > span,
+      .affiliate-coupon-inner.block2.style2 li .triangle4.flag2 > span,
+      .affiliate-coupon-inner.block2.style2 li .triangle4.flag3 > span,
+      .affiliate-coupon-inner.block2.style2 li .triangle5.flag1 > span,
+      .affiliate-coupon-inner.block2.style2 li .triangle5.flag2 > span,
+      .affiliate-coupon-inner.block2.style2 li .triangle5.flag3 > span,
+      .affiliate-coupon-inner.block2.style2 li .triangle6.flag1 > span,
+      .affiliate-coupon-inner.block2.style2 li .triangle6.flag2 > span,
+      .affiliate-coupon-inner.block2.style2 li .triangle6.flag3 > span,
+      .affiliate-coupon-inner.block2.style2 li .triangle7.flag1 > span,
+      .affiliate-coupon-inner.block2.style2 li .triangle7.flag2 > span,
+      .affiliate-coupon-inner.block2.style2 li .triangle7.flag3 > span,
+      .affiliate-coupon-inner.block3.style2 li .triangle1.flag1 > span,
+      .affiliate-coupon-inner.block3.style2 li .triangle1.flag2 > span,
+      .affiliate-coupon-inner.block3.style2 li .triangle1.flag3 > span,
+      .affiliate-coupon-inner.block3.style2 li .triangle2.flag1 > span,
+      .affiliate-coupon-inner.block3.style2 li .triangle2.flag2 > span,
+      .affiliate-coupon-inner.block3.style2 li .triangle2.flag3 > span,
+      .affiliate-coupon-inner.block3.style2 li .triangle3.flag1 > span,
+      .affiliate-coupon-inner.block3.style2 li .triangle3.flag2 > span,
+      .affiliate-coupon-inner.block3.style2 li .triangle3.flag3 > span,
+      .affiliate-coupon-inner.block3.style2 li .triangle4.flag1 > span,
+      .affiliate-coupon-inner.block3.style2 li .triangle4.flag2 > span,
+      .affiliate-coupon-inner.block3.style2 li .triangle4.flag3 > span,
+      .affiliate-coupon-inner.block3.style2 li .triangle5.flag1 > span,
+      .affiliate-coupon-inner.block3.style2 li .triangle5.flag2 > span,
+      .affiliate-coupon-inner.block3.style2 li .triangle5.flag3 > span,
+      .affiliate-coupon-inner.block3.style2 li .triangle6.flag1 > span,
+      .affiliate-coupon-inner.block3.style2 li .triangle6.flag2 > span,
+      .affiliate-coupon-inner.block3.style2 li .triangle6.flag3 > span,
+      .affiliate-coupon-inner.block3.style2 li .triangle7.flag1 > span,
+      .affiliate-coupon-inner.block3.style2 li .triangle7.flag2 > span,
+      .affiliate-coupon-inner.block3.style2 li .triangle7.flag3 > span {
+        display: inline-block !important;
+        text-align: right !important;
+        transform: rotate(-42deg) !important;
+        position: absolute !important;
+        left: 54px !important;
+        top: -53px !important;
+        color: #fff !important;
+        width: 60px !important; }
+        .affiliate-coupon-inner.block1.style2 li .triangle1.flag1 > span p,
+        .affiliate-coupon-inner.block1.style2 li .triangle1.flag2 > span p,
+        .affiliate-coupon-inner.block1.style2 li .triangle1.flag3 > span p,
+        .affiliate-coupon-inner.block1.style2 li .triangle2.flag1 > span p,
+        .affiliate-coupon-inner.block1.style2 li .triangle2.flag2 > span p,
+        .affiliate-coupon-inner.block1.style2 li .triangle2.flag3 > span p,
+        .affiliate-coupon-inner.block1.style2 li .triangle3.flag1 > span p,
+        .affiliate-coupon-inner.block1.style2 li .triangle3.flag2 > span p,
+        .affiliate-coupon-inner.block1.style2 li .triangle3.flag3 > span p,
+        .affiliate-coupon-inner.block1.style2 li .triangle4.flag1 > span p,
+        .affiliate-coupon-inner.block1.style2 li .triangle4.flag2 > span p,
+        .affiliate-coupon-inner.block1.style2 li .triangle4.flag3 > span p,
+        .affiliate-coupon-inner.block1.style2 li .triangle5.flag1 > span p,
+        .affiliate-coupon-inner.block1.style2 li .triangle5.flag2 > span p,
+        .affiliate-coupon-inner.block1.style2 li .triangle5.flag3 > span p,
+        .affiliate-coupon-inner.block1.style2 li .triangle6.flag1 > span p,
+        .affiliate-coupon-inner.block1.style2 li .triangle6.flag2 > span p,
+        .affiliate-coupon-inner.block1.style2 li .triangle6.flag3 > span p,
+        .affiliate-coupon-inner.block1.style2 li .triangle7.flag1 > span p,
+        .affiliate-coupon-inner.block1.style2 li .triangle7.flag2 > span p,
+        .affiliate-coupon-inner.block1.style2 li .triangle7.flag3 > span p,
+        .affiliate-coupon-inner.block2.style2 li .triangle1.flag1 > span p,
+        .affiliate-coupon-inner.block2.style2 li .triangle1.flag2 > span p,
+        .affiliate-coupon-inner.block2.style2 li .triangle1.flag3 > span p,
+        .affiliate-coupon-inner.block2.style2 li .triangle2.flag1 > span p,
+        .affiliate-coupon-inner.block2.style2 li .triangle2.flag2 > span p,
+        .affiliate-coupon-inner.block2.style2 li .triangle2.flag3 > span p,
+        .affiliate-coupon-inner.block2.style2 li .triangle3.flag1 > span p,
+        .affiliate-coupon-inner.block2.style2 li .triangle3.flag2 > span p,
+        .affiliate-coupon-inner.block2.style2 li .triangle3.flag3 > span p,
+        .affiliate-coupon-inner.block2.style2 li .triangle4.flag1 > span p,
+        .affiliate-coupon-inner.block2.style2 li .triangle4.flag2 > span p,
+        .affiliate-coupon-inner.block2.style2 li .triangle4.flag3 > span p,
+        .affiliate-coupon-inner.block2.style2 li .triangle5.flag1 > span p,
+        .affiliate-coupon-inner.block2.style2 li .triangle5.flag2 > span p,
+        .affiliate-coupon-inner.block2.style2 li .triangle5.flag3 > span p,
+        .affiliate-coupon-inner.block2.style2 li .triangle6.flag1 > span p,
+        .affiliate-coupon-inner.block2.style2 li .triangle6.flag2 > span p,
+        .affiliate-coupon-inner.block2.style2 li .triangle6.flag3 > span p,
+        .affiliate-coupon-inner.block2.style2 li .triangle7.flag1 > span p,
+        .affiliate-coupon-inner.block2.style2 li .triangle7.flag2 > span p,
+        .affiliate-coupon-inner.block2.style2 li .triangle7.flag3 > span p,
+        .affiliate-coupon-inner.block3.style2 li .triangle1.flag1 > span p,
+        .affiliate-coupon-inner.block3.style2 li .triangle1.flag2 > span p,
+        .affiliate-coupon-inner.block3.style2 li .triangle1.flag3 > span p,
+        .affiliate-coupon-inner.block3.style2 li .triangle2.flag1 > span p,
+        .affiliate-coupon-inner.block3.style2 li .triangle2.flag2 > span p,
+        .affiliate-coupon-inner.block3.style2 li .triangle2.flag3 > span p,
+        .affiliate-coupon-inner.block3.style2 li .triangle3.flag1 > span p,
+        .affiliate-coupon-inner.block3.style2 li .triangle3.flag2 > span p,
+        .affiliate-coupon-inner.block3.style2 li .triangle3.flag3 > span p,
+        .affiliate-coupon-inner.block3.style2 li .triangle4.flag1 > span p,
+        .affiliate-coupon-inner.block3.style2 li .triangle4.flag2 > span p,
+        .affiliate-coupon-inner.block3.style2 li .triangle4.flag3 > span p,
+        .affiliate-coupon-inner.block3.style2 li .triangle5.flag1 > span p,
+        .affiliate-coupon-inner.block3.style2 li .triangle5.flag2 > span p,
+        .affiliate-coupon-inner.block3.style2 li .triangle5.flag3 > span p,
+        .affiliate-coupon-inner.block3.style2 li .triangle6.flag1 > span p,
+        .affiliate-coupon-inner.block3.style2 li .triangle6.flag2 > span p,
+        .affiliate-coupon-inner.block3.style2 li .triangle6.flag3 > span p,
+        .affiliate-coupon-inner.block3.style2 li .triangle7.flag1 > span p,
+        .affiliate-coupon-inner.block3.style2 li .triangle7.flag2 > span p,
+        .affiliate-coupon-inner.block3.style2 li .triangle7.flag3 > span p {
+          font-size: 8px;
+          font-weight: bold;
+          text-transform: uppercase;
+          text-align: left;
+          line-height: 15px !important; }
+          .affiliate-coupon-inner.block1.style2 li .triangle1.flag1 > span p span,
+          .affiliate-coupon-inner.block1.style2 li .triangle1.flag2 > span p span,
+          .affiliate-coupon-inner.block1.style2 li .triangle1.flag3 > span p span,
+          .affiliate-coupon-inner.block1.style2 li .triangle2.flag1 > span p span,
+          .affiliate-coupon-inner.block1.style2 li .triangle2.flag2 > span p span,
+          .affiliate-coupon-inner.block1.style2 li .triangle2.flag3 > span p span,
+          .affiliate-coupon-inner.block1.style2 li .triangle3.flag1 > span p span,
+          .affiliate-coupon-inner.block1.style2 li .triangle3.flag2 > span p span,
+          .affiliate-coupon-inner.block1.style2 li .triangle3.flag3 > span p span,
+          .affiliate-coupon-inner.block1.style2 li .triangle4.flag1 > span p span,
+          .affiliate-coupon-inner.block1.style2 li .triangle4.flag2 > span p span,
+          .affiliate-coupon-inner.block1.style2 li .triangle4.flag3 > span p span,
+          .affiliate-coupon-inner.block1.style2 li .triangle5.flag1 > span p span,
+          .affiliate-coupon-inner.block1.style2 li .triangle5.flag2 > span p span,
+          .affiliate-coupon-inner.block1.style2 li .triangle5.flag3 > span p span,
+          .affiliate-coupon-inner.block1.style2 li .triangle6.flag1 > span p span,
+          .affiliate-coupon-inner.block1.style2 li .triangle6.flag2 > span p span,
+          .affiliate-coupon-inner.block1.style2 li .triangle6.flag3 > span p span,
+          .affiliate-coupon-inner.block1.style2 li .triangle7.flag1 > span p span,
+          .affiliate-coupon-inner.block1.style2 li .triangle7.flag2 > span p span,
+          .affiliate-coupon-inner.block1.style2 li .triangle7.flag3 > span p span,
+          .affiliate-coupon-inner.block2.style2 li .triangle1.flag1 > span p span,
+          .affiliate-coupon-inner.block2.style2 li .triangle1.flag2 > span p span,
+          .affiliate-coupon-inner.block2.style2 li .triangle1.flag3 > span p span,
+          .affiliate-coupon-inner.block2.style2 li .triangle2.flag1 > span p span,
+          .affiliate-coupon-inner.block2.style2 li .triangle2.flag2 > span p span,
+          .affiliate-coupon-inner.block2.style2 li .triangle2.flag3 > span p span,
+          .affiliate-coupon-inner.block2.style2 li .triangle3.flag1 > span p span,
+          .affiliate-coupon-inner.block2.style2 li .triangle3.flag2 > span p span,
+          .affiliate-coupon-inner.block2.style2 li .triangle3.flag3 > span p span,
+          .affiliate-coupon-inner.block2.style2 li .triangle4.flag1 > span p span,
+          .affiliate-coupon-inner.block2.style2 li .triangle4.flag2 > span p span,
+          .affiliate-coupon-inner.block2.style2 li .triangle4.flag3 > span p span,
+          .affiliate-coupon-inner.block2.style2 li .triangle5.flag1 > span p span,
+          .affiliate-coupon-inner.block2.style2 li .triangle5.flag2 > span p span,
+          .affiliate-coupon-inner.block2.style2 li .triangle5.flag3 > span p span,
+          .affiliate-coupon-inner.block2.style2 li .triangle6.flag1 > span p span,
+          .affiliate-coupon-inner.block2.style2 li .triangle6.flag2 > span p span,
+          .affiliate-coupon-inner.block2.style2 li .triangle6.flag3 > span p span,
+          .affiliate-coupon-inner.block2.style2 li .triangle7.flag1 > span p span,
+          .affiliate-coupon-inner.block2.style2 li .triangle7.flag2 > span p span,
+          .affiliate-coupon-inner.block2.style2 li .triangle7.flag3 > span p span,
+          .affiliate-coupon-inner.block3.style2 li .triangle1.flag1 > span p span,
+          .affiliate-coupon-inner.block3.style2 li .triangle1.flag2 > span p span,
+          .affiliate-coupon-inner.block3.style2 li .triangle1.flag3 > span p span,
+          .affiliate-coupon-inner.block3.style2 li .triangle2.flag1 > span p span,
+          .affiliate-coupon-inner.block3.style2 li .triangle2.flag2 > span p span,
+          .affiliate-coupon-inner.block3.style2 li .triangle2.flag3 > span p span,
+          .affiliate-coupon-inner.block3.style2 li .triangle3.flag1 > span p span,
+          .affiliate-coupon-inner.block3.style2 li .triangle3.flag2 > span p span,
+          .affiliate-coupon-inner.block3.style2 li .triangle3.flag3 > span p span,
+          .affiliate-coupon-inner.block3.style2 li .triangle4.flag1 > span p span,
+          .affiliate-coupon-inner.block3.style2 li .triangle4.flag2 > span p span,
+          .affiliate-coupon-inner.block3.style2 li .triangle4.flag3 > span p span,
+          .affiliate-coupon-inner.block3.style2 li .triangle5.flag1 > span p span,
+          .affiliate-coupon-inner.block3.style2 li .triangle5.flag2 > span p span,
+          .affiliate-coupon-inner.block3.style2 li .triangle5.flag3 > span p span,
+          .affiliate-coupon-inner.block3.style2 li .triangle6.flag1 > span p span,
+          .affiliate-coupon-inner.block3.style2 li .triangle6.flag2 > span p span,
+          .affiliate-coupon-inner.block3.style2 li .triangle6.flag3 > span p span,
+          .affiliate-coupon-inner.block3.style2 li .triangle7.flag1 > span p span,
+          .affiliate-coupon-inner.block3.style2 li .triangle7.flag2 > span p span,
+          .affiliate-coupon-inner.block3.style2 li .triangle7.flag3 > span p span {
+            display: block;
+            text-align: left;
+            font-weight: 100;
+            margin-top: -1px !important;
+            font-size: 8px; }
+        .affiliate-coupon-inner.block1.style2 li .triangle1.flag1 > span i,
+        .affiliate-coupon-inner.block1.style2 li .triangle1.flag2 > span i,
+        .affiliate-coupon-inner.block1.style2 li .triangle1.flag3 > span i,
+        .affiliate-coupon-inner.block1.style2 li .triangle2.flag1 > span i,
+        .affiliate-coupon-inner.block1.style2 li .triangle2.flag2 > span i,
+        .affiliate-coupon-inner.block1.style2 li .triangle2.flag3 > span i,
+        .affiliate-coupon-inner.block1.style2 li .triangle3.flag1 > span i,
+        .affiliate-coupon-inner.block1.style2 li .triangle3.flag2 > span i,
+        .affiliate-coupon-inner.block1.style2 li .triangle3.flag3 > span i,
+        .affiliate-coupon-inner.block1.style2 li .triangle4.flag1 > span i,
+        .affiliate-coupon-inner.block1.style2 li .triangle4.flag2 > span i,
+        .affiliate-coupon-inner.block1.style2 li .triangle4.flag3 > span i,
+        .affiliate-coupon-inner.block1.style2 li .triangle5.flag1 > span i,
+        .affiliate-coupon-inner.block1.style2 li .triangle5.flag2 > span i,
+        .affiliate-coupon-inner.block1.style2 li .triangle5.flag3 > span i,
+        .affiliate-coupon-inner.block1.style2 li .triangle6.flag1 > span i,
+        .affiliate-coupon-inner.block1.style2 li .triangle6.flag2 > span i,
+        .affiliate-coupon-inner.block1.style2 li .triangle6.flag3 > span i,
+        .affiliate-coupon-inner.block1.style2 li .triangle7.flag1 > span i,
+        .affiliate-coupon-inner.block1.style2 li .triangle7.flag2 > span i,
+        .affiliate-coupon-inner.block1.style2 li .triangle7.flag3 > span i,
+        .affiliate-coupon-inner.block2.style2 li .triangle1.flag1 > span i,
+        .affiliate-coupon-inner.block2.style2 li .triangle1.flag2 > span i,
+        .affiliate-coupon-inner.block2.style2 li .triangle1.flag3 > span i,
+        .affiliate-coupon-inner.block2.style2 li .triangle2.flag1 > span i,
+        .affiliate-coupon-inner.block2.style2 li .triangle2.flag2 > span i,
+        .affiliate-coupon-inner.block2.style2 li .triangle2.flag3 > span i,
+        .affiliate-coupon-inner.block2.style2 li .triangle3.flag1 > span i,
+        .affiliate-coupon-inner.block2.style2 li .triangle3.flag2 > span i,
+        .affiliate-coupon-inner.block2.style2 li .triangle3.flag3 > span i,
+        .affiliate-coupon-inner.block2.style2 li .triangle4.flag1 > span i,
+        .affiliate-coupon-inner.block2.style2 li .triangle4.flag2 > span i,
+        .affiliate-coupon-inner.block2.style2 li .triangle4.flag3 > span i,
+        .affiliate-coupon-inner.block2.style2 li .triangle5.flag1 > span i,
+        .affiliate-coupon-inner.block2.style2 li .triangle5.flag2 > span i,
+        .affiliate-coupon-inner.block2.style2 li .triangle5.flag3 > span i,
+        .affiliate-coupon-inner.block2.style2 li .triangle6.flag1 > span i,
+        .affiliate-coupon-inner.block2.style2 li .triangle6.flag2 > span i,
+        .affiliate-coupon-inner.block2.style2 li .triangle6.flag3 > span i,
+        .affiliate-coupon-inner.block2.style2 li .triangle7.flag1 > span i,
+        .affiliate-coupon-inner.block2.style2 li .triangle7.flag2 > span i,
+        .affiliate-coupon-inner.block2.style2 li .triangle7.flag3 > span i,
+        .affiliate-coupon-inner.block3.style2 li .triangle1.flag1 > span i,
+        .affiliate-coupon-inner.block3.style2 li .triangle1.flag2 > span i,
+        .affiliate-coupon-inner.block3.style2 li .triangle1.flag3 > span i,
+        .affiliate-coupon-inner.block3.style2 li .triangle2.flag1 > span i,
+        .affiliate-coupon-inner.block3.style2 li .triangle2.flag2 > span i,
+        .affiliate-coupon-inner.block3.style2 li .triangle2.flag3 > span i,
+        .affiliate-coupon-inner.block3.style2 li .triangle3.flag1 > span i,
+        .affiliate-coupon-inner.block3.style2 li .triangle3.flag2 > span i,
+        .affiliate-coupon-inner.block3.style2 li .triangle3.flag3 > span i,
+        .affiliate-coupon-inner.block3.style2 li .triangle4.flag1 > span i,
+        .affiliate-coupon-inner.block3.style2 li .triangle4.flag2 > span i,
+        .affiliate-coupon-inner.block3.style2 li .triangle4.flag3 > span i,
+        .affiliate-coupon-inner.block3.style2 li .triangle5.flag1 > span i,
+        .affiliate-coupon-inner.block3.style2 li .triangle5.flag2 > span i,
+        .affiliate-coupon-inner.block3.style2 li .triangle5.flag3 > span i,
+        .affiliate-coupon-inner.block3.style2 li .triangle6.flag1 > span i,
+        .affiliate-coupon-inner.block3.style2 li .triangle6.flag2 > span i,
+        .affiliate-coupon-inner.block3.style2 li .triangle6.flag3 > span i,
+        .affiliate-coupon-inner.block3.style2 li .triangle7.flag1 > span i,
+        .affiliate-coupon-inner.block3.style2 li .triangle7.flag2 > span i,
+        .affiliate-coupon-inner.block3.style2 li .triangle7.flag3 > span i {
+          text-align: left;
+          position: relative;
+          left: -48px !important;
+          top: -31px !important;
+          font-size: 10px; }
+    .affiliate-coupon-inner.block1.style2 li .triangle1.flag1,
+    .affiliate-coupon-inner.block1.style2 li .triangle2.flag1,
+    .affiliate-coupon-inner.block1.style2 li .triangle3.flag1,
+    .affiliate-coupon-inner.block1.style2 li .triangle4.flag1,
+    .affiliate-coupon-inner.block1.style2 li .triangle5.flag1,
+    .affiliate-coupon-inner.block1.style2 li .triangle6.flag1,
+    .affiliate-coupon-inner.block1.style2 li .triangle7.flag1,
+    .affiliate-coupon-inner.block2.style2 li .triangle1.flag1,
+    .affiliate-coupon-inner.block2.style2 li .triangle2.flag1,
+    .affiliate-coupon-inner.block2.style2 li .triangle3.flag1,
+    .affiliate-coupon-inner.block2.style2 li .triangle4.flag1,
+    .affiliate-coupon-inner.block2.style2 li .triangle5.flag1,
+    .affiliate-coupon-inner.block2.style2 li .triangle6.flag1,
+    .affiliate-coupon-inner.block2.style2 li .triangle7.flag1,
+    .affiliate-coupon-inner.block3.style2 li .triangle1.flag1,
+    .affiliate-coupon-inner.block3.style2 li .triangle2.flag1,
+    .affiliate-coupon-inner.block3.style2 li .triangle3.flag1,
+    .affiliate-coupon-inner.block3.style2 li .triangle4.flag1,
+    .affiliate-coupon-inner.block3.style2 li .triangle5.flag1,
+    .affiliate-coupon-inner.block3.style2 li .triangle6.flag1,
+    .affiliate-coupon-inner.block3.style2 li .triangle7.flag1 {
+      border-right: 100px solid orange; }
+    .affiliate-coupon-inner.block1.style2 li .triangle1.flag2,
+    .affiliate-coupon-inner.block1.style2 li .triangle2.flag2,
+    .affiliate-coupon-inner.block1.style2 li .triangle3.flag2,
+    .affiliate-coupon-inner.block1.style2 li .triangle4.flag2,
+    .affiliate-coupon-inner.block1.style2 li .triangle5.flag2,
+    .affiliate-coupon-inner.block1.style2 li .triangle6.flag2,
+    .affiliate-coupon-inner.block1.style2 li .triangle7.flag2,
+    .affiliate-coupon-inner.block2.style2 li .triangle1.flag2,
+    .affiliate-coupon-inner.block2.style2 li .triangle2.flag2,
+    .affiliate-coupon-inner.block2.style2 li .triangle3.flag2,
+    .affiliate-coupon-inner.block2.style2 li .triangle4.flag2,
+    .affiliate-coupon-inner.block2.style2 li .triangle5.flag2,
+    .affiliate-coupon-inner.block2.style2 li .triangle6.flag2,
+    .affiliate-coupon-inner.block2.style2 li .triangle7.flag2,
+    .affiliate-coupon-inner.block3.style2 li .triangle1.flag2,
+    .affiliate-coupon-inner.block3.style2 li .triangle2.flag2,
+    .affiliate-coupon-inner.block3.style2 li .triangle3.flag2,
+    .affiliate-coupon-inner.block3.style2 li .triangle4.flag2,
+    .affiliate-coupon-inner.block3.style2 li .triangle5.flag2,
+    .affiliate-coupon-inner.block3.style2 li .triangle6.flag2,
+    .affiliate-coupon-inner.block3.style2 li .triangle7.flag2 {
+      border-right: 100px solid green; }
+    .affiliate-coupon-inner.block1.style2 li .triangle1.flag3,
+    .affiliate-coupon-inner.block1.style2 li .triangle2.flag3,
+    .affiliate-coupon-inner.block1.style2 li .triangle3.flag3,
+    .affiliate-coupon-inner.block1.style2 li .triangle4.flag3,
+    .affiliate-coupon-inner.block1.style2 li .triangle5.flag3,
+    .affiliate-coupon-inner.block1.style2 li .triangle6.flag3,
+    .affiliate-coupon-inner.block1.style2 li .triangle7.flag3,
+    .affiliate-coupon-inner.block2.style2 li .triangle1.flag3,
+    .affiliate-coupon-inner.block2.style2 li .triangle2.flag3,
+    .affiliate-coupon-inner.block2.style2 li .triangle3.flag3,
+    .affiliate-coupon-inner.block2.style2 li .triangle4.flag3,
+    .affiliate-coupon-inner.block2.style2 li .triangle5.flag3,
+    .affiliate-coupon-inner.block2.style2 li .triangle6.flag3,
+    .affiliate-coupon-inner.block2.style2 li .triangle7.flag3,
+    .affiliate-coupon-inner.block3.style2 li .triangle1.flag3,
+    .affiliate-coupon-inner.block3.style2 li .triangle2.flag3,
+    .affiliate-coupon-inner.block3.style2 li .triangle3.flag3,
+    .affiliate-coupon-inner.block3.style2 li .triangle4.flag3,
+    .affiliate-coupon-inner.block3.style2 li .triangle5.flag3,
+    .affiliate-coupon-inner.block3.style2 li .triangle6.flag3,
+    .affiliate-coupon-inner.block3.style2 li .triangle7.flag3 {
+      border-right: 100px solid blue; }
+      .affiliate-coupon-inner.block1.style2 li .triangle1.flag3 > span i,
+      .affiliate-coupon-inner.block1.style2 li .triangle2.flag3 > span i,
+      .affiliate-coupon-inner.block1.style2 li .triangle3.flag3 > span i,
+      .affiliate-coupon-inner.block1.style2 li .triangle4.flag3 > span i,
+      .affiliate-coupon-inner.block1.style2 li .triangle5.flag3 > span i,
+      .affiliate-coupon-inner.block1.style2 li .triangle6.flag3 > span i,
+      .affiliate-coupon-inner.block1.style2 li .triangle7.flag3 > span i,
+      .affiliate-coupon-inner.block2.style2 li .triangle1.flag3 > span i,
+      .affiliate-coupon-inner.block2.style2 li .triangle2.flag3 > span i,
+      .affiliate-coupon-inner.block2.style2 li .triangle3.flag3 > span i,
+      .affiliate-coupon-inner.block2.style2 li .triangle4.flag3 > span i,
+      .affiliate-coupon-inner.block2.style2 li .triangle5.flag3 > span i,
+      .affiliate-coupon-inner.block2.style2 li .triangle6.flag3 > span i,
+      .affiliate-coupon-inner.block2.style2 li .triangle7.flag3 > span i,
+      .affiliate-coupon-inner.block3.style2 li .triangle1.flag3 > span i,
+      .affiliate-coupon-inner.block3.style2 li .triangle2.flag3 > span i,
+      .affiliate-coupon-inner.block3.style2 li .triangle3.flag3 > span i,
+      .affiliate-coupon-inner.block3.style2 li .triangle4.flag3 > span i,
+      .affiliate-coupon-inner.block3.style2 li .triangle5.flag3 > span i,
+      .affiliate-coupon-inner.block3.style2 li .triangle6.flag3 > span i,
+      .affiliate-coupon-inner.block3.style2 li .triangle7.flag3 > span i {
+        left: -25px; }
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-starrating1,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-starrating2,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-starrating3,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-starrating4,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-starrating5,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-starrating6,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-starrating7,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-starrating1,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-starrating2,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-starrating3,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-starrating4,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-starrating5,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-starrating6,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-starrating7,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-starrating1,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-starrating2,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-starrating3,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-starrating4,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-starrating5,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-starrating6,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-starrating7 {
+      display: flex;
+      justify-content: center;
+      margin: 7px 0 7px 0; }
+      .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-starrating1 .affiliate-star-item svg,
+      .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-starrating2 .affiliate-star-item svg,
+      .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-starrating3 .affiliate-star-item svg,
+      .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-starrating4 .affiliate-star-item svg,
+      .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-starrating5 .affiliate-star-item svg,
+      .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-starrating6 .affiliate-star-item svg,
+      .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-starrating7 .affiliate-star-item svg,
+      .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-starrating1 .affiliate-star-item svg,
+      .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-starrating2 .affiliate-star-item svg,
+      .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-starrating3 .affiliate-star-item svg,
+      .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-starrating4 .affiliate-star-item svg,
+      .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-starrating5 .affiliate-star-item svg,
+      .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-starrating6 .affiliate-star-item svg,
+      .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-starrating7 .affiliate-star-item svg,
+      .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-starrating1 .affiliate-star-item svg,
+      .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-starrating2 .affiliate-star-item svg,
+      .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-starrating3 .affiliate-star-item svg,
+      .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-starrating4 .affiliate-star-item svg,
+      .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-starrating5 .affiliate-star-item svg,
+      .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-starrating6 .affiliate-star-item svg,
+      .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-starrating7 .affiliate-star-item svg {
+        width: 18px;
+        height: 18px; }
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-title1,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-title2,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-title3,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-title4,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-title5,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-title6,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-title7,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-title1,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-title2,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-title3,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-title4,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-title5,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-title6,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-title7,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-title1,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-title2,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-title3,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-title4,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-title5,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-title6,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-title7 {
+      margin: 0px 0 10px 0; }
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-image1,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-image2,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-image3,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-image4,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-image5,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-image6,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-image7,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-image1,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-image2,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-image3,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-image4,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-image5,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-image6,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-image7,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-image1,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-image2,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-image3,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-image4,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-image5,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-image6,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-image7 {
+      display: inline-block;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 5px;
+      padding: 20px 0; }
+    .affiliate-coupon-inner.block1.style2 li .affiliate-block-advanced-list.affiliate-coupon-list1 ul li,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-block-advanced-list.affiliate-coupon-list2 ul li,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-block-advanced-list.affiliate-coupon-list3 ul li,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-block-advanced-list.affiliate-coupon-list4 ul li,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-block-advanced-list.affiliate-coupon-list5 ul li,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-block-advanced-list.affiliate-coupon-list6 ul li,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-block-advanced-list.affiliate-coupon-list7 ul li,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-block-advanced-list.affiliate-coupon-list1 ul li,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-block-advanced-list.affiliate-coupon-list2 ul li,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-block-advanced-list.affiliate-coupon-list3 ul li,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-block-advanced-list.affiliate-coupon-list4 ul li,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-block-advanced-list.affiliate-coupon-list5 ul li,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-block-advanced-list.affiliate-coupon-list6 ul li,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-block-advanced-list.affiliate-coupon-list7 ul li,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-block-advanced-list.affiliate-coupon-list1 ul li,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-block-advanced-list.affiliate-coupon-list2 ul li,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-block-advanced-list.affiliate-coupon-list3 ul li,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-block-advanced-list.affiliate-coupon-list4 ul li,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-block-advanced-list.affiliate-coupon-list5 ul li,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-block-advanced-list.affiliate-coupon-list6 ul li,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-block-advanced-list.affiliate-coupon-list7 ul li {
+      display: inline-block;
+      width: 100%;
+      text-align: left;
+      padding: 0 12px !important;
+      margin: 0;
+      position: relative; }
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper1 .affiliate-btn.btn-is-small.btn-is-flex-small,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper1 .affiliate-btn.btn-is-medium.btn-is-flex-medium,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper1 .affiliate-btn.btn-is-large.btn-is-flex-large,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper1 .affiliate-btn.btn-is-extra-large.btn-is-flex-extra-large,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper2 .affiliate-btn.btn-is-small.btn-is-flex-small,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper2 .affiliate-btn.btn-is-medium.btn-is-flex-medium,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper2 .affiliate-btn.btn-is-large.btn-is-flex-large,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper2 .affiliate-btn.btn-is-extra-large.btn-is-flex-extra-large,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper3 .affiliate-btn.btn-is-small.btn-is-flex-small,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper3 .affiliate-btn.btn-is-medium.btn-is-flex-medium,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper3 .affiliate-btn.btn-is-large.btn-is-flex-large,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper3 .affiliate-btn.btn-is-extra-large.btn-is-flex-extra-large,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper4 .affiliate-btn.btn-is-small.btn-is-flex-small,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper4 .affiliate-btn.btn-is-medium.btn-is-flex-medium,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper4 .affiliate-btn.btn-is-large.btn-is-flex-large,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper4 .affiliate-btn.btn-is-extra-large.btn-is-flex-extra-large,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper5 .affiliate-btn.btn-is-small.btn-is-flex-small,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper5 .affiliate-btn.btn-is-medium.btn-is-flex-medium,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper5 .affiliate-btn.btn-is-large.btn-is-flex-large,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper5 .affiliate-btn.btn-is-extra-large.btn-is-flex-extra-large,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper6 .affiliate-btn.btn-is-small.btn-is-flex-small,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper6 .affiliate-btn.btn-is-medium.btn-is-flex-medium,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper6 .affiliate-btn.btn-is-large.btn-is-flex-large,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper6 .affiliate-btn.btn-is-extra-large.btn-is-flex-extra-large,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper7 .affiliate-btn.btn-is-small.btn-is-flex-small,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper7 .affiliate-btn.btn-is-medium.btn-is-flex-medium,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper7 .affiliate-btn.btn-is-large.btn-is-flex-large,
+    .affiliate-coupon-inner.block1.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper7 .affiliate-btn.btn-is-extra-large.btn-is-flex-extra-large,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper1 .affiliate-btn.btn-is-small.btn-is-flex-small,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper1 .affiliate-btn.btn-is-medium.btn-is-flex-medium,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper1 .affiliate-btn.btn-is-large.btn-is-flex-large,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper1 .affiliate-btn.btn-is-extra-large.btn-is-flex-extra-large,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper2 .affiliate-btn.btn-is-small.btn-is-flex-small,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper2 .affiliate-btn.btn-is-medium.btn-is-flex-medium,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper2 .affiliate-btn.btn-is-large.btn-is-flex-large,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper2 .affiliate-btn.btn-is-extra-large.btn-is-flex-extra-large,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper3 .affiliate-btn.btn-is-small.btn-is-flex-small,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper3 .affiliate-btn.btn-is-medium.btn-is-flex-medium,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper3 .affiliate-btn.btn-is-large.btn-is-flex-large,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper3 .affiliate-btn.btn-is-extra-large.btn-is-flex-extra-large,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper4 .affiliate-btn.btn-is-small.btn-is-flex-small,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper4 .affiliate-btn.btn-is-medium.btn-is-flex-medium,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper4 .affiliate-btn.btn-is-large.btn-is-flex-large,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper4 .affiliate-btn.btn-is-extra-large.btn-is-flex-extra-large,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper5 .affiliate-btn.btn-is-small.btn-is-flex-small,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper5 .affiliate-btn.btn-is-medium.btn-is-flex-medium,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper5 .affiliate-btn.btn-is-large.btn-is-flex-large,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper5 .affiliate-btn.btn-is-extra-large.btn-is-flex-extra-large,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper6 .affiliate-btn.btn-is-small.btn-is-flex-small,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper6 .affiliate-btn.btn-is-medium.btn-is-flex-medium,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper6 .affiliate-btn.btn-is-large.btn-is-flex-large,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper6 .affiliate-btn.btn-is-extra-large.btn-is-flex-extra-large,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper7 .affiliate-btn.btn-is-small.btn-is-flex-small,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper7 .affiliate-btn.btn-is-medium.btn-is-flex-medium,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper7 .affiliate-btn.btn-is-large.btn-is-flex-large,
+    .affiliate-coupon-inner.block2.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper7 .affiliate-btn.btn-is-extra-large.btn-is-flex-extra-large,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper1 .affiliate-btn.btn-is-small.btn-is-flex-small,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper1 .affiliate-btn.btn-is-medium.btn-is-flex-medium,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper1 .affiliate-btn.btn-is-large.btn-is-flex-large,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper1 .affiliate-btn.btn-is-extra-large.btn-is-flex-extra-large,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper2 .affiliate-btn.btn-is-small.btn-is-flex-small,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper2 .affiliate-btn.btn-is-medium.btn-is-flex-medium,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper2 .affiliate-btn.btn-is-large.btn-is-flex-large,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper2 .affiliate-btn.btn-is-extra-large.btn-is-flex-extra-large,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper3 .affiliate-btn.btn-is-small.btn-is-flex-small,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper3 .affiliate-btn.btn-is-medium.btn-is-flex-medium,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper3 .affiliate-btn.btn-is-large.btn-is-flex-large,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper3 .affiliate-btn.btn-is-extra-large.btn-is-flex-extra-large,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper4 .affiliate-btn.btn-is-small.btn-is-flex-small,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper4 .affiliate-btn.btn-is-medium.btn-is-flex-medium,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper4 .affiliate-btn.btn-is-large.btn-is-flex-large,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper4 .affiliate-btn.btn-is-extra-large.btn-is-flex-extra-large,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper5 .affiliate-btn.btn-is-small.btn-is-flex-small,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper5 .affiliate-btn.btn-is-medium.btn-is-flex-medium,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper5 .affiliate-btn.btn-is-large.btn-is-flex-large,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper5 .affiliate-btn.btn-is-extra-large.btn-is-flex-extra-large,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper6 .affiliate-btn.btn-is-small.btn-is-flex-small,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper6 .affiliate-btn.btn-is-medium.btn-is-flex-medium,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper6 .affiliate-btn.btn-is-large.btn-is-flex-large,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper6 .affiliate-btn.btn-is-extra-large.btn-is-flex-extra-large,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper7 .affiliate-btn.btn-is-small.btn-is-flex-small,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper7 .affiliate-btn.btn-is-medium.btn-is-flex-medium,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper7 .affiliate-btn.btn-is-large.btn-is-flex-large,
+    .affiliate-coupon-inner.block3.style2 li .affiliate-coupon-btn .affiliate-coupon-btn-wrapper7 .affiliate-btn.btn-is-extra-large.btn-is-flex-extra-large {
+      min-width: 100%; }
+
+.affiliate-coupon-inner.style2 .aff-inner-block {
+  width: 100%;
+  padding: 20px; }
+  .affiliate-coupon-inner.style2 .aff-inner-block .components-button {
+    width: 50%;
+    margin: 0 auto; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list1 {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list1 > li {
+    position: relative;
+    margin: 10px 0px;
+    display: list-item;
+    transition: color 400ms, background-color 400ms, border-color 400ms, box-shadow 400ms; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list1 > li::before, .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list1 > li::after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      transition: color 400ms, background-color 400ms;
+      padding-right: 10px; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list1 > li > span,
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list1 > li > div {
+      display: inline-block; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list1 > li .affiliate-action-remove {
+      display: none;
+      width: 18px;
+      height: 18px;
+      line-height: 20px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      border-radius: 10px;
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer; }
+      .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list1 > li .affiliate-action-remove.alignment-left {
+        right: auto;
+        left: 0; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list1 > li:hover .affiliate-action-remove {
+      display: block; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list1 [contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    color: gray;
+    padding: 0px 5px 0px 5px;
+    display: block;
+    /* For Firefox */ }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-left > li::after, .affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-center > li::after {
+  display: none; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-center > li {
+  justify-content: center; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-right > li {
+  justify-content: flex-end; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-right > li::before {
+    display: none; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list2 {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list2 > li {
+    position: relative;
+    margin: 10px 0px;
+    display: list-item;
+    transition: color 400ms, background-color 400ms, border-color 400ms, box-shadow 400ms; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list2 > li::before, .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list2 > li::after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      transition: color 400ms, background-color 400ms;
+      padding-right: 10px; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list2 > li > span,
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list2 > li > div {
+      display: inline-block; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list2 > li .affiliate-action-remove {
+      display: none;
+      width: 18px;
+      height: 18px;
+      line-height: 20px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      border-radius: 10px;
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer; }
+      .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list2 > li .affiliate-action-remove.alignment-left {
+        right: auto;
+        left: 0; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list2 > li:hover .affiliate-action-remove {
+      display: block; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list2 [contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    color: gray;
+    padding: 0px 5px 0px 5px;
+    display: block;
+    /* For Firefox */ }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-left > li::after, .affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-center > li::after {
+  display: none; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-center > li {
+  justify-content: center; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-right > li {
+  justify-content: flex-end; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-right > li::before {
+    display: none; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list3 {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list3 > li {
+    position: relative;
+    margin: 10px 0px;
+    display: list-item;
+    transition: color 400ms, background-color 400ms, border-color 400ms, box-shadow 400ms; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list3 > li::before, .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list3 > li::after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      transition: color 400ms, background-color 400ms;
+      padding-right: 10px; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list3 > li > span,
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list3 > li > div {
+      display: inline-block; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list3 > li .affiliate-action-remove {
+      display: none;
+      width: 18px;
+      height: 18px;
+      line-height: 20px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      border-radius: 10px;
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer; }
+      .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list3 > li .affiliate-action-remove.alignment-left {
+        right: auto;
+        left: 0; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list3 > li:hover .affiliate-action-remove {
+      display: block; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list3 [contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    color: gray;
+    padding: 0px 5px 0px 5px;
+    display: block;
+    /* For Firefox */ }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-left > li::after, .affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-center > li::after {
+  display: none; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-center > li {
+  justify-content: center; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-right .affiliate-list3 > li {
+  justify-content: flex-end; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-right .affiliate-list3 > li::before {
+    display: none; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list4 {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list4 > li {
+    position: relative;
+    margin: 10px 0px;
+    display: list-item;
+    transition: color 400ms, background-color 400ms, border-color 400ms, box-shadow 400ms; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list4 > li::before, .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list4 > li::after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      transition: color 400ms, background-color 400ms;
+      padding-right: 10px; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list4 > li > span,
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list4 > li > div {
+      display: inline-block; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list4 > li .affiliate-action-remove {
+      display: none;
+      width: 18px;
+      height: 18px;
+      line-height: 20px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      border-radius: 10px;
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer; }
+      .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list4 > li .affiliate-action-remove.alignment-left {
+        right: auto;
+        left: 0; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list4 > li:hover .affiliate-action-remove {
+      display: block; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list4 [contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    color: gray;
+    padding: 0px 5px 0px 5px;
+    display: block;
+    /* For Firefox */ }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-left > li::after, .affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-center > li::after {
+  display: none; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-center > li {
+  justify-content: center; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-right .affiliate-list4 > li {
+  justify-content: flex-end; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-right .affiliate-list4 > li::before {
+    display: none; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list5 {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list5 > li {
+    position: relative;
+    margin: 10px 0px;
+    display: list-item;
+    transition: color 400ms, background-color 400ms, border-color 400ms, box-shadow 400ms; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list5 > li::before, .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list5 > li::after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      transition: color 400ms, background-color 400ms;
+      padding-right: 10px; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list5 > li > span,
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list5 > li > div {
+      display: inline-block; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list5 > li .affiliate-action-remove {
+      display: none;
+      width: 18px;
+      height: 18px;
+      line-height: 20px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      border-radius: 10px;
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer; }
+      .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list5 > li .affiliate-action-remove.alignment-left {
+        right: auto;
+        left: 0; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list5 > li:hover .affiliate-action-remove {
+      display: block; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list5 [contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    color: gray;
+    padding: 0px 5px 0px 5px;
+    display: block;
+    /* For Firefox */ }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-left > li::after, .affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-center > li::after {
+  display: none; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-center > li {
+  justify-content: center; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-right .affiliate-list5 > li {
+  justify-content: flex-end; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-right .affiliate-list5 > li::before {
+    display: none; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list6 {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list6 > li {
+    position: relative;
+    margin: 10px 0px;
+    display: list-item;
+    transition: color 400ms, background-color 400ms, border-color 400ms, box-shadow 400ms; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list6 > li::before, .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list6 > li::after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      transition: color 400ms, background-color 400ms;
+      padding-right: 10px; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list6 > li > span,
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list6 > li > div {
+      display: inline-block; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list6 > li .affiliate-action-remove {
+      display: none;
+      width: 18px;
+      height: 18px;
+      line-height: 20px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      border-radius: 10px;
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer; }
+      .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list6 > li .affiliate-action-remove.alignment-left {
+        right: auto;
+        left: 0; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list6 > li:hover .affiliate-action-remove {
+      display: block; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list6 [contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    color: gray;
+    padding: 0px 5px 0px 5px;
+    display: block;
+    /* For Firefox */ }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-left > li::after, .affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-center > li::after {
+  display: none; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-center > li {
+  justify-content: center; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-right .affiliate-list6 > li {
+  justify-content: flex-end; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-right .affiliate-list6 > li::before {
+    display: none; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list7 {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list7 > li {
+    position: relative;
+    margin: 10px 0px;
+    display: list-item;
+    transition: color 400ms, background-color 400ms, border-color 400ms, box-shadow 400ms; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list7 > li::before, .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list7 > li::after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      transition: color 400ms, background-color 400ms;
+      padding-right: 10px; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list7 > li > span,
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list7 > li > div {
+      display: inline-block; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list7 > li .affiliate-action-remove {
+      display: none;
+      width: 18px;
+      height: 18px;
+      line-height: 20px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      border-radius: 10px;
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer; }
+      .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list7 > li .affiliate-action-remove.alignment-left {
+        right: auto;
+        left: 0; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list7 > li:hover .affiliate-action-remove {
+      display: block; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list7 [contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    color: gray;
+    padding: 0px 5px 0px 5px;
+    display: block;
+    /* For Firefox */ }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-left > li::after, .affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-center > li::after {
+  display: none; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-center > li {
+  justify-content: center; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-right .affiliate-list7 > li {
+  justify-content: flex-end; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-right .affiliate-list7 > li::before {
+    display: none; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list8 {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list8 > li {
+    position: relative;
+    margin: 10px 0px;
+    display: list-item;
+    transition: color 400ms, background-color 400ms, border-color 400ms, box-shadow 400ms; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list8 > li::before, .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list8 > li::after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      transition: color 400ms, background-color 400ms;
+      padding-right: 10px; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list8 > li > span,
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list8 > li > div {
+      display: inline-block; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list8 > li .affiliate-action-remove {
+      display: none;
+      width: 18px;
+      height: 18px;
+      line-height: 20px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      border-radius: 10px;
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer; }
+      .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list8 > li .affiliate-action-remove.alignment-left {
+        right: auto;
+        left: 0; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list8 > li:hover .affiliate-action-remove {
+      display: block; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list8 [contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    color: gray;
+    padding: 0px 5px 0px 5px;
+    display: block;
+    /* For Firefox */ }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-left > li::after, .affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-center > li::after {
+  display: none; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-center > li {
+  justify-content: center; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-right .affiliate-list8 > li {
+  justify-content: flex-end; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-right .affiliate-list8 > li::before {
+    display: none; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list9 {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list9 > li {
+    position: relative;
+    margin: 10px 0px;
+    display: list-item;
+    transition: color 400ms, background-color 400ms, border-color 400ms, box-shadow 400ms; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list9 > li::before, .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list9 > li::after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      transition: color 400ms, background-color 400ms;
+      padding-right: 10px; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list9 > li > span,
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list9 > li > div {
+      display: inline-block; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list9 > li .affiliate-action-remove {
+      display: none;
+      width: 18px;
+      height: 18px;
+      line-height: 20px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      border-radius: 10px;
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer; }
+      .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list9 > li .affiliate-action-remove.alignment-left {
+        right: auto;
+        left: 0; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list9 > li:hover .affiliate-action-remove {
+      display: block; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list9 [contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    color: gray;
+    padding: 0px 5px 0px 5px;
+    display: block;
+    /* For Firefox */ }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-left > li::after, .affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-center > li::after {
+  display: none; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-center > li {
+  justify-content: center; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-right .affiliate-list9 > li {
+  justify-content: flex-end; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-right .affiliate-list9 > li::before {
+    display: none; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list10 {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list10 > li {
+    position: relative;
+    margin: 10px 0px;
+    display: list-item;
+    transition: color 400ms, background-color 400ms, border-color 400ms, box-shadow 400ms; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list10 > li::before, .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list10 > li::after {
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      transition: color 400ms, background-color 400ms;
+      padding-right: 10px; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list10 > li > span,
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list10 > li > div {
+      display: inline-block; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list10 > li .affiliate-action-remove {
+      display: none;
+      width: 18px;
+      height: 18px;
+      line-height: 20px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      border-radius: 10px;
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer; }
+      .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list10 > li .affiliate-action-remove.alignment-left {
+        right: auto;
+        left: 0; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list10 > li:hover .affiliate-action-remove {
+      display: block; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list10 [contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    color: gray;
+    padding: 0px 5px 0px 5px;
+    display: block;
+    /* For Firefox */ }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-left > li::after, .affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-center > li::after {
+  display: none; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-center > li {
+  justify-content: center; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-right .affiliate-list10 > li {
+  justify-content: flex-end; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list.affiliate-alignment-right .affiliate-list10 > li::before {
+    display: none; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-check > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-check > li::after {
+  content: "\f00c"; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-check-square > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-check-square > li::after {
+  content: "\f14a"; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-check-square-outline > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-check-square-outline > li::after {
+  content: "\f14a";
+  font-weight: 400; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-check-double > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-check-double > li::after {
+  content: "\f560"; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-check-circle > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-check-circle > li::after {
+  content: "\f058"; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-check-circle-outline > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-check-circle-outline > li::after {
+  content: "\f058";
+  font-weight: 400; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-square > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-square > li::after {
+  content: "\f0c8"; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-square-outline > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-square-outline > li::after {
+  content: "\f0c8";
+  font-weight: 400; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-circle > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-circle > li::after {
+  content: "\f111"; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-circle-outline > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-circle-outline > li::after {
+  content: "\f111";
+  font-weight: 400; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-arrow-right > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-arrow-right > li::after {
+  content: "\f061"; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-arrow-left > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-arrow-left > li::after {
+  content: "\f060"; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-arrow-circle-right > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-arrow-circle-right > li::after {
+  content: "\f0a9"; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-arrow-circle-left > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-arrow-circle-left > li::after {
+  content: "\f0a8"; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-arrow-alt-circle-right > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-arrow-alt-circle-right > li::after {
+  content: "\f35a";
+  font-weight: 400; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-arrow-alt-circle-left > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-arrow-alt-circle-left > li::after {
+  content: "\f359";
+  font-weight: 400; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-long-arrow-alt-right > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-long-arrow-alt-right > li::after {
+  content: "\f30b"; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-long-arrow-alt-left > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-long-arrow-alt-left > li::after {
+  content: "\f30a"; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-chevron-right > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-chevron-right > li::after {
+  content: "\f054"; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-chevron-left > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-chevron-left > li::after {
+  content: "\f053"; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-angle-right > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-angle-right > li::after {
+  content: "\f105"; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-angle-left > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-angle-left > li::after {
+  content: "\f104"; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-star > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-star > li::after {
+  content: "\f005"; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-star-outline > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-star-outline > li::after {
+  content: "\f005";
+  font-weight: 400; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-windows-close-fill > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-windows-close-fill > li::after {
+  content: "\f410"; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-window-close-simple > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-window-close-simple > li::after {
+  content: "\f410";
+  font-weight: 400; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-ban > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-ban > li::after {
+  content: "\f05e"; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-times > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-times > li::after {
+  content: "\f00d"; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-times-circle > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-times-circle > li::after {
+  content: "\f057"; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-times-circle-simple > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-times-circle-simple > li::after {
+  content: "\f057";
+  font-weight: 400; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-dot-circle-fill > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-dot-circle-fill > li::after {
+  content: "\f192"; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-dot-circle-simple > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-dot-circle-simple > li::after {
+  content: "\f192";
+  font-weight: 400; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-thumb-up-fill > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-thumb-up-fill > li::after {
+  content: "\f164"; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-thumb-up-simple > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-thumb-up-simple > li::after {
+  content: "\f164";
+  font-weight: 400; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-thumb-down-fill > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-thumb-down-fill > li::after {
+  content: "\f165"; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-thumb-down-simple > li::before,
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-thumb-down-simple > li::after {
+  content: "\f165";
+  font-weight: 400; }
+
+.affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-ordered {
+  counter-reset: affiliate-ol-counter; }
+  .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-ordered > li {
+    counter-increment: affiliate-ol-counter; }
+    .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-ordered > li::before, .affiliate-coupon-inner.style2 .affiliate-block-advanced-list .affiliate-list-type-ordered > li::after {
+      text-align: center;
+      content: counter(affiliate-ol-counter); }
+
+.affiliate-coupon-inner.style2 .affiliate-coupon-btn {
+  margin: 0 auto;
+  padding: 5px; }
+

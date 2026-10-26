@@ -1,0 +1,5 @@
+.affiliate-starating-wrapper {
+  margin: 1.5rem 0; }
+  .affiliate-starating-wrapper .affiliate-star-inner-container {
+    display: flex;
+    justify-content: start; }

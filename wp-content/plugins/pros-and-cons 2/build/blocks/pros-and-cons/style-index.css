@@ -1,0 +1,166 @@
+/* Pros and Cons Block Styling */
+.affx-pros-cons-wrapper {
+	width: 100% !important;
+	max-width: 100% !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	box-sizing: border-box !important;
+}
+
+.affx-pros-cons-inner-wrapper {
+	display: flex !important;
+	flex-wrap: wrap !important;
+	width: 100% !important;
+	border-radius: 4px !important;
+	overflow: hidden !important;
+	box-sizing: border-box !important;
+	margin-bottom: 25px !important;
+}
+
+.affx-pros-cons-inner-wrapper .affx-pros-inner,
+.affx-pros-cons-inner-wrapper .affx-cons-inner {
+	width: 50% !important;
+	box-sizing: border-box !important;
+	align-self: stretch !important;
+	display: flex !important;
+	flex-direction: column !important;
+}
+
+/* Headers */
+.affx-pros-cons-inner-wrapper .affiliatex-block-pros {
+	background-color: #24B644 !important;
+	color: #ffffff !important;
+	padding: 14px 20px !important;
+	display: flex !important;
+	align-items: center !important;
+	gap: 10px !important;
+	border-top-left-radius: 4px !important;
+}
+
+.affx-pros-cons-inner-wrapper .affiliatex-block-cons {
+	background-color: #F13A3A !important;
+	color: #ffffff !important;
+	padding: 14px 20px !important;
+	display: flex !important;
+	align-items: center !important;
+	gap: 10px !important;
+	border-top-right-radius: 4px !important;
+}
+
+.affx-pros-cons-inner-wrapper .affiliatex-title {
+	margin: 0 !important;
+	color: #ffffff !important;
+	font-size: 20px !important;
+	font-weight: 700 !important;
+	line-height: 1.2 !important;
+}
+
+/* Content Boxes */
+.affx-pros-cons-inner-wrapper .affx-pros-inner .affiliatex-pros {
+	background-color: #F5FFF8 !important;
+	padding: 18px 22px !important;
+	min-height: 60px !important;
+	flex-grow: 1 !important;
+	box-sizing: border-box !important;
+	border-bottom-left-radius: 4px !important;
+}
+
+.affx-pros-cons-inner-wrapper .affx-cons-inner .affiliatex-cons {
+	background-color: #FFF5F5 !important;
+	padding: 18px 22px !important;
+	min-height: 60px !important;
+	flex-grow: 1 !important;
+	box-sizing: border-box !important;
+	border-bottom-right-radius: 4px !important;
+}
+
+/* Lists */
+.affx-pros-cons-inner-wrapper ul.affiliatex-list {
+	list-style: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 100% !important;
+}
+
+.affx-pros-cons-inner-wrapper .affx-pros-inner ul.affiliatex-list li,
+.affx-pros-cons-inner-wrapper .affx-cons-inner ul.affiliatex-list li {
+	list-style: none !important;
+	position: relative !important;
+	padding-left: 28px !important;
+	margin-bottom: 10px !important;
+	color: #292929 !important;
+	font-size: 16px !important;
+	line-height: 1.5 !important;
+	display: block !important;
+}
+
+.affx-pros-cons-inner-wrapper .affx-pros-inner ul.affiliatex-list li span,
+.affx-pros-cons-inner-wrapper .affx-cons-inner ul.affiliatex-list li span,
+.affx-pros-cons-inner-wrapper .affx-pros-inner ul.affiliatex-list li p,
+.affx-pros-cons-inner-wrapper .affx-cons-inner ul.affiliatex-list li p {
+	font-size: 16px !important;
+	line-height: 1.5 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	display: inline !important;
+	color: #292929 !important;
+}
+
+.affx-pros-cons-inner-wrapper .affx-pros-inner ul.affiliatex-list li a,
+.affx-pros-cons-inner-wrapper .affx-cons-inner ul.affiliatex-list li a {
+	font-size: 16px !important;
+	line-height: 1.5 !important;
+	color: #0284c7 !important;
+	text-decoration: underline !important;
+	display: inline !important;
+}
+
+.affx-pros-cons-inner-wrapper .affx-pros-inner ul.affiliatex-list li a:hover,
+.affx-pros-cons-inner-wrapper .affx-cons-inner ul.affiliatex-list li a:hover {
+	color: #0369a1 !important;
+	text-decoration: underline !important;
+}
+
+.affx-pros-cons-inner-wrapper ul.affiliatex-list li:last-child {
+	margin-bottom: 0 !important;
+}
+
+/* Green Check Circle for Pros */
+.affx-pros-cons-inner-wrapper .affx-pros-inner ul.affiliatex-list li::before {
+	content: "" !important;
+	position: absolute !important;
+	left: 0 !important;
+	top: 3px !important;
+	width: 18px !important;
+	height: 18px !important;
+	border-radius: 50% !important;
+	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2324B644' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpolyline points='8 12 11 15 16 9'/%3E%3C/svg%3E") no-repeat center center / contain !important;
+	border: none !important;
+	box-sizing: border-box !important;
+}
+
+/* Red Cross Circle for Cons */
+.affx-pros-cons-inner-wrapper .affx-cons-inner ul.affiliatex-list li::before {
+	content: "" !important;
+	position: absolute !important;
+	left: 0 !important;
+	top: 3px !important;
+	width: 18px !important;
+	height: 18px !important;
+	border-radius: 50% !important;
+	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23F13A3A' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cline x1='15' y1='9' x2='9' y2='15'/%3E%3Cline x1='9' y1='9' x2='15' y2='15'/%3E%3C/svg%3E") no-repeat center center / contain !important;
+	border: none !important;
+	box-sizing: border-box !important;
+}
+
+@media only screen and (max-width: 767px) {
+	.affx-pros-cons-inner-wrapper .affx-pros-inner,
+	.affx-pros-cons-inner-wrapper .affx-cons-inner {
+		width: 100% !important;
+		margin-bottom: 20px !important;
+	}
+}
+
+
+
+

@@ -1,0 +1,36 @@
+.affiliate-media{
+	margin-bottom: 15px;
+	label{
+		margin-bottom: 10px;
+		display: block;
+	}
+	.affiliate-media-actions {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+	.affiliate-single-img {
+		.affiliate-media-image-parent{
+			position: relative;
+			display: inline-block;
+			min-height: 140px;
+			min-width: 140px;
+			img{
+				margin: 0;
+			}
+		}
+	}
+	.affiliate-placeholder-image {
+		border: 1px dashed #dddd;
+		padding: 20px 20px 25px;
+		text-align: center;
+		background: #ffffff;
+		cursor: copy;
+		border-radius: 5px;
+		span{
+			display: block;
+			margin-top: 8px;
+			text-align: center;
+		}
+	}
+}

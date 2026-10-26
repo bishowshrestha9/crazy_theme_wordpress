@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card Plugin - Modern UI Redesign Demo</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/product-card.css">
+    <style>
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f8fafc;
+            color: #0f172a;
+            padding: 40px 16px 80px;
+            margin: 0;
+            min-height: 100vh;
+        }
+
+        .demo-hero {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 40px auto;
+        }
+
+        .demo-badge {
+            display: inline-block;
+            background: #0f172a;
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            padding: 6px 14px;
+            border-radius: 999px;
+            margin-bottom: 16px;
+        }
+
+        .demo-hero h1 {
+            font-size: clamp(32px, 5vw, 44px);
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            color: #0f172a;
+            margin: 0 0 12px 0;
+            line-height: 1.15;
+        }
+
+        .demo-hero p {
+            font-size: 17px;
+            color: #64748b;
+            margin: 0 0 24px 0;
+            line-height: 1.5;
+        }
+
+        .demo-feature-pills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .demo-pill {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            padding: 6px 14px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            color: #334155;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+        }
+
+        .demo-section {
+            max-width: 1200px;
+            margin: 0 auto 60px auto;
+        }
+
+        .demo-section-label {
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: #64748b;
+            margin-bottom: 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="demo-hero">
+        <span class="demo-badge">Product Card Plugin Redesign</span>
+        <h1>Modernized Product Card UI</h1>
+        <p>Featuring price positioned above final verdict, equal height left and right columns, enlarged CTA buttons, and interactive "Buy Later" email capture modal.</p>
+        <div class="demo-feature-pills">
+            <span class="demo-pill">✓ Buttons Equal Image Width (100%)</span>
+            <span class="demo-pill">✓ Height Increased to 70px</span>
+            <span class="demo-pill">✓ Tactile Clickable 3D Depth Shadow</span>
+            <span class="demo-pill">✓ Side-by-Side Icon &amp; Text Layout</span>
+            <span class="demo-pill">✓ "save link for later" Subtext (16px)</span>
+            <span class="demo-pill">✓ 45% : 55% Grid with 36px Gap</span>
+            <span class="demo-pill">✓ Interactive "Buy Later" Modal</span>
+        </div>
+    </div>
+
+    <!-- Demo Card 1: Vantrek X1 Smart Watch -->
+    <div class="demo-section">
+        <div class="demo-section-label">Card 1: Vantrek X1 Smart Watch (Equal Height Columns, Price Above Verdict &amp; "Buy Later" Modal)</div>
+
+        <div class="pcpx-product-card-outer" id="pcpx-vantrek-x1" data-product-name="Vantrek X1 Smart Watch">
+            <div class="pcpx-card pcpx-card-legit">
+                <!-- Review Summary Header -->
+                <div class="pcpx-review-summary-header-main" style="color: #ffffff;">
+                    Vantrek X1 Smart Watch Review Summary
+                </div>
+
+                <div class="pcpx-card-inner">
+                    <!-- Left Column: Image & Buttons -->
+                    <div class="pcpx-image-column">
+                        <div class="pcpx-image-container">
+                            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800" alt="Vantrek X1 Smart Watch" class="pcpx-product-image" />
+                        </div>
+
+                        <!-- CTA Action Group: Primary "Buy Now" & Secondary "Buy Later" -->
+                        <div class="pcpx-cta-group">
+                            <a href="#" class="pcpx-cta-button pcpx-btn-primary" target="_blank" rel="noopener">
+                                <span class="pcpx-btn-left-icon">
+                                    <svg class="pcpx-btn-icon pcpx-cart-icon" width="40" height="40" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                        <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/>
+                                    </svg>
+                                </span>
+                                <span class="pcpx-btn-text-block">
+                                    <span class="pcpx-cta-main-text">Buy Now</span>
+                                    <span class="pcpx-cta-sub-text">Visit Official Website</span>
+                                </span>
+                                <span class="pcpx-btn-right-chevron">
+                                    <svg class="pcpx-btn-chevron" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                        <polyline points="9 18 15 12 9 6"></polyline>
+                                    </svg>
+                                </span>
+                            </a>
+
+                            <button type="button" class="pcpx-buy-later-btn pcpx-btn-secondary"
+                                data-product-name="Vantrek X1 Smart Watch"
+                                data-price="$59.98"
+                                data-modal-id="pcpx-modal-vantrek"
+                                aria-haspopup="dialog">
+                                <span class="pcpx-btn-left-icon">
+                                    <svg class="pcpx-btn-icon pcpx-email-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                        <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                                    </svg>
+                                </span>
+                                <span class="pcpx-btn-text-block">
+                                    <span class="pcpx-buy-later-main-text">Buy Later</span>
+                                    <span class="pcpx-buy-later-sub-text">Save Official Link to Email</span>
+                                </span>
+                                <span class="pcpx-btn-right-chevron">
+                                    <svg class="pcpx-btn-chevron" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                        <polyline points="9 18 15 12 9 6"></polyline>
+                                    </svg>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Header with Rating + Repositioned Top-Right Price, then content -->
+                    <div class="pcpx-content-column">
+                        <div class="pcpx-content-header-row">
+                            <!-- Rating -->
+                            <div class="pcpx-rating-row">
+                                <div class="pcpx-rating-stars">
+                                    <span class="pcpx-stars">
+                                        <!-- Star 1 -->
+                                        <svg width="20" height="20" viewBox="0 0 24 24" class="pcpx-star-svg" style="width:20px; height:20px; display:inline-block; vertical-align:middle; flex-shrink:0;" aria-hidden="true">
+                                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFB800" stroke="#000000" stroke-width="1.2" stroke-linejoin="round"/>
+                                        </svg>
+                                        <!-- Star 2 -->
+                                        <svg width="20" height="20" viewBox="0 0 24 24" class="pcpx-star-svg" style="width:20px; height:20px; display:inline-block; vertical-align:middle; flex-shrink:0;" aria-hidden="true">
+                                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFB800" stroke="#000000" stroke-width="1.2" stroke-linejoin="round"/>
+                                        </svg>
+                                        <!-- Star 3 -->
+                                        <svg width="20" height="20" viewBox="0 0 24 24" class="pcpx-star-svg" style="width:20px; height:20px; display:inline-block; vertical-align:middle; flex-shrink:0;" aria-hidden="true">
+                                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFB800" stroke="#000000" stroke-width="1.2" stroke-linejoin="round"/>
+                                        </svg>
+                                        <!-- Star 4 -->
+                                        <svg width="20" height="20" viewBox="0 0 24 24" class="pcpx-star-svg" style="width:20px; height:20px; display:inline-block; vertical-align:middle; flex-shrink:0;" aria-hidden="true">
+                                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFB800" stroke="#000000" stroke-width="1.2" stroke-linejoin="round"/>
+                                        </svg>
+                                        <!-- Star 5 (Fractional) -->
+                                        <svg width="20" height="20" viewBox="0 0 24 24" class="pcpx-star-svg" style="width:20px; height:20px; display:inline-block; vertical-align:middle; flex-shrink:0;" aria-hidden="true">
+                                            <defs>
+                                                <linearGradient id="star_grad_vantrek" x1="0%" y1="0%" x2="100%" y2="0%">
+                                                    <stop offset="60%" stop-color="#FFB800"/>
+                                                    <stop offset="60%" stop-color="#E2E8F0"/>
+                                                </linearGradient>
+                                            </defs>
+                                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="url(#star_grad_vantrek)" stroke="#000000" stroke-width="1.2" stroke-linejoin="round"/>
+                                        </svg>
+                                    </span>
+                                    <span class="pcpx-rating-score-text">4.6/5</span>
+                                </div>
+                                <a class="pcpx-read-reviews" href="#">Read reviews</a>
+                            </div>
+                        </div>
+
+                        <!-- User Experience -->
+                        <div class="pcpx-section">
+                            <div class="pcpx-section-label" data-icon="experience">User Experience</div>
+                            <p class="pcpx-section-text">Users enjoy weeks of tracking, effortless calls, and a very comfortable, rugged daily fit.</p>
+                        </div>
+
+                        <!-- Expert Reviews -->
+                        <div class="pcpx-section">
+                            <div class="pcpx-section-label" data-icon="reviews">Expert Reviews</div>
+                            <ul class="pcpx-expert-reviews-list">
+                                <li>Long battery life ensures weeks of tracking without a charge.</li>
+                                <li>Rugged build survives tough environments while feeling light.</li>
+                                <li>Clear calling keeps users connected easily during daily work.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Price Section: Positioned Just Above Final Verdict -->
+                        <div class="pcpx-price-section pcpx-price-above-verdict">
+                            <span class="pcpx-original-price">$599.70</span>
+                            <span class="pcpx-price">$59.98</span>
+                        </div>
+
+                        <!-- Final Verdict Box -->
+                        <div class="pcpx-verdict-box">
+                            <span class="pcpx-verdict-icon"></span>
+                            <div><strong>Final Verdict:</strong> Premium build, reliable tracking, plus unbeatable everyday value.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- "Buy Later" Popup Modal for Vantrek X1 -->
+            <div class="pcpx-modal-backdrop" id="pcpx-modal-vantrek" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="pcpx-modal-vantrek-title">
+                <div class="pcpx-modal-card">
+                    <button type="button" class="pcpx-modal-close" aria-label="Close modal">&times;</button>
+                    <div class="pcpx-modal-body">
+                        <!-- Input Form State -->
+                        <div class="pcpx-modal-form-view">
+                            <div class="pcpx-modal-icon-badge">
+                                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                                    <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                                </svg>
+                            </div>
+                            <h3 class="pcpx-modal-title" id="pcpx-modal-vantrek-title">Save For Later</h3>
+                            <p class="pcpx-modal-msg">
+                                We'll remind you to complete your purchase of <strong class="pcpx-modal-product-title">Vantrek X1 Smart Watch</strong>.
+                            </p>
+                            <form class="pcpx-buy-later-form" novalidate>
+                                <input type="hidden" name="product_name" value="Vantrek X1 Smart Watch">
+                                <input type="hidden" name="price" value="$59.98">
+                                <div class="pcpx-input-wrapper">
+                                    <label for="pcpx-modal-vantrek-email" class="pcpx-sr-only">Email address</label>
+                                    <input type="email" id="pcpx-modal-vantrek-email" name="email" class="pcpx-email-input" placeholder="Enter your email address" required autocomplete="email">
+                                    <div class="pcpx-input-error" role="alert" style="display:none;"></div>
+                                </div>
+                                <button type="submit" class="pcpx-modal-submit-btn">
+                                    <span class="pcpx-btn-label">Remind Me</span>
+                                    <span class="pcpx-btn-spinner" style="display:none;" aria-hidden="true"></span>
+                                </button>
+                            </form>
+                            <p class="pcpx-modal-privacy">We respect your privacy. No spam, ever.</p>
+                        </div>
+
+                        <!-- Success Confirmation State -->
+                        <div class="pcpx-modal-success-view" style="display:none;">
+                            <div class="pcpx-modal-icon-badge pcpx-badge-success">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </div>
+                            <h3 class="pcpx-modal-title">Reminder Set!</h3>
+                            <p class="pcpx-modal-msg">
+                                We've saved your spot for <strong>Vantrek X1 Smart Watch</strong>. We'll send an email reminder to <strong class="pcpx-confirmed-email"></strong> so you can finish your purchase whenever you're ready.
+                            </p>
+                            <button type="button" class="pcpx-modal-done-btn">Done</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Demo Card 2: Gutoptim -->
+    <div class="demo-section">
+        <div class="demo-section-label">Card 2: Gutoptim (Equal Height Columns, Price Positioned Above Verdict &amp; "Buy Later" Modal)</div>
+
+        <div class="pcpx-product-card-outer" id="pcpx-gutoptim" data-product-name="Gutoptim">
+            <div class="pcpx-card pcpx-card-legit">
+                <!-- Review Summary Header -->
+                <div class="pcpx-review-summary-header-main" style="color: #ffffff;">
+                    Gutoptim Review Summary
+                </div>
+
+                <div class="pcpx-card-inner">
+                    <!-- Left Column: Image & Buttons -->
+                    <div class="pcpx-image-column">
+                        <div class="pcpx-image-container">
+                            <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800" alt="Gutoptim Supplement" class="pcpx-product-image" />
+                        </div>
+
+                        <!-- CTA Action Group: Primary "Buy Now" & Secondary "Buy Later" -->
+                        <div class="pcpx-cta-group">
+                            <a href="#" class="pcpx-cta-button pcpx-btn-primary" target="_blank" rel="noopener">
+                                <span class="pcpx-btn-left-icon">
+                                    <svg class="pcpx-btn-icon pcpx-cart-icon" width="40" height="40" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                        <path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/>
+                                    </svg>
+                                </span>
+                                <span class="pcpx-btn-text-block">
+                                    <span class="pcpx-cta-main-text">Buy Now</span>
+                                    <span class="pcpx-cta-sub-text">Visit Official Website</span>
+                                </span>
+                                <span class="pcpx-btn-right-chevron">
+                                    <svg class="pcpx-btn-chevron" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                        <polyline points="9 18 15 12 9 6"></polyline>
+                                    </svg>
+                                </span>
+                            </a>
+
+                            <button type="button" class="pcpx-buy-later-btn pcpx-btn-secondary"
+                                data-product-name="Gutoptim"
+                                data-price="$69"
+                                data-modal-id="pcpx-modal-gutoptim"
+                                aria-haspopup="dialog">
+                                <span class="pcpx-btn-left-icon">
+                                    <svg class="pcpx-btn-icon pcpx-email-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                        <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                                    </svg>
+                                </span>
+                                <span class="pcpx-btn-text-block">
+                                    <span class="pcpx-buy-later-main-text">Buy Later</span>
+                                    <span class="pcpx-buy-later-sub-text">Save Official Link to Email</span>
+                                </span>
+                                <span class="pcpx-btn-right-chevron">
+                                    <svg class="pcpx-btn-chevron" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                        <polyline points="9 18 15 12 9 6"></polyline>
+                                    </svg>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Header with Rating + Repositioned Top-Right Price, then content -->
+                    <div class="pcpx-content-column">
+                        <div class="pcpx-content-header-row">
+                            <!-- Rating -->
+                            <div class="pcpx-rating-row">
+                                <div class="pcpx-rating-stars">
+                                    <span class="pcpx-stars">
+                                        <svg width="20" height="20" viewBox="0 0 24 24" class="pcpx-star-svg" style="width:20px; height:20px; display:inline-block; vertical-align:middle; flex-shrink:0;" aria-hidden="true">
+                                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFB800" stroke="#000000" stroke-width="1.2" stroke-linejoin="round"/>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" class="pcpx-star-svg" style="width:20px; height:20px; display:inline-block; vertical-align:middle; flex-shrink:0;" aria-hidden="true">
+                                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFB800" stroke="#000000" stroke-width="1.2" stroke-linejoin="round"/>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" class="pcpx-star-svg" style="width:20px; height:20px; display:inline-block; vertical-align:middle; flex-shrink:0;" aria-hidden="true">
+                                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFB800" stroke="#000000" stroke-width="1.2" stroke-linejoin="round"/>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" class="pcpx-star-svg" style="width:20px; height:20px; display:inline-block; vertical-align:middle; flex-shrink:0;" aria-hidden="true">
+                                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFB800" stroke="#000000" stroke-width="1.2" stroke-linejoin="round"/>
+                                        </svg>
+                                        <svg width="20" height="20" viewBox="0 0 24 24" class="pcpx-star-svg" style="width:20px; height:20px; display:inline-block; vertical-align:middle; flex-shrink:0;" aria-hidden="true">
+                                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" fill="#FFB800" stroke="#000000" stroke-width="1.2" stroke-linejoin="round"/>
+                                        </svg>
+                                    </span>
+                                    <span class="pcpx-rating-score-text">4.9/5</span>
+                                </div>
+                                <a class="pcpx-read-reviews" href="#">Read reviews</a>
+                            </div>
+                        </div>
+
+                        <!-- Best For Section -->
+                        <div class="pcpx-section pcpx-best-for-section">
+                            <div class="pcpx-section-label" data-icon="best-for">Best For</div>
+                            <p class="pcpx-section-text">People over 50 seeking natural urinary tract and prostate comfort support.</p>
+                        </div>
+
+                        <!-- User Experience -->
+                        <div class="pcpx-section">
+                            <div class="pcpx-section-label" data-icon="experience">User Experience</div>
+                            <p class="pcpx-section-text">Fewer night bathroom trips, stronger urine flow, and noticeably deeper sleep quality within 2 weeks.</p>
+                        </div>
+
+                        <!-- Expert Reviews -->
+                        <div class="pcpx-section">
+                            <div class="pcpx-section-label" data-icon="reviews">Expert Reviews</div>
+                            <ul class="pcpx-expert-reviews-list">
+                                <li>Confirms prostate support via 5-alpha reductase inhibition and anti-inflammatory action.</li>
+                                <li>Formulated in FDA-registered, cGMP-certified facilities in the USA.</li>
+                                <li>Clean plant-based ingredients with no synthetic fillers or harsh additives.</li>
+                            </ul>
+                        </div>
+
+                        <!-- Price Section: Positioned Just Above Final Verdict -->
+                        <div class="pcpx-price-section pcpx-price-above-verdict">
+                            <span class="pcpx-original-price">$99</span>
+                            <span class="pcpx-price">$69</span>
+                        </div>
+
+                        <!-- Final Verdict Box -->
+                        <div class="pcpx-verdict-box">
+                            <span class="pcpx-verdict-icon"></span>
+                            <div><strong>Final Verdict:</strong> Gutoptim is a Genuine, High-Purity Prostate Support Supplement.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- "Buy Later" Popup Modal for Gutoptim -->
+            <div class="pcpx-modal-backdrop" id="pcpx-modal-gutoptim" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="pcpx-modal-gutoptim-title">
+                <div class="pcpx-modal-card">
+                    <button type="button" class="pcpx-modal-close" aria-label="Close modal">&times;</button>
+                    <div class="pcpx-modal-body">
+                        <!-- Input Form State -->
+                        <div class="pcpx-modal-form-view">
+                            <div class="pcpx-modal-icon-badge">
+                                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                                    <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                                </svg>
+                            </div>
+                            <h3 class="pcpx-modal-title" id="pcpx-modal-gutoptim-title">Save For Later</h3>
+                            <p class="pcpx-modal-msg">
+                                We'll remind you to complete your purchase of <strong class="pcpx-modal-product-title">Gutoptim</strong>.
+                            </p>
+                            <form class="pcpx-buy-later-form" novalidate>
+                                <input type="hidden" name="product_name" value="Gutoptim">
+                                <input type="hidden" name="price" value="$69">
+                                <div class="pcpx-input-wrapper">
+                                    <label for="pcpx-modal-gutoptim-email" class="pcpx-sr-only">Email address</label>
+                                    <input type="email" id="pcpx-modal-gutoptim-email" name="email" class="pcpx-email-input" placeholder="Enter your email address" required autocomplete="email">
+                                    <div class="pcpx-input-error" role="alert" style="display:none;"></div>
+                                </div>
+                                <button type="submit" class="pcpx-modal-submit-btn">
+                                    <span class="pcpx-btn-label">Remind Me</span>
+                                    <span class="pcpx-btn-spinner" style="display:none;" aria-hidden="true"></span>
+                                </button>
+                            </form>
+                            <p class="pcpx-modal-privacy">We respect your privacy. No spam, ever.</p>
+                        </div>
+
+                        <!-- Success Confirmation State -->
+                        <div class="pcpx-modal-success-view" style="display:none;">
+                            <div class="pcpx-modal-icon-badge pcpx-badge-success">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <path d="M20 6L9 17l-5-5"></path>
+                                </svg>
+                            </div>
+                            <h3 class="pcpx-modal-title">Reminder Set!</h3>
+                            <p class="pcpx-modal-msg">
+                                We've saved your spot for <strong>Gutoptim</strong>. We'll send an email reminder to <strong class="pcpx-confirmed-email"></strong> so you can finish your purchase whenever you're ready.
+                            </p>
+                            <button type="button" class="pcpx-modal-done-btn">Done</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/product-card.js"></script>
+</body>
+
+</html>

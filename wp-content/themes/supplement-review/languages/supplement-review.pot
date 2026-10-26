@@ -1,0 +1,1223 @@
+# Copyright (C) 2026 Antigravity Team
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Supplement Review 1.0.0\n"
+"Report-Msgid-Bugs-To: https://example.com/support\n"
+"POT-Creation-Date: 2026-10-14 12:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2026-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Antigravity PO Generator 1.0\n"
+"X-Domain: supplement-review\n"
+
+#: ./inc/toc.php
+msgid "%1$d sections · %2$d min read"
+msgstr ""
+
+#: ./comments.php
+msgid "%d Star"
+msgstr ""
+
+#: ./inc/template-tags.php
+msgid "%d min read"
+msgstr ""
+
+#: ./inc/template-tags.php
+msgid "%s is an experienced health and wellness researcher dedicated to providing evidence-based supplement reviews, clinical breakdowns, and consumer safety guidance."
+msgstr ""
+
+#: ./inc/template-tags.php
+msgid "(Updated on: %s)"
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "+ Add Score Row"
+msgstr ""
+
+#: ./front-page.php
+msgid "100% Independent Testing"
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "3 comma-separated column names for the 3 TOC columns."
+msgstr ""
+
+#: ./inc/template-functions.php
+msgid "404 Not Found"
+msgstr ""
+
+#: ./patterns/review-summary.php
+#: ./inc/patterns.php
+msgid "60 Days 100% Refund Policy"
+msgstr ""
+
+#: ./footer.php
+msgid "About Our Lab"
+msgstr ""
+
+#: ./inc/template-tags.php
+msgid "About the Author"
+msgstr ""
+
+#: ./comments.php
+msgid "Accepted formats: JPG, PNG, WEBP. Maximum file size: 2 MB."
+msgstr ""
+
+#: ./inc/patterns.php
+msgid "Accessible HTML5 details/summary FAQ accordion with FAQPage Schema support."
+msgstr ""
+
+#: ./functions.php
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: ./patterns/review-summary.php
+#: ./inc/patterns.php
+msgid "Adults seeking metabolic balance & steady energy."
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Affiliate Disclosure Note"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Affiliate Disclosure: When you purchase through links on our site, we may earn an affiliate commission at no extra charge to you. We independently research and test all reviewed products."
+msgstr ""
+
+#: ./front-page.php
+msgid "All Reviews"
+msgstr ""
+
+#: ./footer.php
+msgid "All our reviews are conducted by certified medical researchers and clinical contributors following strict editorial standards."
+msgstr ""
+
+#: ./inc/toc.php
+msgid "All sections"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Announcement Link URL"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Announcement Text"
+msgstr ""
+
+#: ./functions.php
+msgid "Appears in the first column of the footer."
+msgstr ""
+
+#: ./functions.php
+msgid "Appears in the fourth column of the footer."
+msgstr ""
+
+#: ./functions.php
+msgid "Appears in the second column of the footer."
+msgstr ""
+
+#: ./functions.php
+msgid "Appears in the third column of the footer."
+msgstr ""
+
+#: ./patterns/faq-accordion.php
+#: ./inc/patterns.php
+msgid "Are there any known side effects or medication interactions?"
+msgstr ""
+
+#: ./front-page.php
+msgid "Articles and product verdicts are thoroughly scrutinized by licensed medical contributors before being published."
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "Author Credential Line"
+msgstr ""
+
+#: ./patterns/review-summary.php
+#: ./inc/patterns.php
+msgid "BEST FOR"
+msgstr ""
+
+#: ./footer.php
+msgid "Back to top"
+msgstr ""
+
+#: ./patterns/pros-cons.php
+#: ./inc/patterns.php
+msgid "Backed by a full 60-day money-back guarantee"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Background Color"
+msgstr ""
+
+#: ./footer.php
+msgid "Blood Sugar Support"
+msgstr ""
+
+#: ./template-parts/product-summary-card.php
+msgid "Blood Sugar • Liquid Drops"
+msgstr ""
+
+#: ./404.php
+#: ./footer.php
+#: ./header.php
+msgid "Brain Enhancement"
+msgstr ""
+
+#: ./inc/template-functions.php
+msgid "Breadcrumbs"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Button Link URL"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Button Text"
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "Buy Button Text"
+msgstr ""
+
+#: ./footer.php
+#: ./template-parts/product-summary-card.php
+msgid "Buy Now"
+msgstr ""
+
+#: ./inc/template-functions.php
+msgid "Buy Now (Official Website)"
+msgstr ""
+
+#: ./patterns/review-summary.php
+#: ./inc/patterns.php
+msgid "Buy Now from Official Website"
+msgstr ""
+
+#: ./template-parts/content-card.php
+msgid "By %s"
+msgstr ""
+
+#: ./patterns/review-summary.php
+#: ./inc/patterns.php
+msgid "CERTIFICATION"
+msgstr ""
+
+#: ./inc/toc.php
+msgid "CONTENTS"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "CTA Description"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "CTA Heading"
+msgstr ""
+
+#: ./template-parts/cta-section.php
+msgid "Call to action"
+msgstr ""
+
+#: ./footer.php
+msgid "Categories"
+msgstr ""
+
+#: ./category.php
+msgid "Category Archive"
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "Category Name"
+msgstr ""
+
+#: ./patterns/ingredients-grid.php
+#: ./inc/patterns.php
+msgid "Chromium Picolinate"
+msgstr ""
+
+#: ./patterns/review-summary.php
+#: ./inc/patterns.php
+msgid "Chromium picolinate combined with a broad botanical and nutritional blend for metabolic support."
+msgstr ""
+
+#: ./patterns/ingredients-grid.php
+#: ./inc/patterns.php
+msgid "Cinnamon Bark Extract"
+msgstr ""
+
+#: ./inc/patterns.php
+msgid "Clean 3-column card grid highlighting primary formula ingredients."
+msgstr ""
+
+#: ./patterns/rating-table.php
+#: ./inc/patterns.php
+msgid "Clinically validated dosages supported by peer-reviewed research"
+msgstr ""
+
+#: ./header.php
+msgid "Close mobile menu"
+msgstr ""
+
+#: ./template-parts/search-overlay.php
+msgid "Close search dialog"
+msgstr ""
+
+#: ./patterns/rating-table.php
+#: ./inc/patterns.php
+msgid "Competitive tiered pricing with discounts on multi-bottle bundles"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Configure the announcement banner displayed at the very top of the site."
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Configure the dark pre-footer CTA section."
+msgstr ""
+
+#: ./inc/patterns.php
+msgid "Cons List (Crosses)"
+msgstr ""
+
+#: ./patterns/rating-table.php
+#: ./inc/patterns.php
+msgid "Consumer Safety"
+msgstr ""
+
+#: ./footer.php
+msgid "Contact Team"
+msgstr ""
+
+#: ./footer.php
+msgid "Contact Us"
+msgstr ""
+
+#: ./inc/template-tags.php
+msgid "Contact author via email"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Copyright Notice"
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "Current Price ($)"
+msgstr ""
+
+#: ./template-parts/product-summary-card.php
+msgid "Customer Reviews"
+msgstr ""
+
+#: ./inc/review-comments.php
+msgid "Customer review photo"
+msgstr ""
+
+#: ./comments.php
+msgid "Describe your personal results, how long you took it, taste/smell, and any side effects..."
+msgstr ""
+
+#: ./footer.php
+#: ./inc/template-tags.php
+msgid "Disclaimer"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Disclaimer Page URL"
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "Discount percentage is automatically calculated from these two prices."
+msgstr ""
+
+#: ./patterns/review-summary.php
+#: ./inc/patterns.php
+msgid "EXPERT RATING"
+msgstr ""
+
+#: ./inc/template-functions.php
+msgid "Editorial & Supplement Review Credentials"
+msgstr ""
+
+#: ./patterns/rating-table.php
+#: ./inc/patterns.php
+msgid "Editorial Description"
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "Editorial Overall Rating (0 to 5.0)"
+msgstr ""
+
+#: ./footer.php
+msgid "Editorial Policy"
+msgstr ""
+
+#: ./inc/patterns.php
+msgid "Editorial Rating Table"
+msgstr ""
+
+#: ./template-parts/product-summary-card.php
+msgid "Editorial Score"
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "Editorial Score Bars (e.g. Effectiveness, Ingredients)"
+msgstr ""
+
+#: ./template-parts/product-summary-card.php
+msgid "Editorial rating based on our review."
+msgstr ""
+
+#: ./template-parts/product-summary-card.php
+msgid "Effectiveness"
+msgstr ""
+
+#: ./patterns/rating-table.php
+#: ./inc/patterns.php
+msgid "Efficacy & Science"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Enable Announcement Bar"
+msgstr ""
+
+#: ./patterns/ingredients-grid.php
+#: ./inc/patterns.php
+msgid "Essential trace mineral shown in clinical studies to assist healthy insulin receptor sensitivity."
+msgstr ""
+
+#: ./front-page.php
+msgid "Every active ingredient is verified against clinical databases like PubMed and NIH to verify clinical efficacy and dosage safety."
+msgstr ""
+
+#: ./inc/template-functions.php
+msgid "Example: Medical Researcher & Contributor, PharmD, Clinical Nutritionist"
+msgstr ""
+
+#: ./inc/patterns.php
+msgid "FAQ Accordion List"
+msgstr ""
+
+#: ./patterns/review-summary.php
+#: ./inc/patterns.php
+msgid "FDA & GMP-Certified Facility"
+msgstr ""
+
+#: ./inc/template-tags.php
+msgid "Fact Check"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Fact Check Page URL"
+msgstr ""
+
+#: ./patterns/pros-cons.php
+#: ./inc/patterns.php
+msgid "Fast-acting liquid dropper formula for superior absorption"
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "Feature this review in the Homepage Hero section"
+msgstr ""
+
+#: ./front-page.php
+msgid "Featured Editorial Evaluation"
+msgstr ""
+
+#: ./front-page.php
+msgid "Featured Supplement Review"
+msgstr ""
+
+#: ./front-page.php
+msgid "Filter by Category"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Footer & Disclaimers"
+msgstr ""
+
+#: ./functions.php
+msgid "Footer Categories"
+msgstr ""
+
+#: ./functions.php
+msgid "Footer Column 1 (About/Contact)"
+msgstr ""
+
+#: ./functions.php
+msgid "Footer Column 2 (Links)"
+msgstr ""
+
+#: ./functions.php
+msgid "Footer Column 3 (Categories)"
+msgstr ""
+
+#: ./functions.php
+msgid "Footer Column 4 (Newsletter/Legal)"
+msgstr ""
+
+#: ./functions.php
+msgid "Footer Legal Bar"
+msgstr ""
+
+#: ./functions.php
+msgid "Footer Quick Links"
+msgstr ""
+
+#: ./front-page.php
+msgid "From $%s"
+msgstr ""
+
+#: ./inc/patterns.php
+msgid "Full Review Summary Box"
+msgstr ""
+
+#: ./inc/customizer.php
+#: ./template-parts/cta-section.php
+msgid "Get your - 50% off"
+msgstr ""
+
+#: ./patterns/ingredients-grid.php
+#: ./inc/patterns.php
+msgid "Gymnema Sylvestre"
+msgstr ""
+
+#: ./inc/toc.php
+msgid "Hide"
+msgstr ""
+
+#: ./inc/patterns.php
+msgid "Highlighted sage green verdict container with summary text."
+msgstr ""
+
+#: ./footer.php
+#: ./header.php
+#: ./inc/schema.php
+#: ./inc/template-functions.php
+msgid "Home"
+msgstr ""
+
+#: ./footer.php
+msgid "How We Review"
+msgstr ""
+
+#: ./patterns/faq-accordion.php
+#: ./inc/patterns.php
+msgid "How does the 60-day money back guarantee work?"
+msgstr ""
+
+#: ./patterns/faq-accordion.php
+#: ./inc/patterns.php
+msgid "How should I take this supplement for best results?"
+msgstr ""
+
+#: ./comments.php
+msgid "I certify that this review is based on my genuine experience as a consumer and I agree to the %s."
+msgstr ""
+
+#: ./footer.php
+msgid "Independent Lab Tested & Fact-Checked"
+msgstr ""
+
+#: ./front-page.php
+msgid "Independent clinical evaluations, ingredients analyses, and consumer warnings."
+msgstr ""
+
+#: ./patterns/pros-cons.php
+#: ./inc/patterns.php
+msgid "Individual results require 30-60 days of consistent daily usage"
+msgstr ""
+
+#: ./patterns/rating-table.php
+#: ./inc/patterns.php
+msgid "Ingredient Quality"
+msgstr ""
+
+#: ./template-parts/product-summary-card.php
+msgid "Ingredients"
+msgstr ""
+
+#: ./template-parts/content-none.php
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: ./comments.php
+msgid "John Doe"
+msgstr ""
+
+#: ./404.php
+#: ./footer.php
+#: ./header.php
+msgid "Joint Pain Relief"
+msgstr ""
+
+#: ./inc/patterns.php
+msgid "Key Ingredients 3-Column Grid"
+msgstr ""
+
+#: ./patterns/rating-table.php
+#: ./inc/patterns.php
+msgid "Key Parameter"
+msgstr ""
+
+#: ./inc/customizer.php
+#: ./template-parts/cta-section.php
+msgid "Know What You're Taking"
+msgstr ""
+
+#: ./patterns/ingredients-grid.php
+#: ./inc/patterns.php
+msgid "Known as the sugar destroyer, helps curb intense sweet cravings and slows intestinal sugar uptake."
+msgstr ""
+
+#: ./front-page.php
+msgid "Latest Reviews"
+msgstr ""
+
+#: ./front-page.php
+msgid "Latest Supplement Reviews"
+msgstr ""
+
+#: ./comments.php
+msgid "Leave this field blank"
+msgstr ""
+
+#: ./footer.php
+msgid "Legal Links"
+msgstr ""
+
+#: ./template-parts/product-summary-card.php
+msgid "Legit, convenient option for adults seeking daily glucose support"
+msgstr ""
+
+#: ./patterns/review-summary.php
+#: ./inc/patterns.php
+msgid "Legit, convenient option for adults seeking daily glucose support."
+msgstr ""
+
+#: ./patterns/review-summary.php
+#: ./inc/patterns.php
+msgid "MONEY BACK GUARANTEE"
+msgstr ""
+
+#: ./functions.php
+msgid "Main Sidebar"
+msgstr ""
+
+#: ./404.php
+#: ./footer.php
+#: ./header.php
+msgid "Male Enhancement"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Manage footer contact details and medical disclaimer text."
+msgstr ""
+
+#: ./patterns/pros-cons.php
+#: ./inc/patterns.php
+msgid "Manufactured in an FDA-registered, cGMP-certified facility"
+msgstr ""
+
+#: ./patterns/rating-table.php
+#: ./inc/patterns.php
+msgid "Manufactured in audited cGMP facilities with 3rd-party lab testing"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Medical Disclaimer Text"
+msgstr ""
+
+#: ./footer.php
+#: ./inc/customizer.php
+msgid "Medical Disclaimer: Statements on this website have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose, treat, cure, or prevent any disease. Always consult your physician before starting any diet or dietary supplement program."
+msgstr ""
+
+#: ./front-page.php
+msgid "Medical Fact-Check"
+msgstr ""
+
+#: ./inc/schema.php
+msgid "Medical Researcher"
+msgstr ""
+
+#: ./inc/template-tags.php
+msgid "Medical Researcher & Contributor"
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "Merchant Affiliate / Official Buy URL"
+msgstr ""
+
+#: ./header.php
+msgid "Mobile Menu"
+msgstr ""
+
+#: ./header.php
+msgid "Mobile Navigation"
+msgstr ""
+
+#: ./comments.php
+msgid "Newer Reviews"
+msgstr ""
+
+#: ./archive.php
+#: ./category.php
+#: ./index.php
+#: ./search.php
+msgid "Next"
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "No image"
+msgstr ""
+
+#: ./patterns/pros-cons.php
+#: ./inc/patterns.php
+msgid "Non-GMO, vegan, and free of harsh chemical stimulants"
+msgstr ""
+
+#: ./template-parts/content-none.php
+msgid "Nothing Found"
+msgstr ""
+
+#: ./patterns/review-summary.php
+#: ./inc/patterns.php
+msgid "OUR OBSERVATION"
+msgstr ""
+
+#: ./template-parts/product-summary-card.php
+msgid "Official Website"
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "Old / Regular Price ($)"
+msgstr ""
+
+#: ./comments.php
+msgid "Older Reviews"
+msgstr ""
+
+#: ./patterns/pros-cons.php
+#: ./inc/patterns.php
+msgid "Only available directly through the official manufacturer website"
+msgstr ""
+
+#: ./404.php
+msgid "Oops! That Supplement Review Cannot Be Found"
+msgstr ""
+
+#: ./header.php
+msgid "Open Search dialog"
+msgstr ""
+
+#: ./header.php
+msgid "Open mobile navigation menu"
+msgstr ""
+
+#: ./front-page.php
+msgid "Our editorial integrity is guarded by healthcare professionals and clinical fact-checkers."
+msgstr ""
+
+#: ./single.php
+#: ./template-parts/content-page.php
+msgid "Pages:"
+msgstr ""
+
+#: ./front-page.php
+msgid "Peer-Reviewed Science"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Phone Number"
+msgstr ""
+
+#: ./inc/review-comments.php
+msgid "Please take your time writing a thoughtful review."
+msgstr ""
+
+#: ./404.php
+msgid "Popular Review Categories"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Pre-Footer Call to Action"
+msgstr ""
+
+#: ./archive.php
+#: ./category.php
+#: ./index.php
+#: ./search.php
+msgid "Previous"
+msgstr ""
+
+#: ./functions.php
+#: ./header.php
+msgid "Primary Menu"
+msgstr ""
+
+#: ./comments.php
+#: ./footer.php
+msgid "Privacy Policy"
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "Product Bottle / Box Image"
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "Product Name"
+msgstr ""
+
+#: ./patterns/review-summary.php
+#: ./inc/patterns.php
+msgid "Product Review Summary"
+msgstr ""
+
+#: ./template-parts/product-summary-card.php
+msgid "Product Summary"
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "Product Tagline / Category Tags"
+msgstr ""
+
+#: ./inc/template-functions.php
+msgid "Professional Title / Role"
+msgstr ""
+
+#: ./inc/patterns.php
+msgid "Pros List (Checkmarks)"
+msgstr ""
+
+#: ./inc/patterns.php
+msgid "Pros and Cons Comparison"
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "Quick Editorial Verdict"
+msgstr ""
+
+#: ./footer.php
+msgid "Quick Links"
+msgstr ""
+
+#: ./patterns/quick-verdict.php
+#: ./inc/patterns.php
+msgid "Quick Verdict"
+msgstr ""
+
+#: ./inc/patterns.php
+msgid "Quick Verdict Box"
+msgstr ""
+
+#: ./comments.php
+msgid "Rate 1 to 5 stars"
+msgstr ""
+
+#: ./inc/template-functions.php
+msgid "Rated %1$.1f out of 5 stars"
+msgstr ""
+
+#: ./front-page.php
+msgid "Read Full Breakdown"
+msgstr ""
+
+#: ./template-parts/related-posts.php
+msgid "Related Reviews"
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "Remove"
+msgstr ""
+
+#: ./inc/patterns.php
+msgid "Responsive evaluation table with Key Parameters, Description, and Score."
+msgstr ""
+
+#: ./template-parts/content-card.php
+msgid "Review"
+msgstr ""
+
+#: ./comments.php
+msgid "Review Headline"
+msgstr ""
+
+#: ./front-page.php
+msgid "Review Methodology"
+msgstr ""
+
+#: ./inc/template-tags.php
+msgid "Review Process"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Review Process Page URL"
+msgstr ""
+
+#: ./inc/patterns.php
+msgid "Review Rating Table"
+msgstr ""
+
+#: ./inc/template-tags.php
+msgid "Reviewed By %s"
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "Reviewed By (Expert Name)"
+msgstr ""
+
+#: ./patterns/ingredients-grid.php
+#: ./inc/patterns.php
+msgid "Rich in polyphenols that mimic natural metabolic pathways and support daily post-meal balance."
+msgstr ""
+
+#: ./inc/toc.php
+msgid "SECTION"
+msgstr ""
+
+#: ./inc/patterns.php
+msgid "Sage Pill Button"
+msgstr ""
+
+#: ./patterns/rating-table.php
+#: ./inc/patterns.php
+msgid "Score"
+msgstr ""
+
+#: ./searchform.php
+#: ./template-parts/search-overlay.php
+msgid "Search"
+msgstr ""
+
+#: ./search.php
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ./template-parts/search-overlay.php
+msgid "Search Supplement Reviews"
+msgstr ""
+
+#: ./searchform.php
+msgid "Search for supplement reviews:"
+msgstr ""
+
+#: ./template-parts/search-overlay.php
+msgid "Search query"
+msgstr ""
+
+#: ./searchform.php
+msgid "Search reviews, ingredients, brands..."
+msgstr ""
+
+#: ./inc/template-functions.php
+msgid "Search: %s"
+msgstr ""
+
+#: ./inc/review-comments.php
+msgid "Security check failed. Please refresh the page and try again."
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "Select Product Image"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Set page links for the Disclaimer, Fact Check, and Review Process trust badges."
+msgstr ""
+
+#: ./template-parts/product-summary-card.php
+msgid "Share this review"
+msgstr ""
+
+#: ./comments.php
+msgid "Share your real experience with this supplement. All reviews are checked by our team for genuine purchase verification."
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Show Pre-Footer CTA Section"
+msgstr ""
+
+#: ./inc/template-functions.php
+msgid "Show verified expert badge beside author name"
+msgstr ""
+
+#: ./inc/patterns.php
+msgid "Side-by-side cards showing positive benefits and consumer drawbacks."
+msgstr ""
+
+#: ./template-parts/announcement-bar.php
+msgid "Site Announcement"
+msgstr ""
+
+#: ./header.php
+msgid "Skip to content"
+msgstr ""
+
+#: ./template-parts/content-none.php
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords or browse our categories."
+msgstr ""
+
+#: ./inc/review-comments.php
+msgid "Spam detected."
+msgstr ""
+
+#: ./inc/customizer.php
+#: ./template-parts/announcement-bar.php
+msgid "Special Christmas Offer - 50%"
+msgstr ""
+
+#: ./patterns/rating-table.php
+#: ./inc/patterns.php
+msgid "Standardized extracts, zero fillers, non-GMO verified"
+msgstr ""
+
+#: ./patterns/pros-cons.php
+#: ./inc/patterns.php
+msgid "Stock shortages occur during promotional sale events"
+msgstr ""
+
+#: ./comments.php
+msgid "Submit My Review"
+msgstr ""
+
+#: ./searchform.php
+msgid "Submit search"
+msgstr ""
+
+#: ./inc/patterns.php
+msgid "Supplement Card"
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "Supplement Review & Product Card Settings"
+msgstr ""
+
+#: ./inc/patterns.php
+msgid "Supplement Review Components"
+msgstr ""
+
+#: ./index.php
+msgid "Supplement Reviews & Articles"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Support Email"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Support Hours"
+msgstr ""
+
+#: ./inc/toc.php
+msgid "Table of Content"
+msgstr ""
+
+#: ./inc/toc.php
+msgid "Table of Contents"
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "Table of Contents 3 Column Groups"
+msgstr ""
+
+#: ./patterns/faq-accordion.php
+#: ./inc/patterns.php
+msgid "Take 1 full dropper daily in the morning before breakfast, either placed directly under the tongue for 30 seconds or mixed into a glass of water."
+msgstr ""
+
+#: ./footer.php
+msgid "Terms of Service"
+msgstr ""
+
+#: ./patterns/faq-accordion.php
+#: ./inc/patterns.php
+msgid "The formula is composed of natural vitamins, minerals, and plant extracts with a strong safety profile. If you take prescription medications, consult your physician prior to starting."
+msgstr ""
+
+#: ./404.php
+msgid "The page or product evaluation you are looking for might have been updated, renamed, or temporarily relocated. Try searching below or explore popular categories."
+msgstr ""
+
+#: ./header.php
+msgid "Toggle dark and light color scheme"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Top Announcement Bar"
+msgstr ""
+
+#: ./footer.php
+msgid "Trust & Standards"
+msgstr ""
+
+#: ./inc/template-tags.php
+msgid "Trust Badges"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "Trust Badges Links"
+msgstr ""
+
+#: ./inc/patterns.php
+msgid "Two-column box featuring product thumbnail, pricing, Buy button, observations, and certifications."
+msgstr ""
+
+#: ./template-parts/search-overlay.php
+msgid "Type supplement name, brand, or condition..."
+msgstr ""
+
+#: ./patterns/review-summary.php
+#: ./inc/patterns.php
+msgid "USER EXPERIENCE"
+msgstr ""
+
+#: ./comments.php
+msgid "Upload Photo of Product (Optional)"
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "Use this image"
+msgstr ""
+
+#: ./patterns/review-summary.php
+#: ./inc/patterns.php
+msgid "Users report steadier energy and improved daily metabolic support within 4-8 weeks of use."
+msgstr ""
+
+#: ./patterns/rating-table.php
+#: ./inc/patterns.php
+msgid "Value for Money"
+msgstr ""
+
+#: ./patterns/review-summary.php
+#: ./inc/patterns.php
+#: ./template-parts/product-summary-card.php
+msgid "Verdict:"
+msgstr ""
+
+#: ./inc/review-comments.php
+msgid "Verified Customer"
+msgstr ""
+
+#: ./inc/template-functions.php
+msgid "Verified Fact-Checker"
+msgstr ""
+
+#: ./inc/template-tags.php
+msgid "Verified Medical Reviewer"
+msgstr ""
+
+#: ./patterns/quick-verdict.php
+#: ./inc/patterns.php
+msgid "We also researched product reviews and complaints across available clinical information and consumer sources to provide a broader picture of purchasing considerations, product claims, reported experiences, and factors consumers should consider before choosing a liquid metabolic-support supplement."
+msgstr ""
+
+#: ./inc/customizer.php
+#: ./template-parts/cta-section.php
+msgid "We dive deep into clinical studies, ingredient purity, and genuine user reports to help you choose supplements with complete confidence."
+msgstr ""
+
+#: ./front-page.php
+msgid "We never accept paid placements from supplement manufacturers. Our ratings are based strictly on formula purity and clinical proof."
+msgstr ""
+
+#: ./404.php
+#: ./footer.php
+#: ./header.php
+msgid "Weight Loss"
+msgstr ""
+
+#: ./patterns/pros-cons.php
+#: ./inc/patterns.php
+msgid "What We Liked (Pros)"
+msgstr ""
+
+#: ./patterns/pros-cons.php
+#: ./inc/patterns.php
+msgid "What to Consider (Cons)"
+msgstr ""
+
+#: ./inc/customizer.php
+msgid "WhatsApp Contact"
+msgstr ""
+
+#: ./footer.php
+msgid "WhatsApp: %s"
+msgstr ""
+
+#: ./front-page.php
+msgid "Why Trust Our Health Reviews?"
+msgstr ""
+
+#: ./comments.php
+msgid "Write a Review"
+msgstr ""
+
+#: ./template-parts/related-posts.php
+msgid "You May Also Like"
+msgstr ""
+
+#: ./patterns/faq-accordion.php
+#: ./inc/patterns.php
+msgid "You are covered by an unconditional 60-day guarantee. If you are unsatisfied for any reason, return your bottles (even empty) for a prompt, 100% refund of your purchase price."
+msgstr ""
+
+#: ./inc/review-comments.php
+msgid "You have submitted too many reviews recently. Please try again later."
+msgstr ""
+
+#: ./inc/review-comments.php
+msgid "You must agree to the Privacy Policy to submit your review."
+msgstr ""
+
+#: ./comments.php
+msgid "Your Email"
+msgstr ""
+
+#: ./comments.php
+msgid "Your Name"
+msgstr ""
+
+#: ./comments.php
+msgid "Your Overall Rating:"
+msgstr ""
+
+#: ./comments.php
+msgid "Your Review"
+msgstr ""
+
+#: ./comments.php
+msgid "Your email will not be published."
+msgstr ""
+
+#: ./inc/review-comments.php
+msgid "Your review is awaiting moderation before publication."
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "e.g. Blood Sugar • Liquid Drops"
+msgstr ""
+
+#: ./comments.php
+msgid "e.g. Excellent energy boost without jitters"
+msgstr ""
+
+#: ./inc/meta-boxes.php
+msgid "e.g. Gluco Reset"
+msgstr ""
+
+#: ./comments.php
+msgid "name@example.com"
+msgstr ""
+
+#: ./footer.php
+#: ./inc/customizer.php
+msgid "© %s Supplement Review. All rights reserved."
+msgstr ""
+

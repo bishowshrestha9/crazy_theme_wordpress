@@ -1,0 +1,11 @@
+{
+    "name": "wpcenter/prosandcons",
+    "description": "Pros and Cons Block",
+    "type": "wordpress-plugin",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "includes/"
+        ]
+    }
+}

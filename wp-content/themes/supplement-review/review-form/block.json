@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "review-form/submission-form",
+	"version": "1.0.0",
+	"title": "Review Form",
+	"category": "widgets",
+	"icon": "feedback",
+	"description": "Insert the Write a Review submission form into any post or page.",
+	"keywords": [
+		"review",
+		"review form",
+		"write a review"
+	],
+	"supports": {
+		"html": false,
+		"align": [
+			"wide",
+			"full"
+		]
+	},
+	"textdomain": "review-form-plugin",
+	"editorScript": "rf-block-editor-script"
+}

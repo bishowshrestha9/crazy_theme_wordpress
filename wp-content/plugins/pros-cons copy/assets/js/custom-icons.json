@@ -1,0 +1,78 @@
+{
+  "affx-button": {
+    "name": "Button",
+    "icon": "affx-icon-button"
+  },
+  "affx-pros-cons": {
+    "name": "Pros and Cons",
+    "icon": "affx-icon-pros-cons"
+  },
+  "affx-cta": {
+    "name": "Call to Action",
+    "icon": "affx-icon-cta"
+  },
+  "affx-notice": {
+    "name": "Notice",
+    "icon": "affx-icon-notice"
+  },
+  "affx-verdict": {
+    "name": "Verdict",
+    "icon": "affx-icon-verdict"
+  },
+  "affx-single-product": {
+    "name": "Single Product",
+    "icon": "affx-icon-single-product"
+  },
+  "affx-product-spec": {
+    "name": "Product Specifications",
+    "icon": "affx-icon-product-spec"
+  },
+  "affx-versus-line": {
+    "name": "Versus Line",
+    "icon": "affx-icon-versus-line"
+  },
+  "affx-product-table": {
+    "name": "Product Table",
+    "icon": "affx-icon-product-table"
+  },
+  "affx-product-comparison": {
+    "name": "Product Comparison",
+    "icon": "affx-icon-product-comparison"
+  },
+  "affx-single-coupon": {
+    "name": "Single Coupon",
+    "icon": "affx-icon-single-coupon"
+  },
+  "affx-coupon-grid": {
+    "name": "Coupon Grid",
+    "icon": "affx-icon-coupon-grid"
+  },
+  "affx-coupon-list": {
+    "name": "Coupon List",
+    "icon": "affx-icon-coupon-list"
+  },
+  "affx-versus": {
+    "name": "Versus",
+    "icon": "affx-icon-versus"
+  },
+  "affx-rating-box": {
+    "name": "Rating Box",
+    "icon": "affx-icon-rating-box"
+  },
+  "affx-product-image-button": {
+    "name": "Product Image Button",
+    "icon": "affx-icon-product-image-button"
+  },
+  "affx-single-product-pros-cons": {
+    "name": "Single Product Pros Cons",
+    "icon": "affx-icon-single-product-pros-cons"
+  },
+  "affx-top-product": {
+    "name": "Top Product",
+    "icon": "affx-icon-top-product"
+  },
+  "affx-product-tabs": {
+    "name": "Product Tabs",
+    "icon": "affx-icon-product-tabs"
+  }
+} 

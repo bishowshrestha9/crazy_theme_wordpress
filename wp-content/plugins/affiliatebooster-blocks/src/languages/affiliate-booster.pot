@@ -1,0 +1,3491 @@
+# Copyright (C) 2018 Blocks Kit
+# This file is distributed under the GPL2+.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: affiliate-booster\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/blocks-"
+"kit\n"
+"POT-Creation-Date: 2020-09-09 16:13+0530\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: affiliate-booster\n"
+"Language-Team: X-Generator: Poedit 2.3.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _esc_attr__;esc_attr_x;esc_attr_e;esc_html__;"
+"esc_html_e;esc_html_x;__;_e;__ngettext:1,2;_n:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_ex:1,2c;"
+"_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"Language: en_US\n"
+"X-Generator: Poedit 2.0.9\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: affiliate-helpers/class-affiliate-config.php:45
+msgid "Prop Cons"
+msgstr ""
+
+#: affiliate-helpers/class-affiliate-config.php:46
+#: affiliate-helpers/class-affiliate-config.php:128
+#: affiliate-helpers/class-affiliate-config.php:321
+#: affiliate-helpers/class-affiliate-config.php:443
+#: affiliate-helpers/class-affiliate-config.php:829
+msgid "Showcase Post title"
+msgstr ""
+
+#: affiliate-helpers/class-affiliate-config.php:127
+#: blocks/comparison-table/block.js:1551
+msgid "Comparison Table"
+msgstr ""
+
+#: affiliate-helpers/class-affiliate-config.php:320
+#: blocks/ab-cta/block.js:16
+msgid "Call to action"
+msgstr ""
+
+#: affiliate-helpers/class-affiliate-config.php:442
+#: blocks/ab-single-product/block.js:16
+msgid "Single Product"
+msgstr ""
+
+#: affiliate-helpers/class-affiliate-config.php:604
+msgid "Notice Box"
+msgstr ""
+
+#: affiliate-helpers/class-affiliate-config.php:605
+msgid "Showcase Notice"
+msgstr ""
+
+#: affiliate-helpers/class-affiliate-config.php:704
+#: blocks/ab-btn/block.js:15 components/fields/ButtonSettings.js:431
+#: components/fields/ButtonSettings.js:436
+msgid "Button"
+msgstr ""
+
+#: affiliate-helpers/class-affiliate-config.php:705
+#: affiliate-helpers/class-affiliate-config.php:766
+msgid "Showcase Button"
+msgstr ""
+
+#: affiliate-helpers/class-affiliate-config.php:765
+#: blocks/ab-notification/block.js:16
+msgid "Notification Box"
+msgstr ""
+
+#: affiliate-helpers/class-affiliate-config.php:828
+msgid "Toppick Box"
+msgstr ""
+
+#: affiliate-helpers/class-affiliate-config.php:1027
+#: affiliate-helpers/class-affiliate-config.php:1228
+msgid "AB Product Review"
+msgstr ""
+
+#: affiliate-helpers/class-affiliate-config.php:1028
+#: affiliate-helpers/class-affiliate-config.php:1229
+msgid "Showcase product with review"
+msgstr ""
+
+#: affiliate-helpers/class-affiliate-config.php:1332
+#: affiliate-helpers/class-affiliate-config.php:1359
+#: blocks/ab-star-rating/block.js:11
+msgid "AB Star Rating"
+msgstr ""
+
+#: affiliate-helpers/class-affiliate-config.php:1333
+#: affiliate-helpers/class-affiliate-config.php:1360
+msgid "Showcase Star Rating"
+msgstr ""
+
+#: affiliate-helpers/class-affiliate-config.php:1427
+#: affiliate-helpers/class-affiliate-config.php:1450
+#: blocks/ab-dynamic-block/block.js:10
+#: blocks/ab-dynamic-block/block.js:16
+msgid "AB Dynamic Block"
+msgstr ""
+
+#: affiliate-helpers/class-affiliate-config.php:1428
+#: affiliate-helpers/class-affiliate-config.php:1451
+msgid "Showcase Dynamic block"
+msgstr ""
+
+#: affiliate-helpers/class-affiliate-helper.php:754
+#: components/fields/ButtonSettings.js:308
+msgid "Full"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:185 blocks/ab-cta/Edit.js:575
+#: blocks/ab-product-review/Edit.js:822
+#: blocks/ab-single-product/Edit.js:962
+#: blocks/ab-top-pick/Edit.js:1090
+#: blocks/comparison-table/Edit.js:1239
+msgid "Tag Icon"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:198 blocks/ab-cta/Edit.js:588
+#: blocks/ab-product-review/Edit.js:835
+#: blocks/ab-single-product/Edit.js:975
+#: blocks/ab-top-pick/Edit.js:1103
+#: blocks/comparison-table/Edit.js:1252
+msgid "Icon Position"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:206 blocks/ab-cta/Edit.js:601
+#: blocks/ab-product-review/Edit.js:848
+#: blocks/ab-single-product/Edit.js:988
+#: blocks/ab-top-pick/Edit.js:1116
+msgid "Button URL"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:207 blocks/comparison-table/Edit.js:891
+msgid "https://www.example.com"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:208
+msgid "Please Enter http or https in url"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:214 blocks/ab-cta/Edit.js:606
+#: blocks/ab-product-review/Edit.js:853
+#: blocks/ab-single-product/Edit.js:993
+#: blocks/ab-top-pick/Edit.js:1121
+msgid "Button Rel"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:220 blocks/ab-cta/Edit.js:611
+#: blocks/ab-product-review/Edit.js:858
+#: blocks/ab-single-product/Edit.js:998
+#: blocks/ab-top-pick/Edit.js:1126
+#: blocks/comparison-table/Edit.js:1260
+msgid "Open link in new window"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:226 blocks/ab-cta/Edit.js:616
+#: blocks/ab-product-review/Edit.js:863
+#: blocks/ab-single-product/Edit.js:1003
+#: blocks/ab-top-pick/Edit.js:1131
+msgid "Rounded Button"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:231 blocks/ab-cta/Edit.js:621
+#: blocks/ab-product-review/Edit.js:868
+#: blocks/ab-single-product/Edit.js:1008
+#: blocks/ab-top-pick/Edit.js:1136
+#: components/fields/ButtonSettings.js:281
+msgid "Button Size"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:241 blocks/ab-cta/Edit.js:631
+#: blocks/ab-product-review/Edit.js:878
+#: blocks/ab-single-product/Edit.js:1018
+#: blocks/ab-top-pick/Edit.js:1146
+#: components/fields/ButtonSettings.js:305
+msgid "Button Width"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:250 blocks/ab-cta/Edit.js:640
+#: blocks/ab-product-review/Edit.js:887
+#: blocks/ab-single-product/Edit.js:1027
+#: blocks/ab-top-pick/Edit.js:1155
+#: blocks/comparison-table/Edit.js:1276
+msgid "Button Typography"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:253 blocks/ab-cta/Edit.js:490
+#: blocks/ab-notice/Edit.js:221 blocks/ab-product-review/Edit.js:550
+#: blocks/ab-single-product/Edit.js:658
+#: blocks/ab-table-content/Edit.js:704
+#: blocks/ab-title-block/Edit.js:171 blocks/ab-top-pick/Edit.js:796
+#: blocks/comparison-table/Edit.js:1085
+#: blocks/propsandcons/Edit.js:212
+msgid "titleLoadGoogleFonts"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:254 blocks/ab-cta/Edit.js:491
+#: blocks/ab-notice/Edit.js:222 blocks/ab-product-review/Edit.js:551
+#: blocks/ab-single-product/Edit.js:659
+#: blocks/ab-table-content/Edit.js:705
+#: blocks/ab-title-block/Edit.js:172 blocks/ab-top-pick/Edit.js:797
+#: blocks/comparison-table/Edit.js:1086
+#: blocks/propsandcons/Edit.js:213
+msgid "titlefontFamily"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:255 blocks/ab-cta/Edit.js:492
+#: blocks/ab-notice/Edit.js:223 blocks/ab-product-review/Edit.js:552
+#: blocks/ab-single-product/Edit.js:660
+#: blocks/ab-table-content/Edit.js:706
+#: blocks/ab-title-block/Edit.js:173 blocks/ab-top-pick/Edit.js:798
+#: blocks/comparison-table/Edit.js:1087
+#: blocks/propsandcons/Edit.js:214
+msgid "titlefontWeight"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:256 blocks/ab-cta/Edit.js:493
+#: blocks/ab-notice/Edit.js:224 blocks/ab-product-review/Edit.js:553
+#: blocks/ab-single-product/Edit.js:661
+#: blocks/ab-table-content/Edit.js:707
+#: blocks/ab-title-block/Edit.js:174 blocks/ab-top-pick/Edit.js:799
+#: blocks/comparison-table/Edit.js:1088
+#: blocks/propsandcons/Edit.js:215
+msgid "titlefontSubset"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:257 blocks/ab-cta/Edit.js:494
+#: blocks/ab-notice/Edit.js:225 blocks/ab-product-review/Edit.js:554
+#: blocks/ab-single-product/Edit.js:662
+#: blocks/ab-table-content/Edit.js:708
+#: blocks/ab-title-block/Edit.js:175 blocks/ab-top-pick/Edit.js:800
+#: blocks/comparison-table/Edit.js:1089
+#: blocks/propsandcons/Edit.js:216
+msgid "titlefontSizeType"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:258 blocks/ab-cta/Edit.js:495
+#: blocks/ab-notice/Edit.js:226 blocks/ab-product-review/Edit.js:555
+#: blocks/ab-single-product/Edit.js:663
+#: blocks/ab-table-content/Edit.js:709
+#: blocks/ab-title-block/Edit.js:176 blocks/ab-top-pick/Edit.js:801
+#: blocks/comparison-table/Edit.js:1090
+#: blocks/propsandcons/Edit.js:217
+msgid "titlefontSizeTypeMobile"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:259 blocks/ab-cta/Edit.js:496
+#: blocks/ab-notice/Edit.js:227 blocks/ab-product-review/Edit.js:556
+#: blocks/ab-single-product/Edit.js:664
+#: blocks/ab-table-content/Edit.js:710
+#: blocks/ab-title-block/Edit.js:177 blocks/ab-top-pick/Edit.js:802
+#: blocks/comparison-table/Edit.js:1091
+#: blocks/propsandcons/Edit.js:218
+msgid "titlefontSizeTypeTablet"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:260 blocks/ab-cta/Edit.js:497
+#: blocks/ab-notice/Edit.js:228 blocks/ab-product-review/Edit.js:557
+#: blocks/ab-single-product/Edit.js:665
+#: blocks/ab-table-content/Edit.js:711
+#: blocks/ab-title-block/Edit.js:178 blocks/ab-top-pick/Edit.js:803
+#: blocks/comparison-table/Edit.js:1092
+#: blocks/propsandcons/Edit.js:219
+msgid "titlefontSizeDesktop"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:261 blocks/ab-cta/Edit.js:498
+#: blocks/ab-notice/Edit.js:229 blocks/ab-product-review/Edit.js:558
+#: blocks/ab-single-product/Edit.js:666
+#: blocks/ab-table-content/Edit.js:712
+#: blocks/ab-title-block/Edit.js:179 blocks/ab-top-pick/Edit.js:804
+#: blocks/comparison-table/Edit.js:1093
+#: blocks/propsandcons/Edit.js:220
+msgid "titlefontSizeMobile"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:262 blocks/ab-cta/Edit.js:499
+#: blocks/ab-notice/Edit.js:230 blocks/ab-product-review/Edit.js:559
+#: blocks/ab-single-product/Edit.js:667
+#: blocks/ab-table-content/Edit.js:713
+#: blocks/ab-title-block/Edit.js:180 blocks/ab-top-pick/Edit.js:805
+#: blocks/comparison-table/Edit.js:1094
+#: blocks/propsandcons/Edit.js:221
+msgid "titlefontSizeTablet"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:263 blocks/ab-cta/Edit.js:500
+#: blocks/ab-cta/Edit.js:542 blocks/ab-cta/Edit.js:653
+#: blocks/ab-icon-list/Edit.js:399 blocks/ab-notice/Edit.js:231
+#: blocks/ab-notice/Edit.js:630 blocks/ab-notification/Edit.js:154
+#: blocks/ab-product-review/Edit.js:560
+#: blocks/ab-product-review/Edit.js:591
+#: blocks/ab-product-review/Edit.js:622
+#: blocks/ab-product-review/Edit.js:653
+#: blocks/ab-product-review/Edit.js:900
+#: blocks/ab-single-product/Edit.js:668
+#: blocks/ab-single-product/Edit.js:771
+#: blocks/ab-single-product/Edit.js:937
+#: blocks/ab-single-product/Edit.js:1040
+#: blocks/ab-table-content/Edit.js:714
+#: blocks/ab-table-content/Edit.js:747
+#: blocks/ab-title-block/Edit.js:181 blocks/ab-top-pick/Edit.js:515
+#: blocks/ab-top-pick/Edit.js:806 blocks/ab-top-pick/Edit.js:910
+#: blocks/ab-top-pick/Edit.js:1065 blocks/ab-top-pick/Edit.js:1168
+#: blocks/comparison-table/Edit.js:1064
+#: blocks/comparison-table/Edit.js:1095
+#: blocks/comparison-table/Edit.js:1126
+#: blocks/comparison-table/Edit.js:1166
+#: blocks/comparison-table/Edit.js:1197
+#: blocks/comparison-table/Edit.js:1289
+#: blocks/propsandcons/Edit.js:222 blocks/propsandcons/Edit.js:253
+msgid " "
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:264 blocks/ab-cta/Edit.js:501
+#: blocks/ab-notice/Edit.js:232 blocks/ab-product-review/Edit.js:561
+#: blocks/ab-single-product/Edit.js:669
+#: blocks/ab-table-content/Edit.js:715
+#: blocks/ab-title-block/Edit.js:182 blocks/ab-top-pick/Edit.js:807
+#: blocks/comparison-table/Edit.js:1096
+#: blocks/propsandcons/Edit.js:223
+msgid "titlelineHeight"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:265 blocks/ab-cta/Edit.js:502
+#: blocks/ab-notice/Edit.js:233 blocks/ab-product-review/Edit.js:562
+#: blocks/ab-single-product/Edit.js:670
+#: blocks/ab-table-content/Edit.js:716
+#: blocks/ab-title-block/Edit.js:183 blocks/ab-top-pick/Edit.js:808
+#: blocks/comparison-table/Edit.js:1097
+#: blocks/propsandcons/Edit.js:224
+msgid "titlelineHeightMobile"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:266 blocks/ab-cta/Edit.js:503
+#: blocks/ab-notice/Edit.js:234 blocks/ab-product-review/Edit.js:563
+#: blocks/ab-single-product/Edit.js:671
+#: blocks/ab-table-content/Edit.js:717
+#: blocks/ab-title-block/Edit.js:184 blocks/ab-top-pick/Edit.js:809
+#: blocks/comparison-table/Edit.js:1098
+#: blocks/propsandcons/Edit.js:225
+msgid "titlelineHeightTablet"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:267 blocks/ab-cta/Edit.js:504
+#: blocks/ab-notice/Edit.js:235 blocks/ab-product-review/Edit.js:564
+#: blocks/ab-single-product/Edit.js:672
+#: blocks/ab-table-content/Edit.js:718
+#: blocks/ab-title-block/Edit.js:185 blocks/ab-top-pick/Edit.js:810
+#: blocks/comparison-table/Edit.js:1099
+#: blocks/propsandcons/Edit.js:226
+msgid "titleletterSpacing"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:268 blocks/ab-cta/Edit.js:505
+#: blocks/ab-notice/Edit.js:236 blocks/ab-product-review/Edit.js:565
+#: blocks/ab-single-product/Edit.js:673
+#: blocks/ab-table-content/Edit.js:719
+#: blocks/ab-title-block/Edit.js:186 blocks/ab-top-pick/Edit.js:811
+#: blocks/comparison-table/Edit.js:1100
+#: blocks/propsandcons/Edit.js:227
+msgid "titleletterSpacingMobile"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:269 blocks/ab-cta/Edit.js:506
+#: blocks/ab-notice/Edit.js:237 blocks/ab-product-review/Edit.js:566
+#: blocks/ab-single-product/Edit.js:674
+#: blocks/ab-table-content/Edit.js:720
+#: blocks/ab-title-block/Edit.js:187 blocks/ab-top-pick/Edit.js:812
+#: blocks/comparison-table/Edit.js:1101
+#: blocks/propsandcons/Edit.js:228
+msgid "titleletterSpacingTablet"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:270 blocks/ab-cta/Edit.js:507
+#: blocks/ab-notice/Edit.js:238 blocks/ab-product-review/Edit.js:567
+#: blocks/ab-single-product/Edit.js:675
+#: blocks/ab-table-content/Edit.js:721
+#: blocks/ab-title-block/Edit.js:188 blocks/ab-top-pick/Edit.js:813
+#: blocks/comparison-table/Edit.js:1102
+#: blocks/propsandcons/Edit.js:229
+msgid "titleletterSpacingType"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:271 blocks/ab-cta/Edit.js:508
+#: blocks/ab-notice/Edit.js:239 blocks/ab-product-review/Edit.js:568
+#: blocks/ab-single-product/Edit.js:676
+#: blocks/ab-table-content/Edit.js:722
+#: blocks/ab-title-block/Edit.js:189 blocks/ab-top-pick/Edit.js:814
+#: blocks/comparison-table/Edit.js:1103
+#: blocks/propsandcons/Edit.js:230
+msgid "titleletterSpacingTypeTablet"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:272 blocks/ab-cta/Edit.js:509
+#: blocks/ab-notice/Edit.js:240 blocks/ab-product-review/Edit.js:569
+#: blocks/ab-single-product/Edit.js:677
+#: blocks/ab-table-content/Edit.js:723
+#: blocks/ab-title-block/Edit.js:190 blocks/ab-top-pick/Edit.js:815
+#: blocks/comparison-table/Edit.js:1104
+#: blocks/propsandcons/Edit.js:231
+msgid "titleletterSpacingTypeMobile"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:280 blocks/ab-top-pick/Edit.js:1185
+msgid "Backgound & Text Color"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:282 blocks/ab-cta/Edit.js:671
+#: blocks/ab-product-review/Edit.js:918
+#: blocks/ab-single-product/Edit.js:1058
+#: blocks/ab-top-pick/Edit.js:1187
+#: blocks/comparison-table/Edit.js:1308
+#: components/fields/ButtonSettings.js:329
+#: components/fields/ButtonSettings.js:454
+msgid "Normal"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:283 blocks/ab-cta/Edit.js:672
+#: blocks/ab-product-review/Edit.js:919
+#: blocks/ab-single-product/Edit.js:1059
+#: blocks/ab-top-pick/Edit.js:499 blocks/ab-top-pick/Edit.js:1188
+#: blocks/comparison-table/Edit.js:1309
+#: components/fields/ButtonSettings.js:330
+#: components/fields/ButtonSettings.js:348
+msgid "Text Color"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:284 blocks/ab-cta/Edit.js:673
+#: blocks/ab-dynamic-block/Edit.js:150
+#: blocks/ab-notification/Edit.js:138
+#: blocks/ab-product-review/Edit.js:920
+#: blocks/ab-single-product/Edit.js:572
+#: blocks/ab-single-product/Edit.js:1060
+#: blocks/ab-table-content/Edit.js:570
+#: blocks/ab-title-block/Edit.js:199 blocks/ab-top-pick/Edit.js:1189
+#: blocks/comparison-table/Edit.js:1310
+#: components/fields/Border.js:117
+#: components/fields/ButtonSettings.js:350
+msgid "Border Color"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:285 blocks/ab-cta/Edit.js:674
+#: blocks/ab-dynamic-block/Edit.js:149 blocks/ab-notice/Edit.js:615
+#: blocks/ab-notification/Edit.js:139
+#: blocks/ab-product-review/Edit.js:921
+#: blocks/ab-single-product/Edit.js:1061
+#: blocks/ab-top-pick/Edit.js:500 blocks/ab-top-pick/Edit.js:1190
+#: blocks/comparison-table/Edit.js:1311
+#: components/fields/inline/editorInline.js:226
+msgid "Background Color"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:287 blocks/ab-cta/Edit.js:676
+#: blocks/ab-product-review/Edit.js:923
+#: blocks/ab-single-product/Edit.js:1063
+#: blocks/ab-top-pick/Edit.js:1192
+#: blocks/comparison-table/Edit.js:1313
+#: components/fields/ButtonSettings.js:347
+#: components/fields/ButtonSettings.js:461
+msgid "Hover"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:288
+msgid "Hover Color"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:289
+msgid "Hover Border Color"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:290 blocks/ab-cta/Edit.js:679
+#: blocks/ab-product-review/Edit.js:926
+#: blocks/ab-single-product/Edit.js:1066
+#: blocks/ab-top-pick/Edit.js:1195
+#: blocks/comparison-table/Edit.js:1316
+msgid "Hover Background Color"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:327 blocks/ab-btn/Edit.js:336
+#: blocks/ab-cta/Edit.js:716 blocks/ab-cta/Edit.js:725
+#: blocks/ab-dynamic-block/Edit.js:185
+#: blocks/ab-dynamic-block/Edit.js:194 blocks/ab-notice/Edit.js:285
+#: blocks/ab-notice/Edit.js:294 blocks/ab-notice/Edit.js:681
+#: blocks/ab-notice/Edit.js:690 blocks/ab-notification/Edit.js:205
+#: blocks/ab-notification/Edit.js:214
+#: blocks/ab-product-review/Edit.js:964
+#: blocks/ab-product-review/Edit.js:973
+#: blocks/ab-single-product/Edit.js:1103
+#: blocks/ab-single-product/Edit.js:1112
+#: blocks/ab-title-block/Edit.js:234 blocks/ab-title-block/Edit.js:243
+#: blocks/ab-top-pick/Edit.js:1232 blocks/ab-top-pick/Edit.js:1241
+#: blocks/comparison-table/Edit.js:1354
+#: blocks/comparison-table/Edit.js:1363
+#: components/fields/ButtonSettings.js:293
+msgid "Padding"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:383 blocks/ab-btn/Edit.js:392
+#: blocks/ab-cta/Edit.js:772 blocks/ab-cta/Edit.js:781
+#: blocks/ab-dynamic-block/Edit.js:241
+#: blocks/ab-dynamic-block/Edit.js:250 blocks/ab-notice/Edit.js:341
+#: blocks/ab-notice/Edit.js:350 blocks/ab-notice/Edit.js:737
+#: blocks/ab-notice/Edit.js:746 blocks/ab-notification/Edit.js:261
+#: blocks/ab-notification/Edit.js:270
+#: blocks/ab-product-review/Edit.js:1020
+#: blocks/ab-product-review/Edit.js:1029
+#: blocks/ab-single-product/Edit.js:1159
+#: blocks/ab-single-product/Edit.js:1168
+#: blocks/ab-title-block/Edit.js:290 blocks/ab-title-block/Edit.js:299
+#: blocks/ab-top-pick/Edit.js:1288 blocks/ab-top-pick/Edit.js:1297
+#: blocks/comparison-table/Edit.js:1410
+#: blocks/comparison-table/Edit.js:1419
+msgid "Margin"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:404 blocks/ab-cta/Edit.js:793
+#: blocks/ab-dynamic-block/Edit.js:262 blocks/ab-notice/Edit.js:362
+#: blocks/ab-notification/Edit.js:282
+#: blocks/ab-product-review/Edit.js:1041
+#: blocks/ab-single-product/Edit.js:571
+#: blocks/ab-single-product/Edit.js:1180
+#: blocks/ab-table-content/Edit.js:569
+#: blocks/ab-title-block/Edit.js:311 blocks/ab-top-pick/Edit.js:708
+#: blocks/ab-top-pick/Edit.js:1309
+#: blocks/comparison-table/Edit.js:1431
+msgid "Border Type"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:439 blocks/ab-btn/Edit.js:449
+#: blocks/ab-dynamic-block/Edit.js:297
+#: blocks/ab-dynamic-block/Edit.js:307 blocks/ab-notice/Edit.js:397
+#: blocks/ab-notice/Edit.js:407 blocks/ab-notification/Edit.js:317
+#: blocks/ab-notification/Edit.js:327
+#: blocks/ab-title-block/Edit.js:346 blocks/ab-title-block/Edit.js:356
+#: components/fields/Border.js:90
+#: components/fields/ButtonSettings.js:335
+msgid "Border"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:495 blocks/ab-btn/Edit.js:505
+#: blocks/ab-cta/Edit.js:884 blocks/ab-cta/Edit.js:894
+#: blocks/ab-dynamic-block/Edit.js:353
+#: blocks/ab-dynamic-block/Edit.js:363 blocks/ab-notice/Edit.js:453
+#: blocks/ab-notice/Edit.js:463 blocks/ab-notification/Edit.js:373
+#: blocks/ab-notification/Edit.js:383
+#: blocks/ab-product-review/Edit.js:1132
+#: blocks/ab-product-review/Edit.js:1142
+#: blocks/ab-single-product/Edit.js:1271
+#: blocks/ab-single-product/Edit.js:1281
+#: blocks/ab-table-content/Edit.js:671
+#: blocks/ab-table-content/Edit.js:682
+#: blocks/ab-title-block/Edit.js:402 blocks/ab-title-block/Edit.js:412
+#: blocks/ab-top-pick/Edit.js:1400 blocks/ab-top-pick/Edit.js:1410
+#: blocks/comparison-table/Edit.js:1522
+#: blocks/comparison-table/Edit.js:1532
+msgid "Border Radius"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:554 blocks/ab-btn/Edit.js:565
+#: blocks/ab-cta/Edit.js:440 blocks/ab-cta/Edit.js:449
+#: blocks/ab-cta/Edit.js:943 blocks/ab-cta/Edit.js:954
+#: blocks/ab-notice/Edit.js:510 blocks/ab-notice/Edit.js:519
+#: blocks/ab-notice/Edit.js:906 blocks/ab-notice/Edit.js:915
+#: blocks/ab-notification/Edit.js:430
+#: blocks/ab-notification/Edit.js:439
+#: blocks/ab-product-rating-bar/Edit.js:284
+#: blocks/ab-product-rating-bar/Edit.js:294
+#: blocks/ab-product-review/Edit.js:1191
+#: blocks/ab-product-review/Edit.js:1202
+#: blocks/ab-single-product/Edit.js:599
+#: blocks/ab-single-product/Edit.js:701
+#: blocks/ab-single-product/Edit.js:833
+#: blocks/ab-single-product/Edit.js:842
+#: blocks/ab-single-product/Edit.js:1330
+#: blocks/ab-single-product/Edit.js:1341
+#: blocks/ab-star-rating/Edit.js:284 blocks/ab-star-rating/Edit.js:294
+#: blocks/ab-title-block/Edit.js:459 blocks/ab-title-block/Edit.js:468
+#: blocks/ab-top-pick/Edit.js:770 blocks/ab-top-pick/Edit.js:779
+#: blocks/ab-top-pick/Edit.js:860 blocks/ab-top-pick/Edit.js:869
+#: blocks/ab-top-pick/Edit.js:990 blocks/ab-top-pick/Edit.js:1026
+#: blocks/ab-top-pick/Edit.js:1035 blocks/ab-top-pick/Edit.js:1459
+#: blocks/ab-top-pick/Edit.js:1470
+#: blocks/comparison-table/Edit.js:1579
+#: blocks/comparison-table/Edit.js:1588
+#: components/fields/ButtonSettings.js:276
+#: components/fields/ListSettings.js:151
+msgid "Alignment"
+msgstr ""
+
+#: blocks/ab-btn/Edit.js:602 blocks/ab-cta/Edit.js:1004
+#: blocks/ab-cta/Edit.js:1051 blocks/ab-product-review/Edit.js:1480
+#: blocks/ab-single-product/Edit.js:1509
+#: blocks/ab-single-product/Edit.js:1537
+#: blocks/ab-top-pick/Edit.js:1679
+msgid "Button text"
+msgstr ""
+
+#: blocks/ab-btn/block.js:10
+msgid "AB Button"
+msgstr ""
+
+#: blocks/ab-btn/block.js:16
+msgid "Button Block"
+msgstr ""
+
+#: blocks/ab-btn/block.js:17
+msgid "Advanced Button"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:263
+msgid "Box Style"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:264 blocks/comparison-table/Edit.js:68
+#: blocks/comparison-table/Edit.js:1033
+msgid "Style 1"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:264 blocks/comparison-table/Edit.js:69
+#: blocks/comparison-table/Edit.js:1033
+msgid "Style 2"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:270
+#: components/fields/Background/Background.js:64
+#: components/fields/ButtonSettings.js:332
+#: components/fields/ButtonSettings.js:349
+msgid "Background"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:277
+msgid "Background Overlay"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:316 blocks/ab-cta/Edit.js:327
+#: blocks/ab-icon-list/Edit.js:619 blocks/ab-icon-list/Edit.js:630
+#: blocks/ab-single-product/Edit.js:482
+#: blocks/ab-single-product/Edit.js:493
+#: blocks/ab-table-content/Edit.js:480
+#: blocks/ab-table-content/Edit.js:491 blocks/ab-top-pick/Edit.js:619
+#: blocks/ab-top-pick/Edit.js:630
+msgid "Box Padding"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:379 blocks/ab-cta/Edit.js:390
+#: blocks/ab-icon-list/Edit.js:682 blocks/ab-icon-list/Edit.js:693
+#: blocks/ab-single-product/Edit.js:545
+#: blocks/ab-single-product/Edit.js:556
+#: blocks/ab-table-content/Edit.js:543
+#: blocks/ab-table-content/Edit.js:554 blocks/ab-top-pick/Edit.js:682
+#: blocks/ab-top-pick/Edit.js:693
+msgid "Box Margin"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:461 blocks/ab-icon-list/Edit.js:417
+#: blocks/ab-notice/Edit.js:927 blocks/ab-notification/Edit.js:469
+#: blocks/ab-product-review/Edit.js:672
+#: blocks/ab-single-product/Edit.js:582
+#: blocks/ab-table-content/Edit.js:362 blocks/ab-top-pick/Edit.js:718
+#: blocks/comparison-table/Edit.js:1143
+#: blocks/propsandcons/Edit.js:270
+#: components/fields/ButtonSettings.js:343
+#: components/fields/ButtonSettings.js:352
+msgid "Box-Shadow"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:464
+msgid "Show Title"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:470
+msgid "Title Settings"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:472 blocks/ab-notice/Edit.js:204
+#: blocks/ab-product-review/Edit.js:501
+#: blocks/ab-single-product/Edit.js:586
+#: blocks/ab-title-block/Edit.js:154 blocks/ab-top-pick/Edit.js:722
+#: blocks/comparison-table/Edit.js:1018
+msgid "Title Heading Tag"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:485 blocks/ab-notice/Edit.js:248
+#: blocks/ab-single-product/Edit.js:653
+#: blocks/ab-table-content/Edit.js:699
+#: blocks/ab-title-block/Edit.js:198 blocks/ab-top-pick/Edit.js:791
+msgid "Title Color"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:487 blocks/ab-notice/Edit.js:218
+#: blocks/ab-product-review/Edit.js:547
+#: blocks/ab-single-product/Edit.js:655
+#: blocks/ab-table-content/Edit.js:701
+#: blocks/ab-title-block/Edit.js:168 blocks/ab-top-pick/Edit.js:793
+#: blocks/comparison-table/Edit.js:1082
+#: blocks/propsandcons/Edit.js:209
+msgid "Title Typography"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:520
+msgid "Show Content"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:526
+msgid "Content Settings"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:527 blocks/ab-notice/Edit.js:613
+#: blocks/ab-notification/Edit.js:137
+#: blocks/ab-single-product/Edit.js:922
+#: blocks/ab-table-content/Edit.js:731 blocks/ab-top-pick/Edit.js:1050
+msgid "Content Color"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:529 blocks/ab-notice/Edit.js:617
+#: blocks/ab-notification/Edit.js:141
+#: blocks/ab-single-product/Edit.js:924
+#: blocks/ab-table-content/Edit.js:734 blocks/ab-top-pick/Edit.js:1052
+#: blocks/comparison-table/Edit.js:1113
+msgid "Content Typography"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:532 blocks/ab-notice/Edit.js:620
+#: blocks/ab-notification/Edit.js:144
+#: blocks/ab-single-product/Edit.js:927
+#: blocks/ab-table-content/Edit.js:737 blocks/ab-top-pick/Edit.js:1055
+#: blocks/comparison-table/Edit.js:1116
+msgid "cntnLoadGoogleFonts"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:533 blocks/ab-notice/Edit.js:621
+#: blocks/ab-notification/Edit.js:145
+#: blocks/ab-single-product/Edit.js:928
+#: blocks/ab-table-content/Edit.js:738 blocks/ab-top-pick/Edit.js:1056
+#: blocks/comparison-table/Edit.js:1117
+msgid "cntnfontFamily"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:534 blocks/ab-notice/Edit.js:622
+#: blocks/ab-notification/Edit.js:146
+#: blocks/ab-single-product/Edit.js:929
+#: blocks/ab-table-content/Edit.js:739 blocks/ab-top-pick/Edit.js:1057
+#: blocks/comparison-table/Edit.js:1118
+msgid "cntnfontWeight"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:535 blocks/ab-notice/Edit.js:623
+#: blocks/ab-notification/Edit.js:147
+#: blocks/ab-single-product/Edit.js:930
+#: blocks/ab-table-content/Edit.js:740 blocks/ab-top-pick/Edit.js:1058
+#: blocks/comparison-table/Edit.js:1119
+msgid "cntnfontSubset"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:536 blocks/ab-notice/Edit.js:624
+#: blocks/ab-notification/Edit.js:148
+#: blocks/ab-single-product/Edit.js:931
+#: blocks/ab-table-content/Edit.js:741 blocks/ab-top-pick/Edit.js:1059
+#: blocks/comparison-table/Edit.js:1120
+msgid "cntnfontSizeType"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:537 blocks/ab-notice/Edit.js:625
+#: blocks/ab-notification/Edit.js:149
+#: blocks/ab-single-product/Edit.js:932
+#: blocks/ab-table-content/Edit.js:742 blocks/ab-top-pick/Edit.js:1060
+#: blocks/comparison-table/Edit.js:1121
+msgid "cntnfontSizeTypeMobile"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:538 blocks/ab-notice/Edit.js:626
+#: blocks/ab-notification/Edit.js:150
+#: blocks/ab-single-product/Edit.js:933
+#: blocks/ab-table-content/Edit.js:743 blocks/ab-top-pick/Edit.js:1061
+#: blocks/comparison-table/Edit.js:1122
+msgid "cntnfontSizeTypeTablet"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:539 blocks/ab-notice/Edit.js:627
+#: blocks/ab-notification/Edit.js:151
+#: blocks/ab-single-product/Edit.js:934
+#: blocks/ab-table-content/Edit.js:744 blocks/ab-top-pick/Edit.js:1062
+#: blocks/comparison-table/Edit.js:1123
+msgid "cntnfontSizeDesktop"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:540 blocks/ab-notice/Edit.js:628
+#: blocks/ab-notification/Edit.js:152
+#: blocks/ab-single-product/Edit.js:935
+#: blocks/ab-table-content/Edit.js:745 blocks/ab-top-pick/Edit.js:1063
+#: blocks/comparison-table/Edit.js:1124
+msgid "cntnfontSizeMobile"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:541 blocks/ab-notice/Edit.js:629
+#: blocks/ab-notification/Edit.js:153
+#: blocks/ab-single-product/Edit.js:936
+#: blocks/ab-table-content/Edit.js:746 blocks/ab-top-pick/Edit.js:1064
+#: blocks/comparison-table/Edit.js:1125
+msgid "cntnfontSizeTablet"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:543 blocks/ab-notice/Edit.js:631
+#: blocks/ab-notification/Edit.js:155
+#: blocks/ab-single-product/Edit.js:938
+#: blocks/ab-table-content/Edit.js:748 blocks/ab-top-pick/Edit.js:1066
+#: blocks/comparison-table/Edit.js:1127
+msgid "cntnlineHeight"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:544 blocks/ab-notice/Edit.js:632
+#: blocks/ab-notification/Edit.js:156
+#: blocks/ab-single-product/Edit.js:939
+#: blocks/ab-table-content/Edit.js:749 blocks/ab-top-pick/Edit.js:1067
+#: blocks/comparison-table/Edit.js:1128
+msgid "cntnlineHeightMobile"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:545 blocks/ab-notice/Edit.js:633
+#: blocks/ab-notification/Edit.js:157
+#: blocks/ab-single-product/Edit.js:940
+#: blocks/ab-table-content/Edit.js:750 blocks/ab-top-pick/Edit.js:1068
+#: blocks/comparison-table/Edit.js:1129
+msgid "cntnlineHeightTablet"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:546 blocks/ab-notice/Edit.js:634
+#: blocks/ab-notification/Edit.js:158
+#: blocks/ab-single-product/Edit.js:941
+#: blocks/ab-table-content/Edit.js:751 blocks/ab-top-pick/Edit.js:1069
+#: blocks/comparison-table/Edit.js:1130
+msgid "cntnletterSpacing"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:547 blocks/ab-notice/Edit.js:635
+#: blocks/ab-notification/Edit.js:159
+#: blocks/ab-single-product/Edit.js:942
+#: blocks/ab-table-content/Edit.js:752 blocks/ab-top-pick/Edit.js:1070
+#: blocks/comparison-table/Edit.js:1131
+msgid "cntnletterSpacingMobile"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:548 blocks/ab-notice/Edit.js:636
+#: blocks/ab-notification/Edit.js:160
+#: blocks/ab-single-product/Edit.js:943
+#: blocks/ab-table-content/Edit.js:753 blocks/ab-top-pick/Edit.js:1071
+#: blocks/comparison-table/Edit.js:1132
+msgid "cntnletterSpacingTablet"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:549 blocks/ab-notice/Edit.js:637
+#: blocks/ab-notification/Edit.js:161
+#: blocks/ab-single-product/Edit.js:944
+#: blocks/ab-table-content/Edit.js:754 blocks/ab-top-pick/Edit.js:1072
+#: blocks/comparison-table/Edit.js:1133
+msgid "cntnletterSpacingType"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:550 blocks/ab-notice/Edit.js:638
+#: blocks/ab-notification/Edit.js:162
+#: blocks/ab-single-product/Edit.js:945
+#: blocks/ab-table-content/Edit.js:755 blocks/ab-top-pick/Edit.js:1073
+#: blocks/comparison-table/Edit.js:1134
+msgid "cntnletterSpacingTypeTablet"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:551 blocks/ab-notice/Edit.js:639
+#: blocks/ab-notification/Edit.js:163
+#: blocks/ab-single-product/Edit.js:946
+#: blocks/ab-table-content/Edit.js:756 blocks/ab-top-pick/Edit.js:1074
+#: blocks/comparison-table/Edit.js:1135
+msgid "cntnletterSpacingTypeMobile"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:562
+msgid "Show Button"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:568 blocks/ab-product-review/Edit.js:815
+#: blocks/ab-single-product/Edit.js:955
+#: blocks/ab-top-pick/Edit.js:1083
+#: blocks/comparison-table/Edit.js:1223
+msgid "Button Settings"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:596 blocks/ab-product-review/Edit.js:843
+#: blocks/ab-single-product/Edit.js:983
+#: blocks/ab-top-pick/Edit.js:1111 blocks/comparison-table/Edit.js:861
+msgid "Button Text"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:643 blocks/ab-product-review/Edit.js:890
+#: blocks/ab-single-product/Edit.js:1030
+#: blocks/ab-top-pick/Edit.js:1158
+#: blocks/comparison-table/Edit.js:1279
+msgid "btnLoadGoogleFonts"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:644 blocks/ab-product-review/Edit.js:891
+#: blocks/ab-single-product/Edit.js:1031
+#: blocks/ab-top-pick/Edit.js:1159
+#: blocks/comparison-table/Edit.js:1280
+msgid "btnfontFamily"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:645 blocks/ab-product-review/Edit.js:892
+#: blocks/ab-single-product/Edit.js:1032
+#: blocks/ab-top-pick/Edit.js:1160
+#: blocks/comparison-table/Edit.js:1281
+msgid "btnfontWeight"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:646 blocks/ab-product-review/Edit.js:893
+#: blocks/ab-single-product/Edit.js:1033
+#: blocks/ab-top-pick/Edit.js:1161
+#: blocks/comparison-table/Edit.js:1282
+msgid "btnfontSubset"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:647 blocks/ab-product-review/Edit.js:894
+#: blocks/ab-single-product/Edit.js:1034
+#: blocks/ab-top-pick/Edit.js:1162
+#: blocks/comparison-table/Edit.js:1283
+msgid "btnfontSizeType"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:648 blocks/ab-product-review/Edit.js:895
+#: blocks/ab-single-product/Edit.js:1035
+#: blocks/ab-top-pick/Edit.js:1163
+#: blocks/comparison-table/Edit.js:1284
+msgid "btnfontSizeTypeMobile"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:649 blocks/ab-product-review/Edit.js:896
+#: blocks/ab-single-product/Edit.js:1036
+#: blocks/ab-top-pick/Edit.js:1164
+#: blocks/comparison-table/Edit.js:1285
+msgid "btnfontSizeTypeTablet"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:650 blocks/ab-product-review/Edit.js:897
+#: blocks/ab-single-product/Edit.js:1037
+#: blocks/ab-top-pick/Edit.js:1165
+#: blocks/comparison-table/Edit.js:1286
+msgid "btnfontSizeDesktop"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:651 blocks/ab-product-review/Edit.js:898
+#: blocks/ab-single-product/Edit.js:1038
+#: blocks/ab-top-pick/Edit.js:1166
+#: blocks/comparison-table/Edit.js:1287
+msgid "btnfontSizeMobile"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:652 blocks/ab-product-review/Edit.js:899
+#: blocks/ab-single-product/Edit.js:1039
+#: blocks/ab-top-pick/Edit.js:1167
+#: blocks/comparison-table/Edit.js:1288
+msgid "btnfontSizeTablet"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:654 blocks/ab-product-review/Edit.js:901
+#: blocks/ab-single-product/Edit.js:1041
+#: blocks/ab-top-pick/Edit.js:1169
+#: blocks/comparison-table/Edit.js:1290
+msgid "btnlineHeight"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:655 blocks/ab-product-review/Edit.js:902
+#: blocks/ab-single-product/Edit.js:1042
+#: blocks/ab-top-pick/Edit.js:1170
+#: blocks/comparison-table/Edit.js:1291
+msgid "btnlineHeightMobile"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:656 blocks/ab-product-review/Edit.js:903
+#: blocks/ab-single-product/Edit.js:1043
+#: blocks/ab-top-pick/Edit.js:1171
+#: blocks/comparison-table/Edit.js:1292
+msgid "btnlineHeightTablet"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:657 blocks/ab-product-review/Edit.js:904
+#: blocks/ab-single-product/Edit.js:1044
+#: blocks/ab-top-pick/Edit.js:1172
+#: blocks/comparison-table/Edit.js:1293
+msgid "btnletterSpacing"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:658 blocks/ab-product-review/Edit.js:905
+#: blocks/ab-single-product/Edit.js:1045
+#: blocks/ab-top-pick/Edit.js:1173
+#: blocks/comparison-table/Edit.js:1294
+msgid "btnletterSpacingMobile"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:659 blocks/ab-product-review/Edit.js:906
+#: blocks/ab-single-product/Edit.js:1046
+#: blocks/ab-top-pick/Edit.js:1174
+#: blocks/comparison-table/Edit.js:1295
+msgid "btnletterSpacingTablet"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:660 blocks/ab-product-review/Edit.js:907
+#: blocks/ab-single-product/Edit.js:1047
+#: blocks/ab-top-pick/Edit.js:1175
+#: blocks/comparison-table/Edit.js:1296
+msgid "btnletterSpacingType"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:661 blocks/ab-product-review/Edit.js:908
+#: blocks/ab-single-product/Edit.js:1048
+#: blocks/ab-top-pick/Edit.js:1176
+#: blocks/comparison-table/Edit.js:1297
+msgid "btnletterSpacingTypeTablet"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:662 blocks/ab-product-review/Edit.js:909
+#: blocks/ab-single-product/Edit.js:1049
+#: blocks/ab-top-pick/Edit.js:1177
+#: blocks/comparison-table/Edit.js:1298
+msgid "btnletterSpacingTypeMobile"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:677 blocks/ab-product-review/Edit.js:924
+#: blocks/ab-single-product/Edit.js:1064
+#: blocks/ab-top-pick/Edit.js:1193
+#: blocks/comparison-table/Edit.js:1314
+msgid "Hover Text Color"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:678 blocks/ab-product-review/Edit.js:925
+#: blocks/ab-single-product/Edit.js:1065
+#: blocks/ab-top-pick/Edit.js:1194
+#: blocks/comparison-table/Edit.js:1315
+msgid "Border Hover Color"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:828 blocks/ab-cta/Edit.js:838
+#: blocks/ab-product-review/Edit.js:1076
+#: blocks/ab-product-review/Edit.js:1086
+#: blocks/ab-single-product/Edit.js:574
+#: blocks/ab-single-product/Edit.js:1215
+#: blocks/ab-single-product/Edit.js:1225
+#: blocks/ab-top-pick/Edit.js:710 blocks/ab-top-pick/Edit.js:1344
+#: blocks/ab-top-pick/Edit.js:1354
+#: blocks/comparison-table/Edit.js:1466
+#: blocks/comparison-table/Edit.js:1476
+#: components/fields/Border.js:133
+msgid "Border Width"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:980 blocks/ab-cta/Edit.js:1031
+msgid "CTA Heading"
+msgstr ""
+
+#: blocks/ab-cta/Edit.js:988 blocks/ab-cta/Edit.js:1039
+msgid "CTA Content"
+msgstr ""
+
+#: blocks/ab-cta/block.js:11
+msgid "AB Call to action"
+msgstr ""
+
+#: blocks/ab-cta/block.js:17
+msgid "CTA"
+msgstr ""
+
+#: blocks/ab-cta/block.js:18
+msgid "advanced CTA"
+msgstr ""
+
+#: blocks/ab-dynamic-block/block.js:15
+msgid "Dynamic Block"
+msgstr ""
+
+#: blocks/ab-dynamic-block/block.js:17
+msgid "Advanced Dynamic Block"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:386
+#: blocks/ab-product-review/Edit.js:640
+#: blocks/propsandcons/Edit.js:240
+msgid "List Typography"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:389
+#: blocks/ab-product-review/Edit.js:643
+#: blocks/propsandcons/Edit.js:243
+msgid "listLoadGoogleFonts"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:390
+#: blocks/ab-product-review/Edit.js:644
+#: blocks/propsandcons/Edit.js:244
+msgid "listfontFamily"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:391
+#: blocks/ab-product-review/Edit.js:645
+#: blocks/propsandcons/Edit.js:245
+msgid "listfontWeight"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:392
+#: blocks/ab-product-review/Edit.js:646
+#: blocks/propsandcons/Edit.js:246
+msgid "listfontSubset"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:393
+#: blocks/ab-product-review/Edit.js:647
+#: blocks/propsandcons/Edit.js:247
+msgid "listfontSizeType"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:394
+#: blocks/ab-product-review/Edit.js:648
+#: blocks/propsandcons/Edit.js:248
+msgid "listfontSizeTypeMobile"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:395
+#: blocks/ab-product-review/Edit.js:649
+#: blocks/propsandcons/Edit.js:249
+msgid "listfontSizeTypeTablet"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:396
+#: blocks/ab-product-review/Edit.js:650
+#: blocks/propsandcons/Edit.js:250
+msgid "listfontSizeDesktop"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:397
+#: blocks/ab-product-review/Edit.js:651
+#: blocks/propsandcons/Edit.js:251
+msgid "listfontSizeMobile"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:398
+#: blocks/ab-product-review/Edit.js:652
+#: blocks/propsandcons/Edit.js:252
+msgid "listfontSizeTablet"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:400
+#: blocks/ab-product-review/Edit.js:654
+#: blocks/propsandcons/Edit.js:254
+msgid "listlineHeight"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:401
+#: blocks/ab-product-review/Edit.js:655
+#: blocks/propsandcons/Edit.js:255
+msgid "listlineHeightMobile"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:402
+#: blocks/ab-product-review/Edit.js:656
+#: blocks/propsandcons/Edit.js:256
+msgid "listlineHeightTablet"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:403
+#: blocks/ab-product-review/Edit.js:657
+#: blocks/propsandcons/Edit.js:257
+msgid "listletterSpacing"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:404
+#: blocks/ab-product-review/Edit.js:658
+#: blocks/propsandcons/Edit.js:258
+msgid "listletterSpacingMobile"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:405
+#: blocks/ab-product-review/Edit.js:659
+#: blocks/propsandcons/Edit.js:259
+msgid "listletterSpacingTablet"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:406
+#: blocks/ab-product-review/Edit.js:660
+#: blocks/propsandcons/Edit.js:260
+msgid "listletterSpacingType"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:407
+#: blocks/ab-product-review/Edit.js:661
+#: blocks/propsandcons/Edit.js:261
+msgid "listletterSpacingTypeTablet"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:408
+#: blocks/ab-product-review/Edit.js:662
+#: blocks/propsandcons/Edit.js:262
+msgid "listletterSpacingTypeMobile"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:416 blocks/ab-table-content/Edit.js:361
+msgid "Box Background Color"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:447 blocks/ab-icon-list/Edit.js:451
+#: blocks/ab-table-content/Edit.js:392
+#: blocks/ab-table-content/Edit.js:396
+msgid "Number of Columns"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:488 blocks/ab-icon-list/Edit.js:492
+msgid "Icon Spacing"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:529 blocks/ab-icon-list/Edit.js:533
+#: components/fields/ListSettings.js:177
+msgid "Icon Size"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:570 blocks/ab-icon-list/Edit.js:574
+msgid "List Item Gap"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:709
+msgid "List Settings"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:709
+#: blocks/ab-product-review/Edit.js:674
+#: blocks/ab-product-review/Edit.js:744
+#: blocks/propsandcons/Edit.js:272 blocks/propsandcons/Edit.js:343
+msgid "Number"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:711
+msgid "Icon Type"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:719
+#: blocks/ab-single-product/Edit.js:443 blocks/ab-top-pick/Edit.js:574
+#: components/fields/Background/Background.js:82
+msgid "Image"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:771 blocks/ab-notice/Edit.js:596
+#: blocks/ab-product-review/Edit.js:725
+#: blocks/ab-product-review/Edit.js:795
+#: blocks/ab-single-product/Edit.js:904
+#: blocks/components/typography/index.js:215
+#: blocks/components/typography/index.js:216
+#: blocks/components/typography/index.js:217
+#: blocks/components/typography/index2.js:136
+#: blocks/components/typography/index2.js:137
+#: blocks/components/typography/index2.js:138
+#: blocks/propsandcons/Edit.js:323 blocks/propsandcons/Edit.js:394
+#: components/fields/Typography.js:133
+msgid "Font Size"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:774 blocks/ab-notice/Edit.js:599
+#: blocks/ab-product-review/Edit.js:728
+#: blocks/ab-product-review/Edit.js:798
+#: blocks/ab-single-product/Edit.js:907
+#: blocks/propsandcons/Edit.js:326 blocks/propsandcons/Edit.js:397
+msgid "Use Background"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:780 blocks/ab-notice/Edit.js:605
+#: blocks/ab-product-review/Edit.js:734
+#: blocks/ab-product-review/Edit.js:804
+#: blocks/ab-single-product/Edit.js:913
+#: blocks/propsandcons/Edit.js:332 blocks/propsandcons/Edit.js:403
+msgid "Background Size"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:781 blocks/ab-notice/Edit.js:606
+#: blocks/ab-product-review/Edit.js:735
+#: blocks/ab-product-review/Edit.js:805
+#: blocks/ab-single-product/Edit.js:914
+#: blocks/propsandcons/Edit.js:333 blocks/propsandcons/Edit.js:404
+msgid "Corner"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:787
+msgid "List Icon Color"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:789
+msgid "List Color"
+msgstr ""
+
+#: blocks/ab-icon-list/Edit.js:803 blocks/ab-icon-list/Edit.js:814
+#: blocks/ab-notice/Edit.js:949 blocks/ab-product-review/Edit.js:1398
+#: blocks/ab-product-review/Edit.js:1420
+#: blocks/ab-single-product/Edit.js:1522
+#: blocks/ab-top-pick/Edit.js:1657 blocks/propsandcons/Edit.js:427
+#: blocks/propsandcons/Edit.js:441
+msgid "Enter New Item"
+msgstr ""
+
+#: blocks/ab-icon-list/block.js:11
+msgid "AB Icon List"
+msgstr ""
+
+#: blocks/ab-icon-list/block.js:16
+msgid "Advanced Icon List"
+msgstr ""
+
+#: blocks/ab-icon-list/block.js:17
+msgid "Icon List"
+msgstr ""
+
+#: blocks/ab-icon-list/block.js:18
+msgid "Advanced list"
+msgstr ""
+
+#: blocks/ab-notice/Edit.js:250
+msgid "Notice Color"
+msgstr ""
+
+#: blocks/ab-notice/Edit.js:534 blocks/ab-single-product/Edit.js:792
+#: blocks/ab-top-pick/Edit.js:931
+msgid "Content Type"
+msgstr ""
+
+#: blocks/ab-notice/Edit.js:592 blocks/ab-single-product/Edit.js:920
+#: blocks/ab-top-pick/Edit.js:1048
+#: components/fields/ListSettings.js:176
+msgid "Icon Color"
+msgstr ""
+
+#: blocks/ab-notice/Edit.js:936
+msgid "Notice Heading"
+msgstr ""
+
+#: blocks/ab-notice/Edit.js:959
+msgid "Notice Content"
+msgstr ""
+
+#: blocks/ab-notice/block.js:11
+msgid "AB Notice Block"
+msgstr ""
+
+#: blocks/ab-notice/block.js:16
+msgid "Notice"
+msgstr ""
+
+#: blocks/ab-notice/block.js:17
+msgid "Message Box"
+msgstr ""
+
+#: blocks/ab-notice/block.js:18
+msgid "Advanced Notice Block"
+msgstr ""
+
+#: blocks/ab-notification/Edit.js:452
+#: blocks/ab-table-content/Edit.js:412 blocks/ab-top-pick/Edit.js:536
+#: components/fields/ButtonSettings.js:416
+#: components/fields/ButtonSettings.js:470
+#: components/fields/ListSettings.js:153
+#: components/fields/Typography.js:127
+msgid "Typography"
+msgstr ""
+
+#: blocks/ab-notification/Edit.js:453
+#: blocks/ab-table-content/Edit.js:405
+#: blocks/comparison-table/Edit.js:1273
+msgid "Custom Width"
+msgstr ""
+
+#: blocks/ab-notification/Edit.js:462
+#: blocks/ab-table-content/Edit.js:423 blocks/ab-top-pick/Edit.js:547
+msgid "customWidthType"
+msgstr ""
+
+#: blocks/ab-notification/Edit.js:463
+#: blocks/ab-table-content/Edit.js:424 blocks/ab-top-pick/Edit.js:548
+msgid "customWidthTypeMobile"
+msgstr ""
+
+#: blocks/ab-notification/Edit.js:464
+#: blocks/ab-table-content/Edit.js:425 blocks/ab-top-pick/Edit.js:549
+msgid "customWidthTypeTablet"
+msgstr ""
+
+#: blocks/ab-notification/Edit.js:465
+#: blocks/ab-table-content/Edit.js:426 blocks/ab-top-pick/Edit.js:550
+msgid "customWidth"
+msgstr ""
+
+#: blocks/ab-notification/Edit.js:466
+#: blocks/ab-table-content/Edit.js:427 blocks/ab-top-pick/Edit.js:551
+msgid "customWidthMobile"
+msgstr ""
+
+#: blocks/ab-notification/Edit.js:467
+#: blocks/ab-table-content/Edit.js:428 blocks/ab-top-pick/Edit.js:552
+msgid "customWidthTablet"
+msgstr ""
+
+#: blocks/ab-notification/Edit.js:477
+msgid "Notification Content"
+msgstr ""
+
+#: blocks/ab-notification/block.js:10
+msgid "AB Notification Block"
+msgstr ""
+
+#: blocks/ab-notification/block.js:15
+msgid "Notification"
+msgstr ""
+
+#: blocks/ab-notification/block.js:17
+msgid "Advanced Notification Block"
+msgstr ""
+
+#: blocks/ab-product-rating-bar/Edit.js:100
+#: blocks/ab-product-review/Edit.js:1217
+#: blocks/ab-star-rating/Edit.js:100
+msgid "Rating Settings"
+msgstr ""
+
+#: blocks/ab-product-rating-bar/Edit.js:101
+#: blocks/ab-star-rating/Edit.js:101
+#: components/fields/Background/Background.js:77
+#: components/fields/Background/Background.js:111
+#: components/fields/BoxShadow.js:42
+#: components/fields/ButtonSettings.js:456
+#: components/fields/ButtonSettings.js:463
+#: components/fields/ColorAdvanced.js:36
+#: components/fields/ListSettings.js:152 components/fields/Shape.js:80
+#: components/fields/inline/editorInline.js:61
+#: components/fields/inline/editorInline.js:116
+msgid "Color"
+msgstr ""
+
+#: blocks/ab-product-rating-bar/Edit.js:103
+#: blocks/ab-star-rating/Edit.js:103
+msgid "Number of stars"
+msgstr ""
+
+#: blocks/ab-product-rating-bar/Edit.js:155
+#: blocks/ab-product-rating-bar/Edit.js:167
+#: blocks/ab-star-rating/Edit.js:155 blocks/ab-star-rating/Edit.js:167
+msgid "Stars Size"
+msgstr ""
+
+#: blocks/ab-product-rating-bar/Edit.js:221
+#: blocks/ab-product-rating-bar/Edit.js:233
+#: blocks/ab-star-rating/Edit.js:221 blocks/ab-star-rating/Edit.js:233
+msgid "Spacebetween Star"
+msgstr ""
+
+#: blocks/ab-product-rating-bar/block.js:11
+msgid "AB Product rating bar"
+msgstr ""
+
+#: blocks/ab-product-rating-bar/block.js:16
+msgid "Product Rating"
+msgstr ""
+
+#: blocks/ab-product-rating-bar/block.js:17
+msgid "Product Ratingbar"
+msgstr ""
+
+#: blocks/ab-product-rating-bar/block.js:18
+msgid "Advanced Product Rating bar"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:64
+#: blocks/ab-single-product/Edit.js:54 blocks/ab-top-pick/Edit.js:50
+msgid "Thumbnail"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:65
+#: blocks/ab-single-product/Edit.js:55 blocks/ab-top-pick/Edit.js:51
+#: components/fields/ListSettings.js:180
+msgid "Medium"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:66
+#: blocks/ab-single-product/Edit.js:56 blocks/ab-top-pick/Edit.js:52
+#: components/fields/ListSettings.js:181
+msgid "Large"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:515
+#: blocks/propsandcons/Edit.js:184
+msgid "Pros & Cons Heading Tag"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:529
+#: blocks/propsandcons/Edit.js:199
+msgid "Pros Title"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:534
+#: blocks/propsandcons/Edit.js:204
+msgid "Cons Title"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:539
+#: blocks/ab-single-product/Edit.js:435 blocks/ab-top-pick/Edit.js:566
+msgid "Design Type"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:578
+msgid "Progress Typography"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:581
+msgid "progressLoadGoogleFonts"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:582
+msgid "progressfontFamily"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:583
+msgid "progressfontWeight"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:584
+msgid "progressfontSubset"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:585
+msgid "progressfontSizeType"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:586
+msgid "progressfontSizeTypeMobile"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:587
+msgid "progressfontSizeTypeTablet"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:588
+msgid "progressfontSizeDesktop"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:589
+msgid "progressfontSizeMobile"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:590
+msgid "progressfontSizeTablet"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:592
+msgid "progresslineHeight"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:593
+msgid "progresslineHeightMobile"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:594
+msgid "progresslineHeightTablet"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:595
+msgid "progressletterSpacing"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:596
+msgid "progressletterSpacingMobile"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:597
+msgid "progressletterSpacingTablet"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:598
+msgid "progressletterSpacingType"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:599
+msgid "progressletterSpacingTypeTablet"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:600
+msgid "progressletterSpacingTypeMobile"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:609
+msgid "Sub title Typography"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:612
+#: blocks/ab-single-product/Edit.js:761 blocks/ab-top-pick/Edit.js:900
+msgid "subtitleLoadGoogleFonts"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:613
+#: blocks/ab-single-product/Edit.js:762 blocks/ab-top-pick/Edit.js:901
+msgid "subtitlefontFamily"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:614
+#: blocks/ab-single-product/Edit.js:763 blocks/ab-top-pick/Edit.js:902
+msgid "subtitlefontWeight"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:615
+#: blocks/ab-single-product/Edit.js:764 blocks/ab-top-pick/Edit.js:903
+msgid "subtitlefontSubset"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:616
+#: blocks/ab-single-product/Edit.js:765 blocks/ab-top-pick/Edit.js:904
+msgid "subtitlefontSizeType"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:617
+#: blocks/ab-single-product/Edit.js:766 blocks/ab-top-pick/Edit.js:905
+msgid "subtitlefontSizeTypeMobile"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:618
+#: blocks/ab-single-product/Edit.js:767 blocks/ab-top-pick/Edit.js:906
+msgid "subtitlefontSizeTypeTablet"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:619
+#: blocks/ab-single-product/Edit.js:768 blocks/ab-top-pick/Edit.js:907
+msgid "subtitlefontSizeDesktop"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:620
+#: blocks/ab-single-product/Edit.js:769 blocks/ab-top-pick/Edit.js:908
+msgid "subtitlefontSizeMobile"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:621
+#: blocks/ab-single-product/Edit.js:770 blocks/ab-top-pick/Edit.js:909
+msgid "subtitlefontSizeTablet"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:623
+#: blocks/ab-single-product/Edit.js:772 blocks/ab-top-pick/Edit.js:911
+msgid "subtitlelineHeight"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:624
+#: blocks/ab-single-product/Edit.js:773 blocks/ab-top-pick/Edit.js:912
+msgid "subtitlelineHeightMobile"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:625
+#: blocks/ab-single-product/Edit.js:774 blocks/ab-top-pick/Edit.js:913
+msgid "subtitlelineHeightTablet"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:626
+#: blocks/ab-single-product/Edit.js:775 blocks/ab-top-pick/Edit.js:914
+msgid "subtitleletterSpacing"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:627
+#: blocks/ab-single-product/Edit.js:776 blocks/ab-top-pick/Edit.js:915
+msgid "subtitleletterSpacingMobile"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:628
+#: blocks/ab-single-product/Edit.js:777 blocks/ab-top-pick/Edit.js:916
+msgid "subtitleletterSpacingTablet"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:629
+#: blocks/ab-single-product/Edit.js:778 blocks/ab-top-pick/Edit.js:917
+msgid "subtitleletterSpacingType"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:630
+#: blocks/ab-single-product/Edit.js:779 blocks/ab-top-pick/Edit.js:918
+msgid "subtitleletterSpacingTypeTablet"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:631
+#: blocks/ab-single-product/Edit.js:780 blocks/ab-top-pick/Edit.js:919
+msgid "subtitleletterSpacingTypeMobile"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:670
+msgid "Main Title Color"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:671
+msgid "Main Title Background Color"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:674
+#: blocks/propsandcons/Edit.js:272
+msgid "Pros Settings"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:740
+#: blocks/propsandcons/Edit.js:339
+msgid "Pros Text Color"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:741
+#: blocks/propsandcons/Edit.js:340
+msgid "Pros Icon Color"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:742
+#: blocks/propsandcons/Edit.js:341
+msgid "Pros List Color"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:744
+#: blocks/propsandcons/Edit.js:343
+msgid "Cons Settings"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:811
+#: blocks/propsandcons/Edit.js:410
+msgid "Cons text Color"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:812
+#: blocks/propsandcons/Edit.js:411
+msgid "Cons Icon Color"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:813
+#: blocks/propsandcons/Edit.js:412
+msgid "Cons List Color"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:1219
+msgid "Show Ratings"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:1225
+msgid "Rating Width"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:1226
+msgid "Rating Height"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:1227
+#: blocks/comparison-table/Edit.js:1220
+msgid "Rating Background Color"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:1228
+msgid "Rating Size"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:1229
+msgid "Rating Color"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:1233
+#: blocks/ab-single-product/Edit.js:1356
+#: blocks/ab-top-pick/Edit.js:1485
+msgid "Image Settings"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:1269
+#: blocks/ab-product-review/Edit.js:1273
+#: blocks/ab-single-product/Edit.js:1386
+#: blocks/ab-single-product/Edit.js:1390
+#: blocks/ab-top-pick/Edit.js:1515 blocks/ab-top-pick/Edit.js:1519
+msgid "Custom Image Width"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:1315
+#: blocks/ab-product-review/Edit.js:1324
+#: blocks/ab-single-product/Edit.js:1432
+#: blocks/ab-single-product/Edit.js:1441
+#: blocks/ab-top-pick/Edit.js:1570 blocks/ab-top-pick/Edit.js:1579
+msgid "Image Padding"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:1346
+#: blocks/ab-product-review/Edit.js:1387
+#: blocks/ab-product-review/Edit.js:1408
+#: blocks/ab-product-review/Edit.js:1456
+msgid "Great"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:1375
+#: blocks/ab-single-product/Edit.js:1482
+#: blocks/ab-top-pick/Edit.js:1620 blocks/comparison-table/Edit.js:738
+msgid "Add-Image"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:1434
+msgid "9.5"
+msgstr ""
+
+#: blocks/ab-product-review/Edit.js:1441
+msgid "10"
+msgstr ""
+
+#: blocks/ab-product-review/block.js:11
+#: blocks/ab-product-review/block.js:16
+msgid "AB Good-Bad Block"
+msgstr ""
+
+#: blocks/ab-product-review/block.js:17
+msgid "AB Product Comparision"
+msgstr ""
+
+#: blocks/ab-product-review/block.js:18
+msgid "AB Product Good-Bad Review"
+msgstr ""
+
+#: blocks/ab-single-product/Edit.js:688 blocks/ab-top-pick/Edit.js:882
+msgid "Subtitle Heading Tag"
+msgstr ""
+
+#: blocks/ab-single-product/Edit.js:756 blocks/ab-top-pick/Edit.js:895
+msgid "Sub Title Color"
+msgstr ""
+
+#: blocks/ab-single-product/Edit.js:758 blocks/ab-top-pick/Edit.js:897
+msgid "Sub Title Typography"
+msgstr ""
+
+#: blocks/ab-single-product/Edit.js:1467
+#: blocks/ab-top-pick/Edit.js:1640
+msgid "Title"
+msgstr ""
+
+#: blocks/ab-single-product/Edit.js:1503
+msgid "Sub Title"
+msgstr ""
+
+#: blocks/ab-single-product/UrlInputPopover.js:30
+#: blocks/ab-top-pick/UrlInputPopover.js:30
+msgid "Show more tools & options"
+msgstr ""
+
+#: blocks/ab-single-product/UrlInputPopover.js:31
+#: blocks/ab-top-pick/UrlInputPopover.js:31
+msgid "Hide more tools & options"
+msgstr ""
+
+#: blocks/ab-single-product/UrlInputPopover.js:80
+#: blocks/ab-top-pick/UrlInputPopover.js:80
+msgid "Paste or type URL"
+msgstr ""
+
+#: blocks/ab-single-product/UrlInputPopover.js:95
+#: blocks/ab-top-pick/UrlInputPopover.js:95
+msgid "Open link in new tab"
+msgstr ""
+
+#: blocks/ab-single-product/UrlInputPopover.js:102
+#: blocks/ab-top-pick/UrlInputPopover.js:102
+msgid "Nofollow link"
+msgstr ""
+
+#: blocks/ab-single-product/block.js:11
+msgid "AB Single Product"
+msgstr ""
+
+#: blocks/ab-single-product/block.js:17
+msgid "Single Product Showcase"
+msgstr ""
+
+#: blocks/ab-single-product/block.js:18
+msgid "AB Product showcase"
+msgstr ""
+
+#: blocks/ab-star-rating/block.js:16
+msgid "Rating"
+msgstr ""
+
+#: blocks/ab-star-rating/block.js:17
+msgid "Star Rating"
+msgstr ""
+
+#: blocks/ab-star-rating/block.js:18
+msgid "Star/Review Rating"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:243
+msgid "Collapse Settings"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:245
+msgid "Is Collapsible"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:252
+msgid "Default Collapsible"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:257
+msgid "Button Type"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:259
+msgid "Text"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:260
+#: blocks/ab-table-content/Edit.js:267
+#: components/fields/ButtonSettings.js:380
+#: components/fields/ButtonSettings.js:382
+msgid "Icon"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:269
+msgid "Angle"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:270
+msgid "Chevron Circle"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:271
+msgid "Plus/Minus"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:272
+msgid "Plus/Minus Square"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:293
+msgid "General"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:295
+msgid "List Type"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:303
+msgid "Select the heading to consider when generating the table"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:328
+msgid "H1"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:333
+msgid "H2"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:338
+msgid "H3"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:343
+msgid "H4"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:348
+msgid "H5"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:353
+msgid "H6"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:360
+msgid "Box Settings"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:413 blocks/ab-top-pick/Edit.js:537
+msgid "Box Width"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:432 blocks/ab-top-pick/Edit.js:556
+msgid "Box Position"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:608
+#: blocks/ab-table-content/Edit.js:619
+msgid "Box Border"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:698
+msgid "General Settings"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:732
+msgid "Content Hover Color"
+msgstr ""
+
+#: blocks/ab-table-content/Edit.js:776
+msgid "Table Of Contents"
+msgstr ""
+
+#: blocks/ab-table-content/abtoc.js:337
+#: blocks/ab-table-content/toc2.js:219
+#: blocks/ab-table-content/toc3.js:99
+msgid "Add a header to begin generating the table of contents"
+msgstr ""
+
+#: blocks/ab-table-content/block.js:11
+msgid "AB Table Of Content"
+msgstr ""
+
+#: blocks/ab-table-content/block.js:16
+msgid "Table Of Content Block"
+msgstr ""
+
+#: blocks/ab-table-content/block.js:17
+msgid "Showcase Table of Conetent"
+msgstr ""
+
+#: blocks/ab-table-content/block.js:18
+msgid "Niche Table Of Content"
+msgstr ""
+
+#: blocks/ab-title-block/block.js:10
+msgid "AB Title Block"
+msgstr ""
+
+#: blocks/ab-title-block/block.js:15
+msgid "AB Title"
+msgstr ""
+
+#: blocks/ab-title-block/block.js:16
+msgid "Advance Title Block"
+msgstr ""
+
+#: blocks/ab-title-block/block.js:17
+msgid "Title Block"
+msgstr ""
+
+#: blocks/ab-top-pick/Edit.js:502
+msgid "Top Pick Typography"
+msgstr ""
+
+#: blocks/ab-top-pick/Edit.js:505
+msgid "topBoxLoadGoogleFonts"
+msgstr ""
+
+#: blocks/ab-top-pick/Edit.js:506
+msgid "topPickfontFamily"
+msgstr ""
+
+#: blocks/ab-top-pick/Edit.js:507
+msgid "topPickfontWeight"
+msgstr ""
+
+#: blocks/ab-top-pick/Edit.js:508
+msgid "topPickfontSubset"
+msgstr ""
+
+#: blocks/ab-top-pick/Edit.js:509
+msgid "topPickfontSizeType"
+msgstr ""
+
+#: blocks/ab-top-pick/Edit.js:510
+msgid "topPickfontSizeTypeMobile"
+msgstr ""
+
+#: blocks/ab-top-pick/Edit.js:511
+msgid "topPickfontSizeTypeTablet"
+msgstr ""
+
+#: blocks/ab-top-pick/Edit.js:512
+msgid "topPickfontSizeDesktop"
+msgstr ""
+
+#: blocks/ab-top-pick/Edit.js:513
+msgid "topPickfontSizeMobile"
+msgstr ""
+
+#: blocks/ab-top-pick/Edit.js:514
+msgid "topPickfontSizeTablet"
+msgstr ""
+
+#: blocks/ab-top-pick/Edit.js:516
+msgid "topPicklineHeight"
+msgstr ""
+
+#: blocks/ab-top-pick/Edit.js:517
+msgid "topPicklineHeightMobile"
+msgstr ""
+
+#: blocks/ab-top-pick/Edit.js:518
+msgid "topPicklineHeightTablet"
+msgstr ""
+
+#: blocks/ab-top-pick/Edit.js:519
+msgid "topPickletterSpacing"
+msgstr ""
+
+#: blocks/ab-top-pick/Edit.js:520
+msgid "topPickletterSpacingMobile"
+msgstr ""
+
+#: blocks/ab-top-pick/Edit.js:521
+msgid "topPickletterSpacingTablet"
+msgstr ""
+
+#: blocks/ab-top-pick/Edit.js:522
+msgid "topPickletterSpacingType"
+msgstr ""
+
+#: blocks/ab-top-pick/Edit.js:523
+msgid "topPickletterSpacingTypeTablet"
+msgstr ""
+
+#: blocks/ab-top-pick/Edit.js:524
+msgid "topPickletterSpacingTypeMobile"
+msgstr ""
+
+#: blocks/ab-top-pick/Edit.js:1605 blocks/ab-top-pick/block.js:16
+msgid "Top Pick"
+msgstr ""
+
+#: blocks/ab-top-pick/Edit.js:1647
+msgid "Tip Box Contnet"
+msgstr ""
+
+#: blocks/ab-top-pick/Edit.js:1666
+msgid "Tip Box Content"
+msgstr ""
+
+#: blocks/ab-top-pick/block.js:11
+msgid "AB Top Pick"
+msgstr ""
+
+#: blocks/ab-top-pick/block.js:17
+msgid "Product Top Pick"
+msgstr ""
+
+#: blocks/ab-top-pick/block.js:18
+msgid "Product Comparison Box"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:638
+msgid "Read More item "
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:745
+msgid "Add Rating"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:788
+#: blocks/comparison-table/Edit.js:824
+msgid "Add Title"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:789
+msgid "Item Title"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:798
+msgid "Add Badge"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:800
+msgid "Item Badge"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:810
+#: blocks/comparison-table/Edit.js:837
+msgid "Add detail"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:826
+msgid "Item Description"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:898
+msgid "Apply"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:903
+msgid "Open in new tab"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:907
+msgid "Link Rel"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:928
+msgid "Read Our Review"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:975
+msgid "Header"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:976
+msgid "Header - 1"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:981
+msgid "Header - 2"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:988
+#: blocks/comparison-table/Edit.js:996
+msgid "Header - 3"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:999
+msgid "Header - 4"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1008
+msgid "Table Setting"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1032
+msgid "Table Style"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1039
+msgid "Show Rating"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1044
+msgid "Show Read More"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1051
+msgid "Header Typography"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1054
+msgid "thLoadGoogleFonts"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1055
+msgid "thfontFamily"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1056
+msgid "thfontWeight"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1057
+msgid "thfontSubset"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1058
+msgid "thfontSizeType"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1059
+msgid "thfontSizeTypeMobile"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1060
+msgid "thfontSizeTypeTablet"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1061
+msgid "thfontSizeDesktop"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1062
+msgid "thfontSizeMobile"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1063
+msgid "thfontSizeTablet"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1065
+msgid "thlineHeight"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1066
+msgid "thlineHeightMobile"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1067
+msgid "thlineHeightTablet"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1068
+msgid "thletterSpacing"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1069
+msgid "thletterSpacingMobile"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1070
+msgid "thletterSpacingTablet"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1071
+msgid "thletterSpacingType"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1072
+msgid "thletterSpacingTypeTablet"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1073
+msgid "thletterSpacingTypeMobile"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1144
+msgid "Header Background Color"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1145
+msgid "Content title Color"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1146
+msgid "Header Text Color"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1147
+msgid "Content Text Color"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1148
+msgid "Table Odd-Row Color"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1149
+msgid "Table Even-Row Color"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1151
+msgid "Badge & Rating Setting"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1153
+msgid "Badge Typography"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1156
+msgid "badgeLoadGoogleFonts"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1157
+msgid "badgefontFamily"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1158
+msgid "badgefontWeight"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1159
+msgid "badgefontSubset"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1160
+msgid "badgefontSizeType"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1161
+msgid "badgefontSizeTypeMobile"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1162
+msgid "badgefontSizeTypeTablet"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1163
+msgid "badgefontSizeDesktop"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1164
+msgid "badgefontSizeMobile"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1165
+msgid "badgefontSizeTablet"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1167
+msgid "badgelineHeight"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1168
+msgid "badgelineHeightMobile"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1169
+msgid "badgelineHeightTablet"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1170
+msgid "badgeletterSpacing"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1171
+msgid "badgeletterSpacingMobile"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1172
+msgid "badgeletterSpacingTablet"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1173
+msgid "badgeletterSpacingType"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1174
+msgid "badgeletterSpacingTypeTablet"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1175
+msgid "badgeletterSpacingTypeMobile"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1184
+msgid "Readmore Typography"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1187
+msgid "readMoreLoadGoogleFonts"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1188
+msgid "readMorefontFamily"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1189
+msgid "readMorefontWeight"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1190
+msgid "readMorefontSubset"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1191
+msgid "readMorefontSizeType"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1192
+msgid "readMorefontSizeTypeMobile"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1193
+msgid "readMorefontSizeTypeTablet"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1194
+msgid "readMorefontSizeDesktop"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1195
+msgid "readMorefontSizeMobile"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1196
+msgid "readMorefontSizeTablet"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1198
+msgid "readMorelineHeight"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1199
+msgid "readMorelineHeightMobile"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1200
+msgid "readMorelineHeightTablet"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1201
+msgid "readMoreletterSpacing"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1202
+msgid "readMoreletterSpacingMobile"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1203
+msgid "readMoreletterSpacingTablet"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1204
+msgid "readMoreletterSpacingType"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1205
+msgid "readMoreletterSpacingTypeTablet"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1206
+msgid "readMoreletterSpacingTypeMobile"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1214
+msgid "Badge Text Color"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1215
+msgid "Badge Background Color"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1216
+msgid "Reeadmore Text Color"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1219
+msgid "Rating Text Color"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1224
+msgid "Button Style"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1265
+msgid "Button width"
+msgstr ""
+
+#: blocks/comparison-table/Edit.js:1306
+msgid "Background & Text Color"
+msgstr ""
+
+#: blocks/comparison-table/block.js:1546
+msgid "AB Comparison Table"
+msgstr ""
+
+#: blocks/comparison-table/block.js:1550
+msgid "NicheTable"
+msgstr ""
+
+#: blocks/comparison-table/block.js:1552
+msgid "Best Responsive Comparison Table for Gutenberg Editor"
+msgstr ""
+
+#: blocks/comparison-table/inner/index.js:8
+msgid "Tab"
+msgstr ""
+
+#: blocks/components/typography/font-typography.js:23
+#: components/fields/Background/Background.js:13
+#: components/fields/Background/Background.js:14
+#: components/fields/Background/Background.js:15
+#: components/fields/Background/Background.js:16
+#: components/fields/DropDown.js:82
+msgid "Default"
+msgstr ""
+
+#: blocks/components/typography/font-typography.js:129
+#: components/fields/Typography.js:147
+msgid "Font Family"
+msgstr ""
+
+#: blocks/components/typography/font-typography.js:140
+msgid "Font Weight"
+msgstr ""
+
+#: blocks/components/typography/font-typography.js:148
+msgid "Font Subset"
+msgstr ""
+
+#: blocks/components/typography/index.js:40
+#: blocks/components/typography/index2.js:39
+msgid "Hide Advanced"
+msgstr ""
+
+#: blocks/components/typography/index.js:44
+#: blocks/components/typography/index2.js:43
+#: blocks/propsandcons/block.js:16 components/InspectorTabs.js:85
+#: components/InspectorTabs.js:88
+#: components/fields/Background/Background.js:172
+msgid "Advanced"
+msgstr ""
+
+#: blocks/components/typography/index.js:167
+#: blocks/components/typography/index.js:168
+#: blocks/components/typography/index.js:169
+#: blocks/components/typography/index2.js:116
+#: blocks/components/typography/index2.js:117
+#: blocks/components/typography/index2.js:118
+#: components/fields/Typography.js:229
+msgid "Line Height"
+msgstr ""
+
+#: blocks/components/typography/index.js:191
+#: blocks/components/typography/index.js:192
+#: blocks/components/typography/index.js:193
+#: components/fields/Typography.js:242
+msgid "Letter Spacing"
+msgstr ""
+
+#: blocks/components/typography/index.js:227
+#: components/fields/Typography.js:255
+msgid "Text Transform"
+msgstr ""
+
+#: blocks/components/typography/index.js:238
+msgid "Text Decoration"
+msgstr ""
+
+#: blocks/components/typography/index.js:249
+msgid "Font Style"
+msgstr ""
+
+#: blocks/components/typography/range-typography.js:31
+msgid "px"
+msgstr ""
+
+#: blocks/components/typography/range-typography.js:32
+msgid "em"
+msgstr ""
+
+#: blocks/components/typography/range-typography.js:33
+msgid "rem"
+msgstr ""
+
+#: blocks/components/typography/range-typography.js:34
+msgid "%"
+msgstr ""
+
+#: blocks/components/typography/range-typography.js:39
+msgid "Size Type"
+msgstr ""
+
+#: blocks/helpers/icons.js:16 blocks/helpers/icons.js:43
+#: blocks/helpers/icons.js:63 blocks/helpers/icons.js:65
+#: blocks/helpers/icons.js:69
+msgid "Classic"
+msgstr ""
+
+#: blocks/helpers/icons.js:17 blocks/helpers/icons.js:20
+#: blocks/helpers/icons.js:23 blocks/helpers/icons.js:42
+#: blocks/helpers/icons.js:62 blocks/helpers/icons.js:68
+#: components/fields/ButtonSettings.js:267
+msgid "Fill"
+msgstr ""
+
+#: blocks/helpers/icons.js:18 blocks/helpers/icons.js:33
+msgid "Underline"
+msgstr ""
+
+#: blocks/helpers/icons.js:21 blocks/helpers/icons.js:24
+#: components/fields/ButtonSettings.js:268
+msgid "Outline"
+msgstr ""
+
+#: blocks/helpers/icons.js:25
+msgid "Outline Fill"
+msgstr ""
+
+#: blocks/helpers/icons.js:31
+msgid "Tabs"
+msgstr ""
+
+#: blocks/helpers/icons.js:32
+msgid "Pills"
+msgstr ""
+
+#: blocks/helpers/icons.js:35 blocks/helpers/icons.js:45
+#: blocks/helpers/icons.js:58 blocks/helpers/icons.js:71
+#: blocks/helpers/icons.js:95
+msgid "Layout 1"
+msgstr ""
+
+#: blocks/helpers/icons.js:36 blocks/helpers/icons.js:46
+#: blocks/helpers/icons.js:59 blocks/helpers/icons.js:72
+#: blocks/helpers/icons.js:96
+msgid "Layout 2"
+msgstr ""
+
+#: blocks/helpers/icons.js:37 blocks/helpers/icons.js:47
+#: blocks/helpers/icons.js:60 blocks/helpers/icons.js:73
+#: blocks/helpers/icons.js:97
+msgid "Layout 3"
+msgstr ""
+
+#: blocks/helpers/icons.js:48 blocks/helpers/icons.js:74
+#: blocks/helpers/icons.js:75 blocks/helpers/icons.js:98
+msgid "Layout 4"
+msgstr ""
+
+#: blocks/helpers/icons.js:50
+msgid "Testimonial 1"
+msgstr ""
+
+#: blocks/helpers/icons.js:51
+msgid "Testimonial 2"
+msgstr ""
+
+#: blocks/helpers/icons.js:52
+msgid "Testimonial 3"
+msgstr ""
+
+#: blocks/helpers/icons.js:53
+msgid "Avatar Left"
+msgstr ""
+
+#: blocks/helpers/icons.js:54
+msgid "Avatar Right"
+msgstr ""
+
+#: blocks/helpers/icons.js:55
+msgid "Avatar Top"
+msgstr ""
+
+#: blocks/helpers/icons.js:56
+msgid "Avatar Bottom"
+msgstr ""
+
+#: blocks/helpers/icons.js:66
+msgid "Material"
+msgstr ""
+
+#: blocks/helpers/icons.js:76
+msgid "Design 1"
+msgstr ""
+
+#: blocks/helpers/icons.js:77
+msgid "Design 2"
+msgstr ""
+
+#: blocks/helpers/icons.js:78
+msgid "Design 3"
+msgstr ""
+
+#: blocks/helpers/icons.js:79
+msgid "Design 4"
+msgstr ""
+
+#: blocks/helpers/icons.js:80
+msgid "Design 5"
+msgstr ""
+
+#: blocks/helpers/icons.js:81
+msgid "Design 6"
+msgstr ""
+
+#: blocks/helpers/icons.js:99
+msgid "Layout 5"
+msgstr ""
+
+#: blocks/helpers/icons.js:100
+msgid "Layout 6"
+msgstr ""
+
+#: blocks/helpers/icons.js:104
+msgid "Badge 1"
+msgstr ""
+
+#: blocks/helpers/icons.js:105
+msgid "Badge 2"
+msgstr ""
+
+#: blocks/helpers/icons.js:106
+msgid "Badge 3"
+msgstr ""
+
+#: blocks/helpers/icons.js:107
+msgid "Badge 4"
+msgstr ""
+
+#: blocks/helpers/icons.js:108
+msgid "Badge 5"
+msgstr ""
+
+#: blocks/helpers/icons.js:109
+msgid "Badge 6"
+msgstr ""
+
+#: blocks/helpers/icons.js:113
+msgid "Simple"
+msgstr ""
+
+#: blocks/helpers/icons.js:114
+msgid "Blurb"
+msgstr ""
+
+#: blocks/propsandcons/Edit.js:338
+msgid "Pros Background Color"
+msgstr ""
+
+#: blocks/propsandcons/Edit.js:409
+msgid "Cons Background Color"
+msgstr ""
+
+#: blocks/propsandcons/block.js:11
+msgid "AB Pros & Cons"
+msgstr ""
+
+#: blocks/propsandcons/block.js:17
+msgid "list"
+msgstr ""
+
+#: blocks/propsandcons/block.js:18
+msgid "advanced list"
+msgstr ""
+
+#: blocks/propsandcons/block.js:19
+msgid "Advanced List"
+msgstr ""
+
+#: components/InspectorSections.js:143
+msgid "Related Sections"
+msgstr ""
+
+#: components/InspectorSections.js:145
+msgid "Sync blocks"
+msgstr ""
+
+#: components/InspectorSections.js:155
+msgid "Import"
+msgstr ""
+
+#: components/InspectorTabs.js:63 components/InspectorTabs.js:66
+msgid "Layout"
+msgstr ""
+
+#: components/InspectorTabs.js:74 components/InspectorTabs.js:77
+msgid "Style"
+msgstr ""
+
+#: components/InteractionFields/RenderFields.js:22
+msgid "Timeline/Keyframe"
+msgstr ""
+
+#: components/fields/Alignment.js:43
+#: components/fields/Interaction.js:165
+#: components/fields/ListSettings.js:191
+msgid "Left"
+msgstr ""
+
+#: components/fields/Alignment.js:48
+#: components/fields/Interaction.js:165
+#: components/fields/Interaction.js:172
+msgid "Middle"
+msgstr ""
+
+#: components/fields/Alignment.js:53
+#: components/fields/Interaction.js:165
+#: components/fields/ListSettings.js:192
+msgid "Right"
+msgstr ""
+
+#: components/fields/Animation.js:75
+msgid "Fade"
+msgstr ""
+
+#: components/fields/Animation.js:75
+msgid "Slide"
+msgstr ""
+
+#: components/fields/Animation.js:75
+msgid "Bounce"
+msgstr ""
+
+#: components/fields/Animation.js:75
+msgid "Zoom"
+msgstr ""
+
+#: components/fields/Animation.js:75
+msgid "Flip"
+msgstr ""
+
+#: components/fields/Animation.js:75
+msgid "Fold"
+msgstr ""
+
+#: components/fields/Animation.js:82
+#: components/fields/Interaction.js:206
+msgid "Direction"
+msgstr ""
+
+#: components/fields/Animation.js:87
+#: components/fields/Background/Background.js:15
+#: components/fields/Background/Background.js:193
+msgid "Repeat"
+msgstr ""
+
+#: components/fields/Animation.js:89
+msgid "Once"
+msgstr ""
+
+#: components/fields/Animation.js:89
+msgid "Loop"
+msgstr ""
+
+#: components/fields/Animation.js:92
+msgid "Duration"
+msgstr ""
+
+#: components/fields/Animation.js:98
+msgid "Delay"
+msgstr ""
+
+#: components/fields/Animation.js:106
+msgid "Curve"
+msgstr ""
+
+#: components/fields/Background/Background.js:13
+msgid "Left Top"
+msgstr ""
+
+#: components/fields/Background/Background.js:13
+msgid "Left Center"
+msgstr ""
+
+#: components/fields/Background/Background.js:13
+msgid "Left Bottom"
+msgstr ""
+
+#: components/fields/Background/Background.js:13
+msgid "Right Top"
+msgstr ""
+
+#: components/fields/Background/Background.js:13
+msgid "Right Center"
+msgstr ""
+
+#: components/fields/Background/Background.js:13
+msgid "Right Bottom"
+msgstr ""
+
+#: components/fields/Background/Background.js:13
+msgid "Center Top"
+msgstr ""
+
+#: components/fields/Background/Background.js:13
+msgid "Center Center"
+msgstr ""
+
+#: components/fields/Background/Background.js:13
+msgid "Center Bottom"
+msgstr ""
+
+#: components/fields/Background/Background.js:14
+msgid "Scroll"
+msgstr ""
+
+#: components/fields/Background/Background.js:14
+#: components/fields/Background/Background.js:17
+#: components/fields/ButtonSettings.js:309
+#: components/fields/GlobalSettings.js:88
+msgid "Fixed"
+msgstr ""
+
+#: components/fields/Background/Background.js:15
+msgid "No Repeat"
+msgstr ""
+
+#: components/fields/Background/Background.js:15
+msgid "Repeat X"
+msgstr ""
+
+#: components/fields/Background/Background.js:15
+msgid "Repeat Y"
+msgstr ""
+
+#: components/fields/Background/Background.js:16
+#: components/fields/ButtonSettings.js:307
+msgid "Auto"
+msgstr ""
+
+#: components/fields/Background/Background.js:16
+msgid "Cover"
+msgstr ""
+
+#: components/fields/Background/Background.js:16
+msgid "Contain"
+msgstr ""
+
+#: components/fields/Background/Background.js:17
+msgid "None"
+msgstr ""
+
+#: components/fields/Background/Background.js:17
+msgid "Animated"
+msgstr ""
+
+#: components/fields/Background/Background.js:52
+msgid "Background Image"
+msgstr ""
+
+#: components/fields/Background/Background.js:70
+msgid "Type"
+msgstr ""
+
+#: components/fields/Background/Background.js:87
+#: components/fields/Background/Background.js:212
+#: components/fields/ColorAdvanced.js:41
+#: components/fields/ColorAdvanced.js:72
+msgid "Gradient"
+msgstr ""
+
+#: components/fields/Background/Background.js:92
+#: components/fields/Background/Background.js:229
+msgid "Video"
+msgstr ""
+
+#: components/fields/Background/Background.js:103
+#: components/fields/Border.js:106 components/fields/BorderTypes.js:49
+#: components/fields/Color/Color.js:70
+#: components/fields/ColorAdvanced.js:52 components/fields/Shape.js:68
+msgid "Clear"
+msgstr ""
+
+#: components/fields/Background/Background.js:121
+msgid "Image Type"
+msgstr ""
+
+#: components/fields/Background/Background.js:124
+#: components/fields/Background/Background.js:221
+msgid "Local"
+msgstr ""
+
+#: components/fields/Background/Background.js:125
+#: components/fields/Background/Background.js:221
+msgid "External"
+msgstr ""
+
+#: components/fields/Background/Background.js:134
+msgid "Image Source"
+msgstr ""
+
+#: components/fields/Background/Background.js:146
+msgid "Parallax"
+msgstr ""
+
+#: components/fields/Background/Background.js:184
+#: components/fields/ButtonSettings.js:388
+#: components/fields/ListSettings.js:189
+msgid "Position"
+msgstr ""
+
+#: components/fields/Background/Background.js:187
+msgid "Attachment"
+msgstr ""
+
+#: components/fields/Background/Background.js:196
+#: components/fields/ButtonSettings.js:279
+#: components/fields/ButtonSettings.js:393
+msgid "Size"
+msgstr ""
+
+#: components/fields/Background/Background.js:221
+msgid "Video Source"
+msgstr ""
+
+#: components/fields/Background/Background.js:224
+msgid "Video URL"
+msgstr ""
+
+#: components/fields/Background/Background.js:231
+msgid "Fallback Image (Poster)"
+msgstr ""
+
+#: components/fields/Border.js:94 components/fields/BorderTypes.js:28
+msgid "Solid"
+msgstr ""
+
+#: components/fields/Border.js:94 components/fields/BorderTypes.js:28
+msgid "Dotted"
+msgstr ""
+
+#: components/fields/Border.js:94 components/fields/BorderTypes.js:28
+msgid "Dashed"
+msgstr ""
+
+#: components/fields/Border.js:94 components/fields/BorderTypes.js:28
+msgid "Double"
+msgstr ""
+
+#: components/fields/Border.js:117
+#: components/fields/IconList/IconList.js:43
+msgid " Color"
+msgstr ""
+
+#: components/fields/Border.js:133
+msgid " Width"
+msgstr ""
+
+#: components/fields/BorderRadius.js:80
+#: components/fields/ButtonSettings.js:359
+msgid "Radius"
+msgstr ""
+
+#: components/fields/BorderRadius.js:86 components/fields/Margin.js:90
+#: components/fields/Padding.js:88
+msgid "Global"
+msgstr ""
+
+#: components/fields/BorderRadius.js:86
+#: components/fields/ListSettings.js:183
+#: components/fields/Margin.js:90 components/fields/Padding.js:88
+msgid "Custom"
+msgstr ""
+
+#: components/fields/BoxShadow.js:47
+msgid "X"
+msgstr ""
+
+#: components/fields/BoxShadow.js:53
+msgid "Y"
+msgstr ""
+
+#: components/fields/BoxShadow.js:59
+msgid "Blur"
+msgstr ""
+
+#: components/fields/BoxShadow.js:66
+msgid "Spread"
+msgstr ""
+
+#: components/fields/BoxShadow.js:76 components/fields/BoxShadow.js:78
+msgid "Inset"
+msgstr ""
+
+#: components/fields/BoxShadow.js:79
+msgid "Outset"
+msgstr ""
+
+#: components/fields/ButtonSettings.js:272
+msgid "URL"
+msgstr ""
+
+#: components/fields/ButtonSettings.js:315
+msgid "Fixed Width"
+msgstr ""
+
+#: components/fields/ButtonSettings.js:327
+msgid "Design"
+msgstr ""
+
+#: components/fields/ButtonSettings.js:368
+#: components/fields/ButtonSettings.js:403
+#: components/fields/ListSettings.js:195
+msgid "Gap"
+msgstr ""
+
+#: components/fields/ButtonSettings.js:432
+#: components/fields/ButtonSettings.js:437
+msgid "Enable Button"
+msgstr ""
+
+#: components/fields/ButtonSettings.js:445
+msgid "Post Button Text"
+msgstr ""
+
+#: components/fields/ButtonSettings.js:448
+msgid "Show PostButtonText"
+msgstr ""
+
+#: components/fields/ColorAdvanced.js:63
+msgid "Fill Color"
+msgstr ""
+
+#: components/fields/ContextMenu.js:100
+msgid "Copy Style"
+msgstr ""
+
+#: components/fields/ContextMenu.js:104
+msgid "Paste Style"
+msgstr ""
+
+#: components/fields/ContextMenu.js:110
+msgid "Delete"
+msgstr ""
+
+#: components/fields/Device.js:27 components/fields/Device.js:28
+msgid "Desktop"
+msgstr ""
+
+#: components/fields/Device.js:30 components/fields/Device.js:31
+msgid "Tablet"
+msgstr ""
+
+#: components/fields/Device.js:33
+msgid "Mobile"
+msgstr ""
+
+#: components/fields/Device.js:34
+msgid "Phone"
+msgstr ""
+
+#: components/fields/DragDimension.js:247
+msgid "margin"
+msgstr ""
+
+#: components/fields/DragDimension.js:264
+msgid "padding"
+msgstr ""
+
+#: components/fields/DropDown.js:89
+msgid "Search..."
+msgstr ""
+
+#: components/fields/GlobalSettings.js:76
+msgid "Enable Custom Position"
+msgstr ""
+
+#: components/fields/GlobalSettings.js:83
+msgid "Select Position"
+msgstr ""
+
+#: components/fields/GlobalSettings.js:86
+msgid "Relative"
+msgstr ""
+
+#: components/fields/GlobalSettings.js:87
+msgid "Absolute"
+msgstr ""
+
+#: components/fields/GlobalSettings.js:93
+msgid "From X-axis"
+msgstr ""
+
+#: components/fields/GlobalSettings.js:105
+msgid "From Y-axis"
+msgstr ""
+
+#: components/fields/GlobalSettings.js:119
+msgid "Z-Index"
+msgstr ""
+
+#: components/fields/GlobalSettings.js:126
+msgid "Hide on Tablet"
+msgstr ""
+
+#: components/fields/GlobalSettings.js:131
+msgid "Hide on Phone"
+msgstr ""
+
+#: components/fields/GlobalSettings.js:135
+msgid "Block Raw CSS"
+msgstr ""
+
+#: components/fields/GlobalSettings.js:139
+msgid ""
+"Use {{affiliate}} before the selector to wrap element. Otherwise it "
+"works globally."
+msgstr ""
+
+#: components/fields/GlobalSettings.js:149
+#: components/fields/GlobalSettings.js:152
+msgid "Animation"
+msgstr ""
+
+#: components/fields/GlobalSettings.js:162
+#: components/fields/GlobalSettings.js:165
+msgid "Interaction"
+msgstr ""
+
+#: components/fields/Gradient/Gradient.js:51
+msgid "Color 1"
+msgstr ""
+
+#: components/fields/Gradient/Gradient.js:51
+msgid "Color 2"
+msgstr ""
+
+#: components/fields/Gradient/Gradient.js:83
+msgid "Gradient Type"
+msgstr ""
+
+#: components/fields/Gradient/Gradient.js:90
+msgid "Linear"
+msgstr ""
+
+#: components/fields/Gradient/Gradient.js:98
+msgid "Radial"
+msgstr ""
+
+#: components/fields/Gradient/Gradient.js:114
+msgid "Gradient Position"
+msgstr ""
+
+#: components/fields/Gradient/Gradient.js:115
+msgid "Radial Pointer"
+msgstr ""
+
+#: components/fields/Gradient/Gradient.js:124
+msgid "Gradient Angle"
+msgstr ""
+
+#: components/fields/Gradient/Gradient.js:135
+msgid "Color 1 Stop"
+msgstr ""
+
+#: components/fields/Gradient/Gradient.js:145
+msgid "Color 2 Start"
+msgstr ""
+
+#: components/fields/Interaction.js:136 components/fields/Styles.js:32
+msgid "affiliate-Q"
+msgstr ""
+
+#: components/fields/Interaction.js:139 components/fields/Styles.js:35
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: components/fields/Interaction.js:140 components/fields/Styles.js:36
+msgid ""
+"Get all features of post grid at your disposal by upgrading to pro "
+"version"
+msgstr ""
+
+#: components/fields/Interaction.js:142 components/fields/Styles.js:38
+msgid "Upgrade Now"
+msgstr ""
+
+#: components/fields/Interaction.js:147
+msgid "Enable"
+msgstr ""
+
+#: components/fields/Interaction.js:162
+msgid "Transform Origin"
+msgstr ""
+
+#: components/fields/Interaction.js:164
+msgid "X-Axis"
+msgstr ""
+
+#: components/fields/Interaction.js:171
+msgid "Y-Axis"
+msgstr ""
+
+#: components/fields/Interaction.js:172
+#: components/fields/inline/InlineSpacer.js:34
+msgid "Top"
+msgstr ""
+
+#: components/fields/Interaction.js:172
+#: components/fields/inline/InlineSpacer.js:35
+msgid "Bottom"
+msgstr ""
+
+#: components/fields/Interaction.js:180
+#: components/fields/Interaction.js:229
+msgid "Enable Tablet"
+msgstr ""
+
+#: components/fields/Interaction.js:184
+#: components/fields/Interaction.js:234
+msgid "Enable Mobile"
+msgstr ""
+
+#: components/fields/Interaction.js:200
+msgid "Enable Mouse Movement"
+msgstr ""
+
+#: components/fields/Interaction.js:207
+msgid "Direct"
+msgstr ""
+
+#: components/fields/Interaction.js:207
+msgid "Opposite"
+msgstr ""
+
+#: components/fields/Interaction.js:212
+msgid "Speed"
+msgstr ""
+
+#: components/fields/Interaction.js:220
+msgid "Maximum"
+msgstr ""
+
+#: components/fields/ListSettings.js:150
+msgid "Custom Alignment"
+msgstr ""
+
+#: components/fields/ListSettings.js:154
+msgid "Spacing"
+msgstr ""
+
+#: components/fields/ListSettings.js:164
+msgid "Icons"
+msgstr ""
+
+#: components/fields/ListSettings.js:175
+msgid "Common Settings"
+msgstr ""
+
+#: components/fields/ListSettings.js:179
+msgid "Small"
+msgstr ""
+
+#: components/fields/ListSettings.js:182
+msgid "Extra Large"
+msgstr ""
+
+#: components/fields/ListSettings.js:187
+msgid "Custom Size"
+msgstr ""
+
+#: components/fields/ListSettings.js:206
+#: components/fields/ListSettings.js:210
+msgid "Features"
+msgstr ""
+
+#: components/fields/Media/Media.js:67
+#: components/fields/Media/Media.js:95
+msgid "image"
+msgstr ""
+
+#: components/fields/Media/Media.js:70
+#: components/fields/Media/Media.js:71
+#: components/fields/Media/Media.js:72
+#: components/fields/Media/Media.js:100
+#: components/fields/Media/Media.js:101
+#: components/fields/Media/Media.js:102
+msgid "Edit"
+msgstr ""
+
+#: components/fields/Media/Media.js:75
+#: components/fields/Media/Media.js:76
+#: components/fields/Media/Media.js:105
+#: components/fields/Media/Media.js:106
+msgid "Remove"
+msgstr ""
+
+#: components/fields/Media/Media.js:77
+#: components/fields/Media/Media.js:107
+msgid "Close"
+msgstr ""
+
+#: components/fields/Media/Media.js:86
+#: components/fields/Media/Media.js:114
+msgid "Insert"
+msgstr ""
+
+#: components/fields/Select/Select.js:46
+msgid "Select"
+msgstr ""
+
+#: components/fields/Shape.js:87
+msgid "Shape Width"
+msgstr ""
+
+#: components/fields/Shape.js:98
+msgid "Shape Height"
+msgstr ""
+
+#: components/fields/Shape.js:102
+msgid "Bring to front"
+msgstr ""
+
+#: components/fields/Typography.js:156
+msgid "Search"
+msgstr ""
+
+#: components/fields/Typography.js:187
+msgid "Weight"
+msgstr ""
+
+#: components/fields/Typography.js:217
+msgid "Advanced Typography"
+msgstr ""
+
+#: components/fields/Url/Url.js:40
+msgid "Advance Url Settings"
+msgstr ""
+
+#: components/fields/Url/Url.js:48
+msgid "Open in new window"
+msgstr ""
+
+#: components/fields/Url/Url.js:53
+msgid "Add Nofollow"
+msgstr ""
+
+#: components/fields/inline/InlineSpacer.js:25
+msgid "Speacer"
+msgstr ""
+
+#: components/fields/inline/Selector.js:25
+msgid "Change Heading"
+msgstr ""
+
+#: components/fields/inline/editorInline.js:27
+#: components/fields/inline/editorInline.js:47
+msgid "Uppercase"
+msgstr ""
+
+#: components/fields/inline/editorInline.js:169
+msgid "BackgroundColor"
+msgstr ""

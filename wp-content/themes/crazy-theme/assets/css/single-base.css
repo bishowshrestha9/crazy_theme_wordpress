@@ -1,0 +1,453 @@
+/* ==========================================================================
+   Base Tokens, Fonts, and Layout for Supplement Review Single Post
+   ========================================================================== */
+
+/* -----------------------------------------------------------------------------
+ * 1. CSS VARIABLES & DESIGN TOKENS
+ * -------------------------------------------------------------------------- */
+:root {
+	/* Brand Colors */
+	--sr-color-primary: #6fa692;
+	--sr-color-primary-hover: #5d9380;
+	--sr-color-primary-active: #4d7d6b;
+	--sr-color-primary-tint: #eef5f1;
+	--sr-color-primary-light: #f4f9f6;
+	--sr-color-primary-soft: #e8f2ed;
+
+	/* Neutral / Dark Colors */
+	--sr-color-dark: #080a0a;
+	--sr-color-dark-surface: #121616;
+	--sr-color-dark-card: #1c2222;
+	--sr-color-text-main: #19201d;
+	--sr-color-text-body: #374151;
+	--sr-color-text-muted: #6b7280;
+	--sr-color-text-light: #9ca3af;
+
+	/* Backgrounds */
+	--sr-color-bg-body: #ffffff;
+	--sr-color-bg-card: #f7faf8;
+	--sr-color-bg-card-subtle: #ffffff;
+	--sr-color-bg-elevated: #ffffff;
+
+	/* Borders */
+	--sr-color-border: #e5e9e7;
+	--sr-color-border-subtle: #f0f4f2;
+	--sr-color-border-focus: #6fa692;
+
+	/* Accent & Status Colors */
+	--sr-color-accent-gold: #ffc107;
+	--sr-color-accent-discount: #e53935;
+	--sr-color-pro: #2e7d32;
+	--sr-color-pro-bg: #edf7ee;
+	--sr-color-con: #d32f2f;
+	--sr-color-con-bg: #fdeded;
+
+	/* Typography Families */
+	--font-heading: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+	--font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+	--sr-font-heading: var(--font-heading);
+	--sr-font-body: var(--font-body);
+
+	/* Font Weights */
+	--fw-light: 300;
+	--fw-regular: 400;
+	--fw-medium: 500;
+	--fw-semibold: 600;
+
+	/* Desktop Typography Sizes & Line Heights (1440 Frame Default) */
+	--fs-h1: 40px;
+	--lh-h1: 1.3;
+
+	--fs-h2: 28px;
+	--lh-h2: 1.5;
+
+	--fs-h3: 20px;
+	--lh-h3: 1.5;
+
+	--fs-h4: 18px;
+	--lh-h4: 1.5;
+
+	--fs-body: 18px;
+	--lh-body: 1.8;
+
+	--fs-announcement: 14px;
+	--fs-logo: 32px;
+	--fs-nav: 16px;
+	--fs-breadcrumbs: 14px;
+	--fs-badge-pill: 16px;
+
+	--fs-author-name: 16px;
+	--fs-author-role: 12px;
+	--fs-meta-date: 14px;
+
+	--fs-toc-title: 24px;
+	--fw-toc-title: 500;
+	--fs-toc-group: 11px;
+	--fs-toc-item: 15px;
+	--fw-toc-item: 400;
+	--fw-toc-item-active: 500;
+	--fs-toc-number: 12px;
+
+	--fs-verdict-title: 28px;
+	--fs-verdict-text: 18px;
+	--fs-lead-in: 18px;
+	--fs-pros-cons: 16px;
+	--fs-ingredient-pill: 16px;
+	--fs-ingredient-desc: 16px;
+
+	--fs-review-headline: 18px;
+	--fs-review-quote: 18px;
+	--fs-reviewer-name: 18px;
+	--fs-review-date: 14px;
+	--fs-review-caption: 16px;
+
+	--fs-table-header: 16px;
+	--fs-table-cell: 14px;
+	--fs-table-score: 14px;
+
+	--fs-faq-question: 20px;
+	--fs-faq-answer: 18px;
+	--fs-sources: 16px;
+
+	--fs-form-label: 14px;
+	--lh-form-label: 20px;
+	--fs-form-placeholder: 16px;
+	--lh-form-placeholder: 24px;
+	--fs-form-chip: 12px;
+	--fs-form-submit: 16px;
+	--fw-form-submit: 500;
+	--fs-form-privacy: 14px;
+	--fs-form-disclaimer: 14px;
+
+	--fs-bio-name: 24px;
+	--fs-bio-credential: 14px;
+	--fs-bio-text: 16px;
+	--lh-bio-text: 30px;
+
+	--fs-related-cat: 14px;
+	--fs-related-title: 24px;
+	--fs-related-meta: 14px;
+
+	--fs-footer-headline: 48px;
+	--fs-footer-desc: 16px;
+	--fs-footer-btn: 16px;
+	--fs-footer-brand: 24px;
+	--ls-footer-brand: 0.96px;
+	--fs-footer-col-title: 18px;
+	--ls-footer-col-title: 0.72px;
+	--fs-footer-link: 14px;
+	--ls-footer-link: 0.56px;
+	--fs-footer-bottom: 12px;
+
+	/* Radii */
+	--sr-radius-sm: 6px;
+	--sr-radius-md: 10px;
+	--sr-radius-lg: 14px;
+	--sr-radius-xl: 20px;
+	--sr-radius-full: 9999px;
+
+	/* Shadows */
+	--sr-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.05);
+	--sr-shadow-md: 0 4px 16px rgba(0, 0, 0, 0.06);
+	--sr-shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+	/* Spacing */
+	--sr-container-max: 1280px;
+	--header-h: 82px;
+	--sr-header-height: 82px;
+	--sr-announcement-height: 0px;
+
+	/* Transitions */
+	--sr-transition-fast: 0.15s ease;
+	--sr-transition-normal: 0.25s ease;
+}
+
+/* Mobile Typography Overrides (Single Breakpoint at 767px) */
+@media (max-width: 767px) {
+	:root {
+		--header-h: 70px;
+		--fs-h1: 26px;
+		--lh-h1: 1.3;
+
+		--fs-h2: 22px;
+		--lh-h2: 1.35;
+
+		--fs-body: 16px;
+		--lh-body: 1.75;
+
+		--fs-breadcrumbs: 12px;
+		--fs-badge-pill: 13px;
+		--fs-author-name: 15px;
+		--fs-meta-date: 12px;
+
+		--fs-toc-title: 16px;
+		--fw-toc-title: 600;
+		--fs-toc-item: 14px;
+		--fw-toc-item-active: 600;
+
+		--fs-table-cell: 13px;
+		--fs-form-placeholder: 15px;
+		--fw-form-submit: 600;
+	}
+}
+
+/* Dark Theme Variables */
+[data-theme="dark"] {
+	--sr-color-bg-body: #0d1211;
+	--sr-color-bg-card: #141c19;
+	--sr-color-bg-card-subtle: #192320;
+	--sr-color-bg-elevated: #1b2622;
+
+	--sr-color-text-main: #f0f5f3;
+	--sr-color-text-body: #cbd5e1;
+	--sr-color-text-muted: #94a3b8;
+	--sr-color-text-light: #64748b;
+
+	--sr-color-border: #23312c;
+	--sr-color-border-subtle: #1b2622;
+	--sr-color-border-focus: #7fbaa4;
+
+	--sr-color-primary: #7fbaa4;
+	--sr-color-primary-hover: #96ccb8;
+	--sr-color-primary-active: #6ba893;
+	--sr-color-primary-tint: #1b2c25;
+	--sr-color-primary-light: #16241e;
+	--sr-color-primary-soft: #20352d;
+
+	--sr-color-pro-bg: #112817;
+	--sr-color-con-bg: #2e1515;
+
+	--sr-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.4);
+	--sr-shadow-md: 0 4px 16px rgba(0, 0, 0, 0.5);
+	--sr-shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* -----------------------------------------------------------------------------
+ * 2. SELF-HOSTED FONTS
+ * -------------------------------------------------------------------------- */
+@font-face {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url("../fonts/montserrat-500.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url("../fonts/montserrat-600.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url("../fonts/inter-300.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url("../fonts/inter-400.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Inter";
+	font-style: italic;
+	font-weight: 400;
+	font-display: swap;
+	src: url("../fonts/inter-400-italic.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url("../fonts/inter-500.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url("../fonts/inter-600.woff2") format("woff2");
+}
+
+/* -----------------------------------------------------------------------------
+ * 3. LAYOUT & CONTAINERS
+ * -------------------------------------------------------------------------- */
+/* ============================================================
+ * CRITICAL: Allow position:sticky on all single post elements
+ * overflow: hidden/auto/scroll/clip on ANY ancestor kills sticky.
+ * ============================================================ */
+html, body,
+.site, #page, #content, #primary,
+.site-main, .sr-single-review-page,
+.sr-container, .sr-review-layout {
+	overflow: visible !important;
+	overflow-x: visible !important;
+	overflow-y: visible !important;
+}
+
+.sr-container {
+	width: 100%;
+	max-width: var(--sr-container-max, 1280px);
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 24px;
+	padding-right: 24px;
+	box-sizing: border-box;
+}
+
+.site-main {
+	flex: 1 0 auto;
+	padding: 32px 0 64px;
+	background-color: var(--sr-color-bg-body);
+	color: var(--sr-color-text-body);
+	transition: background-color var(--sr-transition-normal), color var(--sr-transition-normal);
+}
+
+body.single-post {
+	background-color: var(--sr-color-bg-body);
+	color: var(--sr-color-text-body);
+}
+
+/* -----------------------------------------------------------------------------
+ * 4. BASE TYPOGRAPHY (Scoped to Single Review Area)
+ * -------------------------------------------------------------------------- */
+.sr-single-review-page,
+.single-post .site-main {
+	font-family: var(--font-body);
+	font-size: var(--fs-body);
+	line-height: var(--lh-body);
+}
+
+.sr-single-review-page h1,
+.sr-single-review-page h2,
+.sr-single-review-page h3,
+.sr-single-review-page h4,
+.sr-single-review-page h5,
+.sr-single-review-page h6 {
+	font-family: var(--font-heading);
+	color: var(--sr-color-text-main);
+	line-height: 1.3;
+	font-weight: var(--fw-semibold);
+	letter-spacing: -0.015em;
+}
+
+.sr-single-review-page p {
+	font-family: var(--font-body);
+	font-size: var(--fs-body);
+	font-weight: var(--fw-regular);
+	line-height: var(--lh-body);
+	margin-bottom: 1.25rem;
+	color: var(--sr-color-text-body);
+}
+
+.sr-single-review-page a {
+	color: var(--sr-color-primary);
+	text-decoration: none;
+	transition: color var(--sr-transition-fast);
+}
+
+.sr-single-review-page a:hover,
+.sr-single-review-page a:focus {
+	color: var(--sr-color-primary-hover);
+}
+
+/* -----------------------------------------------------------------------------
+ * 5. CARDS, BADGES, PILLS & STARS
+ * -------------------------------------------------------------------------- */
+.sr-card {
+	background: var(--sr-color-bg-card);
+	border: 1px solid var(--sr-color-border);
+	border-radius: var(--sr-radius-lg);
+	padding: 24px;
+	box-shadow: var(--sr-shadow-sm);
+	transition: transform var(--sr-transition-normal), box-shadow var(--sr-transition-normal);
+}
+
+.sr-card-hover:hover {
+	transform: translateY(-4px);
+	box-shadow: var(--sr-shadow-md);
+}
+
+.sr-badge-pill {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	padding: 4px 14px;
+	font-family: var(--font-body);
+	font-size: var(--fs-badge-pill);
+	font-weight: var(--fw-regular);
+	border-radius: var(--sr-radius-full);
+	border: 1px solid var(--sr-color-primary);
+	background-color: var(--sr-color-primary-light);
+	color: var(--sr-color-primary-active);
+}
+
+.sr-stars {
+	display: inline-flex;
+	align-items: center;
+	gap: 2px;
+	color: var(--sr-color-accent-gold);
+}
+
+.sr-stars svg {
+	width: 18px;
+	height: 18px;
+	fill: currentColor;
+}
+
+.sr-rating-num {
+	font-family: var(--font-body);
+	font-size: 14px;
+	font-weight: var(--fw-semibold);
+	color: var(--sr-color-text-main);
+	margin-left: 6px;
+}
+
+.sr-icon {
+	display: inline-block;
+	vertical-align: middle;
+	fill: currentColor;
+}
+
+/* Buttons */
+.sr-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	padding: 12px 24px;
+	font-family: var(--font-body);
+	font-weight: var(--fw-medium);
+	font-size: var(--fs-form-submit);
+	border-radius: var(--sr-radius-md);
+	cursor: pointer;
+	border: none;
+	text-decoration: none;
+	transition: all var(--sr-transition-fast);
+}
+
+.sr-btn-primary {
+	background-color: var(--sr-color-primary);
+	color: #ffffff;
+}
+
+.sr-btn-primary:hover {
+	background-color: var(--sr-color-primary-hover);
+	color: #ffffff;
+}
+
+.sr-btn-pill {
+	border-radius: var(--sr-radius-full);
+}

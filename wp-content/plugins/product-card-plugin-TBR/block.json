@@ -1,0 +1,89 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "product-card/card",
+  "version": "1.0.0",
+  "title": "Product Card",
+  "category": "widgets",
+  "icon": "products",
+  "description": "Display a modern product card with dynamic content",
+  "keywords": ["product", "card", "review", "supplement"],
+  "supports": {
+    "html": false,
+    "align": ["wide", "full"]
+  },
+  "attributes": {
+    "status": {
+      "type": "string",
+      "default": "legit"
+    },
+    "productName": {
+      "type": "string",
+      "default": "Gutoptim"
+    },
+    "imageUrl": {
+      "type": "string",
+      "default": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800"
+    },
+    "userExperience": {
+      "type": "string",
+      "default": "Fewer night bathroom trips, stronger urine flow, and better sleep quality"
+    },
+    "observation": {
+      "type": "string",
+      "default": "Confirms prostate support via DHT (5-alpha reductase) inhibition and anti-inflammatory action"
+    },
+    "verdict": {
+      "type": "string",
+      "default": "Gutoptim is a Genuine Prostate Support Supplement"
+    },
+    "bestFor": {
+      "type": "string",
+      "default": "People over 50 with Urinary Track Infection"
+    },
+    "rating": {
+      "type": "string",
+      "default": "9.5"
+    },
+    "certification": {
+      "type": "string",
+      "default": "FDA/GMP Approved"
+    },
+    "moneyBackGuarantee": {
+      "type": "string",
+      "default": "60 Days"
+    },
+    "price": {
+      "type": "string",
+      "default": "69"
+    },
+    "originalPrice": {
+      "type": "string",
+      "default": "99"
+    },
+    "currency": {
+      "type": "string",
+      "default": "$"
+    },
+    "ctaLabel": {
+      "type": "string",
+      "default": "Buy Now"
+    },
+    "buyLaterLabel": {
+      "type": "string",
+      "default": "Buy Later"
+    },
+    "ctaSubText": {
+      "type": "string",
+      "default": ""
+    },
+    "ctaUrl": {
+      "type": "string",
+      "default": "#"
+    }
+  },
+  "textdomain": "product-card-plugin",
+  "editorScript": "file:./build/index.js",
+  "editorStyle": "file:./build/index.css",
+  "style": "file:./build/style-index.css"
+}

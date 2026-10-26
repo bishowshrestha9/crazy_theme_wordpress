@@ -1,0 +1,139 @@
+/* Pros and Cons Block Styling */
+.affx-pros-cons-wrapper {
+	width: 100%;
+	max-width: 1120px;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+}
+
+.affx-pros-cons-inner-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	border-radius: 4px;
+	overflow: hidden;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+
+.affx-pros-cons-inner-wrapper .affx-pros-inner,
+.affx-pros-cons-inner-wrapper .affx-cons-inner {
+	width: 50%;
+	box-sizing: border-box;
+	align-self: flex-start;
+}
+
+/* Headers */
+.affx-pros-cons-inner-wrapper .affiliatex-block-pros {
+	background-color: #24B644;
+	color: #ffffff;
+	padding: 12px 20px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	border-top-left-radius: 4px;
+}
+
+.affx-pros-cons-inner-wrapper .affiliatex-block-cons {
+	background-color: #F13A3A;
+	color: #ffffff;
+	padding: 12px 20px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	border-top-right-radius: 4px;
+}
+
+.affx-pros-cons-inner-wrapper .affiliatex-title {
+	margin: 0 !important;
+	color: #ffffff !important;
+	font-size: 18px !important;
+	font-weight: 600 !important;
+	line-height: 1.2 !important;
+}
+
+/* Content Boxes */
+.affx-pros-cons-inner-wrapper .affx-pros-inner .affiliatex-pros {
+	background-color: #F5FFF8;
+	padding: 20px;
+	min-height: 140px;
+	box-sizing: border-box;
+	border-bottom-left-radius: 4px;
+}
+
+.affx-pros-cons-inner-wrapper .affx-cons-inner .affiliatex-cons {
+	background-color: #FFF5F5;
+	padding: 20px;
+	min-height: 140px;
+	box-sizing: border-box;
+	border-bottom-right-radius: 4px;
+}
+
+/* Lists */
+.affx-pros-cons-inner-wrapper ul.affiliatex-list {
+	list-style: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 100% !important;
+}
+
+.affx-pros-cons-inner-wrapper .affx-pros-inner ul.affiliatex-list li {
+	list-style: none !important;
+	position: relative !important;
+	padding-left: 28px !important;
+	margin-bottom: 12px !important;
+	color: #292929 !important;
+	font-size: 15px !important;
+	line-height: 1.5 !important;
+	display: block !important;
+}
+
+.affx-pros-cons-inner-wrapper .affx-cons-inner ul.affiliatex-list li {
+	list-style: none !important;
+	position: relative !important;
+	padding-left: 28px !important;
+	margin-bottom: 12px !important;
+	color: #292929 !important;
+	font-size: 15px !important;
+	line-height: 1.5 !important;
+	display: block !important;
+}
+
+.affx-pros-cons-inner-wrapper ul.affiliatex-list li:last-child {
+	margin-bottom: 0 !important;
+}
+
+/* Green Check Circle for Pros */
+.affx-pros-cons-inner-wrapper .affx-pros-inner ul.affiliatex-list li::before {
+	content: "" !important;
+	position: absolute !important;
+	left: 0 !important;
+	top: 3px !important;
+	width: 18px !important;
+	height: 18px !important;
+	border-radius: 50% !important;
+	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2324B644' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpolyline points='8 12 11 15 16 9'/%3E%3C/svg%3E") no-repeat center center / contain !important;
+	border: none !important;
+}
+
+/* Red Cross Circle for Cons */
+.affx-pros-cons-inner-wrapper .affx-cons-inner ul.affiliatex-list li::before {
+	content: "" !important;
+	position: absolute !important;
+	left: 0 !important;
+	top: 3px !important;
+	width: 18px !important;
+	height: 18px !important;
+	border-radius: 50% !important;
+	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23F13A3A' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cline x1='15' y1='9' x2='9' y2='15'/%3E%3Cline x1='9' y1='9' x2='15' y2='15'/%3E%3C/svg%3E") no-repeat center center / contain !important;
+	border: none !important;
+}
+
+@media only screen and (max-width: 767px) {
+	.affx-pros-cons-inner-wrapper .affx-pros-inner,
+	.affx-pros-cons-inner-wrapper .affx-cons-inner {
+		width: 100% !important;
+		margin-bottom: 20px !important;
+	}
+}

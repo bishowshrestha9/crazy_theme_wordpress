@@ -1,0 +1,189 @@
+/*
+ * Caution Card — Minimal CSS
+ * All structural layout is via inline styles in the PHP template (theme-proof).
+ * This file only handles: TOC suppression, responsive overrides.
+ */
+
+/* TOC Suppression — highest priority */
+.pcpx-caution-card-outer *[id*="toc"],
+.pcpx-caution-card-outer *[id*="ez-toc"],
+.pcpx-caution-card-outer *[class*="toc"],
+.pcpx-caution-card-outer #toc_container,
+.pcpx-caution-card-outer .ez-toc-container,
+.pcpx-caution-card-outer .lwptoc {
+  display: none !important;
+  height: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Responsive: collapse to single column on small screens */
+@media (max-width: 780px) {
+  .pcpx-caution-card-outer .pcpx-c-body {
+    flex-direction: column !important;
+  }
+  .pcpx-caution-card-outer .pcpx-c-right {
+    flex: none !important;
+    width: 100% !important;
+    order: -1;
+    margin-bottom: 24px;
+  }
+  .pcpx-caution-card-outer .pcpx-c-left {
+    flex: none !important;
+    width: 100% !important;
+  }
+  .pcpx-caution-card-outer .pcpx-c-cta-row {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+  .pcpx-caution-card-outer .pcpx-c-cta-row a:first-child {
+    text-align: center !important;
+    justify-content: center !important;
+  }
+  .pcpx-caution-card-outer .pcpx-c-footer {
+    flex-direction: column !important;
+    gap: 8px !important;
+    text-align: center !important;
+  }
+}
+
+/* Alternatives modal (minimal) */
+.pcpx-c-modal[hidden] {
+  display: none !important;
+}
+
+.pcpx-c-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 999999;
+}
+
+.pcpx-c-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(17, 24, 39, 0.55);
+}
+
+.pcpx-c-modal__dialog {
+  position: relative;
+  width: min(520px, calc(100% - 32px));
+  margin: 10vh auto;
+  background: #ffffff;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  padding: 18px 16px 16px;
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.25);
+  max-height: 80vh;
+  overflow: auto;
+}
+
+.pcpx-c-modal__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  color: #111827;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.pcpx-c-modal__title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 800;
+  color: #111827;
+}
+
+.pcpx-c-modal__desc {
+  margin: 8px 0 14px;
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.pcpx-c-modal__bullets {
+  margin: 0 0 14px;
+  padding: 0 0 0 18px;
+  color: #374151;
+  font-size: 13px;
+}
+
+.pcpx-c-modal__bullets li {
+  margin: 6px 0;
+}
+
+.pcpx-c-modal__field {
+  margin-bottom: 10px;
+}
+
+.pcpx-c-modal__label {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 6px;
+}
+
+.pcpx-c-modal__hint {
+  font-weight: 600;
+  color: #6b7280;
+}
+
+.pcpx-c-modal__input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+  color: #111827;
+  outline: none;
+}
+
+.pcpx-c-modal__input:focus {
+  border-color: #16a34a;
+}
+
+.pcpx-c-modal__hp {
+  position: absolute !important;
+  left: -9999px !important;
+  width: 1px !important;
+  height: 1px !important;
+  opacity: 0 !important;
+}
+
+.pcpx-c-modal__submit {
+  width: 100%;
+  margin-top: 8px;
+  padding: 12px 14px;
+  border: 0;
+  border-radius: 10px;
+  background: #2e7d0d;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.pcpx-c-modal__submit[disabled] {
+  opacity: 0.75;
+  cursor: not-allowed;
+}
+
+.pcpx-c-modal__msg {
+  margin: 10px 0 0;
+  font-size: 13px;
+  color: #374151;
+}
+
+.pcpx-c-modal__fineprint {
+  margin: 10px 0 0;
+  font-size: 12px;
+  color: #6b7280;
+}

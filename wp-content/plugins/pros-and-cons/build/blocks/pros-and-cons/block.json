@@ -1,0 +1,93 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "version": "2.0.0",
+  "name": "prosandcons/pros-and-cons",
+  "title": "Pros and Cons Block",
+  "category": "widgets",
+  "description": "Present product advantages and drawbacks with an easy-to-read layout.",
+  "supports": {
+    "multiple": true,
+    "align": true
+  },
+  "keywords": [
+    "Pros and Cons",
+    "Pros",
+    "Cons",
+    "Review"
+  ],
+  "style": "file:./style-index.css",
+  "editorStyle": "file:./style-index.css",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "prosListItems": {
+      "type": "array",
+      "default": []
+    },
+    "consListItems": {
+      "type": "array",
+      "default": []
+    },
+    "prosListContent": {
+      "type": "string"
+    },
+    "consListContent": {
+      "type": "string"
+    },
+    "layoutStyle": {
+      "type": "string",
+      "default": "layout-type-1"
+    },
+    "prosIconStatus": {
+      "type": "boolean",
+      "default": true
+    },
+    "consIconStatus": {
+      "type": "boolean",
+      "default": true
+    },
+    "prosTitle": {
+      "type": "string",
+      "default": "Pros"
+    },
+    "consTitle": {
+      "type": "string",
+      "default": "Cons"
+    },
+    "prosBgColor": {
+      "type": "string",
+      "default": "#24B644"
+    },
+    "consBgColor": {
+      "type": "string",
+      "default": "#F13A3A"
+    },
+    "prosTextColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "consTextColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "prosListBgColor": {
+      "type": "string",
+      "default": "#F5FFF8"
+    },
+    "consListBgColor": {
+      "type": "string",
+      "default": "#FFF5F5"
+    },
+    "prosIconColor": {
+      "type": "string",
+      "default": "#24B644"
+    },
+    "consIconColor": {
+      "type": "string",
+      "default": "#F13A3A"
+    }
+  }
+}

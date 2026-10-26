@@ -1,0 +1,128 @@
+/* =============================================================
+   Simple Pros & Cons — Gutenberg Editor Styles
+   ============================================================= */
+
+.spc-editor .spc-inner {
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e0e0e0;
+}
+
+.spc-editor .spc-pros-col,
+.spc-editor .spc-cons-col {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ── Header ──────────────────────────────────────────────────── */
+.spc-editor .spc-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 24px;
+}
+
+.spc-editor .spc-title-input {
+    flex: 1;
+    background: transparent;
+    border: none !important;
+    outline: none !important;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    cursor: text;
+    padding: 0;
+    box-shadow: none !important;
+    color: inherit;
+}
+
+.spc-editor .spc-title-input::placeholder {
+    color: currentColor;
+    opacity: 0.6;
+}
+
+.spc-editor .spc-header-icon {
+    font-size: 22px;
+}
+
+/* ── List Area ───────────────────────────────────────────────── */
+.spc-editor .spc-list-editor {
+    padding: 10px 0;
+    flex: 1;
+}
+
+.spc-editor .spc-pros-list {
+    background: #f4fff4;
+}
+
+.spc-editor .spc-cons-list {
+    background: #fff4f4;
+}
+
+.spc-editor .spc-item-row {
+    display: flex;
+    align-items: center;
+    padding: 10px 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.spc-editor .spc-item-icon {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 900;
+    border: 1.5px solid currentColor;
+    background: #ffffff;
+    flex-shrink: 0;
+    margin-right: 14px;
+}
+
+.spc-editor .spc-item-input {
+    flex: 1;
+    border: none !important;
+    outline: none !important;
+    font-size: 16px;
+    color: #333;
+    background: transparent;
+    padding: 0;
+    min-width: 0;
+    box-shadow: none !important;
+}
+
+.spc-editor .spc-remove-btn {
+    border: none;
+    background: none;
+    color: #ddd;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0 4px;
+    transition: color 0.15s;
+}
+
+.spc-editor .spc-remove-btn:hover {
+    color: #cc0000;
+}
+
+.spc-editor .spc-add-btn {
+    margin: 15px 24px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #666;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+}

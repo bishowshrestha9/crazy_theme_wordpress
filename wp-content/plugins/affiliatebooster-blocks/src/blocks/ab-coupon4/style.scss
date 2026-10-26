@@ -1,0 +1,556 @@
+.affiliate-coupon-wrapper.style4 {
+    margin: 30px 0px 30px 0px;
+     .affiliate-coupon-content-wrapper{
+      padding:15px 20px;
+      .affiliate-coupon-content-inner{
+        .affiliate-col.firstcol{
+            flex: 0 0 22%;
+            flex-direction:column;
+            justify-content: flex-start;
+            a{font-size:14px;}
+            .affiliate-coupon-imagetop{
+                margin-bottom:10px
+            }
+            .affiliate-coupon-image{
+                margin-bottom:10px
+            }
+          }
+    
+        .affiliate-col.seccol{
+            flex: 0 0 45%;
+            padding:0px 12px 0 11px;
+            .affiliate-coupon-Verified,
+            .affiliate-coupon-StaffPick{
+                display: inline-block;
+            }
+            .affiliate-coupon-Verified{
+                position: relative;
+                padding-left: 1.12em;
+                margin-right: 15px;
+                color: #02bb8c;
+                &::before{
+                    content:"\f3ed";
+                    font-family: 'Font Awesome 5 Free';
+                    position: absolute;
+                    left:0;
+                    top:0px;
+                    font-weight:900;                   
+                }
+            }
+            .affiliate-coupon-StaffPick{
+                background: #e9385a;
+                color: #fff;
+                text-transform: uppercase;
+                padding: 2px 8px;
+                line-height: 1.2em;
+            }
+
+            .affiliate-coupon-content{
+                line-height: 1.5em;
+                margin-top: 0;
+            }
+
+            .affiliate-coupon-PeopleUsed{
+                position: relative;
+                padding-left:1.6em;
+                display: inline-block;
+                vertical-align: top;
+                &::before{
+                    content:"\f0c0";
+                    font-family: 'Font Awesome 5 Free';
+                    position: absolute;
+                    left:0;
+                    top:0px;
+                    font-weight:900;   
+                }
+            }
+
+            .affiliate-coupon-onlyLeft{
+                position: relative;
+                padding-left:1.6em;
+                display: inline-block;
+                margin-left: 20px;
+                vertical-align: top;
+                &::before{
+                    content:"\f3ff";
+                    font-family: 'Font Awesome 5 Free';
+                    position: absolute;
+                    left:0;
+                    top:0px;
+                    font-weight:900;   
+                }
+            }
+        }
+         .affiliate-col.thirdcol{
+            flex: 0 0 29%;
+            display: flex;
+            flex-wrap: wrap;
+            height: 160px;
+            .affiliate-coupon-starrating-outer{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                .affiliate-coupon-starratingTitle{
+                    font-size: 16px;
+                    flex:0 0 100%;
+                    height: 21px;
+                }
+                .affiliate-coupon-ratingnumber{
+                    margin-right: 10px;
+                    font-size: 16px;
+                    line-height: 38px;
+                }
+                .affiliate-coupon-starrating{
+                    display: flex;
+                    justify-content: start;
+                    padding: 0 0px;
+                    margin-top:0px;
+                    
+                    .affiliate-coupon-ratingnumber {
+                        line-height: 2.3em;
+                        padding: 0 10px;
+                    }
+                }
+            }
+            .affiliate-coupon-btn{
+                padding: 0px;
+                width: 100%;
+                margin-top:10px;
+                .affiliate-coupon-btn-wrapper{
+                    justify-content: flex-start !important;
+                    .affiliate-btn.btn-is-small{
+                        width: 150px;
+                        padding:10px;
+                    }
+                    .affiliate-btn.btn-is-medium{
+                        width: 155px;
+                        padding:15px;
+                    }
+                    .affiliate-btn.btn-is-large{
+                        width: 160px;
+                        padding:20px;
+                    }
+                    .affiliate-btn.btn-is-extra-large{
+                        width: 165px;
+                        padding:20px;
+                    }
+
+
+                    .affiliate-btn.btn-is-small.btn-is-flex-small{
+                         padding:10px;
+                        width: 153px;
+                    }
+                    .affiliate-btn.btn-is-medium.btn-is-flex-medium{
+                         padding:15px;
+                        width: 158px;
+                    }
+                    .affiliate-btn.btn-is-large.btn-is-flex-large{
+                        padding:20px;
+                        width: 163px;
+                    }
+                    .affiliate-btn.btn-is-extra-large.btn-is-flex-extra-large{
+                        padding:20px;
+                        width: 168px;
+                    }
+
+                    .affiliate-btn.btn-is-small.btn-is-fullw{
+                        padding:10px;
+                        width: 100%;
+                    }
+                    .affiliate-btn.btn-is-medium.btn-is-fullw{
+                        padding:15px;
+                        width: 100%;
+                    }
+                    .affiliate-btn.btn-is-large.btn-is-fullw{
+                        padding:20px;
+                        width: 100%;
+                    }
+                    .affiliate-btn.btn-is-extra-large.btn-is-fullw{
+                       padding:20px;
+                        width: 100%;
+                    }
+                }
+
+                .glimmer-effect::after{
+                    display: none;
+                    content: ' ';
+                    position: absolute;
+                    top: -50%;
+                    right: -60%;
+                    bottom: -50%;
+                    left: -60%;
+                    background: linear-gradient(
+                        50deg
+                        , rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 60%);
+                    -webkit-transform: translate(-80%, 0px);
+                    -ms-transform: translate(-80%, 0px);
+                    transform: translate(-80%, 0px);
+                }
+                .glimmer-effect::after{
+                    display: block;
+                    animation: 8s cfs-glimmer infinite;
+                } 
+                @keyframes cfs-glimmer {
+                    0% {
+                        -webkit-transform: translate(-80%, 0px);
+                        -ms-transform: translate(-80%, 0px);
+                        transform: translate(-80%, 0px);
+                    }
+                    50% {
+                        -webkit-transform: translate(80%, 0px);
+                        -ms-transform: translate(80%, 0px);
+                        transform: translate(80%, 0px);
+                    }
+                }
+            } 
+
+            .affiliate-coupon-onGoingOffer{
+                position: relative;
+                padding-left:1.3em;
+                display: inline-block;
+                vertical-align: top;
+                margin-top: 5px;
+                &::before{
+                    content:"\f017";
+                    font-family: 'Font Awesome 5 Free';
+                    position: absolute;
+                    left:0;
+                    top:-1px;
+                    font-weight:900;   
+                }
+            }
+                                      
+        }
+
+        @media(max-width:767px) {
+            .affiliate-col.seccol{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                .affiliate-coupon-StaffPick{
+                    text-align: center;
+                    max-width: 130px;
+                }
+                .affiliate-coupon-Verified{
+                    max-width: 120px;
+                }
+                .affiliate-coupon-PeopleUsed{
+                    max-width: 170px;
+                }
+                .affiliate-coupon-content,
+                .affiliate-coupon-maintitle{
+                    flex:0 0 100%;
+                }
+            }
+
+            .affiliate-col.thirdcol{
+                .affiliate-coupon-starrating-outer{
+                    justify-content: center !important;
+                    .affiliate-coupon-starratingTitle{
+                        text-align: center !important;
+                    }
+                }
+                .affiliate-coupon-btn{
+                    display: flex;
+                    justify-content: center;
+                }
+                .affiliate-coupon-onGoingOffer{
+                    max-width: 130px;
+                    margin: 0 auto;
+                }
+            }
+        }
+
+
+      }
+    }
+    .affiliate-has-innerblock {
+        width: 100%;
+    }
+
+
+   
+
+    .aff-inner-block {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .affiliate-d-flex {
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .affiliate-coupon-inner {
+        background: #ffffff;
+    }
+
+    .affiliate-coupon-maintitle{
+        font-size: 20px;
+        word-break: break-word;
+        color:#000000;
+        margin: 0px;
+    }
+
+    .affiliate-coupon-content {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        word-break: break-word;
+        font-weight:400; 
+    }
+
+
+
+
+    .affiliate-coupon-content-inner {
+        display: flex;
+    }
+
+    .affiliate-col:first-child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .affiliate-col {
+        flex-grow: 1;
+        flex-basis: 0;
+        width: 33.33%;
+        word-break: break-all;
+    }
+
+    .affiliate-coupon-review {
+        width: 20%;
+        padding: 10px 30px 10px 30px;
+    }
+
+    .affiliate-coupon-progress {
+        width: 30%;
+        padding: 10px 30px 10px 30px;
+    }
+
+    .affiliate-coupon-btn {
+        padding: 10px;
+    }
+
+    .affiliate-coupon-btn-wrapper {
+        max-width: 100%;
+        display: flex;
+
+        .affiliate-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: #000;
+            text-align: center;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            text-decoration: none !important;
+            background-color: #ffc207;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+            transition: color 200ms ease-in-out, background-color 200ms ease-in-out, border-color 200ms ease-in-out, box-shadow 200ms ease-in-out;
+            word-break: break-word;
+        }      
+        .affiliate-btn:hover {
+            background-color: #00ffcc;
+        }  
+    }
+
+    .btn-is-rounded {
+        border-radius: 60px 60px 60px 60px;
+    }
+
+    .af-icon-is-right {
+        padding-left: 10px;
+    }
+
+    .af-icon-is-left {
+        padding-right: 10px;
+    }
+
+    .btn-is-small {
+        padding: 10px 10px;
+    }
+
+    .btn-is-medium {
+        padding: 15px 15px;
+    }
+
+    .btn-is-large {
+        padding: 20px 20px;
+    }
+
+    .btn-is-extra-large {
+        width: 100%;
+        padding: 20px 20px;
+    }
+
+    .btn-is-flex-small {
+        width: fit-content;
+        width: -moz-fit-content;
+    }
+
+    .btn-is-flex-medium {
+        width: fit-content;
+        width: -moz-fit-content;
+    }
+
+    .btn-is-flex-large {
+        width: fit-content;
+        width: -moz-fit-content;
+    }
+
+    // .btn-is-flex-extra-large {
+    //     min-width: 100%;
+    //     width: fit-content;
+    //     width: -moz-fit-content;
+    // }
+
+    .affiliate-abbtn-icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-is-fullw {
+        width: 100%;
+    }
+    
+    @media(max-width:767px) {
+       
+        .affiliate-coupon-content-inner {
+            display: block;
+        }
+        .affiliate-coupon-starrating{
+            justify-content: center;
+        }
+        .affiliate-d-flex {
+            flex-direction: column;
+        }
+
+        .affiliate-col {
+            padding-top: 20px;
+            width: 100%;
+        }
+
+        .affiliate-coupon-review,
+        .affiliate-coupon-progress,
+        .affiliate-block-progress-bar {
+            width: 100%;
+        }
+
+        .affiliate-coupon-btn {
+            width: 100%;
+        }
+
+        .affiliate-coupon-inner .affiliate-coupon-maintitle{
+            font-size: inherit;
+        }
+        .affiliate-coupon-btn-wrapper{
+            justify-content: center;
+        }
+
+        .affiliate-coupon-maintitle{
+            text-align: center;
+        }
+
+        .affiliate-coupon-content{
+            text-align: center;
+        }
+    }
+ 
+
+    .affiliate-block-progress-bar {
+        .affiliate-progress {
+            height: 15px;
+            line-height: 30px;
+            background-color: #e9ecef;
+            border-radius: 60px;
+        }
+    
+        .affiliate-progress-bar {
+            border-radius: 60px;
+            background-image: none;
+            background-color: #007bff;
+            width: 50%;
+        }
+    
+        .affiliate-block-progress-labels {
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        .affiliate-progress {
+            .affiliate-progress-bar {
+                position: relative;
+                transition: 300ms;
+                height: 100%;
+                overflow: hidden;    
+                .affiliate-progress-striped {
+                    height: 100%;
+                    width: 100%;
+                    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+                    background-size: 40px 40px;
+                    transition: 300ms;
+                }
+            }
+    
+            .affiliate-block-progress-labels {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                padding: 0 10px;
+            }
+        }
+    }
+
+    
+}
+ @media(min-width:1025px) and  (max-width:1199px){
+     .affiliate-coupon-wrapper.style4 .affiliate-col.firstcol{
+     flex: 0 0 20%;
+     }
+     .affiliate-coupon-wrapper.style4 .affiliate-col.thirdcol{
+     flex: 0 0 30%;
+     }
+ }
+ @media(min-width:992px) and  (max-width:1024px){
+     .affiliate-coupon-wrapper.style4 .affiliate-col.firstcol{
+     flex: 0 0 18%;
+     }
+     .affiliate-coupon-wrapper.style4 .affiliate-col.thirdcol{
+     flex: 0 0 32%;
+     }
+ }
+ @media(max-width:991px) {
+ .affiliate-coupon-wrapper.style4 .affiliate-coupon-content-inner{
+    flex-wrap: wrap;
+ }
+ .affiliate-coupon-wrapper.style4 .affiliate-col.firstcol{
+ flex: 0 0 40%;
+ }
+ .affiliate-coupon-wrapper.style4 .affiliate-col.seccol{
+ flex: 0 0 60%;
+ }
+    .affiliate-coupon-wrapper.style4 .affiliate-col.thirdcol{
+        height:auto;
+        flex: 0 0 100%;
+        margin-top:20px;
+    }
+ }
+
+ @media(max-width:767px) {
+    .affiliate-coupon-wrapper.style4 {
+        .affiliate-coupon-starrating{
+            justify-content: center;
+        }
+    }
+}   

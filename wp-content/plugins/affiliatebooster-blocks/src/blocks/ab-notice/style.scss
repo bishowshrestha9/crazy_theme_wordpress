@@ -1,0 +1,360 @@
+.affiliate-notice-wrapper{
+    text-align: left;
+    margin : 30px 0px 30px 0px;
+   .affiliate-notice-inner{         
+        background: #ffffff;
+    } 
+    li{
+        margin: 0px;
+        padding-left: 10px;
+        &:first-child{
+            padding-top: 10px;
+        }
+        &:last-child{
+            padding-bottom: 10px;
+        }
+        &::after{
+            content: "" !important;
+        }
+        li{
+            list-style: none;
+        }
+    }
+    .affiliate-notice-title{
+        padding: 10px 20px 10px 20px;
+        background:#00d1b2;
+    }
+    .affiliate-notice-title{
+        h1,h2,h3,h4,h5,h6,p {
+            margin: 0px;
+            color:#ffffff;
+            font-size: 20px;
+            word-break: break-word;
+        }
+    }
+    .affiliate-notice-content{
+        padding: 10px 20px 10px 20px;
+        margin: 0px;
+    }
+
+    .affiliate-block-advanced-list {
+        .affiliate-action-button {
+            padding: 5px 15px;
+            margin-top: 15px;
+            border-radius: 4px;
+            background: #f0f1f3;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            word-break: break-word;
+            >li {
+                position: relative;
+                margin: 0;
+                display: block;
+                transition: color 400ms, background-color 400ms, border-color 400ms, box-shadow 400ms;
+                &::before {
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 900;
+                    transition: color 400ms, background-color 400ms;
+                    padding-right: 10px;
+                }
+                >span {
+                    display: inline-block;
+                }
+                >div {
+                    display: inline;
+                }
+    
+                .affiliate-action-remove {
+                    display: none;
+                    width: 18px;
+                    height: 18px;
+                    line-height: 20px;
+                    text-align: center;
+                    background: rgba(0, 0, 0, .8);
+                    color: #fff;
+                    border-radius: 10px;
+                    position: absolute;
+                    right: 16px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    cursor: pointer;
+                    &.alignment-left {
+                        right: auto;
+                        left: 0;
+                    }
+                }
+    
+                &:hover {
+                    .affiliate-action-remove {
+                        display: block;
+                    }
+                }
+            }
+    
+            [contenteditable=true]:empty:before {
+                content: attr(placeholder);
+                color: gray;
+                padding: 0px 5px 0px 5px;
+                display: block; /* For Firefox */
+            }
+            
+            .affiliate-action-button {
+                margin-top: 15px;
+            }
+        }
+    
+    
+        &.affiliate-alignment-left,
+        &.affiliate-alignment-center {
+            .affiliate-list {
+                >li::after {
+                    display: none;
+                }
+            }
+        }
+    
+        &.affiliate-alignment-center {
+            .affiliate-list {
+                >li {
+                    justify-content: center;
+                }
+            }
+        }
+    
+        &.affiliate-alignment-right {
+            .affiliate-list {
+                >li {
+                    justify-content: flex-end;
+                    &::before {
+                        display: none;
+                    }
+                }
+            }
+        }
+    
+       ul {
+            .affiliate-list-bullet-check {
+                &::before {
+                    content: "\f00c";
+                }
+            }
+    
+            .affiliate-list-bullet-check-square {
+                &::before {
+                    content: "\f14a";
+                }
+            }
+    
+            .affiliate-list-bullet-check-square-outline {
+                &::before {
+                    content: "\f14a";
+                    font-weight: 400;
+                }
+            }
+    
+            .affiliate-list-bullet-check-double {
+                &::before {
+                    content: "\f560";
+                }
+            }
+            
+            .affiliate-list-bullet-check-circle {
+                &::before {
+                    content: "\f058";
+                }
+            }
+    
+            .affiliate-list-bullet-check-circle-outline {
+                &::before {
+                    content: "\f058";
+                    font-weight: 400;
+                }
+            }
+    
+            .affiliate-list-bullet-square {
+                &::before {
+                    content: "\f0c8";
+                }
+            }
+    
+            .affiliate-list-bullet-square-outline {
+                &::before {
+                    content: "\f0c8";
+                    font-weight: 400;
+                }
+            }
+            
+            .affiliate-list-bullet-circle {
+                &::before {
+                    content: "\f111";
+                }
+            }
+    
+            .affiliate-list-bullet-circle-outline {
+                &::before {
+                    content: "\f111";
+                    font-weight: 400;
+                }
+            }
+    
+            .affiliate-list-bullet-arrow-right {
+                &::before {
+                    content: "\f061";
+                }
+            }
+    
+            .affiliate-list-bullet-arrow-left {
+                &::before {
+                    content: "\f060";
+                }
+            }
+    
+            .affiliate-list-bullet-arrow-circle-right {
+                &::before {
+                    content: "\f0a9";
+                }
+            }
+    
+            .affiliate-list-bullet-arrow-circle-left {
+                &::before {
+                    content: "\f0a8";
+                }
+            }
+            
+            .affiliate-list-bullet-arrow-alt-circle-right {
+                &::before {
+                    content: "\f35a";
+                    font-weight: 400;
+                }
+            }
+            .affiliate-list-bullet-arrow-alt-circle-left {
+                &::before {
+                    content: "\f359";
+                    font-weight: 400;
+                }
+            }
+            .affiliate-list-bullet-long-arrow-alt-right {
+                &::before {
+                    content: "\f30b";
+                }
+            }
+            .affiliate-list-bullet-long-arrow-alt-left {
+                &::before {
+                    content: "\f30a";
+                }
+            }
+            .affiliate-list-bullet-chevron-right {
+                &::before {
+                    content: "\f054";
+                }
+            }
+            .affiliate-list-bullet-chevron-left {
+                &::before {
+                    content: "\f053";
+                }
+            }
+            .affiliate-list-bullet-angle-right {
+                &::before {
+                    content: "\f105";
+                }
+            }
+            .affiliate-list-bullet-angle-left {
+                &::before {
+                    content: "\f104";
+                }
+            }
+            .affiliate-list-bullet-star {
+                &::before {
+                    content: "\f005";
+                }
+            }
+            .affiliate-list-bullet-star-outline {
+                &::before {
+                    content: "\f005";
+                    font-weight: 400;
+                }
+            }
+            .affiliate-list-bullet-windows-close-fill{
+                &::before {
+                    content: "\f410";
+                }
+            }
+            .affiliate-list-bullet-window-close-simple{
+                &::before {
+                    content: "\f410";
+                    font-weight: 400;
+                }
+            }
+            .affiliate-list-bullet-ban{
+                &::before {
+                    content: "\f05e";
+                }
+            }
+            .affiliate-list-bullet-times{
+                &::before {
+                    content: "\f00d";
+                }
+            }
+            .affiliate-list-bullet-times-circle{
+                &::before {
+                    content: "\f057";
+                }
+            }
+            .affiliate-list-bullet-times-circle-simple{
+                &::before {
+                    content: "\f057";
+                    font-weight: 400;
+                }
+            }
+            .affiliate-list-bullet-dot-circle-fill{
+                &::before {
+                    content: "\f192";
+                }
+            }
+            .affiliate-list-bullet-dot-circle-simple{
+                &::before {
+                    content: "\f192";
+                    font-weight: 400;
+                }
+            }
+            .affiliate-list-bullet-thumb-up-fill{
+                &::before {
+                    content: "\f164";
+                }
+            }
+            .affiliate-list-bullet-thumb-up-simple{
+                &::before {
+                    content: "\f164";
+                    font-weight: 400;
+                }
+            }
+            .affiliate-list-bullet-thumb-down-fill{
+                &::before {
+                    content: "\f165";
+                }
+            }
+            .affiliate-list-bullet-thumb-down-simple{
+                &::before {
+                    content: "\f165";
+                    font-weight: 400;
+                }
+            }
+        }
+    
+    
+       ul {
+            counter-reset: affiliate-ol-counter;
+            >li {
+                counter-increment: affiliate-ol-counter;
+                &::before {
+                    text-align: center;
+                    content: counter(affiliate-ol-counter);
+                }
+            }
+        }
+    }    
+
+}

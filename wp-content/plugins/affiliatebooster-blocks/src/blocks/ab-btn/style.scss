@@ -1,0 +1,90 @@
+.affiliate-abbtn-wrapper{
+    margin:30px 0px 30px 0px;
+    .affiliate-abbtn-inner{
+        max-width: 100%;
+        display: flex;
+        padding: 10px 0;
+        margin: 20px 0;
+    }
+    .affiliate-abbtn{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        color: #000000;
+        text-align: center;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color:#F9CC29; 
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        transition: color 200ms ease-in-out, background-color 200ms ease-in-out, border-color 200ms ease-in-out, box-shadow 200ms ease-in-out;
+        &:hover{
+            background-color:#00ffcc;
+            border-color:#00ffcc;
+        }
+    }
+    .affiliate-abbtn-wrapper .affiliate-abbtn strong,
+    .affiliate-abbtn-wrapper .affiliate-abbtn span{
+      padding: 0 3px;
+    }
+    .btn-is-rounded{
+        border-radius: 60px 60px 60px 60px;
+    }
+    .af-icon-is-right{
+        padding-left: 10px;
+    }
+    .af-icon-is-left{
+        padding-right: 10px;
+    }
+    .btn-is-small{
+        width: 180px;
+        padding: 10px 10px;
+    }
+    .btn-is-medium{
+        width: 275px;
+        padding: 15px 15px;
+    }
+    .btn-is-large{
+        width: 417px;
+        padding: 20px 20px;
+    }
+    .btn-is-extra-large{
+        width: 512px;
+        padding: 20px 20px;
+    }
+    .btn-is-flex-small {
+        min-width: 180px;
+        width: fit-content;
+        width: -moz-fit-content;
+    }
+    .btn-is-flex-medium {
+        min-width: 275px;
+        width: fit-content;
+        width: -moz-fit-content;
+    }
+    .btn-is-flex-large {
+        min-width: 417px;
+        width: fit-content;
+        width: -moz-fit-content;
+    }
+    .btn-is-flex-extra-large {
+        min-width: 512px;
+        width: fit-content;
+        width: -moz-fit-content;
+    }
+    .affiliate-abbtn-icon{
+        display: flex;
+        justify-content: center;
+    }
+    .btn-is-fullw{
+        width: 100%;
+    }
+}
+
+.affiliate-size-btn span{ 
+    color:#1e1e1e;
+    font-size:15px;
+}

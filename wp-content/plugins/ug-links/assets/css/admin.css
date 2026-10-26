@@ -1,0 +1,661 @@
+/*
+ * UglyLinks Admin Stylesheet v2 – SPA Grid Layout
+ *
+ * Tokens are defined as custom properties so the design is themeable.
+ * All selectors are scoped to .uglylinks-wrap / #uglylinks-app.
+ *
+ * @package UglyLinks
+ */
+
+@import url('https://rsms.me/inter/inter.css');
+
+/* ── Design Tokens ────────────────────────────────────────────────────────── */
+#uglylinks-app {
+    --ul-radius:    8px;
+    --ul-radius-sm: 4px;
+    --ul-shadow:    0 1px 3px rgba(0, 0, 0, .10), 0 1px 2px rgba(0, 0, 0, .06);
+    --ul-shadow-md: 0 4px 12px rgba(0, 0, 0, .12), 0 2px 4px rgba(0, 0, 0, .08);
+    --ul-transition: .18s cubic-bezier(.4, 0, .2, 1);
+
+    /* Colour palette */
+    --ul-primary:      #2563eb;
+    --ul-primary-h:    #1d4ed8;
+    --ul-primary-light:#dbeafe;
+    --ul-danger:       #dc2626;
+    --ul-danger-h:     #b91c1c;
+    --ul-danger-light: #fee2e2;
+    --ul-success:      #16a34a;
+    --ul-success-light:#dcfce7;
+    --ul-warning:      #d97706;
+    --ul-warning-light:#fef3c7;
+    --ul-surface:      #fff;
+    --ul-surface-alt:  #f8fafc;
+    --ul-border:       #e2e8f0;
+    --ul-text:         #1e293b;
+    --ul-text-muted:   #64748b;
+    --ul-badge-301-bg: #dc2626;
+    --ul-badge-302-bg: #d97706;
+}
+
+#uglylinks-app {
+    max-width: 1280px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: var(--ul-text);
+    font-weight: 300;
+}
+
+/* ── Page Header ──────────────────────────────────────────────────────────── */
+.uglylinks-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+}
+
+.uglylinks-header h1 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--ul-text);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.uglylinks-logo-icon { font-size: 20px; }
+
+.uglylinks-tagline {
+    margin: 2px 0 0;
+    font-size: 13px;
+    color: var(--ul-text-muted);
+}
+
+/* ── Notice Bar ───────────────────────────────────────────────────────────── */
+.uglylinks-notice {
+    padding: 10px 16px;
+    border-radius: var(--ul-radius-sm);
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    transition: opacity var(--ul-transition);
+}
+
+.uglylinks-notice--hidden  { display: none; }
+.uglylinks-notice--success { background: var(--ul-success-light); color: var(--ul-success); border: 1px solid #86efac; }
+.uglylinks-notice--error   { background: var(--ul-danger-light);  color: var(--ul-danger);  border: 1px solid #fca5a5; }
+.uglylinks-notice--warning { background: var(--ul-warning-light); color: var(--ul-warning); border: 1px solid #fcd34d; }
+
+/* ── Summary Stats Grid ───────────────────────────────────────────────────── */
+.uglylinks-summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.uglylinks-stat-card {
+    background: var(--ul-surface);
+    border: 1px solid var(--ul-border);
+    border-radius: var(--ul-radius);
+    padding: 16px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    box-shadow: var(--ul-shadow);
+    transition: box-shadow var(--ul-transition);
+}
+
+.uglylinks-stat-card:hover { box-shadow: var(--ul-shadow-md); }
+
+.uglylinks-stat-card__label {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    color: var(--ul-text-muted);
+}
+
+.uglylinks-stat-card__value {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--ul-primary);
+    line-height: 1.2;
+}
+
+/* ── Toolbar ──────────────────────────────────────────────────────────────── */
+.uglylinks-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+.uglylinks-search-input {
+    flex: 1;
+    min-width: 200px;
+    padding: 7px 12px;
+    border: 1px solid var(--ul-border);
+    border-radius: var(--ul-radius-sm);
+    font-size: 13px;
+    color: var(--ul-text);
+    outline: none;
+    transition: border-color var(--ul-transition), box-shadow var(--ul-transition);
+}
+
+.uglylinks-search-input:focus {
+    border-color: var(--ul-primary);
+    box-shadow: 0 0 0 3px var(--ul-primary-light);
+}
+
+.uglylinks-count-label {
+    font-size: 12px;
+    color: var(--ul-text-muted);
+    white-space: nowrap;
+}
+
+/* ── Link List Table ──────────────────────────────────────────────────────── */
+.uglylinks-table {
+    margin-bottom: 24px;
+    box-shadow: var(--ul-shadow);
+    border-radius: var(--ul-radius-sm);
+    overflow: hidden;
+}
+
+.uglylinks-table th {
+    font-weight: 600;
+    color: var(--ul-text);
+}
+
+.uglylinks-table td {
+    vertical-align: middle;
+}
+
+.uglylinks-card__title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--ul-text);
+    display: block;
+    margin-bottom: 4px;
+}
+
+/* ── Type Badge ───────────────────────────────────────────────────────────── */
+.uglylinks-type-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 8px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .04em;
+    flex-shrink: 0;
+}
+
+.uglylinks-type-301 { background: var(--ul-badge-301-bg); color: #fff; }
+.uglylinks-type-302 { background: var(--ul-badge-302-bg); color: #fff; }
+
+/* ── Slug Row ─────────────────────────────────────────────────────────────── */
+.uglylinks-card__slug-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.uglylinks-card__short-url {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--ul-primary);
+    text-decoration: none;
+}
+
+.uglylinks-card__short-url:hover { text-decoration: underline; }
+
+/* ── Target Row / Inline Edit ─────────────────────────────────────────────── */
+.uglylinks-card__target-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 24px;
+}
+
+.uglylinks-card__target-display {
+    font-size: 12px;
+    color: var(--ul-text-muted);
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.uglylinks-inline-edit {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex: 1;
+}
+
+.uglylinks-inline-input {
+    flex: 1;
+    font-size: 12px;
+    padding: 4px 8px;
+    border: 1px solid var(--ul-primary);
+    border-radius: var(--ul-radius-sm);
+    outline: none;
+    box-shadow: 0 0 0 3px var(--ul-primary-light);
+    min-width: 0;
+}
+
+.uglylinks-form__input--invalid {
+    border-color: var(--ul-danger) !important;
+    box-shadow: 0 0 0 3px var(--ul-danger-light) !important;
+}
+
+/* ── Icon Buttons ─────────────────────────────────────────────────────────── */
+.uglylinks-icon-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    padding: 0;
+    border: none;
+    border-radius: var(--ul-radius-sm);
+    background: transparent;
+    color: var(--ul-text-muted);
+    cursor: pointer;
+    transition: background var(--ul-transition), color var(--ul-transition);
+    flex-shrink: 0;
+}
+
+.uglylinks-icon-btn:hover {
+    background: var(--ul-surface-alt);
+    color: var(--ul-text);
+}
+
+.uglylinks-copy-btn--success { color: var(--ul-success) !important; }
+
+.uglylinks-inline-save:hover  { color: var(--ul-success) !important; }
+.uglylinks-inline-cancel:hover { color: var(--ul-danger) !important; }
+
+/* ── Card Footer / Actions ────────────────────────────────────────────────── */
+.uglylinks-card__actions { display: flex; gap: 6px; align-items: center; justify-content: flex-end; }
+
+/* ── Buttons ──────────────────────────────────────────────────────────────── */
+.uglylinks-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: var(--ul-radius-sm);
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: background var(--ul-transition), color var(--ul-transition), border-color var(--ul-transition), transform var(--ul-transition), box-shadow var(--ul-transition);
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.uglylinks-btn:hover {
+    transform: translateY(-1px);
+}
+
+.uglylinks-btn:active {
+    transform: translateY(0);
+}
+
+.uglylinks-btn:disabled { opacity: .6; cursor: not-allowed; }
+
+.uglylinks-btn--primary {
+    background: var(--ul-primary);
+    color: #fff;
+    border-color: var(--ul-primary);
+}
+.uglylinks-btn--primary:hover:not(:disabled) {
+    background: var(--ul-primary-h);
+    border-color: var(--ul-primary-h);
+    box-shadow: 0 2px 8px rgba(37, 99, 235, .35);
+}
+
+.uglylinks-btn--ghost {
+    background: transparent;
+    color: var(--ul-text);
+    border-color: var(--ul-border);
+}
+.uglylinks-btn--ghost:hover:not(:disabled) {
+    background: var(--ul-surface-alt);
+    border-color: #cbd5e1;
+}
+
+.uglylinks-btn--danger {
+    background: transparent;
+    color: var(--ul-danger);
+    border-color: #fca5a5;
+}
+.uglylinks-btn--danger:hover:not(:disabled) {
+    background: var(--ul-danger-light);
+    border-color: var(--ul-danger);
+}
+
+.uglylinks-btn--sm { padding: 4px 10px; font-size: 12px; }
+
+/* Spinner inside button */
+.uglylinks-btn--loading .uglylinks-btn__spinner {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 2px solid rgba(255, 255, 255, .4);
+    border-top-color: #fff;
+    border-radius: 50%;
+    animation: ul-spin .6s linear infinite;
+}
+
+.uglylinks-btn__spinner { display: none; }
+
+@keyframes ul-spin { to { transform: rotate(360deg); } }
+
+/* ── Empty State ──────────────────────────────────────────────────────────── */
+.uglylinks-empty-state {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 20px;
+    border: 2px dashed var(--ul-border);
+    border-radius: var(--ul-radius);
+    text-align: center;
+    color: var(--ul-text-muted);
+}
+
+.uglylinks-empty-icon { font-size: 40px; margin-bottom: 12px; display: block; }
+.uglylinks-empty-state p { font-size: 15px; margin: 0 0 20px; }
+
+/* ── Skeleton Loading ─────────────────────────────────────────────────────── */
+@keyframes ul-shimmer {
+    0%   { background-position: -400px 0; }
+    100% { background-position: 400px 0; }
+}
+
+.uglylinks-skeleton,
+.uglylinks-card--skeleton {
+    pointer-events: none;
+}
+
+.uglylinks-skeleton-bar,
+.uglylinks-stat-card.uglylinks-skeleton .uglylinks-stat-card__value,
+.uglylinks-stat-card.uglylinks-skeleton .uglylinks-stat-card__label {
+    border-radius: var(--ul-radius-sm);
+    background: linear-gradient(90deg, #f1f5f9 25%, #e2e8f0 50%, #f1f5f9 75%);
+    background-size: 400px 100%;
+    animation: ul-shimmer 1.4s ease infinite;
+    color: transparent !important;
+}
+
+.uglylinks-skeleton-bar--title { height: 16px; width: 60%; margin-bottom: 8px; }
+.uglylinks-skeleton-bar--url   { height: 32px; width: 100%; margin-bottom: 8px; }
+.uglylinks-skeleton-bar--meta  { height: 12px; width: 40%; }
+
+/* ── Pagination ───────────────────────────────────────────────────────────── */
+.uglylinks-pagination {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.uglylinks-pagination__btn {
+    padding: 6px 12px;
+    border: 1px solid var(--ul-border);
+    border-radius: var(--ul-radius-sm);
+    background: var(--ul-surface);
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background var(--ul-transition), border-color var(--ul-transition);
+}
+
+.uglylinks-pagination__btn:hover { background: var(--ul-surface-alt); border-color: #cbd5e1; }
+.uglylinks-pagination__btn--active {
+    background: var(--ul-primary);
+    color: #fff;
+    border-color: var(--ul-primary);
+}
+
+/* ── Slide-in Drawer ──────────────────────────────────────────────────────── */
+.uglylinks-drawer {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    pointer-events: none;
+}
+
+.uglylinks-drawer--open  { pointer-events: auto; }
+
+.uglylinks-drawer__backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(15, 23, 42, .45);
+    opacity: 0;
+    transition: opacity var(--ul-transition);
+    backdrop-filter: blur(2px);
+}
+
+.uglylinks-drawer--open .uglylinks-drawer__backdrop { opacity: 1; }
+
+.uglylinks-drawer__panel {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: min(480px, 100vw);
+    background: var(--ul-surface);
+    box-shadow: -8px 0 32px rgba(0, 0, 0, .15);
+    display: flex;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: transform .25s cubic-bezier(.4, 0, .2, 1);
+    overflow-y: auto;
+}
+
+.uglylinks-drawer--open .uglylinks-drawer__panel {
+    transform: translateX(0);
+}
+
+.uglylinks-drawer--closed .uglylinks-drawer__panel { pointer-events: none; }
+
+/* Prevent WP admin bar overlapping the panel top */
+@media screen and (min-width: 783px) {
+    .uglylinks-drawer__panel { top: 32px; }
+}
+
+.uglylinks-drawer__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 24px;
+    border-bottom: 1px solid var(--ul-border);
+    position: sticky;
+    top: 0;
+    background: var(--ul-surface);
+    z-index: 1;
+}
+
+.uglylinks-drawer__header h2 {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.uglylinks-drawer__close {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: var(--ul-radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--ul-text-muted);
+    transition: background var(--ul-transition), color var(--ul-transition);
+}
+
+.uglylinks-drawer__close:hover {
+    background: var(--ul-surface-alt);
+    color: var(--ul-text);
+}
+
+/* Lock body scroll when drawer is open */
+body.uglylinks-drawer-active { overflow: hidden; }
+
+/* ── Form ─────────────────────────────────────────────────────────────────── */
+.uglylinks-form {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.uglylinks-form__group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.uglylinks-form__label {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ul-text);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.uglylinks-form__hint { font-weight: 400; color: var(--ul-text-muted); font-size: 12px; }
+
+.uglylinks-form__group--required .uglylinks-form__label::after {
+    content: '*';
+    color: var(--ul-danger);
+    margin-left: 2px;
+}
+
+.uglylinks-form__input {
+    padding: 12px 16px;
+    border: 1px solid var(--ul-border);
+    border-radius: var(--ul-radius-sm);
+    font-size: 14px;
+    color: var(--ul-text);
+    outline: none;
+    transition: border-color var(--ul-transition), box-shadow var(--ul-transition), transform var(--ul-transition);
+    width: 100%;
+    box-sizing: border-box;
+    background: var(--ul-surface-alt);
+}
+
+.uglylinks-form__input:focus {
+    background: var(--ul-surface);
+    border-color: var(--ul-primary);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1), 0 0 0 3px var(--ul-primary-light);
+}
+
+.uglylinks-form__error {
+    font-size: 12px;
+    color: var(--ul-danger);
+    display: none;
+}
+
+/* ── Slug Row in Form ─────────────────────────────────────────────────────── */
+.uglylinks-slug-row {
+    display: flex;
+    border: 1px solid var(--ul-border);
+    border-radius: var(--ul-radius-sm);
+    overflow: hidden;
+    transition: border-color var(--ul-transition), box-shadow var(--ul-transition);
+}
+
+.uglylinks-slug-row:focus-within {
+    border-color: var(--ul-primary);
+    box-shadow: 0 0 0 3px var(--ul-primary-light);
+}
+
+.uglylinks-slug-row__prefix {
+    padding: 8px 10px;
+    background: var(--ul-surface-alt);
+    border-right: 1px solid var(--ul-border);
+    font-size: 12px;
+    color: var(--ul-text-muted);
+    white-space: nowrap;
+    user-select: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 160px;
+}
+
+.uglylinks-slug-row__input {
+    border: none !important;
+    box-shadow: none !important;
+    padding: 8px 10px;
+    flex: 1;
+    min-width: 0;
+    font-size: 13px;
+}
+
+/* ── Toggle Group (redirect type) ─────────────────────────────────────────── */
+.uglylinks-toggle-group {
+    display: flex;
+    gap: 0;
+    border: 1px solid var(--ul-border);
+    border-radius: var(--ul-radius-sm);
+    overflow: hidden;
+}
+
+.uglylinks-toggle-option {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.uglylinks-toggle-option input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.uglylinks-toggle-option span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--ul-text-muted);
+    transition: background var(--ul-transition), color var(--ul-transition);
+    border-right: 1px solid var(--ul-border);
+}
+
+.uglylinks-toggle-option:last-child span { border-right: none; }
+
+.uglylinks-toggle-option input:checked + span {
+    background: var(--ul-primary);
+    color: #fff;
+}
+
+/* ── Form Actions ─────────────────────────────────────────────────────────── */
+.uglylinks-form__actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-top: 12px;
+    border-top: 1px solid var(--ul-border);
+    margin-top: auto;
+}

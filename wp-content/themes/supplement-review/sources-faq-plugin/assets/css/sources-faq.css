@@ -1,0 +1,312 @@
+/**
+ * Sources & FAQ Sections Stylesheet
+ *
+ * Scoped under `.sf-sources-wrapper` and `.sf-faq-wrapper`.
+ * Class prefix: .sf-
+ * Exact layout, typography, borders, and transitions matching design screenshots.
+ */
+
+/* ==========================================================================
+   CSS Variables & Typography Scoping
+   ========================================================================== */
+.sf-sources-wrapper,
+.sf-faq-wrapper {
+	--sf-primary-green: #4a8571;
+	--sf-primary-green-hover: #3b6d5c;
+	--sf-border: #e2e8f0;
+	--sf-border-divider: #e5e7eb;
+	--sf-card-bg: #ffffff;
+	--sf-text-heading: #111111;
+	--sf-text-question: #111111;
+	--sf-text-body: #555555;
+	--sf-text-muted: #6b7280;
+	--sf-bullet-color: #6b7280;
+	--sf-card-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+	--sf-radius-card: 10px;
+	--sf-font-heading: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+	--sf-font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+
+	font-family: var(--sf-font-body);
+	width: 100%;
+	box-sizing: border-box;
+	margin: 36px 0;
+}
+
+.sf-sources-wrapper *,
+.sf-sources-wrapper *::before,
+.sf-sources-wrapper *::after,
+.sf-faq-wrapper *,
+.sf-faq-wrapper *::before,
+.sf-faq-wrapper *::after {
+	box-sizing: border-box;
+}
+
+/* ==========================================================================
+   Common Section Header
+   ========================================================================== */
+.sf-section-header {
+	margin-bottom: 22px;
+}
+
+.sf-heading {
+	font-family: var(--sf-font-heading);
+	font-size: 28px;
+	font-weight: 600;
+	color: var(--sf-text-heading);
+	margin: 0 0 12px 0;
+	line-height: 1.5;
+	letter-spacing: -0.01em;
+}
+
+.sf-divider {
+	height: 1px;
+	background-color: var(--sf-border-divider);
+	border: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+/* ==========================================================================
+   SECTION 1: SOURCES
+   ========================================================================== */
+.sf-sources-card {
+	background-color: var(--sf-card-bg);
+	border: 1px solid var(--sf-border);
+	border-radius: var(--sf-radius-card);
+	padding: 28px 32px;
+	box-shadow: var(--sf-card-shadow);
+}
+
+.sf-sources-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.sf-source-item {
+	position: relative;
+	padding-left: 20px;
+	font-family: var(--sf-font-body);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: var(--sf-text-muted);
+	margin: 0;
+}
+
+/* Custom Bullet Point */
+.sf-source-item::before {
+	content: "";
+	position: absolute;
+	left: 2px;
+	top: 9px;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background-color: var(--sf-bullet-color);
+}
+
+/* Citations & Links */
+.sf-source-text {
+	display: inline;
+}
+
+.sf-source-url {
+	color: var(--sf-primary-green);
+	text-decoration: underline;
+	overflow-wrap: anywhere;
+	word-break: break-word;
+	transition: color 0.15s ease;
+}
+
+.sf-source-url:hover,
+.sf-source-url:focus {
+	color: var(--sf-primary-green-hover);
+}
+
+.sf-source-url:focus-visible {
+	outline: 2px solid var(--sf-primary-green);
+	outline-offset: 2px;
+	border-radius: 2px;
+}
+
+/* ==========================================================================
+   SECTION 2: FAQ ACCORDION
+   ========================================================================== */
+.sf-faq-list {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 100%;
+}
+
+/* Individual FAQ Card */
+.sf-faq-card {
+	background-color: var(--sf-card-bg);
+	border: 1px solid var(--sf-border);
+	border-radius: var(--sf-radius-card);
+	box-shadow: var(--sf-card-shadow);
+	overflow: hidden;
+	transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sf-faq-card.sf-open {
+	border-color: #cbd5e1;
+}
+
+/* Accordion Trigger Button */
+.sf-faq-button {
+	width: 100%;
+	background: none;
+	border: none;
+	padding: 20px 24px;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	text-align: left;
+	cursor: pointer;
+	min-height: 44px;
+	font-family: var(--sf-font-heading);
+	color: var(--sf-text-question);
+	gap: 16px;
+	transition: background-color 0.15s ease;
+}
+
+.sf-faq-button:hover {
+	background-color: #fbfcfc;
+}
+
+.sf-faq-button:focus-visible {
+	outline: 2px solid var(--sf-primary-green);
+	outline-offset: -2px;
+	border-radius: var(--sf-radius-card);
+}
+
+/* Accordion Toggle Icon (+ and −) */
+.sf-faq-icon {
+	width: 18px;
+	height: 18px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+	position: relative;
+	color: #222222;
+}
+
+/* Horizontal bar of minus/plus */
+.sf-faq-icon::before {
+	content: "";
+	position: absolute;
+	width: 13px;
+	height: 1.8px;
+	background-color: #222222;
+	border-radius: 1px;
+	transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* Vertical bar of plus (hides when open) */
+.sf-faq-icon::after {
+	content: "";
+	position: absolute;
+	width: 1.8px;
+	height: 13px;
+	background-color: #222222;
+	border-radius: 1px;
+	transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* When Open: Vertical bar collapses, leaving clean minus */
+.sf-open .sf-faq-icon::after {
+	transform: scaleY(0);
+	opacity: 0;
+}
+
+/* Question Text */
+.sf-faq-question {
+	font-family: var(--sf-font-heading);
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.5;
+	color: var(--sf-text-question);
+	flex: 1;
+}
+
+/* Answer Panel Container */
+.sf-faq-answer-panel {
+	overflow: hidden;
+	transition: max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	will-change: max-height;
+}
+
+.sf-faq-answer-inner {
+	padding: 0 24px 22px 58px;
+	font-family: var(--sf-font-body);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.sf-faq-answer-inner p {
+	font-family: var(--sf-font-body);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: rgba(0, 0, 0, 0.6);
+	margin: 0 0 12px 0;
+}
+
+.sf-faq-answer-inner p:last-child {
+	margin-bottom: 0;
+}
+
+/* Single Breakpoint at 767px (Mobile Overrides) */
+@media (max-width: 767px) {
+	.sf-heading {
+		font-size: 22px;
+		line-height: 1.35;
+	}
+
+	.sf-sources-card {
+		padding: 20px 18px;
+	}
+
+	.sf-faq-button {
+		padding: 16px 18px;
+		gap: 12px;
+	}
+}
+
+/* Dark Mode Theme Support */
+[data-theme="dark"] .sf-sources-wrapper,
+[data-theme="dark"] .sf-faq-wrapper {
+	--sf-card-bg: #141c19;
+	--sf-border: #23312c;
+	--sf-border-divider: #23312c;
+	--sf-text-heading: #f0f5f3;
+	--sf-text-question: #f0f5f3;
+	--sf-text-body: #cbd5e1;
+	--sf-text-muted: #94a3b8;
+	--sf-bullet-color: #64748b;
+}
+
+[data-theme="dark"] .sf-faq-icon,
+[data-theme="dark"] .sf-faq-icon::before,
+[data-theme="dark"] .sf-faq-icon::after {
+	color: #f0f5f3;
+	background-color: #f0f5f3;
+}
+
+[data-theme="dark"] .sf-faq-button:hover {
+	background-color: #192320;
+}
+
+[data-theme="dark"] .sf-faq-answer-inner,
+[data-theme="dark"] .sf-faq-answer-inner p {
+	color: rgba(255, 255, 255, 0.7);
+}

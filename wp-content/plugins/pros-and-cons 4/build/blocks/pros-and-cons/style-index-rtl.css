@@ -1,0 +1,127 @@
+/* Pros and Cons Block Styling - RTL */
+.proscons-pros-cons-wrapper {
+	width: 100%;
+	max-width: 1120px;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+}
+
+.proscons-pros-cons-inner-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	border-radius: 4px;
+	overflow: hidden;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+
+.proscons-pros-cons-inner-wrapper .proscons-pros-inner,
+.proscons-pros-cons-inner-wrapper .proscons-cons-inner {
+	width: 50%;
+	box-sizing: border-box;
+	align-self: flex-start;
+}
+
+.proscons-pros-cons-inner-wrapper .proscons-block-pros {
+	background-color: #24B644;
+	color: #ffffff;
+	padding: 12px 20px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	border-top-right-radius: 4px;
+}
+
+.proscons-pros-cons-inner-wrapper .proscons-block-cons {
+	background-color: #F13A3A;
+	color: #ffffff;
+	padding: 12px 20px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	border-top-left-radius: 4px;
+}
+
+.proscons-pros-cons-inner-wrapper .proscons-title {
+	margin: 0 !important;
+	color: #ffffff !important;
+	font-size: 18px !important;
+	font-weight: 600 !important;
+	line-height: 1.2 !important;
+}
+
+.proscons-pros-cons-inner-wrapper .proscons-pros-inner .proscons-pros {
+	background-color: #F5FFF8;
+	padding: 20px;
+	min-height: 140px;
+	box-sizing: border-box;
+	border-bottom-right-radius: 4px;
+}
+
+.proscons-pros-cons-inner-wrapper .proscons-cons-inner .proscons-cons {
+	background-color: #FFF5F5;
+	padding: 20px;
+	min-height: 140px;
+	box-sizing: border-box;
+	border-bottom-left-radius: 4px;
+}
+
+.proscons-pros-cons-inner-wrapper ul.proscons-list {
+	list-style: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 100% !important;
+}
+
+.proscons-pros-cons-inner-wrapper .proscons-pros-inner ul.proscons-list li,
+.proscons-pros-cons-inner-wrapper .proscons-cons-inner ul.proscons-list li {
+	list-style: none !important;
+	position: relative !important;
+	padding-right: 28px !important;
+	padding-left: 0 !important;
+	margin-bottom: 12px !important;
+	color: #292929 !important;
+	font-size: 15px !important;
+	line-height: 1.5 !important;
+	display: block !important;
+}
+
+.proscons-pros-cons-inner-wrapper ul.proscons-list li:last-child {
+	margin-bottom: 0 !important;
+}
+
+.proscons-pros-cons-inner-wrapper .proscons-pros-inner ul.proscons-list li::before {
+	content: "" !important;
+	position: absolute !important;
+	right: 0 !important;
+	left: auto !important;
+	top: 8px !important;
+	width: 18px !important;
+	height: 18px !important;
+	border-radius: 50% !important;
+	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2324B644' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpolyline points='8 12 11 15 16 9'/%3E%3C/svg%3E") no-repeat center center / contain !important;
+	border: none !important;
+}
+
+.proscons-pros-cons-inner-wrapper .proscons-cons-inner ul.proscons-list li::before {
+	content: "" !important;
+	position: absolute !important;
+	right: 0 !important;
+	left: auto !important;
+	top: 8px !important;
+	width: 18px !important;
+	height: 18px !important;
+	border-radius: 50% !important;
+	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23F13A3A' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cline x1='15' y1='9' x2='9' y2='15'/%3E%3Cline x1='9' y1='9' x2='15' y2='15'/%3E%3C/svg%3E") no-repeat center center / contain !important;
+	border: none !important;
+}
+
+@media only screen and (max-width: 767px) {
+	.proscons-pros-cons-inner-wrapper .proscons-pros-inner,
+	.proscons-pros-cons-inner-wrapper .proscons-cons-inner {
+		width: 100% !important;
+		margin-bottom: 20px !important;
+	}
+}

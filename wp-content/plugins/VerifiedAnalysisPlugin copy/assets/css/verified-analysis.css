@@ -1,0 +1,373 @@
+/**
+ * Verified Analysis Summary Plugin – Styles v1.0
+ * Prefix: vap-
+ * Green-themed verified version
+ */
+
+/* ================================================================
+   BASE
+================================================================ */
+.vap-outer {
+    max-width: 1100px;
+    width: 100%;
+    margin: 36px auto;
+    padding: 0 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* ================================================================
+   CARD
+================================================================ */
+.vap-card {
+    background: #ffffff;
+    border: 2px solid #16a34a;
+    border-radius: 14px;
+    box-shadow: 0 4px 20px rgba(22, 163, 74, 0.10), 0 2px 6px rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+
+/* ================================================================
+   TITLE BAR
+================================================================ */
+.vap-title-bar {
+    background: #15803d;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.vap-title-name {
+    font-size: 22px;
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.vap-title-suffix {
+    font-size: 22px;
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+/* ================================================================
+   BODY  (image left | content right)
+================================================================ */
+.vap-body {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    align-items: stretch;
+}
+
+.vap-body.vap-size-320x320 {
+    grid-template-columns: 320px 1fr;
+}
+.vap-body.vap-size-320x320 .vap-left {
+    min-height: 320px;
+}
+
+.vap-body.vap-size-400x400 {
+    grid-template-columns: 400px 1fr;
+}
+.vap-body.vap-size-400x400 .vap-left {
+    min-height: 400px;
+}
+
+.vap-body.vap-size-500x500 {
+    grid-template-columns: 500px 1fr;
+}
+.vap-body.vap-size-500x500 .vap-left {
+    min-height: 500px;
+}
+
+/* ---- LEFT: image only ---- */
+.vap-left {
+    border-right: 2px solid #dcfce7;
+    background: #f0fdf4;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.vap-image-wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: transparent;
+}
+
+.vap-product-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.vap-image-wrap:hover .vap-product-img {
+    transform: scale(1.05);
+}
+
+.vap-img-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9ca3af;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* ---- RIGHT: rating + summary + bullets + verdict ---- */
+.vap-right {
+    padding: 22px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Rating row */
+.vap-rating-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.vap-rating-label {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: #6b7280;
+}
+
+.vap-stars {
+    font-size: 20px;
+    color: #facc15;
+    letter-spacing: 2px;
+    line-height: 1;
+    text-shadow: 0 0 1px rgba(0,0,0,0.55), 0 0 2px rgba(0,0,0,0.25);
+}
+
+.vap-star-empty {
+    color: #fef08a;
+    text-shadow: 0 0 1px rgba(0,0,0,0.45), 0 0 2px rgba(0,0,0,0.20);
+}
+
+.vap-half-star {
+    position: relative;
+    display: inline-block;
+    width: 0.9em;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.vap-half-fill {
+    color: #facc15;
+    position: absolute;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+}
+
+.vap-half-empty {
+    color: #fef08a;
+}
+
+.vap-rating-number {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1f2937;
+    line-height: 1;
+}
+
+/* Summary subheading */
+.vap-summary-heading {
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #15803d;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #dcfce7;
+}
+
+/* Bullet list */
+.vap-bullet-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.vap-bullet-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.vap-check {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    background: #16a34a;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+    line-height: 1;
+}
+
+.vap-bullet-text {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000000;
+    font-weight: 600;
+}
+
+/* Verdict – Verified */
+.vap-verdict {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #16a34a;
+    border-radius: 8px;
+    padding: 12px 18px;
+    margin-top: 8px;
+    flex-wrap: wrap;
+}
+
+.vap-verdict-icon-wrap {
+    font-size: 18px;
+    line-height: 1;
+    flex-shrink: 0;
+    color: #ffffff;
+}
+
+.vap-verdict-label {
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.vap-verdict-text {
+    font-size: 16px;
+    font-weight: 800;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    flex: 1;
+}
+
+/* Buy Now Button */
+.vap-buy-now {
+    display: inline-block;
+    padding: 8px 20px;
+    background: #ffffff;
+    color: #15803d;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.2s ease, color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    white-space: nowrap;
+}
+
+.vap-buy-now:hover {
+    background: #f0fdf4;
+    color: #14532d;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.18);
+    text-decoration: none;
+}
+
+.vap-buy-now:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+}
+
+/* ================================================================
+   RESPONSIVE
+================================================================ */
+@media (max-width: 680px) {
+    .vap-body {
+        grid-template-columns: 1fr !important;
+    }
+
+    .vap-left {
+        border-right: none;
+        border-bottom: 2px solid #dcfce7;
+        padding: 0;
+        min-height: 280px !important;
+    }
+
+    .vap-image-wrap {
+        width: 100%;
+        height: 100%;
+    }
+
+    .vap-right {
+        padding: 18px 16px;
+        gap: 14px;
+    }
+
+    .vap-bullet-text {
+        font-size: 14px;
+    }
+
+    .vap-title-name,
+    .vap-title-suffix {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 480px) {
+    .vap-outer {
+        padding: 0 8px;
+    }
+
+    .vap-title-bar {
+        padding: 10px 14px;
+    }
+
+    .vap-right {
+        padding: 14px 12px;
+    }
+
+    .vap-bullet-text {
+        font-size: 13px;
+    }
+
+    .vap-verdict {
+        padding: 10px 14px;
+    }
+
+    .vap-buy-now {
+        padding: 7px 14px;
+        font-size: 13px;
+    }
+}

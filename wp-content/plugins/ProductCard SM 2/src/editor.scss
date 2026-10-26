@@ -1,0 +1,17 @@
+// Editor styles
+.pcp-card-wrapper {
+    .wp-block-product-card-card & {
+        margin: 20px 0;
+    }
+}
+
+// Make sure the block editor shows the preview correctly
+.editor-styles-wrapper {
+    .pcp-card {
+        pointer-events: none; // Prevent links from working in editor
+    }
+    
+    .pcp-cta-button {
+        pointer-events: none;
+    }
+}

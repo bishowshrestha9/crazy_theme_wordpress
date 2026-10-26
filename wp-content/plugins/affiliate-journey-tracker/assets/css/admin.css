@@ -1,0 +1,136 @@
+/**
+ * Affiliate Journey Tracker - Admin CSS
+ *
+ * Styles for settings, debug diagnostic page, and batch migration tool.
+ */
+
+.affiliate-jt-debug-wrap {
+	margin-top: 20px;
+}
+
+.affiliate-jt-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: 20px;
+	margin-top: 20px;
+}
+
+.affiliate-jt-card {
+	background: #fff;
+	border: 1px solid #ccd0d4;
+	border-radius: 6px;
+	padding: 20px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.affiliate-jt-card.full-width {
+	grid-column: 1 / -1;
+}
+
+.affiliate-jt-card h2 {
+	margin-top: 0;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #eee;
+	font-size: 1.1em;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.stat-number {
+	font-size: 2.2em;
+	font-weight: 800;
+	margin: 10px 0 0;
+	color: #1e293b;
+}
+
+.stat-success {
+	color: #10b981;
+}
+
+.stat-warning {
+	color: #f59e0b;
+}
+
+.badge {
+	display: inline-block;
+	padding: 3px 8px;
+	border-radius: 12px;
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.badge-success {
+	background-color: #e7f7ed;
+	color: #137333;
+	border: 1px solid #b7e1cd;
+}
+
+.badge-warning {
+	background-color: #fef7e0;
+	color: #b06000;
+	border: 1px solid #fce8b2;
+}
+
+.badge-neutral {
+	background-color: #f1f3f4;
+	color: #5f6368;
+	border: 1px solid #dadce0;
+}
+
+.origin-highlight {
+	background-color: #e8f0fe;
+	color: #1a73e8;
+	font-weight: 700;
+	padding: 4px 8px;
+	border-radius: 4px;
+	font-family: monospace;
+	font-size: 1.1em;
+}
+
+.url-tester-box {
+	background: #f8f9fa;
+	border: 1px solid #e2e8f0;
+	padding: 18px;
+	border-radius: 6px;
+}
+
+.url-result-panel {
+	background: #ffffff;
+	border: 1px solid #cbd5e1;
+	border-left: 4px solid #3b82f6;
+	padding: 14px;
+	border-radius: 4px;
+}
+
+.url-result-panel .result-url {
+	background: #eff6ff;
+	color: #1d4ed8;
+	font-weight: 600;
+	padding: 2px 6px;
+}
+
+.log-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.log-table-container {
+	max-height: 350px;
+	overflow-y: auto;
+	margin-top: 15px;
+}
+
+.log-table th {
+	background-color: #f1f5f9;
+}
+
+@keyframes spin {
+	100% { transform: rotate(360deg); }
+}
+
+.spin {
+	animation: spin 1s linear infinite;
+}

@@ -1,0 +1,222 @@
+:root {
+    --primary: #6366f1;
+    --primary-hover: #4f46e5;
+    --secondary: #10b981;
+    --bg-main: #f8fafc;
+    --bg-card: #ffffff;
+    --text-main: #1e293b;
+    --text-muted: #64748b;
+    --border: #e2e8f0;
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --radius: 12px;
+}
+
+.spl-admin-wrap {
+    font-family: 'Inter', -apple-system, system-ui, sans-serif;
+    color: var(--text-main);
+    padding: 2rem;
+    max-width: 1200px;
+}
+
+.spl-header {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 1rem;
+}
+
+.spl-header h1 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    background: linear-gradient(to right, var(--primary), var(--secondary));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.spl-header p {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+.spl-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.spl-card {
+    background: var(--bg-card);
+    padding: 1.5rem;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-md);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.spl-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+}
+
+.spl-card h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.spl-card p {
+    color: var(--text-muted);
+    line-height: 1.5;
+}
+
+.spl-input-group {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.spl-input-group input {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+.spl-input-group input:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+.spl-button {
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--radius);
+    border: none;
+    background: var(--primary);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+}
+
+.spl-button:hover {
+    background: var(--primary-hover);
+}
+
+.spl-button:active {
+    transform: scale(0.98);
+}
+
+.spl-button.secondary {
+    background: var(--secondary);
+}
+
+.spl-button.outline {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-main);
+}
+
+.spl-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Progress bar */
+.spl-progress-container {
+    margin-top: 1.5rem;
+}
+
+.spl-progress-bar {
+    height: 8px;
+    background: var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+
+#spl-progress-fill {
+    height: 100%;
+    background: var(--primary);
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+#spl-status-text {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+}
+
+/* Table */
+.spl-results-section {
+    animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.spl-table-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.spl-table-container {
+    max-height: 500px;
+    overflow-y: auto;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+}
+
+.spl-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.spl-table th {
+    background: var(--bg-main);
+    padding: 1rem;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 2px solid var(--border);
+}
+
+.spl-table td {
+    padding: 1rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.spl-status-badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.spl-status-pending { background: #e2e8f0; color: #64748b; }
+.spl-status-working { background: #dbeafe; color: #2563eb; }
+.spl-status-success { background: #dcfce7; color: #166534; }
+.spl-status-error { background: #fee2e2; color: #b91c1c; }
+
+/* Micro-animations */
+.pulse {
+    animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.02); }
+    100% { transform: scale(1); }
+}

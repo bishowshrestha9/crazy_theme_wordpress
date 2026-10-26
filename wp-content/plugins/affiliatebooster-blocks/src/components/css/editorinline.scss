@@ -1,0 +1,30 @@
+.components-toolbar.components-toolbar {
+  div {
+    button {
+      width: auto;
+      .affiliate-color-picker-icon-wraper {
+        border-radius: 3px;
+        border: none;
+        outline: none;
+        padding: 0px 5px 0px 5px;
+      }
+    }
+  }
+}
+.components-toolbar {
+  button {
+    img {
+      &.affiliate-block-icon {
+        &.small {
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+.affiliate-toolber-popup {
+  .affiliate-field-alignment {
+    margin-bottom: 15px;
+  }
+}

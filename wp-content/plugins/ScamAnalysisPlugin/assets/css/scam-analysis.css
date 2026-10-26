@@ -1,0 +1,335 @@
+/**
+ * Scam Analysis Summary Plugin – Styles v1.1
+ * Prefix: sap-
+ */
+
+/* ================================================================
+   BASE
+================================================================ */
+.sap-outer {
+    max-width: 1100px;
+    width: 100%;
+    margin: 36px auto;
+    padding: 0 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* ================================================================
+   CARD
+================================================================ */
+.sap-card {
+    background: #ffffff;
+    /*this is just a comment*/
+    border: 2px solid #dc2626;
+    border-radius: 14px;
+    box-shadow: 0 4px 20px rgba(220, 38, 38, 0.10), 0 2px 6px rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+
+/* ================================================================
+   TITLE BAR
+================================================================ */
+.sap-title-bar {
+    background: #b91c1c;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.sap-title-name {
+    font-size: 22px;
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.sap-title-suffix {
+    font-size: 22px;
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+/* ================================================================
+   BODY  (image left | content right)
+================================================================ */
+.sap-body {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    align-items: stretch;
+}
+
+.sap-body.sap-size-320x320 {
+    grid-template-columns: 320px 1fr;
+}
+.sap-body.sap-size-320x320 .sap-left {
+    min-height: 320px;
+}
+
+.sap-body.sap-size-400x400 {
+    grid-template-columns: 400px 1fr;
+}
+.sap-body.sap-size-400x400 .sap-left {
+    min-height: 400px;
+}
+
+.sap-body.sap-size-500x500 {
+    grid-template-columns: 500px 1fr;
+}
+.sap-body.sap-size-500x500 .sap-left {
+    min-height: 500px;
+}
+
+/* ---- LEFT: image only ---- */
+.sap-left {
+    border-right: 2px solid #fee2e2;
+    background: #fff7f7;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.sap-image-wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: transparent;
+}
+
+.sap-product-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.sap-image-wrap:hover .sap-product-img {
+    transform: scale(1.05);
+}
+
+.sap-img-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9ca3af;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* ---- RIGHT: rating + summary + bullets + verdict ---- */
+.sap-right {
+    padding: 22px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Rating row */
+.sap-rating-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.sap-rating-label {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: #6b7280;
+}
+
+.sap-stars {
+    font-size: 20px;
+    color: #dc2626;
+    letter-spacing: 2px;
+    line-height: 1;
+}
+
+.sap-star-empty {
+    color: #fca5a5;
+}
+
+.sap-half-star {
+    position: relative;
+    display: inline-block;
+    width: 0.9em;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.sap-half-fill {
+    color: #dc2626;
+    position: absolute;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+}
+
+.sap-half-empty {
+    color: #fca5a5;
+}
+
+.sap-rating-number {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1f2937;
+    line-height: 1;
+}
+
+/* Summary subheading */
+.sap-summary-heading {
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #b91c1c;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #fee2e2;
+}
+
+/* Bullet list */
+.sap-bullet-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.sap-bullet-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.sap-cross {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    background: #dc2626;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+    line-height: 1;
+}
+
+.sap-bullet-text {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000000;
+    font-weight: 600;
+}
+
+/* Verdict – Warning */
+.sap-verdict {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #dc2626;
+    border-radius: 8px;
+    padding: 12px 18px;
+    margin-top: 8px;
+    flex-wrap: wrap;
+}
+
+.sap-verdict-icon-wrap {
+    font-size: 18px;
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.sap-verdict-label {
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.sap-verdict-text {
+    font-size: 16px;
+    font-weight: 800;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+
+/* ================================================================
+   RESPONSIVE
+================================================================ */
+@media (max-width: 680px) {
+    .sap-body {
+        grid-template-columns: 1fr !important;
+    }
+
+    .sap-left {
+        border-right: none;
+        border-bottom: 2px solid #fee2e2;
+        padding: 0;
+        min-height: 280px !important;
+    }
+
+    .sap-image-wrap {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sap-right {
+        padding: 18px 16px;
+        gap: 14px;
+    }
+
+    .sap-bullet-text {
+        font-size: 14px;
+    }
+
+    .sap-title-name,
+    .sap-title-suffix {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sap-outer {
+        padding: 0 8px;
+    }
+
+    .sap-title-bar {
+        padding: 10px 14px;
+    }
+
+    .sap-right {
+        padding: 14px 12px;
+    }
+
+    .sap-bullet-text {
+        font-size: 13px;
+    }
+
+    .sap-verdict {
+        padding: 10px 14px;
+    }
+}

@@ -1,0 +1,166 @@
+/* Pros and Cons Block Styling */
+.proscons-pros-cons-wrapper {
+	width: 100% !important;
+	max-width: 100% !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	box-sizing: border-box !important;
+}
+
+.proscons-pros-cons-inner-wrapper {
+	display: flex !important;
+	flex-wrap: wrap !important;
+	width: 100% !important;
+	border-radius: 4px !important;
+	overflow: hidden !important;
+	box-sizing: border-box !important;
+	margin-bottom: 25px !important;
+}
+
+.proscons-pros-cons-inner-wrapper .proscons-pros-inner,
+.proscons-pros-cons-inner-wrapper .proscons-cons-inner {
+	width: 50% !important;
+	box-sizing: border-box !important;
+	align-self: stretch !important;
+	display: flex !important;
+	flex-direction: column !important;
+}
+
+/* Headers */
+.proscons-pros-cons-inner-wrapper .proscons-block-pros {
+	background-color: #24B644 !important;
+	color: #ffffff !important;
+	padding: 14px 20px !important;
+	display: flex !important;
+	align-items: center !important;
+	gap: 10px !important;
+	border-top-left-radius: 4px !important;
+}
+
+.proscons-pros-cons-inner-wrapper .proscons-block-cons {
+	background-color: #F13A3A !important;
+	color: #ffffff !important;
+	padding: 14px 20px !important;
+	display: flex !important;
+	align-items: center !important;
+	gap: 10px !important;
+	border-top-right-radius: 4px !important;
+}
+
+.proscons-pros-cons-inner-wrapper .proscons-title {
+	margin: 0 !important;
+	color: #ffffff !important;
+	font-size: 20px !important;
+	font-weight: 700 !important;
+	line-height: 1.2 !important;
+}
+
+/* Content Boxes */
+.proscons-pros-cons-inner-wrapper .proscons-pros-inner .proscons-pros {
+	background-color: #F5FFF8 !important;
+	padding: 18px 22px !important;
+	min-height: 60px !important;
+	flex-grow: 1 !important;
+	box-sizing: border-box !important;
+	border-bottom-left-radius: 4px !important;
+}
+
+.proscons-pros-cons-inner-wrapper .proscons-cons-inner .proscons-cons {
+	background-color: #FFF5F5 !important;
+	padding: 18px 22px !important;
+	min-height: 60px !important;
+	flex-grow: 1 !important;
+	box-sizing: border-box !important;
+	border-bottom-right-radius: 4px !important;
+}
+
+/* Lists */
+.proscons-pros-cons-inner-wrapper ul.proscons-list {
+	list-style: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 100% !important;
+}
+
+.proscons-pros-cons-inner-wrapper .proscons-pros-inner ul.proscons-list li,
+.proscons-pros-cons-inner-wrapper .proscons-cons-inner ul.proscons-list li {
+	list-style: none !important;
+	position: relative !important;
+	padding-left: 28px !important;
+	margin-bottom: 10px !important;
+	color: #292929 !important;
+	font-size: 16px !important;
+	line-height: 1.5 !important;
+	display: block !important;
+}
+
+.proscons-pros-cons-inner-wrapper .proscons-pros-inner ul.proscons-list li span,
+.proscons-pros-cons-inner-wrapper .proscons-cons-inner ul.proscons-list li span,
+.proscons-pros-cons-inner-wrapper .proscons-pros-inner ul.proscons-list li p,
+.proscons-pros-cons-inner-wrapper .proscons-cons-inner ul.proscons-list li p {
+	font-size: 16px !important;
+	line-height: 1.5 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	display: inline !important;
+	color: #292929 !important;
+}
+
+.proscons-pros-cons-inner-wrapper .proscons-pros-inner ul.proscons-list li a,
+.proscons-pros-cons-inner-wrapper .proscons-cons-inner ul.proscons-list li a {
+	font-size: 16px !important;
+	line-height: 1.5 !important;
+	color: #0284c7 !important;
+	text-decoration: underline !important;
+	display: inline !important;
+}
+
+.proscons-pros-cons-inner-wrapper .proscons-pros-inner ul.proscons-list li a:hover,
+.proscons-pros-cons-inner-wrapper .proscons-cons-inner ul.proscons-list li a:hover {
+	color: #0369a1 !important;
+	text-decoration: underline !important;
+}
+
+.proscons-pros-cons-inner-wrapper ul.proscons-list li:last-child {
+	margin-bottom: 0 !important;
+}
+
+/* Green Check Circle for Pros */
+.proscons-pros-cons-inner-wrapper .proscons-pros-inner ul.proscons-list li::before {
+	content: "" !important;
+	position: absolute !important;
+	left: 0 !important;
+	top: 8px !important;
+	width: 18px !important;
+	height: 18px !important;
+	border-radius: 50% !important;
+	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2324B644' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpolyline points='8 12 11 15 16 9'/%3E%3C/svg%3E") no-repeat center center / contain !important;
+	border: none !important;
+	box-sizing: border-box !important;
+}
+
+/* Red Cross Circle for Cons */
+.proscons-pros-cons-inner-wrapper .proscons-cons-inner ul.proscons-list li::before {
+	content: "" !important;
+	position: absolute !important;
+	left: 0 !important;
+	top: 8px !important;
+	width: 18px !important;
+	height: 18px !important;
+	border-radius: 50% !important;
+	background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23F13A3A' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cline x1='15' y1='9' x2='9' y2='15'/%3E%3Cline x1='9' y1='9' x2='15' y2='15'/%3E%3C/svg%3E") no-repeat center center / contain !important;
+	border: none !important;
+	box-sizing: border-box !important;
+}
+
+@media only screen and (max-width: 767px) {
+	.proscons-pros-cons-inner-wrapper .proscons-pros-inner,
+	.proscons-pros-cons-inner-wrapper .proscons-cons-inner {
+		width: 100% !important;
+		margin-bottom: 20px !important;
+	}
+}
+
+
+
+

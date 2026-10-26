@@ -1,0 +1,259 @@
+/*
+ * Gutenberg Block Editor Styles matching Supplement Review frontend
+ */
+
+@font-face {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url("../fonts/inter-regular.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url("../fonts/inter-600.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url("../fonts/montserrat-600.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url("../fonts/montserrat-700.woff2") format("woff2");
+}
+
+body {
+	font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+	color: #374151;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h4,
+.editor-styles-wrapper h5,
+.editor-styles-wrapper h6 {
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+	color: #19201d;
+	font-weight: 700;
+}
+
+.editor-styles-wrapper h2 {
+	border-bottom: 1px solid #e5e9e7;
+	padding-bottom: 8px;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+/* Quick Verdict Box in Editor */
+.sr-quick-verdict {
+	border: 2px solid #6fa692;
+	background-color: #f4f9f6;
+	border-radius: 14px;
+	padding: 24px;
+	margin: 28px 0;
+}
+
+.sr-quick-verdict h3 {
+	color: #19201d;
+	margin-top: 0;
+	margin-bottom: 12px;
+	font-size: 1.5rem;
+}
+
+/* Review Summary Box */
+.sr-review-summary-box {
+	border: 2px solid #6fa692;
+	background: #ffffff;
+	border-radius: 16px;
+	padding: 28px;
+	margin: 32px 0;
+	display: grid;
+	grid-template-columns: 240px 1fr;
+	gap: 28px;
+}
+
+.sr-summary-banner {
+	grid-column: 1 / -1;
+	background: #eef5f1;
+	color: #407563;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.35rem;
+	font-weight: 700;
+	text-align: center;
+	padding: 12px 20px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+/* Pros and Cons */
+.sr-pros-cons-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 24px;
+	margin: 30px 0;
+}
+
+.sr-pros-card, .sr-cons-card {
+	border-radius: 14px;
+	padding: 24px;
+	border: 1px solid #e5e9e7;
+}
+
+.sr-pros-card {
+	background: #f7faf8;
+	border-top: 4px solid #2e7d32;
+}
+
+.sr-cons-card {
+	background: #fdf8f8;
+	border-top: 4px solid #d32f2f;
+}
+
+/* Key Ingredients */
+.sr-ingredients-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+	margin: 30px 0;
+}
+
+.sr-ingredient-card {
+	background: #f7faf8;
+	border: 1px solid #e5e9e7;
+	border-radius: 12px;
+	overflow: hidden;
+	padding: 18px;
+	text-align: center;
+}
+
+/* Rating Table */
+.sr-rating-table-wrapper {
+	overflow-x: auto;
+	margin: 28px 0;
+}
+
+.sr-rating-table {
+	width: 100%;
+	border-collapse: collapse;
+	background: #ffffff;
+	border-radius: 12px;
+	overflow: hidden;
+	border: 1px solid #e5e9e7;
+}
+
+.sr-rating-table th {
+	background: #eef5f1;
+	color: #19201d;
+	padding: 14px 18px;
+	text-align: left;
+	font-family: "Montserrat", sans-serif;
+}
+
+.sr-rating-table td {
+	padding: 14px 18px;
+	border-bottom: 1px solid #e5e9e7;
+}
+
+/* FAQ Accordion */
+.sr-faq-item {
+	border: 1px solid #e5e9e7;
+	border-radius: 12px;
+	background: #f7faf8;
+	margin-bottom: 12px;
+	padding: 16px 20px;
+}
+
+.sr-faq-question {
+	font-weight: 700;
+	font-family: "Montserrat", sans-serif;
+	cursor: pointer;
+}
+
+/* Custom Block Styles in Editor */
+.is-style-sr-card {
+	background: #f7faf8;
+	border: 1px solid #e5e9e7;
+	border-radius: 14px;
+	padding: 24px;
+}
+
+.is-style-sr-rating-table table {
+	width: 100%;
+	border-collapse: separate;
+	border: 1px solid #e5e9e7;
+	border-radius: 12px;
+	overflow: hidden;
+}
+
+.is-style-sr-rating-table th {
+	background: #eef5f1;
+	color: #19201d;
+	padding: 12px 16px;
+}
+
+.is-style-sr-rating-table td {
+	padding: 12px 16px;
+	border-bottom: 1px solid #f0f4f2;
+}
+
+ul.is-style-sr-pro-list {
+	list-style: none !important;
+	padding-left: 0 !important;
+}
+
+ul.is-style-sr-pro-list li {
+	position: relative;
+	padding-left: 28px;
+	margin-bottom: 8px;
+}
+
+ul.is-style-sr-pro-list li::before {
+	content: "✓";
+	position: absolute;
+	left: 0;
+	color: #2e7d32;
+	font-weight: 700;
+}
+
+ul.is-style-sr-con-list {
+	list-style: none !important;
+	padding-left: 0 !important;
+}
+
+ul.is-style-sr-con-list li {
+	position: relative;
+	padding-left: 28px;
+	margin-bottom: 8px;
+}
+
+ul.is-style-sr-con-list li::before {
+	content: "✕";
+	position: absolute;
+	left: 0;
+	color: #d32f2f;
+	font-weight: 700;
+}
+
+.wp-block-button.is-style-sr-pill .wp-block-button__link {
+	background-color: #6fa692 !important;
+	color: #ffffff !important;
+	border-radius: 9999px !important;
+	padding: 12px 28px !important;
+	font-weight: 600 !important;
+}
+

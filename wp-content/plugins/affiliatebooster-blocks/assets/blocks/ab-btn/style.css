@@ -1,0 +1,72 @@
+.affiliate-abbtn-wrapper {
+  margin: 30px 0px 30px 0px; }
+  .affiliate-abbtn-wrapper .affiliate-abbtn-inner {
+    max-width: 100%;
+    display: flex;
+    padding: 10px 0;
+    margin: 20px 0; }
+  .affiliate-abbtn-wrapper .affiliate-abbtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #F9CC29;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition: color 200ms ease-in-out, background-color 200ms ease-in-out, border-color 200ms ease-in-out, box-shadow 200ms ease-in-out; }
+    .affiliate-abbtn-wrapper .affiliate-abbtn strong,
+    .affiliate-abbtn-wrapper .affiliate-abbtn span{
+      padding: 0 3px;
+    }
+    .affiliate-abbtn-wrapper .affiliate-abbtn:hover {
+      background-color: #00ffcc;
+      border-color: #00ffcc; }
+  .affiliate-abbtn-wrapper .btn-is-rounded {
+    border-radius: 60px 60px 60px 60px; }
+  .affiliate-abbtn-wrapper .af-icon-is-right {
+    padding-left: 10px; }
+  .affiliate-abbtn-wrapper .af-icon-is-left {
+    padding-right: 10px; }
+  .affiliate-abbtn-wrapper .btn-is-small {
+    width: 180px;
+    padding: 10px 10px; }
+  .affiliate-abbtn-wrapper .btn-is-medium {
+    width: 275px;
+    padding: 15px 15px; }
+  .affiliate-abbtn-wrapper .btn-is-large {
+    width: 417px;
+    padding: 20px 20px; }
+  .affiliate-abbtn-wrapper .btn-is-extra-large {
+    width: 512px;
+    padding: 20px 20px; }
+  .affiliate-abbtn-wrapper .btn-is-flex-small {
+    min-width: 180px;
+    width: fit-content;
+    width: -moz-fit-content; }
+  .affiliate-abbtn-wrapper .btn-is-flex-medium {
+    min-width: 275px;
+    width: fit-content;
+    width: -moz-fit-content; }
+  .affiliate-abbtn-wrapper .btn-is-flex-large {
+    min-width: 417px;
+    width: fit-content;
+    width: -moz-fit-content; }
+  .affiliate-abbtn-wrapper .btn-is-flex-extra-large {
+    min-width: 512px;
+    width: fit-content;
+    width: -moz-fit-content; }
+  .affiliate-abbtn-wrapper .affiliate-abbtn-icon {
+    display: flex;
+    justify-content: center; }
+  .affiliate-abbtn-wrapper .btn-is-fullw {
+    width: 100%; }
+
+.affiliate-size-btn span {
+  color: #1e1e1e;
+  font-size: 15px; }

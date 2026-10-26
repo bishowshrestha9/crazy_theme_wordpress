@@ -1,0 +1,495 @@
+/* =============================================================
+   Simple Pros & Cons — Admin Page Styles
+   ============================================================= */
+
+/* ── Page header ─────────────────────────────────────────────── */
+.spc-admin-wrap {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    max-width: 960px;
+}
+
+.spc-page-header {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    border-radius: 12px;
+    margin: 20px 0 24px;
+    padding: 28px 32px;
+    color: #fff;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, .18);
+}
+
+.spc-page-header-inner {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.spc-page-title-area {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.spc-logo {
+    background: rgba(255, 255, 255, .12);
+    border-radius: 12px;
+    font-size: 28px;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    letter-spacing: 2px;
+}
+
+.spc-page-header h1 {
+    color: #fff !important;
+    font-size: 22px !important;
+    margin: 0 0 4px !important;
+    padding: 0 !important;
+}
+
+.spc-page-header p {
+    color: rgba(255, 255, 255, .72);
+    margin: 0;
+    font-size: 14px;
+}
+
+/* ── Cards ───────────────────────────────────────────────────── */
+.spc-card {
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #e8e8e8;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .05);
+}
+
+.spc-card-header {
+    padding: 16px 24px;
+    border-bottom: 1px solid #f0f0f0;
+    background: #fafafa;
+}
+
+.spc-card-header h3 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a1a2e;
+}
+
+.spc-card-body {
+    padding: 24px;
+}
+
+/* ── Info card ───────────────────────────────────────────────── */
+.spc-info-card {
+    background: #f0f7ff;
+    border: 1px solid #bcd9f7;
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+}
+
+.spc-info-card h3 {
+    margin: 0 0 10px;
+    font-size: 15px;
+    color: #1a5fa8;
+}
+
+.spc-info-card p {
+    margin: 0 0 12px;
+    font-size: 13.5px;
+    color: #2c4a6e;
+}
+
+.spc-tip {
+    color: #8a5a00 !important;
+    background: #fff8e1;
+    border: 1px solid #ffe082;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 13px !important;
+    margin-top: 12px !important;
+}
+
+.spc-example-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 14px 0;
+    flex-wrap: wrap;
+}
+
+.spc-example-before,
+.spc-example-after {
+    flex: 1;
+    min-width: 200px;
+}
+
+.spc-example-before strong,
+.spc-example-after strong {
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888;
+    margin-bottom: 6px;
+}
+
+.spc-example-before code,
+.spc-example-after code {
+    display: block;
+    background: #fff;
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+    padding: 10px 12px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.spc-example-arrow {
+    font-size: 24px;
+    color: #4caf50;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+/* ── Buttons ─────────────────────────────────────────────────── */
+.spc-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 22px;
+    transition: all .18s ease;
+    text-decoration: none;
+}
+
+.spc-btn-primary {
+    background: linear-gradient(135deg, #0f3460, #1a5fa8);
+    color: #fff;
+    box-shadow: 0 3px 10px rgba(15, 52, 96, .35);
+}
+
+.spc-btn-primary:hover {
+    background: linear-gradient(135deg, #0c2a50, #1551a0);
+    box-shadow: 0 5px 16px rgba(15, 52, 96, .45);
+    color: #fff;
+}
+
+.spc-btn-success {
+    background: linear-gradient(135deg, #00953a, #00bf08);
+    color: #fff;
+    box-shadow: 0 3px 10px rgba(0, 149, 58, .30);
+}
+
+.spc-btn-success:hover {
+    opacity: .9;
+    color: #fff;
+}
+
+.spc-btn-sm {
+    font-size: 12px;
+    padding: 6px 14px;
+    border-radius: 5px;
+}
+
+.spc-btn-large {
+    font-size: 15px;
+    padding: 12px 28px;
+}
+
+.spc-btn-danger {
+    background: #eb3903;
+    color: #fff;
+}
+
+.spc-btn:disabled,
+.spc-btn[disabled] {
+    opacity: .55;
+    cursor: not-allowed;
+}
+
+/* ── Scan section ────────────────────────────────────────────── */
+.spc-scan-section {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.spc-scan-status {
+    font-size: 13.5px;
+    color: #555;
+    margin: 0;
+}
+
+/* ── Spinner ─────────────────────────────────────────────────── */
+.spc-spinner {
+    width: 22px;
+    height: 22px;
+    border: 3px solid #e0e0e0;
+    border-top-color: #0f3460;
+    border-radius: 50%;
+    animation: spc-spin .7s linear infinite;
+    flex-shrink: 0;
+}
+
+@keyframes spc-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* ── Stats bar ───────────────────────────────────────────────── */
+.spc-stats-bar {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.spc-stat-box {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 16px 24px;
+    flex: 1;
+    min-width: 140px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .05);
+}
+
+.spc-stat-box.spc-stat-success {
+    border-color: #a5d6a7;
+    background: #f1faf2;
+}
+
+.spc-stat-box.spc-stat-error {
+    border-color: #ffccbc;
+    background: #fff5f2;
+}
+
+.spc-stat-num {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    color: #1a1a2e;
+    line-height: 1.1;
+}
+
+.spc-stat-success .spc-stat-num {
+    color: #2e7d32;
+}
+
+.spc-stat-error .spc-stat-num {
+    color: #c62828;
+}
+
+.spc-stat-label {
+    display: block;
+    font-size: 12px;
+    color: #888;
+    margin-top: 4px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+/* ── Convert all bar ─────────────────────────────────────────── */
+.spc-convert-all-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.spc-convert-all-bar p {
+    margin: 4px 0 0;
+    font-size: 12.5px;
+    color: #888;
+}
+
+/* ── Progress bar ────────────────────────────────────────────── */
+.spc-progress-bar {
+    height: 8px;
+    background: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 0 24px 0;
+}
+
+.spc-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #00953a, #00bf08);
+    border-radius: 4px;
+    transition: width .4s ease;
+    width: 0%;
+}
+
+.spc-progress-label {
+    font-size: 12.5px;
+    color: #888;
+    text-align: center;
+    margin: 8px 24px 16px;
+}
+
+/* ── Post rows ───────────────────────────────────────────────── */
+.spc-post-row {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 18px 24px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    transition: background .15s;
+}
+
+.spc-post-row:last-child {
+    border-bottom: none;
+}
+
+.spc-post-row:hover {
+    background: #fafafa;
+}
+
+.spc-post-row.spc-row-done {
+    background: #f1faf2;
+}
+
+.spc-post-row.spc-row-error {
+    background: #fff5f2;
+}
+
+.spc-post-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.spc-post-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a1a2e;
+    margin: 0 0 4px;
+}
+
+.spc-post-meta {
+    font-size: 12px;
+    color: #999;
+    margin: 0 0 10px;
+}
+
+.spc-post-links a {
+    font-size: 12px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+/* ── Preview pairs ───────────────────────────────────────────── */
+.spc-preview-pair {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    background: #f8f8f8;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 12.5px;
+}
+
+.spc-preview-pros,
+.spc-preview-cons {
+    flex: 1;
+    padding: 10px 14px;
+}
+
+.spc-preview-pros {
+    border-right: 1px solid #eee;
+}
+
+.spc-preview-header {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    margin-bottom: 6px;
+}
+
+.spc-preview-pros .spc-preview-header {
+    color: #2e7d32;
+}
+
+.spc-preview-cons .spc-preview-header {
+    color: #c62828;
+}
+
+.spc-preview-pair ul {
+    margin: 0;
+    padding: 0 0 0 16px;
+    color: #555;
+    list-style: disc;
+}
+
+.spc-preview-pair li {
+    margin-bottom: 2px;
+}
+
+.spc-preview-more {
+    font-size: 11px;
+    color: #999;
+    margin-top: 4px;
+}
+
+/* ── Post actions ────────────────────────────────────────────── */
+.spc-post-actions {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.spc-convert-status {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+
+.spc-status-success {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+.spc-status-error {
+    background: #ffebee;
+    color: #c62828;
+}
+
+/* ── Empty state ─────────────────────────────────────────────── */
+.spc-empty-state {
+    text-align: center;
+    padding: 60px 24px;
+    background: #fff;
+    border-radius: 12px;
+    border: 1px dashed #ccc;
+    margin-top: 20px;
+    color: #666;
+}
+
+.spc-empty-icon {
+    font-size: 48px;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.spc-empty-state h3 {
+    font-size: 20px;
+    margin: 0 0 8px;
+    color: #333;
+}

@@ -1,0 +1,99 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "top-choices/list",
+  "version": "1.0.0",
+  "title": "Top Choices List Cards",
+  "category": "widgets",
+  "icon": "list-view",
+  "description": "Display an elegant, styled list of product card comparisons.",
+  "keywords": ["product", "card", "comparison", "list", "top choices"],
+  "supports": {
+    "html": false,
+    "align": ["wide", "full"]
+  },
+  "attributes": {
+    "cards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "tag": {
+            "type": "string"
+          },
+          "productName": {
+            "type": "string"
+          },
+          "subTitle": {
+            "type": "string"
+          },
+          "imageUrl": {
+            "type": "string"
+          },
+          "feature1": {
+            "type": "string"
+          },
+          "feature2": {
+            "type": "string"
+          },
+          "feature3": {
+            "type": "string"
+          },
+          "rating": {
+            "type": "string"
+          },
+          "price": {
+            "type": "string"
+          },
+          "btnText": {
+            "type": "string"
+          },
+          "btnUrl": {
+            "type": "string"
+          }
+        }
+      },
+      "default": [
+        {
+          "id": "card-1",
+          "tag": "Best Overall",
+          "productName": "Qinux Breezamax",
+          "subTitle": "Quietest Portable Air Conditioner",
+          "imageUrl": "",
+          "feature1": "Bladeless design - Rechargeable battery - Remote control",
+          "feature2": "Oscillation - Personal cooling (up to 250 sq ft*)",
+          "feature3": "Read More on official Website",
+          "rating": "4.8/5",
+          "price": "$89.99",
+          "btnText": "Read More\nOn Official Website",
+          "btnUrl": "#"
+        },
+        {
+          "id": "card-2",
+          "tag": "none",
+          "productName": "AiraBreeze Mini Cooler",
+          "subTitle": "Best Small Room Air Conditioner",
+          "imageUrl": "",
+          "feature1": "USB powered - 8-hour water tank",
+          "feature2": "3 fan speeds - Evaporative cooling",
+          "feature3": "Ambient LED light",
+          "rating": "4.7/5",
+          "price": "$49.99",
+          "btnText": "Read More\nOn Official Website",
+          "btnUrl": "#"
+        }
+      ]
+    },
+    "tagOptions": {
+      "type": "array",
+      "default": ["Best Overall", "Expert Recommended", "Highly Recommended", "High Performance"]
+    }
+  },
+  "textdomain": "top-choices-block",
+  "editorScript": "file:./build/index.js",
+  "editorStyle": "file:./build/index.css",
+  "style": "file:./build/style-index.css"
+}

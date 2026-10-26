@@ -1,0 +1,203 @@
+/**
+ * Affiliate Referrer Tracker Admin Styling
+ * Provides a clean, premium, modern look for settings dashboard
+ */
+
+.art-admin-wrap {
+    margin: 20px 20px 0 0;
+    max-width: 900px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.art-admin-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.art-admin-header h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1d2327;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.art-admin-header .dashicons {
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    color: #3858e9;
+}
+
+/* Card Styles */
+.art-admin-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+    padding: 24px;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.art-admin-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: #3858e9;
+}
+
+.art-admin-card.info-card::before {
+    background: #10b981; /* Green for status/info */
+}
+
+.art-admin-card h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1e293b;
+    margin-top: 0;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Form Styles */
+.art-admin-form-group {
+    margin-bottom: 20px;
+}
+
+.art-admin-form-group:last-child {
+    margin-bottom: 0;
+}
+
+.art-admin-label {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    color: #334155;
+    margin-bottom: 8px;
+}
+
+.art-admin-input {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px 14px;
+    font-size: 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    background-color: #f8fafc;
+    color: #0f172a;
+    transition: all 0.2s ease-in-out;
+}
+
+.art-admin-input:focus {
+    border-color: #3858e9;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(56, 88, 233, 0.15);
+    outline: none;
+}
+
+.art-admin-desc {
+    font-size: 13px;
+    color: #64748b;
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+
+.art-admin-desc code {
+    background-color: #f1f5f9;
+    color: #0f172a;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+/* Status Table */
+.art-status-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+}
+
+.art-status-table td {
+    padding: 12px 0;
+    border-bottom: 1px solid #f1f5f9;
+    font-size: 14px;
+    color: #334155;
+}
+
+.art-status-table tr:last-child td {
+    border-bottom: none;
+}
+
+.art-status-table td.label-col {
+    font-weight: 600;
+    color: #475569;
+    width: 240px;
+}
+
+/* Badges */
+.art-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 12px;
+    line-height: 1;
+}
+
+.art-badge-success {
+    background-color: #ecfdf5;
+    color: #047857;
+    border: 1px solid #a7f3d0;
+}
+
+.art-badge-warning {
+    background-color: #fffbef;
+    color: #b45309;
+    border: 1px solid #fef3c7;
+}
+
+.art-badge-info {
+    background-color: #eff6ff;
+    color: #1d4ed8;
+    border: 1px solid #bfdbfe;
+}
+
+/* Submit Section */
+.art-submit-section {
+    margin-top: 24px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.art-submit-section .button-primary {
+    background: #3858e9 !important;
+    border-color: #3858e9 !important;
+    box-shadow: 0 2px 4px rgba(56, 88, 233, 0.2) !important;
+    text-shadow: none !important;
+    font-weight: 600 !important;
+    padding: 4px 20px !important;
+    height: 38px !important;
+    border-radius: 6px !important;
+    transition: all 0.2s ease !important;
+}
+
+.art-submit-section .button-primary:hover {
+    background: #2544d1 !important;
+    border-color: #2544d1 !important;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px rgba(56, 88, 233, 0.25) !important;
+}
+
+.art-submit-section .button-primary:active {
+    transform: translateY(0);
+}

@@ -1,0 +1,384 @@
+/**
+ * Review Submission Form Stylesheet
+ *
+ * Scoped entirely under `.rf-form-wrapper` with `.rf-` class prefixes.
+ * Pixel-accurate replication of the submission form design.
+ * No !important, no global selectors, fully responsive.
+ */
+
+/* Container & Typography Wrapper */
+.rf-form-wrapper {
+	--rf-primary: #6fa68f;
+	--rf-primary-hover: #5d9380;
+	--rf-primary-ring: rgba(111, 166, 143, 0.25);
+	--rf-border: #d8dcdf;
+	--rf-border-divider: #e2e8f0;
+	--rf-text-dark: #222222;
+	--rf-text-label: #404040;
+	--rf-text-muted: #6b7280;
+	--rf-placeholder: #737373;
+	--rf-required: #e53e3e;
+	--rf-bg-input: #ffffff;
+	--rf-radius-input: 10px;
+	--rf-radius-btn: 8px;
+	--rf-font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+	--rf-heading-font: 'Montserrat', system-ui, -apple-system, 'Segoe UI', Arial, sans-serif;
+
+	font-family: var(--rf-font-family);
+	color: var(--rf-text-dark);
+	width: 100%;
+	max-width: 780px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.rf-form-wrapper *,
+.rf-form-wrapper *::before,
+.rf-form-wrapper *::after {
+	box-sizing: border-box;
+}
+
+/* 1. Section Heading */
+.rf-header {
+	margin-bottom: 22px;
+}
+
+.rf-heading {
+	font-family: var(--rf-heading-font);
+	font-size: 24px;
+	font-weight: 600;
+	color: var(--rf-text-dark);
+	margin: 0 0 12px 0;
+	line-height: 1.25;
+	letter-spacing: -0.01em;
+}
+
+.rf-divider {
+	height: 1px;
+	background-color: var(--rf-border-divider);
+	border: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+/* Form Layout */
+.rf-form {
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+}
+
+/* Form Fields */
+.rf-field {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.rf-label {
+	font-family: var(--rf-font-family);
+	font-size: 14px;
+	font-weight: 500;
+	color: var(--rf-text-label);
+	margin-bottom: 6px;
+	line-height: 20px;
+	display: inline-flex;
+	align-items: center;
+}
+
+.rf-required-star {
+	color: var(--rf-required);
+	margin-left: 3px;
+	font-weight: 600;
+}
+
+/* Text Inputs & Textarea */
+.rf-input,
+.rf-textarea {
+	width: 100%;
+	background-color: var(--rf-bg-input);
+	border: 1px solid var(--rf-border);
+	border-radius: var(--rf-radius-input);
+	font-family: var(--rf-font-family);
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--rf-text-dark);
+	line-height: 24px;
+	transition: border-color 0.15s ease, box-shadow 0.15s ease;
+	outline: none;
+}
+
+.rf-input {
+	height: 42px;
+	padding: 0 14px;
+}
+
+.rf-textarea {
+	height: 155px;
+	min-height: 130px;
+	padding: 12px 14px;
+	resize: vertical;
+}
+
+/* Placeholder Styling */
+.rf-input::placeholder,
+.rf-textarea::placeholder {
+	color: var(--rf-placeholder);
+	opacity: 1;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/* Focus States */
+.rf-input:focus,
+.rf-textarea:focus,
+.rf-input-file:focus {
+	border-color: var(--rf-primary);
+	box-shadow: 0 0 0 3px var(--rf-primary-ring);
+}
+
+/* 3. Two-Column Row (Name & Email) */
+.rf-row {
+	display: flex;
+	gap: 16px;
+	width: 100%;
+}
+
+.rf-col {
+	flex: 1;
+	min-width: 0;
+}
+
+/* 5. Attachment File Input */
+.rf-input-file {
+	width: 100%;
+	height: 42px;
+	background-color: var(--rf-bg-input);
+	border: 1px solid var(--rf-border);
+	border-radius: var(--rf-radius-input);
+	padding: 4px 6px;
+	display: flex;
+	align-items: center;
+	font-family: var(--rf-font-family);
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--rf-text-muted);
+	cursor: pointer;
+	transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.rf-input-file::file-selector-button {
+	background-color: #ebeef0;
+	border: 1px solid #ccd2d6;
+	border-radius: 6px;
+	padding: 6px 14px;
+	margin-right: 12px;
+	font-family: var(--rf-font-family);
+	font-size: 12px;
+	font-weight: 400;
+	color: #374151;
+	cursor: pointer;
+	line-height: 1.2;
+	transition: background-color 0.15s ease;
+}
+
+[data-theme="dark"] .rf-input-file::file-selector-button {
+	background-color: #334155;
+	border-color: #475569;
+	color: #f1f5f9;
+}
+
+.rf-input-file::file-selector-button:hover {
+	background-color: #dee2e6;
+}
+
+/* 6. Submit Button */
+.rf-submit-btn {
+	width: 100%;
+	height: 42px;
+	background-color: var(--rf-primary);
+	color: #ffffff;
+	border: none;
+	border-radius: var(--rf-radius-btn);
+	font-family: var(--rf-font-family);
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	padding: 0 20px;
+	margin-top: 4px;
+	transition: background-color 0.15s ease, transform 0.05s ease;
+}
+
+.rf-submit-btn:hover {
+	background-color: var(--rf-primary-hover);
+}
+
+.rf-submit-btn:active {
+	transform: scale(0.995);
+}
+
+.rf-submit-btn:focus-visible {
+	outline: none;
+	box-shadow: 0 0 0 3px var(--rf-primary-ring);
+}
+
+.rf-submit-btn:disabled {
+	opacity: 0.65;
+	cursor: not-allowed;
+}
+
+/* 7. Checkbox: Privacy Policy */
+.rf-checkbox-wrap {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-top: -6px;
+}
+
+.rf-checkbox {
+	width: 16px;
+	height: 16px;
+	border: 1px solid var(--rf-border);
+	border-radius: 3px;
+	accent-color: var(--rf-primary);
+	cursor: pointer;
+	margin: 0;
+}
+
+.rf-checkbox:focus-visible {
+	outline: 2px solid var(--rf-primary);
+	outline-offset: 2px;
+}
+
+.rf-checkbox-label {
+	font-family: var(--rf-font-family);
+	font-size: 14px;
+	font-weight: 500;
+	color: var(--rf-text-dark);
+	cursor: pointer;
+	user-select: none;
+}
+
+/* 8. Disclaimer Paragraph */
+.rf-disclaimer {
+	font-family: var(--rf-font-family);
+	font-style: italic;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: var(--rf-text-muted);
+	margin: 0;
+	padding: 0;
+}
+
+.rf-link {
+	color: #4a8571;
+	text-decoration: underline;
+	transition: color 0.15s ease;
+}
+
+.rf-link:hover {
+	color: #3b6d5c;
+}
+
+/* Alerts / Inline Notices */
+.rf-alert {
+	padding: 12px 16px;
+	border-radius: 8px;
+	font-size: 14px;
+	line-height: 1.45;
+	margin-bottom: 16px;
+	display: none;
+}
+
+.rf-alert-success {
+	background-color: #edf7f1;
+	border: 1px solid #b7dfc8;
+	color: #246342;
+}
+
+.rf-alert-error {
+	background-color: #fdf2f2;
+	border: 1px solid #f8b4b4;
+	color: #9b1c1c;
+}
+
+.rf-alert.rf-show {
+	display: block;
+}
+
+/* Honeypot hidden input */
+.rf-hp {
+	position: absolute;
+	opacity: 0;
+	pointer-events: none;
+	height: 0;
+	width: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	clip: rect(0 0 0 0);
+}
+
+/* Loading Spinner */
+.rf-spinner {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	border: 2px solid rgba(255, 255, 255, 0.3);
+	border-radius: 50%;
+	border-top-color: #ffffff;
+	animation: rf-spin 0.8s linear infinite;
+}
+
+@keyframes rf-spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+/* Single Breakpoint at 767px (Mobile Overrides) */
+@media (max-width: 767px) {
+	.rf-row {
+		flex-direction: column;
+		gap: 18px;
+	}
+
+	.rf-label {
+		font-size: 14px;
+		font-weight: 500;
+	}
+
+	.rf-input,
+	.rf-textarea,
+	.rf-input::placeholder,
+	.rf-textarea::placeholder,
+	.rf-input-file {
+		font-size: 15px;
+	}
+
+	.rf-submit-btn {
+		font-size: 16px;
+		font-weight: 600;
+	}
+
+	.rf-textarea {
+		height: 140px;
+	}
+}
+
+/* Dark Mode Theme Support */
+[data-theme="dark"] .rf-form-wrapper {
+	--rf-text-dark: #f1f5f9;
+	--rf-text-label: #e2e8f0;
+	--rf-text-muted: #94a3b8;
+	--rf-border: #334155;
+	--rf-border-divider: #334155;
+	--rf-bg-input: #0f172a;
+}

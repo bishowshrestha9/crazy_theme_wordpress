@@ -1,0 +1,26 @@
+@import "./style.scss";
+
+// Editor-specific adjustments
+.wp-block-top-choices-list {
+    margin: 20px 0;
+}
+
+.top-choices-card {
+    transition: none !important;
+    
+    &:hover {
+        transform: none !important;
+        box-shadow: 0 4px 15px rgba(37, 99, 235, 0.04) !important;
+    }
+}
+
+// In-editor card controls styles
+.top-choices-editor-controls {
+    background: #f1f5f9;
+    border-top: 1px dashed #cbd5e1;
+    padding: 8px 12px;
+    display: flex;
+    gap: 8px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}

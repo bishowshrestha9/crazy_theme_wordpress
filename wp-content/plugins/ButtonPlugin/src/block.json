@@ -1,0 +1,57 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "create-block/button-plugin",
+    "version": "0.1.0",
+    "title": "Button Reveal Image",
+    "category": "widgets",
+    "icon": "button",
+    "description": "A button that reveals an image when clicked.",
+    "attributes": {
+        "buttonText": {
+            "type": "string",
+            "default": "Find Alternatives"
+        },
+        "loadingTexts": {
+            "type": "array",
+            "default": [
+                "Analyzing...",
+                "Fetching Data...",
+                "Almost there..."
+            ]
+        },
+        "buttonColor": {
+            "type": "string",
+            "default": "#10B981"
+        },
+        "buttonTextColor": {
+            "type": "string",
+            "default": "#ffffff"
+        },
+        "productName": {
+            "type": "string",
+            "default": "this product"
+        },
+        "productCategory": {
+            "type": "string",
+            "default": "supplements"
+        },
+        "loadingPreset": {
+            "type": "string",
+            "default": "set1"
+        }
+    },
+    "supports": {
+        "html": false,
+        "align": [
+            "wide",
+            "full"
+        ],
+        "layout": true
+    },
+    "textdomain": "button-plugin",
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./index.css",
+    "style": "file:./style-index.css",
+    "viewScript": "file:./view.js"
+}

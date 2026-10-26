@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "sources-faq/sources",
+	"version": "1.0.0",
+	"title": "Sources & Citations",
+	"category": "widgets",
+	"icon": "media-document",
+	"description": "Display an academic/medical citations card with verified URLs.",
+	"keywords": [
+		"sources",
+		"references",
+		"citations",
+		"bibliography"
+	],
+	"supports": {
+		"html": false,
+		"align": [
+			"wide",
+			"full"
+		]
+	},
+	"textdomain": "sources-faq-sections",
+	"editorScript": "sources-faq-blocks-script"
+}

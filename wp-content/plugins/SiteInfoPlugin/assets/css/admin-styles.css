@@ -1,0 +1,237 @@
+/* Site Info Plugin Admin Styles */
+
+.sip-admin-container {
+    max-width: 1400px;
+    margin: 20px 0;
+}
+
+.sip-fetch-section {
+    background: #fff;
+    padding: 25px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin-bottom: 20px;
+}
+
+.sip-fetch-section h2 {
+    margin-top: 0;
+}
+
+.sip-button-group {
+    margin: 20px 0;
+}
+
+.sip-button-group .button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.sip-button-group .button .dashicons {
+    margin-top: 3px;
+}
+
+.sip-button-group .spinner {
+    float: none;
+    margin: 8px 10px 0;
+}
+
+.sip-last-fetched {
+    margin-top: 15px;
+    padding: 10px;
+    background: #f0f6fc;
+    border-left: 4px solid #0073aa;
+.sip-section {
+    margin-bottom: 30px;
+    padding: 25px;
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.sip-section h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #0073aa;
+    font-size: 20px;
+}
+#sip-fetch-message {
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 15px;
+    display: none;
+}
+
+#sip-fetch-message.success {
+    display: block;
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+}
+
+#sip-fetch-message.error {
+    display: block;
+    background: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+/* Results Section */
+.sip-results-section {
+    background: #fff;
+}
+
+/* Data Display Styles */
+.sip-data-container {
+    padding: 10px 0;
+}
+
+.sip-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.sip-section h3 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #0073aa;
+    font-size: 18px;
+}
+
+.sip-scrollable {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-top: 15px;
+}
+
+.sip-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.sip-badge-internal {
+    background: #d4edda;
+    color: #155724;
+}
+
+.sip-badge-external {
+    background: #cce5ff;
+    color: #004085;
+}
+
+.sip-badge-type {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.sip-data-container table.widefat {
+    margin-top: 10px;
+}
+
+.sip-data-container table.widefat th {
+    background: #f9f9f9;
+    font-weight: 600;
+}
+
+.sip-data-container table.widefat td {
+    vertical-align: middle;
+}
+
+.sip-data-container .description {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+}
+
+/* Loading State */
+.spinner.is-active {
+    display: inline-block;
+    visibility: visible;
+}
+
+/* Details/Summary styling */
+details {
+    cursor: pointer;
+}
+
+details summary {
+    color: #0073aa;
+    font-weight: 500;
+}
+
+details summary:hover {
+    text-decoration: underline;
+}
+
+details ul {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+details[open] summary {
+    margin-bottom: 8px;
+}
+
+/* Main Table Styling */
+.sip-main-table {
+    font-size: 13px;
+}
+
+.sip-main-table th {
+    font-weight: 600;
+    background: #f9f9f9;
+    white-space: nowrap;
+}
+
+.sip-main-table td {
+    vertical-align: top;
+    padding: 12px 8px;
+}
+
+.sip-compact-list {
+    margin: 5px 0;
+    padding-left: 15px;
+    list-style: none;
+}
+
+.sip-compact-list li {
+    margin: 3px 0;
+    font-size: 12px;
+}
+
+.sip-compact-list li:before {
+    content: "→ ";
+    color: #0073aa;
+    font-weight: bold;
+}
+
+.sip-views-column {
+    text-align: center;
+    font-size: 14px;
+}
+
+.sip-link-small {
+    font-size: 11px;
+    color: #666;
+}
+
+/* Spinning animation */
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.dashicons.spinning {
+    animation: spin 1s linear infinite;
+}
+
+.spinner.is-active {
+    display: inline-block;
+    visibility: visible;
+}

@@ -1,0 +1,20 @@
+/* Block Editor Styles */
+.spb-block-editor {
+    margin: 10px 0;
+}
+
+.spb-block-editor textarea {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.spb-block-editor .button-primary {
+    background: #667eea;
+    border-color: #667eea;
+}
+
+.spb-block-editor .button-primary:hover {
+    background: #5568d3;
+    border-color: #5568d3;
+}

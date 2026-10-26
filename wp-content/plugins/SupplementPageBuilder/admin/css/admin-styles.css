@@ -1,0 +1,38 @@
+/* Admin Styles */
+.spb-meta-box {
+    padding: 15px;
+}
+
+.spb-meta-box .form-table th {
+    width: 20%;
+    padding: 15px 10px;
+}
+
+.spb-meta-box .form-table td {
+    padding: 15px 10px;
+}
+
+#spb-top-choices-wrapper table {
+    width: 100%;
+}
+
+#spb-top-choices-wrapper input[type="text"] {
+    width: 100%;
+}
+
+.spb-choice-row td {
+    padding: 8px;
+}
+
+.spb-remove-choice {
+    color: #dc2626 !important;
+}
+
+.spb-faq-item {
+    margin-bottom: 15px;
+}
+
+#spb-faq-items input[type="text"],
+#spb-faq-items textarea {
+    width: 100%;
+}

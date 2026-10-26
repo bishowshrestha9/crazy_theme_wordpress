@@ -1,0 +1,117 @@
+.affiliate-cta-wrapper {
+  text-align: center;
+  margin: 30px 0px 30px 0px; }
+  .affiliate-cta-wrapper .affiliate-cta-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+  .affiliate-cta-wrapper .affiliate-cta-title, .affiliate-cta-wrapper .affiliate-cta-content {
+    position: relative; }
+  .affiliate-cta-wrapper .affiliate-cta-title {
+    margin-bottom: 15px;
+    margin-top: 0px;
+    word-break: break-word; }
+  .affiliate-cta-wrapper .affiliate-cta-inner {
+    position: relative;
+    background: #ffffff;
+    padding: 20px 20px 20px 20px; }
+  .affiliate-cta-wrapper .affiliate-cta-content {
+    margin-bottom: 0px; }
+  .affiliate-cta-wrapper .affiliate-d-table {
+    display: table;
+    width: 100%; }
+  .affiliate-cta-wrapper .affiliate-block-advanced-list {
+    display: table-cell;
+    width: 50%; }
+  .affiliate-cta-wrapper .affiliate-props-title {
+    background-color: #00bf08;
+    color: #ffffff;
+    padding: 10px 10px 10px 10px; }
+  .affiliate-cta-wrapper .affiliate-const-title {
+    background-color: #eb3903;
+    color: #ffffff;
+    padding: 10px 10px 10px 10px; }
+  .affiliate-cta-wrapper .affiliate-cta-btn-wrapper {
+    max-width: 100%;
+    display: flex;
+    margin-top: 20px; }
+    .affiliate-cta-btn strong, .affiliate-cta-btn span{
+      padding: 0 3px;
+    }
+    .affiliate-cta-wrapper .affiliate-cta-btn-wrapper .affiliate-cta-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      text-align: center;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      background-color: #ffc207;
+      position: relative;
+      z-index: 1;
+      overflow: hidden;
+      transition: color 200ms ease-in-out, background-color 200ms ease-in-out, border-color 200ms ease-in-out, box-shadow 200ms ease-in-out; }
+    .affiliate-cta-wrapper .affiliate-cta-btn-wrapper .affiliate-cta-btn:hover {
+      background-color: #00ffcc; }
+  .affiliate-cta-wrapper .btn-is-rounded {
+    border-radius: 60px 60px 60px 60px; }
+  .affiliate-cta-wrapper .af-icon-is-right {
+    padding-left: 10px; }
+  .affiliate-cta-wrapper .af-icon-is-left {
+    padding-right: 10px; }
+  .affiliate-cta-wrapper .btn-is-small {
+    width: 180px;
+    padding: 10px; }
+  .affiliate-cta-wrapper .btn-is-medium {
+    width: 275px;
+    padding: 15px; }
+  .affiliate-cta-wrapper .btn-is-large {
+    width: 417px;
+    padding: 20px; }
+  .affiliate-cta-wrapper .btn-is-extra-large {
+    width: 512px;
+    padding: 20px; }
+  .affiliate-cta-wrapper .btn-is-flex-small {
+    min-width: 180px;
+    width: fit-content;
+    width: -moz-fit-content; }
+  .affiliate-cta-wrapper .btn-is-flex-medium {
+    min-width: 275px;
+    width: fit-content;
+    width: -moz-fit-content; }
+  .affiliate-cta-wrapper .btn-is-flex-large {
+    min-width: 417px;
+    width: fit-content;
+    width: -moz-fit-content; }
+  .affiliate-cta-wrapper .btn-is-flex-extra-large {
+    min-width: 512px;
+    width: fit-content;
+    width: -moz-fit-content; }
+  .affiliate-cta-wrapper .affiliate-abbtn-icon {
+    display: flex;
+    justify-content: center; }
+  .affiliate-cta-wrapper .btn-is-fullw {
+    width: 100%; }
+
+.affiliate-cta-style2 .affiliate-cta-inner {
+  position: relative;
+  padding: 50px 20px 50px 20px; }
+
+.affiliate-cta-style2 .affiliate-cta-btn-wrapper {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  right: 0; }
+
+  @media (max-width: 640px){
+    .affiliate-cta-wrapper .btn-is-flex-extra-large{
+      min-width: auto;
+      width: 100%;
+    }
+  }

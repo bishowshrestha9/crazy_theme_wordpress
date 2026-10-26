@@ -1,0 +1,195 @@
+/**
+ * Top 10 Plugin - Admin Styles
+ * Styling for admin meta boxes and custom fields
+ */
+
+/* ========================================
+   Specifications Repeater
+   ======================================== */
+#top10-specs-container {
+    margin-bottom: 15px;
+}
+
+.top10-spec-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.top10-spec-row input[type="text"] {
+    flex: 1;
+}
+
+.top10-remove-spec {
+    flex-shrink: 0;
+}
+
+/* ========================================
+   Features, Pros, Cons Repeaters
+   ======================================== */
+.top10-features-section,
+.top10-pros-section,
+.top10-cons-section {
+    margin-bottom: 20px;
+}
+
+.top10-feature-row,
+.top10-pro-row,
+.top10-con-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.top10-feature-row input,
+.top10-pro-row input,
+.top10-con-row input {
+    flex: 1;
+}
+
+/* ========================================
+   Product Selector
+   ======================================== */
+.top10-product-selector {
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#top10-selected-products {
+    min-height: 100px;
+    background: #fff;
+    border: 2px dashed #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+#top10-selected-products.empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+}
+
+.top10-selected-product {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    cursor: move;
+}
+
+.top10-selected-product:hover {
+    background: #e8e8e8;
+}
+
+.top10-selected-product .dashicons-menu {
+    color: #999;
+    cursor: grab;
+}
+
+.top10-selected-product .product-title {
+    flex: 1;
+    font-weight: 600;
+}
+
+.top10-remove-product {
+    color: #dc3232;
+    text-decoration: none;
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.top10-remove-product:hover {
+    color: #a00;
+}
+
+.top10-sortable-placeholder {
+    background: #fff3cd;
+    border: 2px dashed #ffc107;
+    height: 50px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+/* ========================================
+   FAQ Repeater
+   ======================================== */
+#top10-faqs-container {
+    margin-bottom: 15px;
+}
+
+.top10-faq-row {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.top10-faq-row label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.top10-faq-row input,
+.top10-faq-row textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* ========================================
+   Section Toggles
+   ======================================== */
+#top10_page_sections .inside p {
+    margin: 10px 0;
+}
+
+#top10_page_sections label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+/* ========================================
+   General Improvements
+   ======================================== */
+.top10-add-spec,
+.top10-add-feature,
+.top10-add-pro,
+.top10-add-con,
+.top10-add-faq,
+.top10-add-product {
+    margin-top: 10px;
+}
+
+.button.top10-remove-spec,
+.button.top10-remove-feature,
+.button.top10-remove-pro,
+.button.top10-remove-con,
+.button.top10-remove-faq {
+    background: #dc3232;
+    color: #fff;
+    border-color: #dc3232;
+}
+
+.button.top10-remove-spec:hover,
+.button.top10-remove-feature:hover,
+.button.top10-remove-pro:hover,
+.button.top10-remove-con:hover,
+.button.top10-remove-faq:hover {
+    background: #a00;
+    border-color: #a00;
+}

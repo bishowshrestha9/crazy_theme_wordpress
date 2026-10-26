@@ -1,0 +1,50 @@
+.affiliate-shape-picker-wrapper{
+    display: flex;
+    .affiliate-shape-picker{
+        width: 100%;
+    }
+    .has-value{
+        width: 90%;
+    }
+}
+
+
+.affiliate-shape-picker-options{
+    .affiliate-shape-picker-option{
+        padding: 10px 10px 10px 10px;
+    }
+    .affiliate-shape-picker-option:hover{
+        background-color: #e8eaeb;
+        border-radius: 4px;
+    }
+}
+.affiliate-field-shape-placeholder{
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    cursor: default;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    box-sizing: border-box;
+    border-color: rgb(204, 204, 204);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    transition: all 100ms ease 0s;
+    outline: 0px !important;
+    line-height: 28px;
+    height: 30px;
+    vertical-align: middle;
+    padding-left: 10px;
+    .affiliate-icon{
+        display: flex;
+        padding-right: 5px;
+    }
+}
+
+.affiliate-field-shape-value:hover{
+    cursor: pointer;
+}

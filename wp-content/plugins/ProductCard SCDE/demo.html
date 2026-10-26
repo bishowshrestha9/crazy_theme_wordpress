@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card Plugin - Demo</title>
+    <link rel="stylesheet" href="assets/css/product-card.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 20px;
+            margin: 0;
+        }
+
+        .demo-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            font-size: 48px;
+            margin-bottom: 20px;
+            text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .demo-subtitle {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .demo-instruction {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 16px;
+            margin-bottom: 50px;
+            font-style: italic;
+        }
+
+        .demo-section {
+            margin-bottom: 80px;
+        }
+
+        .demo-label {
+            text-align: center;
+            color: white;
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="demo-container">
+        <h1>Product Card Plugin Demo</h1>
+        <p class="demo-subtitle">Dynamic product cards with status-based themes</p>
+
+        <!-- Gutoptim Product Card -->
+        <div class="demo-section">
+            <div class="demo-label">✓ Gutoptim - Genuine Supplement (Green Theme)</div>
+            <div class="pcp-product-card pcp-theme-legit">
+                <div class="pcp-card-inner">
+                    <!-- Left Section: Product Image -->
+                    <div class="pcp-product-image-section">
+                        <div class="pcp-status-badge pcp-status-legit">
+                            <span class="pcp-status-text">LEGIT</span>
+                            <span class="pcp-status-icon">✓</span>
+                        </div>
+
+                        <img src="https://via.placeholder.com/350x450/22c55e/FFFFFF?text=Gutoptim"
+                            alt="Gutoptim Supplement" class="pcp-product-image">
+                    </div>
+
+                    <!-- Right Section: Product Details -->
+                    <div class="pcp-product-details-section">
+                        <!-- Product Name -->
+                        <div class="pcp-info-item">
+                            <h3 class="pcp-info-heading">Product Name:</h3>
+                            <p class="pcp-info-content">Gutoptim</p>
+                        </div>
+
+                        <!-- User Experience -->
+                        <div class="pcp-info-item">
+                            <h3 class="pcp-info-heading">User Experience:</h3>
+                            <p class="pcp-info-content">Fewer night bathroom trips, stronger urine flow, and better
+                                sleep quality</p>
+                        </div>
+
+                        <!-- Our Observation -->
+                        <div class="pcp-info-item">
+                            <h3 class="pcp-info-heading">Our Observation:</h3>
+                            <p class="pcp-info-content">Confirms prostate support via DHT (5-alpha reductase) inhibition
+                                and anti-inflammatory action</p>
+                        </div>
+
+                        <!-- Verdict -->
+                        <div class="pcp-info-item pcp-verdict">
+                            <h3 class="pcp-info-heading">Verdict:</h3>
+                            <p class="pcp-info-content pcp-verdict-text">Gutoptim is a Genuine Supplement</p>
+                        </div>
+
+                        <!-- Best For -->
+                        <div class="pcp-info-item">
+                            <h3 class="pcp-info-heading">Best For:</h3>
+                            <p class="pcp-info-content">People over 50 with Urinary Track Infection</p>
+                        </div>
+
+                        <!-- Expert Rating -->
+                        <div class="pcp-info-item pcp-rating-item">
+                            <h3 class="pcp-info-heading">Expert Rating:</h3>
+                            <div class="pcp-expert-rating">
+                                <span class="pcp-rating-score">9.5</span>
+                                <span class="pcp-rating-max">/10</span>
+                                <div class="pcp-stars">
+                                    <span class="pcp-star pcp-star-full">★</span>
+                                    <span class="pcp-star pcp-star-full">★</span>
+                                    <span class="pcp-star pcp-star-full">★</span>
+                                    <span class="pcp-star pcp-star-full">★</span>
+                                    <span class="pcp-star pcp-star-full">★</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Certification -->
+                        <div class="pcp-info-item pcp-certification">
+                            <h3 class="pcp-info-heading">Certification:</h3>
+                            <p class="pcp-info-content pcp-certified">
+                                <span class="pcp-cert-badge">✓</span> FDA/GMP Approved
+                            </p>
+                        </div>
+
+                        <!-- Money Back Guarantee -->
+                        <div class="pcp-info-item pcp-guarantee">
+                            <h3 class="pcp-info-heading">Money Back Guarantee:</h3>
+                            <p class="pcp-info-content pcp-guarantee-text">
+                                <span class="pcp-guarantee-icon">🛡️</span> 60 Days
+                            </p>
+                        </div>
+
+                        <!-- Price and CTA -->
+                        <div class="pcp-cta-section">
+                            <div class="pcp-price-wrapper">
+                                <h3 class="pcp-info-heading">Price:</h3>
+                                <div class="pcp-price">
+                                    <span class="pcp-currency">$</span>
+                                    <span class="pcp-price-value">69</span>
+                                </div>
+                            </div>
+                            <a href="#" class="pcp-buy-button pcp-buy-legit">
+                                Buy Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SCAM Product Card -->
+        <div class="demo-section">
+            <div class="demo-label">✗ Scam Product (Red Theme)</div>
+            <div class="pcp-product-card pcp-theme-scam">
+                <div class="pcp-card-inner">
+                    <!-- Left Section: Product Image -->
+                    <div class="pcp-product-image-section">
+                        <div class="pcp-status-badge pcp-status-scam">
+                            <span class="pcp-status-text">SCAM</span>
+                            <span class="pcp-status-icon">✗</span>
+                        </div>
+
+                        <img src="https://via.placeholder.com/300x400/DC143C/FFFFFF?text=Fake+Product"
+                            alt="Fake Product" class="pcp-product-image">
+                    </div>
+
+                    <!-- Right Section: Product Details -->
+                    <div class="pcp-product-details-section">
+                        <h2 class="pcp-summary-title">Miracle Weight Loss Pills Review Summary:</h2>
+
+                        <!-- Benefits -->
+                        <div class="pcp-benefits">
+                            <div class="pcp-benefit-item">
+                                <span class="pcp-benefit-icon">✓</span>
+                                <span class="pcp-benefit-text">Claims to help you lose 30 pounds in 7 days without diet
+                                    or exercise.</span>
+                            </div>
+
+                            <div class="pcp-benefit-item">
+                                <span class="pcp-benefit-icon">✓</span>
+                                <span class="pcp-benefit-text">Multiple customer complaints about no results and
+                                    difficulty getting refunds.</span>
+                            </div>
+                        </div>
+
+                        <!-- Rating Section -->
+                        <div class="pcp-rating-section">
+                            <div class="pcp-rating-wrapper">
+                                <span class="pcp-rating-label">Rating:</span>
+                                <span class="pcp-rating-value">1.2</span>
+                                <div class="pcp-stars">
+                                    <span class="pcp-star pcp-star-full">★</span>
+                                    <span class="pcp-star pcp-star-empty">★</span>
+                                    <span class="pcp-star pcp-star-empty">★</span>
+                                    <span class="pcp-star pcp-star-empty">★</span>
+                                    <span class="pcp-star pcp-star-empty">★</span>
+                                </div>
+                                <span class="pcp-reviews-count">1.2 (892 reviews)</span>
+                            </div>
+                            <a href="#" class="pcp-read-reviews">Read All Reviews ›</a>
+                        </div>
+
+                        <!-- Testimonial -->
+                        <div class="pcp-testimonial">
+                            <span class="pcp-quote-icon">"</span>
+                            <p class="pcp-testimonial-text">Complete waste of money. No results whatsoever and customer
+                                service never responded to my refund request.</p>
+                        </div>
+
+                        <!-- Price and CTA -->
+                        <div class="pcp-cta-section">
+                            <div class="pcp-price">
+                                <span class="pcp-currency">$</span>
+                                <span class="pcp-price-value">99</span>
+                            </div>
+                            <a href="#" class="pcp-buy-button pcp-buy-scam">
+                                Buy Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/product-card.js"></script>
+</body>
+
+</html>

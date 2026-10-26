@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "sources-faq/faq",
+	"version": "1.0.0",
+	"title": "FAQ Accordion",
+	"category": "widgets",
+	"icon": "list-view",
+	"description": "Display an interactive, accessible FAQ accordion with FAQPage Schema.",
+	"keywords": [
+		"faq",
+		"accordion",
+		"questions",
+		"answers"
+	],
+	"supports": {
+		"html": false,
+		"align": [
+			"wide",
+			"full"
+		]
+	},
+	"textdomain": "sources-faq-sections",
+	"editorScript": "sources-faq-blocks-script"
+}

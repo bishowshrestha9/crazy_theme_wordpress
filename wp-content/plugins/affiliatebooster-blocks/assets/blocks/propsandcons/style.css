@@ -1,0 +1,251 @@
+.affiliate-wrapper {
+  margin: 30px 0px 30px 0px; }
+  .affiliate-wrapper .affiliate-d-table {
+    display: table;
+    width: 100%; }
+  .affiliate-wrapper .affiliate-list-item {
+    padding: 2px 20px; }
+  .affiliate-wrapper .affiliate-procon-inner {
+    padding-bottom: 25px;
+    background: #ffffff; }
+    .affiliate-wrapper .affiliate-procon-inner .affiliate-list {
+      padding-left: 6px; }
+  .affiliate-wrapper .affiliate-block-advanced-list {
+    display: table-cell;
+    width: 50%;
+    word-break: break-word; }
+  .affiliate-wrapper .affiliate-props-title {
+    background-color: #00bf08;
+    color: #ffffff;
+    padding: 10px 10px 10px 20px; }
+  .affiliate-wrapper .affiliate-propcon-title {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    word-break: break-word; }
+  .affiliate-wrapper .affiliate-const-title {
+    background-color: #eb3903;
+    color: #ffffff;
+    padding: 10px 10px 10px 20px; }
+  .affiliate-wrapper .affiliate-button-wrapper {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    .affiliate-wrapper .affiliate-button-wrapper .affiliate-btn {
+      background-color: #00bf08;
+      color: #ffffff;
+      text-decoration: none !important;
+      display: inline-block;
+      cursor: pointer;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      padding: 6px 25px 6px 25px;
+      text-decoration: none;
+      -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+      transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+      -o-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+      transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+      transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-action-button {
+    padding: 5px 15px;
+    margin-top: 15px;
+    border-radius: 4px;
+    background: #f0f1f3; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list {
+    list-style: none;
+    padding: 0px 20px;
+    margin: 0; }
+    .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list > li {
+      position: relative;
+      margin: 0;
+      display: list-item !important;
+      transition: color 400ms, background-color 400ms, border-color 400ms, box-shadow 400ms;
+      list-style: none; }
+      .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list > li::before, .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list > li::after {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        transition: color 400ms, background-color 400ms;
+        padding-right: 10px; }
+      .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list > li > span,
+      .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list > li > div {
+        display: inline-block; }
+      .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list > li .affiliate-action-remove {
+        display: none;
+        width: 18px;
+        height: 18px;
+        line-height: 20px;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        border-radius: 10px;
+        position: absolute;
+        right: 16px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer; }
+        .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list > li .affiliate-action-remove.alignment-left {
+          right: auto;
+          left: 0; }
+      .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list > li:hover .affiliate-action-remove {
+        display: block; }
+    .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list [contenteditable=true]:empty:before {
+      content: attr(placeholder);
+      color: gray;
+      padding: 0px 5px 0px 5px;
+      display: block;
+      /* For Firefox */ }
+    .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list .affiliate-action-button {
+      margin-top: 15px; }
+  .affiliate-wrapper .affiliate-block-advanced-list.affiliate-alignment-left .affiliate-list > li::after, .affiliate-wrapper .affiliate-block-advanced-list.affiliate-alignment-center .affiliate-list > li::after {
+    display: none; }
+  .affiliate-wrapper .affiliate-block-advanced-list.affiliate-alignment-center .affiliate-list > li {
+    justify-content: center; }
+  .affiliate-wrapper .affiliate-block-advanced-list.affiliate-alignment-right .affiliate-list > li {
+    justify-content: flex-end; }
+    .affiliate-wrapper .affiliate-block-advanced-list.affiliate-alignment-right .affiliate-list > li::before {
+      display: none; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-check > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-check > li::after {
+    content: "\f00c"; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-check-square > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-check-square > li::after {
+    content: "\f14a"; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-check-square-outline > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-check-square-outline > li::after {
+    content: "\f14a";
+    font-weight: 400; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-check-double > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-check-double > li::after {
+    content: "\f560"; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-check-circle > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-check-circle > li::after {
+    content: "\f058"; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-check-circle-outline > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-check-circle-outline > li::after {
+    content: "\f058";
+    font-weight: 400; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-square > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-square > li::after {
+    content: "\f0c8"; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-square-outline > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-square-outline > li::after {
+    content: "\f0c8";
+    font-weight: 400; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-circle > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-circle > li::after {
+    content: "\f111"; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-circle-outline > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-circle-outline > li::after {
+    content: "\f111";
+    font-weight: 400; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-arrow-right > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-arrow-right > li::after {
+    content: "\f061"; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-arrow-left > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-arrow-left > li::after {
+    content: "\f060"; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-arrow-circle-right > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-arrow-circle-right > li::after {
+    content: "\f0a9"; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-arrow-circle-left > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-arrow-circle-left > li::after {
+    content: "\f0a8"; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-arrow-alt-circle-right > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-arrow-alt-circle-right > li::after {
+    content: "\f35a";
+    font-weight: 400; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-arrow-alt-circle-left > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-arrow-alt-circle-left > li::after {
+    content: "\f359";
+    font-weight: 400; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-long-arrow-alt-right > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-long-arrow-alt-right > li::after {
+    content: "\f30b"; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-long-arrow-alt-left > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-long-arrow-alt-left > li::after {
+    content: "\f30a"; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-chevron-right > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-chevron-right > li::after {
+    content: "\f054"; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-chevron-left > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-chevron-left > li::after {
+    content: "\f053"; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-angle-right > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-angle-right > li::after {
+    content: "\f105"; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-angle-left > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-angle-left > li::after {
+    content: "\f104"; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-star > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-star > li::after {
+    content: "\f005"; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-star-outline > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-star-outline > li::after {
+    content: "\f005";
+    font-weight: 400; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-windows-close-fill > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-windows-close-fill > li::after {
+    content: "\f410"; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-window-close-simple > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-window-close-simple > li::after {
+    content: "\f410";
+    font-weight: 400; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-ban > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-ban > li::after {
+    content: "\f05e"; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-times > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-times > li::after {
+    content: "\f00d"; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-times-circle > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-times-circle > li::after {
+    content: "\f057"; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-times-circle-simple > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-times-circle-simple > li::after {
+    content: "\f057";
+    font-weight: 400; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-dot-circle-fill > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-dot-circle-fill > li::after {
+    content: "\f192"; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-dot-circle-simple > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-dot-circle-simple > li::after {
+    content: "\f192";
+    font-weight: 400; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-thumb-up-fill > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-thumb-up-fill > li::after {
+    content: "\f164"; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-thumb-up-simple > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-thumb-up-simple > li::after {
+    content: "\f164";
+    font-weight: 400; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-thumb-down-fill > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-thumb-down-fill > li::after {
+    content: "\f165"; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-thumb-down-simple > li::before,
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-unordered.affiliate-list-bullet-thumb-down-simple > li::after {
+    content: "\f165";
+    font-weight: 400; }
+  .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-ordered {
+    counter-reset: affiliate-ol-counter; }
+    .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-ordered > li {
+      counter-increment: affiliate-ol-counter; }
+      .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-ordered > li::before, .affiliate-wrapper .affiliate-block-advanced-list .affiliate-list-type-ordered > li::after {
+        text-align: center;
+        content: counter(affiliate-ol-counter); }
+
+@media (max-width: 767px) {
+  .affiliate-wrapper .affiliate-block-advanced-list {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px; }
+  .affiliate-pr-wrapper .affiliate-pr-maintitle, .affiliate-propcon-title {
+    text-align: center; } 
+  }
+  
+.affiliate-wrapper .affiliate-block-advanced-list .affiliate-list > li {
+  display: inline-block !important;
+width:100%;
+   }

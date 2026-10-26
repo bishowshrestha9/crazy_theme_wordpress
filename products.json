@@ -1,0 +1,20 @@
+[
+    {
+        "productName": "Gutoptim",
+        "productCategory": "Supplements",
+        "description": "A gut health supplement.",
+        "buttonText": "Reveals Gutoptim Analysis",
+        "loadingPreset": "set1",
+        "buttonColor": "#10B981",
+        "buttonTextColor": "#ffffff"
+    },
+    {
+        "productName": "ProDentim",
+        "productCategory": "Dental Health",
+        "description": "Probiotics for your teeth and gums.",
+        "buttonText": "See ProDentim review",
+        "loadingPreset": "set2",
+        "buttonColor": "#2563eb",
+        "buttonTextColor": "#ffffff"
+    }
+]

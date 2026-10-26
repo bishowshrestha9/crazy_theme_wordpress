@@ -1,0 +1,10 @@
+.affiliate-field-button-list {
+    &.affiliate-field-button-list-fluid {
+        display: flex;
+        justify-content: space-between;
+        .affiliate-button {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+}
